@@ -34,8 +34,8 @@
   },
   "rankings": "data/processed/validation/phase4_scalability_warm_results.json",
   "labels": "data/processed/validation/ai_relevance_labels.json",
-  "labels_sha256": "3be70cabdee0a40557bca67c1f83770103c06390b1dda96819738306a47adc25",
-  "annotation_source": "ai (claude-opus-5-5); all 500 candidates read per query; not human-reviewed",
+  "labels_sha256": "6866b6924521f580470af77b87c948e3fc6e7068b990e680ff97b0165351774f",
+  "annotation_source": "ai (claude-opus-5-5); all 500 candidates read per query; approved by Shreoshi Ghosh by instruction (review screen not used)",
   "relevant_per_query": {
     "probe-0": 3,
     "probe-1": 22,

@@ -122,3 +122,7 @@ the corpus and ranking hashes (`phase4_scalability_warm_results.json`).
 `scripts/eval_gate.py` recomputes hybrid precision@5 (gate ≥ 0.70) and MRR@10
 (gate ≥ 0.90). A completed human review should replace these labels; the browser
 review screen is unchanged and still produces `reviewed_relevance.json`.
+
+Team approval: Shreoshi Ghosh approved all six AI-labelled queries on October 11,
+2026 by instruction to the assistant, without using the review screen. The label
+file records this under `team_approval`.

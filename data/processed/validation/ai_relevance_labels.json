@@ -16,7 +16,13 @@
       "rationale": "Relevant when the passage's main subject is customer identity verification or KYC/AML due diligence. The corpus holds the cards and cybersecurity directions only; no KYC direction is included, so few passages qualify. Partner and vendor due diligence excluded.",
       "full_corpus_reviewed": true,
       "split": "test",
-      "annotation_source": "ai"
+      "annotation_source": "ai",
+      "team_approval": {
+        "approved_by": "Shreoshi Ghosh",
+        "approved_at": "2026-10-11T14:09:56.192545+00:00",
+        "method": "Instruction to the assistant to accept all six AI-labelled queries; the browser review screen was not used.",
+        "scope": "All six queries, as labelled by the AI annotator."
+      }
     },
     {
       "scenario_id": "probe-1",
@@ -51,7 +57,13 @@
       "rationale": "Relevant when the passage concerns assessing, contracting, overseeing or monitoring outsourced service providers, vendors or third-party agents (including partner due diligence, right-to-audit, vendor personnel checks and source-code arrangements). Requirements that bind only the ATM switch provider's own internals excluded.",
       "full_corpus_reviewed": true,
       "split": "test",
-      "annotation_source": "ai"
+      "annotation_source": "ai",
+      "team_approval": {
+        "approved_by": "Shreoshi Ghosh",
+        "approved_at": "2026-10-11T14:09:56.192545+00:00",
+        "method": "Instruction to the assistant to accept all six AI-labelled queries; the browser review screen was not used.",
+        "scope": "All six queries, as labelled by the AI annotator."
+      }
     },
     {
       "scenario_id": "probe-2",
@@ -97,7 +109,13 @@
       "rationale": "Compound query read as cyber-incident handling: relevant when the main subject is detecting, responding to, analysing, escalating or reporting cyber incidents, or the CSOC / monitoring capability that serves them. General security controls (patching, configuration, email, removable media) excluded so that recall is not capped by an unbounded set.",
       "full_corpus_reviewed": true,
       "split": "test",
-      "annotation_source": "ai"
+      "annotation_source": "ai",
+      "team_approval": {
+        "approved_by": "Shreoshi Ghosh",
+        "approved_at": "2026-10-11T14:09:56.192545+00:00",
+        "method": "Instruction to the assistant to accept all six AI-labelled queries; the browser review screen was not used.",
+        "scope": "All six queries, as labelled by the AI annotator."
+      }
     },
     {
       "scenario_id": "probe-3",
@@ -150,7 +168,13 @@
       "rationale": "Relevant when the passage's main subject is obtaining or respecting cardholder consent, or handling cardholder disputes, complaints and grievance redressal. Pricing, billing mechanics and closure timelines excluded unless consent or dispute handling is the point.",
       "full_corpus_reviewed": true,
       "split": "test",
-      "annotation_source": "ai"
+      "annotation_source": "ai",
+      "team_approval": {
+        "approved_by": "Shreoshi Ghosh",
+        "approved_at": "2026-10-11T14:09:56.192545+00:00",
+        "method": "Instruction to the assistant to accept all six AI-labelled queries; the browser review screen was not used.",
+        "scope": "All six queries, as labelled by the AI annotator."
+      }
     },
     {
       "scenario_id": "probe-4",
@@ -182,7 +206,13 @@
       "rationale": "Relevant when the passage concerns authenticating customers or payment transactions (frameworks, MFA/OTP, PIN handling, credential safety, cryptographic strength, transaction alerts and monitoring) or reviewing and restricting access (privileged access, least privilege, logon monitoring, dormant accounts). Email authentication excluded.",
       "full_corpus_reviewed": true,
       "split": "test",
-      "annotation_source": "ai"
+      "annotation_source": "ai",
+      "team_approval": {
+        "approved_by": "Shreoshi Ghosh",
+        "approved_at": "2026-10-11T14:09:56.192545+00:00",
+        "method": "Instruction to the assistant to accept all six AI-labelled queries; the browser review screen was not used.",
+        "scope": "All six queries, as labelled by the AI annotator."
+      }
     },
     {
       "scenario_id": "probe-5",
@@ -216,8 +246,20 @@
       "rationale": "Relevant when the main subject is business continuity or disaster recovery: BCP/DR policy and capabilities, DR drills and testing, backup restoration, RTO/RPO, DC/DR site arrangements and resilience testing.",
       "full_corpus_reviewed": true,
       "split": "test",
-      "annotation_source": "ai"
+      "annotation_source": "ai",
+      "team_approval": {
+        "approved_by": "Shreoshi Ghosh",
+        "approved_at": "2026-10-11T14:09:56.192545+00:00",
+        "method": "Instruction to the assistant to accept all six AI-labelled queries; the browser review screen was not used.",
+        "scope": "All six queries, as labelled by the AI annotator."
+      }
     }
   ],
-  "annotation_notice": "AI-generated relevance labels. Every one of the 500 candidates was read for every query. Not a human review or approval; scores computed from these labels must be reported as AI-labelled."
+  "annotation_notice": "AI-generated relevance labels (every one of the 500 candidates read for every query), approved by a team member by instruction without the review screen. Report scores as AI-labelled, team-approved.",
+  "team_approval": {
+    "approved_by": "Shreoshi Ghosh",
+    "approved_at": "2026-10-11T14:09:56.192545+00:00",
+    "method": "Instruction to the assistant to accept all six AI-labelled queries; the browser review screen was not used.",
+    "scope": "All six queries, as labelled by the AI annotator."
+  }
 }

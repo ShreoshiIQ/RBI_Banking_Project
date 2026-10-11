@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "methods": {
+    "bm25": {
+      "recall@5": 0.2052,
+      "precision@5": 0.5333,
+      "capped_recall@5": 0.5778,
+      "mrr@5": 1.0,
+      "recall@10": 0.2927,
+      "precision@10": 0.5,
+      "capped_recall@10": 0.5778,
+      "mrr@10": 1.0
+    },
+    "vector": {
+      "recall@5": 0.2396,
+      "precision@5": 0.6667,
+      "capped_recall@5": 0.7111,
+      "mrr@5": 0.9167,
+      "recall@10": 0.2953,
+      "precision@10": 0.4833,
+      "capped_recall@10": 0.5611,
+      "mrr@10": 0.9167
+    },
+    "hybrid": {
+      "recall@5": 0.248,
+      "precision@5": 0.7333,
+      "capped_recall@5": 0.7778,
+      "mrr@5": 1.0,
+      "recall@10": 0.2981,
+      "precision@10": 0.5,
+      "capped_recall@10": 0.5778,
+      "mrr@10": 1.0
+    }
+  },
+  "rankings": "data/processed/validation/phase4_scalability_warm_results.json",
+  "labels": "data/processed/validation/ai_relevance_labels.json",
+  "labels_sha256": "3be70cabdee0a40557bca67c1f83770103c06390b1dda96819738306a47adc25",
+  "annotation_source": "ai (claude-opus-5-5); all 500 candidates read per query; not human-reviewed",
+  "relevant_per_query": {
+    "probe-0": 3,
+    "probe-1": 22,
+    "probe-2": 33,
+    "probe-3": 40,
+    "probe-4": 19,
+    "probe-5": 21
+  },
+  "metric_note": "recall@k is capped at k/|relevant| when relevant sets exceed k; capped_recall@k = hits / min(k, |relevant|).",
+  "notice": "Scores against AI-generated relevance labels on 6 queries over a 500-passage RBI corpus. Report as AI-labelled; a human review may change them."
+}

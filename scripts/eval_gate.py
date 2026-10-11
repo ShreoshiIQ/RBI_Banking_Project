@@ -11,6 +11,7 @@ from pathlib import Path
 from regintel.agents.supervisor import RemediationSupervisor
 from regintel.evidence.pack import build_pack
 from regintel.evidence.pack_eval import evaluate
+from regintel.mapping.relevance_review import score_packet
 from regintel.prioritization.risk import load_risk_model
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -60,6 +61,22 @@ def main() -> int:
             check(f"risk score {item['gap_id']}", item["risk"]["score"] == expected, f"{item['risk']['score']} (expected {expected})", failures)
     else:
         print(f"[SKIP] risk scoring report not present: {risk['report']}")
+
+    retrieval = gates["ai_labelled_retrieval"]
+    if (ROOT / retrieval["labels"]).exists():
+        packet = json.loads((ROOT / retrieval["packet"]).read_text(encoding="utf-8"))["packet"]
+        labels = json.loads((ROOT / retrieval["labels"]).read_text(encoding="utf-8"))
+        results = json.loads((ROOT / retrieval["results"]).read_text(encoding="utf-8"))
+        scored = score_packet(packet, labels, results)  # also verifies corpus and ranking hashes
+        target = next(t for t in results["targets"] if t["size"] == packet["size"] and t["status"] == "measured")
+        relevant = {c["scenario_id"]: set(c["relevant_section_ids"]) for c in labels["cases"]}
+        top5 = [set(target["methods"]["hybrid"][0]["attempts"][i]["ids"][:5]) for i in range(len(packet["queries"]))]
+        precision = sum(len(t & relevant[q["scenario_id"]]) / 5 for t, q in zip(top5, packet["queries"], strict=True)) / len(top5)
+        mrr = scored["recall_scores"]["10"]["methods"]["hybrid"]["mrr_at_k"]
+        check("hybrid precision@5 (AI labels)", precision >= retrieval["hybrid_precision_at_5_min"], round(precision, 4), failures)
+        check("hybrid MRR@10 (AI labels)", mrr >= retrieval["hybrid_mrr_at_10_min"], round(mrr, 4), failures)
+    else:
+        print(f"[SKIP] relevance labels not present: {retrieval['labels']}")
 
     print(f"\n{len(failures)} gate(s) failed" if failures else "\nAll gates passed")
     return 1 if failures else 0

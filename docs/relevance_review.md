@@ -96,3 +96,29 @@ Actual validation: 21 packet and retrieval-scorer tests passed. Simulated test
 annotations exist only in unit tests; no approved review files or actual Recall
 scores were generated. Independent evaluation, legal applicability and D3/F3
 reliability remain pending.
+
+## AI-labelled scores (October 11, 2026)
+
+The human review was not completed. As a disclosed substitute, Claude
+(`claude-opus-5-5`) read all 500 candidates for each of the six queries and
+labelled relevance (`data/processed/validation/ai_relevance_labels.json`,
+`annotation_source: "ai"`). A passage counts as relevant when its main subject is
+the query topic; each case's rationale states the criterion. The compound
+incident query is read as cyber-incident handling, so general security controls
+are excluded. Relevant passages per query: 3, 22, 33, 40, 19, 21. These labels
+are independent of the BM25 and MiniLM retrievers being scored, but they are not
+human approvals.
+
+| Method | Recall@5 | Recall@10 | Precision@5 | Precision@10 | Capped recall@10 | MRR@10 |
+| --- | --- | --- | --- | --- | --- | --- |
+| BM25 | 0.205 | 0.293 | 0.533 | 0.500 | 0.578 | 1.000 |
+| Vector (MiniLM) | 0.240 | 0.295 | 0.667 | 0.483 | 0.561 | 0.917 |
+| Hybrid | 0.248 | 0.298 | 0.733 | 0.500 | 0.578 | 1.000 |
+
+Recall@k is capped at k / |relevant| when a query has more relevant passages
+than k, so precision@k and capped recall (hits / min(k, |relevant|)) are
+reported alongside. Scores come from the repository scorer, which also verifies
+the corpus and ranking hashes (`phase4_scalability_warm_results.json`).
+`scripts/eval_gate.py` recomputes hybrid precision@5 (gate ≥ 0.70) and MRR@10
+(gate ≥ 0.90). A completed human review should replace these labels; the browser
+review screen is unchanged and still produces `reviewed_relevance.json`.

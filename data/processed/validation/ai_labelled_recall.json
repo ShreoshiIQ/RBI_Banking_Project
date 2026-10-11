@@ -1,0 +1,240 @@
+{
+  "schema_version": 1,
+  "scorable_cases": 6,
+  "unanswerable_cases": [],
+  "recall_scores": {
+    "5": {
+      "schema_version": 1,
+      "k": 5,
+      "cases_scored": 6,
+      "methods": {
+        "bm25": {
+          "recall_at_k": 0.20520619731146048,
+          "mrr_at_k": 1.0,
+          "per_case": [
+            {
+              "scenario_id": "probe-0",
+              "recall_at_k": 0.6666666666666666,
+              "reciprocal_rank_at_k": 1.0
+            },
+            {
+              "scenario_id": "probe-1",
+              "recall_at_k": 0.09090909090909091,
+              "reciprocal_rank_at_k": 1.0
+            },
+            {
+              "scenario_id": "probe-2",
+              "recall_at_k": 0.030303030303030304,
+              "reciprocal_rank_at_k": 1.0
+            },
+            {
+              "scenario_id": "probe-3",
+              "recall_at_k": 0.1,
+              "reciprocal_rank_at_k": 1.0
+            },
+            {
+              "scenario_id": "probe-4",
+              "recall_at_k": 0.10526315789473684,
+              "reciprocal_rank_at_k": 1.0
+            },
+            {
+              "scenario_id": "probe-5",
+              "recall_at_k": 0.23809523809523808,
+              "reciprocal_rank_at_k": 1.0
+            }
+          ]
+        },
+        "vector": {
+          "recall_at_k": 0.23962083238399026,
+          "mrr_at_k": 0.9166666666666666,
+          "per_case": [
+            {
+              "scenario_id": "probe-0",
+              "recall_at_k": 0.6666666666666666,
+              "reciprocal_rank_at_k": 1.0
+            },
+            {
+              "scenario_id": "probe-1",
+              "recall_at_k": 0.18181818181818182,
+              "reciprocal_rank_at_k": 1.0
+            },
+            {
+              "scenario_id": "probe-2",
+              "recall_at_k": 0.06060606060606061,
+              "reciprocal_rank_at_k": 0.5
+            },
+            {
+              "scenario_id": "probe-3",
+              "recall_at_k": 0.075,
+              "reciprocal_rank_at_k": 1.0
+            },
+            {
+              "scenario_id": "probe-4",
+              "recall_at_k": 0.2631578947368421,
+              "reciprocal_rank_at_k": 1.0
+            },
+            {
+              "scenario_id": "probe-5",
+              "recall_at_k": 0.19047619047619047,
+              "reciprocal_rank_at_k": 1.0
+            }
+          ]
+        },
+        "hybrid": {
+          "recall_at_k": 0.24800258221310853,
+          "mrr_at_k": 1.0,
+          "per_case": [
+            {
+              "scenario_id": "probe-0",
+              "recall_at_k": 0.6666666666666666,
+              "reciprocal_rank_at_k": 1.0
+            },
+            {
+              "scenario_id": "probe-1",
+              "recall_at_k": 0.18181818181818182,
+              "reciprocal_rank_at_k": 1.0
+            },
+            {
+              "scenario_id": "probe-2",
+              "recall_at_k": 0.09090909090909091,
+              "reciprocal_rank_at_k": 1.0
+            },
+            {
+              "scenario_id": "probe-3",
+              "recall_at_k": 0.1,
+              "reciprocal_rank_at_k": 1.0
+            },
+            {
+              "scenario_id": "probe-4",
+              "recall_at_k": 0.21052631578947367,
+              "reciprocal_rank_at_k": 1.0
+            },
+            {
+              "scenario_id": "probe-5",
+              "recall_at_k": 0.23809523809523808,
+              "reciprocal_rank_at_k": 1.0
+            }
+          ]
+        }
+      }
+    },
+    "10": {
+      "schema_version": 1,
+      "k": 10,
+      "cases_scored": 6,
+      "methods": {
+        "bm25": {
+          "recall_at_k": 0.2926938558517506,
+          "mrr_at_k": 1.0,
+          "per_case": [
+            {
+              "scenario_id": "probe-0",
+              "recall_at_k": 0.6666666666666666,
+              "reciprocal_rank_at_k": 1.0
+            },
+            {
+              "scenario_id": "probe-1",
+              "recall_at_k": 0.18181818181818182,
+              "reciprocal_rank_at_k": 1.0
+            },
+            {
+              "scenario_id": "probe-2",
+              "recall_at_k": 0.12121212121212122,
+              "reciprocal_rank_at_k": 1.0
+            },
+            {
+              "scenario_id": "probe-3",
+              "recall_at_k": 0.2,
+              "reciprocal_rank_at_k": 1.0
+            },
+            {
+              "scenario_id": "probe-4",
+              "recall_at_k": 0.15789473684210525,
+              "reciprocal_rank_at_k": 1.0
+            },
+            {
+              "scenario_id": "probe-5",
+              "recall_at_k": 0.42857142857142855,
+              "reciprocal_rank_at_k": 1.0
+            }
+          ]
+        },
+        "vector": {
+          "recall_at_k": 0.2953263841421736,
+          "mrr_at_k": 0.9166666666666666,
+          "per_case": [
+            {
+              "scenario_id": "probe-0",
+              "recall_at_k": 0.6666666666666666,
+              "reciprocal_rank_at_k": 1.0
+            },
+            {
+              "scenario_id": "probe-1",
+              "recall_at_k": 0.22727272727272727,
+              "reciprocal_rank_at_k": 1.0
+            },
+            {
+              "scenario_id": "probe-2",
+              "recall_at_k": 0.15151515151515152,
+              "reciprocal_rank_at_k": 0.5
+            },
+            {
+              "scenario_id": "probe-3",
+              "recall_at_k": 0.125,
+              "reciprocal_rank_at_k": 1.0
+            },
+            {
+              "scenario_id": "probe-4",
+              "recall_at_k": 0.3157894736842105,
+              "reciprocal_rank_at_k": 1.0
+            },
+            {
+              "scenario_id": "probe-5",
+              "recall_at_k": 0.2857142857142857,
+              "reciprocal_rank_at_k": 1.0
+            }
+          ]
+        },
+        "hybrid": {
+          "recall_at_k": 0.2981345408976988,
+          "mrr_at_k": 1.0,
+          "per_case": [
+            {
+              "scenario_id": "probe-0",
+              "recall_at_k": 0.6666666666666666,
+              "reciprocal_rank_at_k": 1.0
+            },
+            {
+              "scenario_id": "probe-1",
+              "recall_at_k": 0.18181818181818182,
+              "reciprocal_rank_at_k": 1.0
+            },
+            {
+              "scenario_id": "probe-2",
+              "recall_at_k": 0.12121212121212122,
+              "reciprocal_rank_at_k": 1.0
+            },
+            {
+              "scenario_id": "probe-3",
+              "recall_at_k": 0.175,
+              "reciprocal_rank_at_k": 1.0
+            },
+            {
+              "scenario_id": "probe-4",
+              "recall_at_k": 0.2631578947368421,
+              "reciprocal_rank_at_k": 1.0
+            },
+            {
+              "scenario_id": "probe-5",
+              "recall_at_k": 0.38095238095238093,
+              "reciprocal_rank_at_k": 1.0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "notice": "Recall is conditional on nonempty ground truth. Supplied reviewer identities are not authenticated. Relevance approval does not approve regulatory obligations.",
+  "reviews_sha256": "3be70cabdee0a40557bca67c1f83770103c06390b1dda96819738306a47adc25",
+  "packet_sha256": "0c6127c86d03d68879fa8f8ab9a0d34c5fcb8fed1390643d4f136d15823fea87"
+}

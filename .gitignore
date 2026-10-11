@@ -17,3 +17,7 @@ __pycache__/
 
 # Build output
 dist/
+
+# Frontend dependencies and build output (built in Docker/CI)
+frontend/node_modules/
+src/regintel/api/webapp/

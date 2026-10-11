@@ -17,6 +17,8 @@ class Settings(BaseSettings):
     oidc_audience: str | None = None
     oidc_jwks_url: str | None = None
     oidc_username_claim: str = "preferred_username"
+    # Directory holding data/ and eval_gates.json for the insights API.
+    data_root: str | None = None
 
     model_config = SettingsConfigDict(
         env_file=".env",

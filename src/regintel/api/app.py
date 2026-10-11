@@ -19,6 +19,7 @@ from regintel.api.routes.gap_reports import (
     router as gap_reports_router,
 )
 from regintel.api.routes.ingestion import router as ingestion_router
+from regintel.api.routes.insights import router as insights_router
 from regintel.api.routes.reviews import router as reviews_router
 
 
@@ -35,6 +36,10 @@ def create_app() -> FastAPI:
     install_observability(app)
     dashboard = Path(__file__).parent / "dashboard"
     app.mount("/dashboard/assets", StaticFiles(directory=dashboard), name="dashboard-assets")
+    # React app built by frontend/ (npm run build); hash routing needs no server fallback.
+    webapp = Path(__file__).parent / "webapp"
+    if (webapp / "index.html").is_file():
+        app.mount("/app", StaticFiles(directory=webapp, html=True), name="webapp")
 
     @app.get("/dashboard", include_in_schema=False)
     def dashboard_page():
@@ -66,6 +71,7 @@ def create_app() -> FastAPI:
     app.include_router(crossreg_router, prefix="/api/v1")
     app.include_router(catalog_router, prefix="/api/v1")
     app.include_router(ingestion_router, prefix="/api/v1")
+    app.include_router(insights_router, prefix="/api/v1")
 
     return app
 

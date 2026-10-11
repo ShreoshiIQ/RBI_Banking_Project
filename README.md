@@ -18,7 +18,9 @@ From the project root, after setup:
 uv run uvicorn regintel.api.app:app --host 127.0.0.1 --port 8000
 ```
 
-Open `http://127.0.0.1:8000/dashboard` for the
+Open `http://127.0.0.1:8000/app/` for the [React web app](docs/frontend.md)
+(build it first with `npm ci` and `npm run build` in `frontend/`), or
+`http://127.0.0.1:8000/dashboard` for the
 [local dashboard](docs/dashboard.md), or `/docs` for interactive API documentation.
 The dashboard supports reports, evidence, audit history, officer decisions,
 regulatory catalog browsing, BM25 mapping previews, hypothetical simulation,

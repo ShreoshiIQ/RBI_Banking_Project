@@ -119,7 +119,7 @@ jobs:
       - name: Fail on fixable critical/high
         run: |
           jq -r '[.Results[]? | .Target as $t | .Vulnerabilities[]?
-                  | "\(.Severity) \(.VulnerabilityID) \(.PkgName) \(.InstalledVersion) -> \(.FixedVersion) (\($t))"]
+                  | "\(.Severity) \(.VulnerabilityID) \(.PkgName) \(.InstalledVersion) -> \(.FixedVersion) (\($t) \(.PkgPath // ""))"]
                  | unique | .[]' trivy.json > findings.txt
           if [ -s findings.txt ]; then
             echo "::error title=$(wc -l < findings.txt) fixable critical/high findings::$(paste -sd ';' findings.txt)"

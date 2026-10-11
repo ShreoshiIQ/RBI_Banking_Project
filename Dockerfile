@@ -22,7 +22,8 @@ COPY alembic.ini ./
 COPY migrations ./migrations
 RUN python -m pip install torch --index-url https://download.pytorch.org/whl/cpu \
     && python -m pip install . \
-    && python -m pip install --upgrade "pip>=26.2" "setuptools>=83" \
+    && python -m pip install --upgrade "pip>=26.2" "setuptools>=83" "urllib3>=2.8.0" "msgpack>=1.2.1" \
+    && python -m pip check \
     && useradd --create-home --uid 10001 regintel
 
 USER regintel

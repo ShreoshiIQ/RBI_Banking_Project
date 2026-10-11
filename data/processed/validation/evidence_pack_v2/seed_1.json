@@ -1,0 +1,201 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-11T08:36:39.041239+00:00",
+  "synthetic": true,
+  "ocr_model": "gemini-3.1-flash-lite",
+  "as_of": "2026-10-01",
+  "threshold_days": 90,
+  "pack_sha256": {
+    "access-reviews.csv": "4dd79b2b885df028a2143dc432708b18c1573e65f345c75388bf8ab4983e7010",
+    "access-reviews.xlsx": "437179be055fa93f501621b261215479b9d64b9eba256684b38faa3ac037c9c5",
+    "access-reviews-native.pdf": "ba52c1c15150654bdd77f9d65c1914300a379c8b3c4fcd097cf751b78fadc62f",
+    "access-reviews-scanned.pdf": "d1baae1e6209d8081497eb5267a8e4f68e56549d8904219df09638fe91c8be53",
+    "access-reviews-photo.png": "966bf8a7e2dccc47ee9c8ad328cb4e80e24fe6c6308c1723e325671c584572d0",
+    "access-reviews-lowres.jpg": "793cfae597d90c3aa32d7515c5c7cdf1b360d266531c743f8b1bb416baf9b437",
+    "access-control-design.docx": "6cdc6abd0d1c83486db97e2333cb2cc9831c606f41a5ea0d78f7c7d078d79f33",
+    "access-review-register.xlsx": "65d4714b5043b92f41567ba35cd17ea11958a972bf7a3acfb147f88d04c4239b"
+  },
+  "design_check": {
+    "threshold_found": 90,
+    "threshold_truth": 90
+  },
+  "per_file": {
+    "access-reviews.csv": {
+      "format": "csv",
+      "method": "native",
+      "ocr_required_unrun": false,
+      "expected_records": 10,
+      "records_found": 10,
+      "record_recall": 1.0,
+      "field_accuracy": 1.0,
+      "field_errors": [],
+      "unexpected_record_ids": []
+    },
+    "access-reviews.xlsx": {
+      "format": "xlsx",
+      "method": "native",
+      "ocr_required_unrun": false,
+      "expected_records": 10,
+      "records_found": 10,
+      "record_recall": 1.0,
+      "field_accuracy": 1.0,
+      "field_errors": [],
+      "unexpected_record_ids": []
+    },
+    "access-reviews-native.pdf": {
+      "format": "pdf",
+      "method": "native",
+      "ocr_required_unrun": false,
+      "expected_records": 8,
+      "records_found": 8,
+      "record_recall": 1.0,
+      "field_accuracy": 1.0,
+      "field_errors": [],
+      "unexpected_record_ids": []
+    },
+    "access-reviews-scanned.pdf": {
+      "format": "pdf",
+      "method": "ocr",
+      "ocr_required_unrun": false,
+      "expected_records": 6,
+      "records_found": 6,
+      "record_recall": 1.0,
+      "field_accuracy": 1.0,
+      "field_errors": [],
+      "unexpected_record_ids": []
+    },
+    "access-reviews-photo.png": {
+      "format": "png",
+      "method": "ocr",
+      "ocr_required_unrun": false,
+      "expected_records": 3,
+      "records_found": 3,
+      "record_recall": 1.0,
+      "field_accuracy": 1.0,
+      "field_errors": [],
+      "unexpected_record_ids": []
+    },
+    "access-reviews-lowres.jpg": {
+      "format": "jpg",
+      "method": "ocr",
+      "ocr_required_unrun": false,
+      "expected_records": 3,
+      "records_found": 3,
+      "record_recall": 1.0,
+      "field_accuracy": 0.6667,
+      "field_errors": [
+        {
+          "record_id": "SYN-A039",
+          "field": "last_reviewed",
+          "extracted": "2025-09-27",
+          "truth": "2026-09-27"
+        },
+        {
+          "record_id": "SYN-A040",
+          "field": "last_reviewed",
+          "extracted": "2025-09-25",
+          "truth": "2026-09-25"
+        }
+      ],
+      "unexpected_record_ids": []
+    }
+  },
+  "decisions": {
+    "accepted_native": 28,
+    "accepted_corroborated": 9,
+    "human_verification": 3,
+    "not_extracted": 0
+  },
+  "silent_errors": [],
+  "defect_detection_accepted_only": {
+    "true_positives": 14,
+    "false_positives": 0,
+    "false_negatives": 1,
+    "precision": 1.0,
+    "recall": 0.9333,
+    "defects_on_records_awaiting_humans": 1
+  },
+  "defect_detection_if_ocr_trusted_blindly": {
+    "true_positives": 15,
+    "false_positives": 2,
+    "false_negatives": 0,
+    "precision": 0.8824,
+    "recall": 1.0
+  },
+  "register_mismatch_detection": {
+    "true_positives": 2,
+    "false_positives": 2,
+    "false_negatives": 0,
+    "precision": 0.5,
+    "recall": 1.0
+  },
+  "human_queue": [
+    {
+      "record_id": "SYN-A035",
+      "location": {
+        "kind": "image",
+        "bbox": [
+          0,
+          0,
+          992,
+          1404
+        ],
+        "coordinate_system": "pixels",
+        "region_scope": "whole_image"
+      },
+      "extracted": {
+        "last_reviewed": "2026-07-27",
+        "signoff": "SIGNED"
+      },
+      "register": {
+        "last_reviewed": "2026-10-01",
+        "signoff": "SIGNED"
+      }
+    },
+    {
+      "record_id": "SYN-A039",
+      "location": {
+        "kind": "image",
+        "bbox": [
+          0,
+          0,
+          662,
+          936
+        ],
+        "coordinate_system": "pixels",
+        "region_scope": "whole_image"
+      },
+      "extracted": {
+        "last_reviewed": "2025-09-27",
+        "signoff": "SIGNED"
+      },
+      "register": {
+        "last_reviewed": "2026-09-27",
+        "signoff": "SIGNED"
+      }
+    },
+    {
+      "record_id": "SYN-A040",
+      "location": {
+        "kind": "image",
+        "bbox": [
+          0,
+          0,
+          662,
+          936
+        ],
+        "coordinate_system": "pixels",
+        "region_scope": "whole_image"
+      },
+      "extracted": {
+        "last_reviewed": "2025-09-25",
+        "signoff": "UNSIGNED"
+      },
+      "register": {
+        "last_reviewed": "2026-09-25",
+        "signoff": "UNSIGNED"
+      }
+    }
+  ],
+  "notice": "Scores on a fictional synthetic pack with construction-time labels. Not real-bank OCR accuracy, control effectiveness, or certification."
+}

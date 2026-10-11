@@ -1,0 +1,52 @@
+{
+  "migration": "d190f0020002",
+  "pre_existing_rows_preserved": true,
+  "evidence_documents": 7,
+  "chunks": 12,
+  "extraction_runs": 8,
+  "ocr_run": {
+    "document_id": "274407e1-3538-4814-b14f-96066fa19d7a",
+    "inserted": false,
+    "extraction_run_id": "495779f6c724d95f742c50dcd403e43ffd2c2f445c181838c656e10823cce1a4",
+    "extraction_run_inserted": true
+  },
+  "synthetic_control_demo": {
+    "synthetic": true,
+    "control": "privileged_access_review",
+    "threshold_days": 90,
+    "as_of": "2026-10-11",
+    "review_status": "pending",
+    "failed_records": [
+      "SYN-002"
+    ],
+    "evidence_references": [
+      {
+        "file_sha256": "67b4c160a85692138dea63eb216cb8d308ad2b0eee93e094b31e4f324a8efcb7",
+        "chunk_id": "da788d5d0816cca929e7925cf0fa41883d0dde5d549cbde99ced93045628a53a",
+        "location": {
+          "kind": "csv",
+          "record": 2,
+          "line_start": 2,
+          "line_end": 2,
+          "column_start": 1,
+          "column_end": 3
+        }
+      },
+      {
+        "file_sha256": "67b4c160a85692138dea63eb216cb8d308ad2b0eee93e094b31e4f324a8efcb7",
+        "chunk_id": "d4d84befb4fbfd01619ed571d36e9b12c9494b60a5c3fc7198970c4edd501313",
+        "location": {
+          "kind": "csv",
+          "record": 3,
+          "line_start": 3,
+          "line_end": 3,
+          "column_start": 1,
+          "column_end": 3
+        }
+      }
+    ],
+    "classification": "operating_gap",
+    "incomplete_evidence": false,
+    "notice": "Deterministic synthetic control test, not certification or a human approval. A passing sample does not establish population effectiveness."
+  }
+}

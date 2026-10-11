@@ -1,0 +1,72 @@
+{
+  "report_id": "gap-f165d35e69c05131",
+  "generated_at": "2026-10-09T21:23:46.805753Z",
+  "regulatory_reference": "RBI KYC Section 46(f)",
+  "regulatory_text": null,
+  "assessment_status": "partial_evidence",
+  "findings": [
+    {
+      "requirement": "Maintenance and preservation of account information",
+      "status": "missing",
+      "explanation": "The provided policy sections address retrieval and availability but do not explicitly define the requirements for the maintenance and preservation of account information.",
+      "evidence": [],
+      "suggested_action": "Search additional approved policies and procedures. If the requirement remains unaddressed, propose an appropriate policy or control update."
+    },
+    {
+      "requirement": "Retrieval of data easily and quickly",
+      "status": "partial",
+      "explanation": "The policy mandates efficient retrieval for authorized personnel, but does not explicitly use the terms 'easily' or 'quickly' for all required scenarios.",
+      "evidence": [
+        {
+          "section_id": "363b6a0f-93bc-4b6c-a7cb-0aa3abc395af",
+          "section_number": "6",
+          "section_title": "RECORD RETRIEVAL",
+          "quote": "The bank shall maintain a system that permits authorized personnel to retrieve required account information efficiently.",
+          "requirement": "Retrieval of data easily and quickly"
+        }
+      ],
+      "suggested_action": "Review the cited policy evidence, identify the uncovered elements, and determine whether policy clarification or additional controls are required."
+    },
+    {
+      "requirement": "Retrieval upon request by competent authorities",
+      "status": "supported",
+      "explanation": "The policy explicitly requires making records available to competent authorities upon request.",
+      "evidence": [
+        {
+          "section_id": "8ad38cbb-a23c-40e2-9d15-08094462e255",
+          "section_number": "4",
+          "section_title": "REGULATORY REQUESTS",
+          "quote": "The bank shall make customer identification records and transaction data available promptly to competent authorities upon request.",
+          "requirement": "Retrieval upon request by competent authorities"
+        }
+      ],
+      "suggested_action": "Confirm that the cited policy commitment is applicable, current, and implemented in operational procedures."
+    },
+    {
+      "requirement": "System for proper maintenance and preservation of account information",
+      "status": "missing",
+      "explanation": "The verifier identified this as missing evidence. Confirm against the complete approved policy corpus.",
+      "evidence": [],
+      "suggested_action": "Search additional approved policies and procedures. If the requirement remains unaddressed, propose an appropriate policy or control update."
+    }
+  ],
+  "summary": {
+    "total": 4,
+    "supported": 1,
+    "partial": 1,
+    "missing": 2,
+    "potential_conflicts": 0
+  },
+  "source_policy_sections": [
+    "4",
+    "6"
+  ],
+  "missing_requirements": [
+    "System for proper maintenance and preservation of account information"
+  ],
+  "potential_conflicts": [],
+  "overall_explanation": "The policy covers the requirement for retrieval by competent authorities and provides for efficient retrieval by authorized personnel. However, it lacks specific language regarding the 'maintenance and preservation' of the data itself, and the term 'efficiently' is not synonymous with the regulatory requirement of 'easily and quickly'.",
+  "review_status": "pending_review",
+  "requires_human_review": true,
+  "source_cache_status": "hit"
+}

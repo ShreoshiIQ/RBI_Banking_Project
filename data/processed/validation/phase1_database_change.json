@@ -1,0 +1,72 @@
+{
+  "existing_rows_preserved": true,
+  "first_ingestion": {
+    "inserted_documents": 20,
+    "inserted_sections": 60,
+    "inserted_versions": 20,
+    "skipped_versions": 0
+  },
+  "idempotent_second_ingestion": {
+    "inserted_documents": 0,
+    "inserted_sections": 0,
+    "inserted_versions": 0,
+    "skipped_versions": 20
+  },
+  "migration": "d190f0010001",
+  "provenance_rows": 20,
+  "schema_version": 1,
+  "table_counts": {
+    "gap_report_reviews": {
+      "after": 0,
+      "before": 0
+    },
+    "llm_verification_cache": {
+      "after": 3,
+      "before": 3
+    },
+    "policy_document_versions": {
+      "after": 21,
+      "before": 1
+    },
+    "policy_documents": {
+      "after": 21,
+      "before": 1
+    },
+    "policy_section_embeddings": {
+      "after": 6,
+      "before": 6
+    },
+    "policy_sections": {
+      "after": 66,
+      "before": 6
+    },
+    "regulatory_clause_candidates": {
+      "after": 82,
+      "before": 82
+    },
+    "regulatory_clauses": {
+      "after": 107,
+      "before": 107
+    },
+    "regulatory_document_versions": {
+      "after": 1,
+      "before": 1
+    },
+    "regulatory_documents": {
+      "after": 1,
+      "before": 1
+    },
+    "regulatory_gap_reports": {
+      "after": 1,
+      "before": 1
+    },
+    "regulatory_obligations": {
+      "after": 312,
+      "before": 312
+    },
+    "users": {
+      "after": 2,
+      "before": 2
+    }
+  }
+}

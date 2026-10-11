@@ -1,0 +1,46 @@
+
+[project]
+name = "regulatory-compliance-ai"
+version = "0.1.0"
+description = "Agentic AI Banking Regulatory Compliance Platform"
+readme = "README.md"
+authors = [
+    { name = "Shreoshi-Ghosh", email = "gshreoshi17@gmail.com" }
+]
+requires-python = ">=3.12,<3.14"
+
+dependencies = [
+    "alembic>=1.20.0",
+    "beautifulsoup4>=4.15.0",
+    "fastapi>=0.142.4",
+    "google-genai>=2.29.0",
+    "httpx>=0.28.1",
+    "langgraph>=1.2.14",
+    "openai>=3.27.0",
+    "pgvector>=0.5.1",
+    "psycopg[binary]>=3.3.6",
+    "pwdlib[argon2]>=0.3.1",
+    "pydantic-settings>=2.15.0",
+    "pyjwt[crypto]>=2.15.1",
+    "pymupdf>=1.28.2",
+    "python-dotenv>=1.2.4",
+    "python-multipart>=0.0.32",
+    "rank-bm25>=0.2.2",
+    "sentence-transformers>=6.1.0",
+    "sqlalchemy>=2.1.4",
+    "uvicorn[standard]>=0.54.0",
+]
+
+[dependency-groups]
+dev = [
+    "httpx>=0.28.1",
+    "pytest>=9.1.1",
+    "ruff>=0.16.10",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/regintel"]

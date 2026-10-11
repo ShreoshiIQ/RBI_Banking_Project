@@ -1,0 +1,10 @@
+# Source files: normalise to LF in the repository and working tree.
+* text=auto eol=lf
+# Data fixtures and receipts are hash-verified: store and check out byte-for-byte.
+data/** -text
+*.pdf binary
+*.png binary
+*.jpg binary
+*.docx binary
+*.xlsx binary
+*.whl binary

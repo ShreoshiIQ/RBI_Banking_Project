@@ -1,0 +1,26 @@
+# API pods accept traffic only from the ingress controller namespace and reach only DNS,
+# PostgreSQL, and HTTPS (Gemini, OIDC JWKS). Adjust selectors to the target cluster.
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: regintel-api
+spec:
+  podSelector:
+    matchLabels:
+      app.kubernetes.io/name: regintel-api
+  policyTypes: ["Ingress", "Egress"]
+  ingress:
+    - from:
+        - namespaceSelector:
+            matchLabels:
+              kubernetes.io/metadata.name: ingress-nginx
+      ports:
+        - {port: 8000, protocol: TCP}
+  egress:
+    - ports:
+        - {port: 53, protocol: UDP}
+        - {port: 53, protocol: TCP}
+    - ports:
+        - {port: 5432, protocol: TCP}
+    - ports:
+        - {port: 443, protocol: TCP}

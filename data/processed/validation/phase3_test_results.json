@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "recorded_on": "2026-10-11",
+  "foundation_and_phase3": {"passed": 23, "failed": 0},
+  "phase3_including_dedicated_postgres": {"passed": 12, "failed": 0, "test_data_rolled_back": true},
+  "full_tests_directory": {"passed": 412, "skipped": 4, "failed": 0, "elapsed_seconds": 44.66, "embedding_model_mode": "cached_offline"},
+  "ruff_changed_python_files": "passed",
+  "database_preservation_receipt": "data/processed/validation/phase3_database_receipt.json",
+  "inventory": "data/processed/validation/phase3_inventory_verified.json",
+  "human_approvals_created": 0,
+  "benchmark_results": null,
+  "pending": ["Human legal applicability and segmentation review", "Complete SEBI amendment chain and entity categorization", "SEBI distinct obligation extraction", "Shared tenant isolation", "Phase 4 approval and benchmarks"]
+}

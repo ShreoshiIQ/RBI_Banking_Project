@@ -1,0 +1,32 @@
+
+{
+  "dataset_name": "section46_synthetic_policy_retrieval_v1",
+  "description": "Provisional topic-relevance labels for six inherited RBI Section 46 obligations and the synthetic bank KYC policy.",
+  "label_type": "topic_relevance_not_compliance",
+  "labels": [
+    {
+      "obligation_suffix": "(a)",
+      "relevant_policy_sections": ["2"]
+    },
+    {
+      "obligation_suffix": "(b)",
+      "relevant_policy_sections": ["3"]
+    },
+    {
+      "obligation_suffix": "(c)",
+      "relevant_policy_sections": ["4"]
+    },
+    {
+      "obligation_suffix": "(d)",
+      "relevant_policy_sections": []
+    },
+    {
+      "obligation_suffix": "(e)",
+      "relevant_policy_sections": ["5"]
+    },
+    {
+      "obligation_suffix": "(f)",
+      "relevant_policy_sections": ["6"]
+    }
+  ]
+}

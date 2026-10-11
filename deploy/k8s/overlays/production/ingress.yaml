@@ -1,0 +1,23 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: regintel-api
+  annotations:
+    nginx.ingress.kubernetes.io/force-ssl-redirect: "true"
+    nginx.ingress.kubernetes.io/proxy-body-size: "6m"  # evidence uploads are capped at 5 MB
+spec:
+  ingressClassName: nginx
+  tls:
+    - hosts: ["regintel.example.com"]
+      secretName: regintel-tls
+  rules:
+    - host: regintel.example.com
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: regintel-api
+                port:
+                  name: http

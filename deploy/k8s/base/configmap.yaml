@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: regintel-config
+data:
+  TENANT_ISOLATION_ENABLED: "true"
+  ACCESS_TOKEN_EXPIRE_MINUTES: "30"
+  DATABASE_CONNECT_TIMEOUT_SECONDS: "5"
+  GEMINI_MODEL: "gemini-3.1-flash-lite"
+  # Set all three to enable SSO; leave OIDC_ISSUER empty for local login only.
+  OIDC_ISSUER: ""
+  OIDC_AUDIENCE: ""
+  OIDC_JWKS_URL: ""
+  OIDC_USERNAME_CLAIM: "preferred_username"

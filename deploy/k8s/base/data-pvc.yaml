@@ -1,0 +1,11 @@
+# Holds the watcher's corpora metadata, baselines, synthetic policies, state and outputs
+# (the repository's data/ tree, seeded once by operations).
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: regintel-data
+spec:
+  accessModes: ["ReadWriteOnce"]
+  resources:
+    requests:
+      storage: 10Gi

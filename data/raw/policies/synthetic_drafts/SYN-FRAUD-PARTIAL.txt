@@ -1,0 +1,13 @@
+POLICY CODE: SYN-FRAUD-PARTIAL
+TITLE: Payment Fraud Monitoring - partial testing variant
+OWNER: Payment Risk
+STATUS: SYNTHETIC DEMONSTRATION DOCUMENT - UNREVIEWED DRAFT
+
+SECTION 1: PURPOSE AND SCOPE
+Fictional commercial-bank testing policy. This is not evidence of a real institution's controls or regulatory certification. Applicability remains unreviewed.
+
+SECTION 2: OPERATING PROCEDURE
+The fraud team reviews payment alerts, documents the investigation and customer contact, and routes suspicious events to the designated escalation owner.
+
+SECTION 3: OVERSIGHT
+The policy owner records review findings and assigns an action owner and target date. Implementation evidence is required separately.

@@ -1,0 +1,153 @@
+{
+  "live": true,
+  "cache_stats": {
+    "hits": 1,
+    "misses": 1,
+    "api_calls": 1,
+    "writes": 1
+  },
+  "results": [
+    {
+      "obligation": "46(a)",
+      "policy_section": "2",
+      "retrieval_score": 0.03278689,
+      "workflow": {
+        "obligation_id": "15ad6a05-98fe-472c-a93a-a29f82e15242",
+        "obligation_text": "REs shall,\n(a) maintain all necessary records of transactions between the RE and the \ncustomer, both domestic and international, for at least five years from the date \nof transaction;",
+        "policy_section_id": "2772183f-5364-4fd3-bc8d-336835622d04",
+        "policy_text": "The bank shall maintain records of domestic and international customer\ntransactions for at least five years from the transaction date.",
+        "deterministic": {
+          "attribute_status": "attributes_matched",
+          "matched_attributes": [
+            "domestic_transactions",
+            "international_transactions",
+            "transaction_date_trigger",
+            "minimum_retention_duration"
+          ],
+          "missing_attributes": [],
+          "attribute_explanation": "All attributes checked by this limited rule set were found in the policy. This is not a final compliance determination.",
+          "retention_status": "supported",
+          "retention_explanation": "The policy specifies a minimum of 5 years, meeting the extracted regulatory minimum of 5 years. Only the duration was compared; scope, start event, and exceptions remain unverified."
+        },
+        "cache_key": "47687aa5cf5387d366ea5ead609b37f0beb60cfe10896a0bad87592b1f61ddd6",
+        "cache_status": "hit",
+        "route": "cached",
+        "result": {
+          "obligation_id": "15ad6a05-98fe-472c-a93a-a29f82e15242",
+          "policy_section_id": "2772183f-5364-4fd3-bc8d-336835622d04",
+          "status": "attributes_matched",
+          "regulatory_quote": "maintain all necessary records of transactions between the RE and the customer, both domestic and international, for at least five years from the date of transaction",
+          "policy_quote": "The bank shall maintain records of domestic and international customer transactions for at least five years from the transaction date.",
+          "comparisons": [
+            {
+              "attribute": "Record Scope",
+              "regulatory_requirement": "all necessary records of transactions between the RE and the customer, both domestic and international",
+              "policy_commitment": "records of domestic and international customer transactions",
+              "assessment": "The policy covers the required scope of domestic and international transactions."
+            },
+            {
+              "attribute": "Retention Duration",
+              "regulatory_requirement": "at least five years",
+              "policy_commitment": "at least five years",
+              "assessment": "The retention duration matches."
+            },
+            {
+              "attribute": "Retention Start Event",
+              "regulatory_requirement": "from the date of transaction",
+              "policy_commitment": "from the transaction date",
+              "assessment": "The retention start event matches."
+            }
+          ],
+          "missing_requirements": [],
+          "potential_conflicts": [],
+          "explanation": "The internal bank policy aligns with the regulatory obligation regarding the scope of transactions, the minimum retention period, and the trigger event for the retention period.",
+          "validation_errors": [],
+          "model_name": "gemini-3.1-flash-lite",
+          "requires_human_review": true
+        },
+        "final_status": "attributes_matched",
+        "requires_human_review": true,
+        "errors": [],
+        "trace": [
+          "deterministic_checks",
+          "cache_hit",
+          "human_review"
+        ]
+      }
+    },
+    {
+      "obligation": "46(a)",
+      "policy_section": "3",
+      "retrieval_score": 0.03225806,
+      "workflow": {
+        "obligation_id": "15ad6a05-98fe-472c-a93a-a29f82e15242",
+        "obligation_text": "REs shall,\n(a) maintain all necessary records of transactions between the RE and the \ncustomer, both domestic and international, for at least five years from the date \nof transaction;",
+        "policy_section_id": "2141eef4-4a1c-4c9e-8e49-6403a052870b",
+        "policy_text": "The bank shall preserve customer identification and address records\nfor at least five years after the customer relationship ends.",
+        "deterministic": {
+          "attribute_status": "scope_mismatch",
+          "matched_attributes": [],
+          "missing_attributes": [
+            "domestic_transactions",
+            "international_transactions",
+            "transaction_date_trigger"
+          ],
+          "attribute_explanation": "The policy does not establish the required record or activity scope.",
+          "retention_status": "supported",
+          "retention_explanation": "The policy specifies a minimum of 5 years, meeting the extracted regulatory minimum of 5 years. Only the duration was compared; scope, start event, and exceptions remain unverified."
+        },
+        "cache_key": "ab80f3a21e8598f5e7d8b02c3d50a86473ebbe41bdd0412931cd3638f77b348b",
+        "cache_status": "miss",
+        "route": "llm",
+        "result": {
+          "obligation_id": "15ad6a05-98fe-472c-a93a-a29f82e15242",
+          "policy_section_id": "2141eef4-4a1c-4c9e-8e49-6403a052870b",
+          "status": "partial_evidence",
+          "regulatory_quote": "maintain all necessary records of transactions between the RE and the customer, both domestic and international, for at least five years from the date of transaction",
+          "policy_quote": "The bank shall preserve customer identification and address records for at least five years after the customer relationship ends.",
+          "comparisons": [
+            {
+              "attribute": "Record Scope",
+              "regulatory_requirement": "all necessary records of transactions between the RE and the customer, both domestic and international",
+              "policy_commitment": "customer identification and address records",
+              "assessment": "The policy covers identification and address records, whereas the regulation mandates transaction records."
+            },
+            {
+              "attribute": "Retention Duration",
+              "regulatory_requirement": "at least five years",
+              "policy_commitment": "at least five years",
+              "assessment": "Both specify a minimum duration of five years."
+            },
+            {
+              "attribute": "Retention Start Event",
+              "regulatory_requirement": "from the date of transaction",
+              "policy_commitment": "after the customer relationship ends",
+              "assessment": "The triggers are different; the regulation triggers from the transaction date, while the policy triggers from the end of the relationship."
+            }
+          ],
+          "missing_requirements": [
+            "The policy does not explicitly mention the retention of transaction records.",
+            "The policy does not define the retention start event as the date of the transaction."
+          ],
+          "potential_conflicts": [
+            "The policy's retention trigger (end of relationship) differs from the regulatory requirement (date of transaction), which may lead to non-compliance if the relationship lasts longer than the transaction date."
+          ],
+          "explanation": "The policy focuses on customer identification and address records, while the regulation specifically mandates the retention of transaction records. Furthermore, the retention triggers are fundamentally different, meaning the policy does not satisfy the regulatory requirement for transaction record retention.",
+          "validation_errors": [],
+          "model_name": "gemini-3.1-flash-lite",
+          "requires_human_review": true
+        },
+        "final_status": "partial_evidence",
+        "requires_human_review": true,
+        "errors": [],
+        "trace": [
+          "deterministic_checks",
+          "cache_miss",
+          "gemini_verification",
+          "cache_written",
+          "human_review"
+        ]
+      }
+    }
+  ]
+}

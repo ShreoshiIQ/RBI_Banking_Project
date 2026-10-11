@@ -1,0 +1,1596 @@
+{
+  "schema_version": 1,
+  "source_hash": "f86e3712e6a14894c30c91e93c0e16028ff41008c52b4c3b98b2f843a22bc68a",
+  "decisions": [
+    {
+      "candidate_index": 0,
+      "candidate_hash": "ce90688ee050fac00c64961df3813531c640e10b55f301ce9a321944a394e60a",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 1,
+      "candidate_hash": "ed5f2e90dc866b804702e3042b223bf72cc23e72a6bc3813bdce6f21e54cd831",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 2,
+      "candidate_hash": "b2abd62d0eec949aed638295e98b6cd865494e3331c6111fc73f09a8d189dcf4",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 3,
+      "candidate_hash": "38b2fe5f7174a1f660e38c31c63b66cadc29d798515779ddde47f622132a4891",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 4,
+      "candidate_hash": "8a17575cc849dd911a2f071d0eb463dabfa7b65d5220d9ba3bbd7a88a0907054",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 5,
+      "candidate_hash": "c3775a09da8f691d4bdcb3b49b550795a030c8739c2f324c945ef19485db1da1",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 6,
+      "candidate_hash": "3795de0c278b13ca0675e8650be518bb7fbce86d542e9c8e98a966c4991bc501",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 7,
+      "candidate_hash": "21f0115a5b9ed394e956f11cde19cd2c93a03afab2f2c4484c6d1bdb43551a5f",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 8,
+      "candidate_hash": "990a73b728c7b35895d4a7004b5f1e3e7cb7294b97f3f3ade2ff32963c50662d",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 9,
+      "candidate_hash": "415f9862ce7862a4362e4d1934483dcbadcb99698fa7203561699c912ff534a5",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 10,
+      "candidate_hash": "1c3cfb445f5a21a8da73b568f72792ab6bea7e5c9bf9b70f2e5b9f4bb321dd5d",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 11,
+      "candidate_hash": "f85fffc60a0088a9b1f8952434d7514e4e8eb4f5fbd5e9fb427130b67dce1e0f",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 12,
+      "candidate_hash": "c1b44b70ac04094d59355ce72427874e5923c7dd47b70f98e1a0ac570e6af5cf",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 13,
+      "candidate_hash": "0a547c579ab63c91cd8cede6fee856122ee72a7fc28e389db5c6f90cc98f12e5",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 14,
+      "candidate_hash": "6c6726875234f65a0b27946d6da1fd2eaba356fae886ae73a24a13c3f9aaa31b",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 15,
+      "candidate_hash": "63a2e2f5a12c403501c56fd8d68226472e8bc330c512821d4ee002b19c1db2de",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 16,
+      "candidate_hash": "3992a1545d554834d579f75ef6c1125c0bcfdd4b576036f99f147f0ca4a09fd2",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 17,
+      "candidate_hash": "0ca997ba1702a050bf8ed5165cc6273da615d63fc581e451ba54e04abe10f31a",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 18,
+      "candidate_hash": "3c361794e8b600cabb6953507b3b517bd6ddd2e5eff6ba585a8735293171de91",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 19,
+      "candidate_hash": "f18746459c75c3fb4ea1cbb4c377cc2cf1cccbbffb806cc32503cffced401fe9",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 20,
+      "candidate_hash": "051338303c92620777409f2ade43a4b0fcab7c9ade0c2dc0cf24bc05e5224a7e",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 21,
+      "candidate_hash": "d2c2fe83de40838344e6b8b3b21e3a8e7989dba60756f99173d0dfd8d9c7d05f",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 22,
+      "candidate_hash": "b5a34db32d0303591bbbd2d189c76ee2c57e0cf494d27ec5573b5970b6fbd73b",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 23,
+      "candidate_hash": "f412f4b0bd1719f6db267707bd2d99a2877883fc87bc21059b1c661bebcca0f4",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 24,
+      "candidate_hash": "1a956509df82a6695fcaa7687b41833ec7732735027317c9aeae087a2205e2ba",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 25,
+      "candidate_hash": "b38f531f7a4fea5f73e82164bb62abf81d957e0885722edcf29f82dcf28c9b4b",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 26,
+      "candidate_hash": "38e5dcaf9dff8c6a3eaeb260d9cae9a529ff98464ad5f1431b4d46491667c9c5",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 27,
+      "candidate_hash": "acd1be4bcc975349bb42656cb4cbb8237c380f448dc6f53880f249b789964dd6",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 28,
+      "candidate_hash": "0451c391a1fd31155c5c4f76c4aef8e3a87a0d363ad3dc8ec8c6f66862377a9e",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 29,
+      "candidate_hash": "a6b942f30e3bddbf64bb6040ecb9c8c3553254f81cfc8c351eb9c71b486c2229",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 30,
+      "candidate_hash": "cf018959f216b38ad7beaecb3e2707d8b2b92db7ac83ad561a8067169a7e9e88",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 31,
+      "candidate_hash": "4ee0d65654aaa7cf2e608afb82f22bad7c62d9b1a43c2a20e497a70f6d5bccd6",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 32,
+      "candidate_hash": "ff5852002c7483200cd8c0808c5ed0b3c3e184b70fa332a40f5f7ab9cd0ca6fa",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 33,
+      "candidate_hash": "bd6daabc8a8a6959f542df37c754930374c9eac45c9f466a00b86dc5cb6f47ea",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 34,
+      "candidate_hash": "4819c85e51e10ba05347734aef3487465ef68a18683f646d4fe28ba2785eb267",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 35,
+      "candidate_hash": "1ea0c2d812dd6edba4a78602ba39aa464d79ad386e9f3dd2e4892563e7a7f167",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 36,
+      "candidate_hash": "903bb5008117b216fd85ace6fc39bd3703580c53d58a559fc3b5e2669eb0a142",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 37,
+      "candidate_hash": "5019b2be490fdeb7a75c930d6b153191ae28a743ff70e293c2702837975e23a2",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 38,
+      "candidate_hash": "b2147cd6b548ee6bddef72701165f7fa110379e4cc86166ea3ce56c2785952df",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 39,
+      "candidate_hash": "e2fbc38d2c9ea94d5d169627675326c38112001cca08bfb6e6a5576fbf68d4c2",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 40,
+      "candidate_hash": "ec7416f1d79b60695407d47dcc7d52e959f08e99c6773fe28f8a7d5582154725",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 41,
+      "candidate_hash": "341cf3bc625ed832282e888013653cb7ad84888d87aa683bc365e195aa288197",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 42,
+      "candidate_hash": "d9ceff426b73c7476158982796ea1e3030a1e50f1080199d17a1e6228e8ca5ab",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 43,
+      "candidate_hash": "cc740c000df57d0816a7ddda53da67eb350d1161f316c83fe39ccef56d3525c2",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 44,
+      "candidate_hash": "cd2cedb80f01e95845b590cb943ae4b9c2d4145e7ddc72251215fb996292b12a",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 45,
+      "candidate_hash": "f84270c1c8a01f2c24cfe6c411e17a81900bee17d2d47dc0e16f5560fa6ec352",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 46,
+      "candidate_hash": "bfa1f7d084203af3e7760ad2e812e1a779c6bce06e7b31c432c0df9618276484",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 47,
+      "candidate_hash": "e1e61b7f93e254a2c703cb58177278d92e39cbca1026b4d408a58d0b308c5426",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 48,
+      "candidate_hash": "f6734daaa5e88fca3a10a51e58b5ed3f754cb4a42b4b70686d2f691fa27173ca",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 49,
+      "candidate_hash": "39a476cf41a3aab69e1d3ef2290b57384cff08f7cc18793de895f1ac73792fa3",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 50,
+      "candidate_hash": "8c74bfa646b27b78dd44fc664141aa0bf91b0d5cc6bf26b884d163282bcc695b",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 51,
+      "candidate_hash": "0f98fe613a31246f88dc77f79c146a83904cd5d613c2b1ebc3702c17e0d7d623",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 52,
+      "candidate_hash": "e07b7a2365abebdfcecb9c3fab0cc5ca1694fa070abf772e87274c3d6b42bed6",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 53,
+      "candidate_hash": "18f0344550690913a4f7b0904f8be0d8929af3df4ba7eb0a3c8d2e02991302f4",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 54,
+      "candidate_hash": "1e08a98f185bd04108ddb3aa201830612d67bc4576669861db705f5809082a18",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 55,
+      "candidate_hash": "2398e9764d4eec2476265f162df64f3aa2b05d1937b28d67a68ed68b18694329",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 56,
+      "candidate_hash": "3373e032fa37a75c8c79bd441005bc5182ca630cdb0e335d8854dd5d066f67ee",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 57,
+      "candidate_hash": "0e703e23ea86f03009369aa869975e478abbfe9bb3dfc16cc8c826683e2fa6fd",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 58,
+      "candidate_hash": "e542add185a9ccf16aa32839c30dab40a8e63fd7c67483512dc8e961edf16ff1",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 59,
+      "candidate_hash": "a32f027418817e55ae55258a10420f42dd3eb70263e66b983810b33ef494d1d8",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 60,
+      "candidate_hash": "58def9429667ea04d7d655fbf14185ad715c2c484c95263124ce17bc5df0c7fe",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 61,
+      "candidate_hash": "4f1a2c93bc2c8f7b2e3ed22ba0965a95da490d1021e027fba1d89ec38c623595",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 62,
+      "candidate_hash": "9c61071ad140b03d15a117ed3e87de51958708024b34b4a186abfd8d11d6764d",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 63,
+      "candidate_hash": "2cb416e66674176c8eff658d2aed6e74fcadc8014a1b5240d061168428c35728",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 64,
+      "candidate_hash": "d30d58c80ba1cea885700f961ed74eaed411eef8977dbc297c56c76f6494d7f4",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 65,
+      "candidate_hash": "687e10e4029e8e2ee23c295ecc628e6ceb3bd468565fc6badd7d4c9f2d41ea40",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 66,
+      "candidate_hash": "d78a0299330110f733f88c54e3aec2b2764d724c4e75d388dc552879bdc89880",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 67,
+      "candidate_hash": "5eb28efddd344cdff91c2b4a94254296f59a0c6714da1319aff0263c15433930",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 68,
+      "candidate_hash": "9337f592a3e84e73852d211da9a77ebee00475a6298e7d2ed0ad1d8a2f0afb4f",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 69,
+      "candidate_hash": "e9d7b88411bd25f887d957bb4cc86ec9521d8c28b1aa5d23467f74c256f9e50f",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 70,
+      "candidate_hash": "d893c4954976f661bc5b16b54b8b2d52af2b05c2688dd5eb12062f8a4c2641f2",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 71,
+      "candidate_hash": "6c0263f83b2edb4ef437c750fbed1ca40a47a7fcd4a6373c53be914e720907e6",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 72,
+      "candidate_hash": "ce0e95a463d00663d5fce0e0535735270473b95a9f96b411d64752908e9e2f82",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 73,
+      "candidate_hash": "f022a53321d5755db9a6daab45e588bdd8ddf32e63694db57afaf20df4b62f8e",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 74,
+      "candidate_hash": "fc33feb85dd20427b0a61ca0e2e1f8465a11d7008c4d5ec234992a37f5996c59",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 75,
+      "candidate_hash": "2dfd6ae5ca592456640c6271761277fda70d63c69cafac5fda636d8d1116737f",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 76,
+      "candidate_hash": "5fe3fca39f7899b02eb1ea5fb3bcf99d6c34a8df40cbba5749a50827219d28c8",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 77,
+      "candidate_hash": "d2beebfb15e055034065c9557603d2327cb67c0bf759fe12c095e22a80b8d6fe",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 78,
+      "candidate_hash": "58de52324dbc7d62798eb7c846ce1c71c6b1cd40691087258ae35892b8b0d7a7",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 79,
+      "candidate_hash": "12943e12391c3229c313795e4e51ba23755d371cdbc7f65437a9e7fff79be207",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 80,
+      "candidate_hash": "ba83ae6a08a84ba31677f07dac09c563f5a7652526889ed71d1ccfad4d789187",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 81,
+      "candidate_hash": "2c58752c526f818eef8c8d5c6a81344a582b2b506e42a59e5fa865f3b04f7c8f",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 82,
+      "candidate_hash": "37853e1f5722e39ce7b60b8ba42978935c4148b6895b14652d302499abd0a805",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 83,
+      "candidate_hash": "f561c2cc728030af71e98ab1c5acef73717ecf28e71e32cf3112008b18fb4577",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 84,
+      "candidate_hash": "6f1a39ace128a4f0897e2f7d87e1d8c3c85291d579d4bd02083aea4266ace531",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 85,
+      "candidate_hash": "0d9f7a08d159c6f7ce158de9c945a6dbf52c7144e9338e340eb24cfe01ff4168",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 86,
+      "candidate_hash": "860aea9893b32bb8a7a7f7692819aef717d6a7aa9290c9448af5913974a4cfe1",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 87,
+      "candidate_hash": "ae426e2c33617b8413fcb62d01b9b2d1678179ac545a66a5f55dc2b15213bed5",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 88,
+      "candidate_hash": "4b687d059bdc8c257f003fef6848b25212617c9a23a6bb70669f32d848f3ea71",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 89,
+      "candidate_hash": "88b03525d9b6c791685b65987296f754cf4a78f0fac151483837e9e5e07e95a0",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 90,
+      "candidate_hash": "65288eb1d4dd3a4b1382251713ba15afa506efaae8f75cde5e864acf6f187421",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 91,
+      "candidate_hash": "77d636acfad5d1c1ee3b2f60377ada63b0f25e86abbf9cc30d17d08234318012",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 92,
+      "candidate_hash": "853b6aff0a50d61d2e350615038e4e832089ec5054eac0702f71f7e44231ef47",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 93,
+      "candidate_hash": "d51781cb1f3ca50d29438ebfb8b7374f5306b0f87e8640b6a99704e406e01c10",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 94,
+      "candidate_hash": "043b9af8d8e064fba7a4c010f15f5a4b6b61a050ef4d031208d4fbd3ea970dc7",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 95,
+      "candidate_hash": "86be5d1cf43090f4389299486e1f61b2adf33c7dbb92d7517e50b3ab77e10643",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 96,
+      "candidate_hash": "bc4955cd1dbb9c6e11eb5554b26cc48afb84accbad3b0037e4aa0c3cdd5f32e9",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 97,
+      "candidate_hash": "92028e3883df3933c1699b0f0051368061fffeaf86fd208e97fae31722bd36cd",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 98,
+      "candidate_hash": "21d0e087508e4a5c853dfcbeacd9abf7f17f155b206328fd707d315d6a6660ce",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 99,
+      "candidate_hash": "6e9f5cad0c886561c6296cf69cf8ccc8f2870fe2533853d6e9364b5b95dcd475",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 100,
+      "candidate_hash": "9128e1fedbb365eeeb16fcec1fccaecae69025920f415dbc1841b35eca30b4d4",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 101,
+      "candidate_hash": "f7a6c43b58e1f76c4faca2ed6ea5a70fd8bd33238853b38f31b76bb0feb471e0",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 102,
+      "candidate_hash": "39c07ee80b449cdbe98c47f39575cc2e651fdaf1860d68157518f9b95e1f7a58",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 103,
+      "candidate_hash": "76b120d4387bc8953d3b1c2a34607462d22994ea8373acf80ba6a6cf74f9ac2f",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 104,
+      "candidate_hash": "9d77cd33547abbde89a2db67ff9043f114d7db2d731c17900710a39b5d4ac863",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 105,
+      "candidate_hash": "c2f83aa4704b3c3181a725bc3fa7e1a9a8c0beb6fca4f3d35bf9a333ff38e50d",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 106,
+      "candidate_hash": "033e72a516d4ca7a3b7b66772213ab32e48e0fbd29149756622dc69cc6c1f41e",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 107,
+      "candidate_hash": "78c382b0fb989391ff75011657bede59812651d900b9906938e576b09e04691e",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 108,
+      "candidate_hash": "9248986e8ea29e2fddebe3495210dbd9bbf9401dc5b6c06e1389e326e4314c0c",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 109,
+      "candidate_hash": "e1b6ac3282bb2749e7676d6b474c97f2dc9791013c160223fc2c3dc7be9135a6",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 110,
+      "candidate_hash": "4e5cb9f91e51a3984600b947c1db45b413a93fab7ca991181597c8b41980c91d",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 111,
+      "candidate_hash": "ba371da230c2735415ceabfee68aafdd0da5ade24b265688b3a4ca44c968c5da",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 112,
+      "candidate_hash": "7df3ebe301dc74175395ba5ff56ceff9948df150f24575dae6747c28b74aecbd",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 113,
+      "candidate_hash": "896ef53c5bbfe07dd874b107189c1700bd931e9604121f54f80d66d553e16ba0",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 114,
+      "candidate_hash": "dbf46eefdcd1a21573053f27d02792e1d5bf4fe7dcdcfb36c653fdb2a035f410",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 115,
+      "candidate_hash": "7c964ff4ce6c87097dcef9469a6fd29c93ce9b77ea21932609aba2a3d33bf1ff",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 116,
+      "candidate_hash": "b2afe93bfd62ee310296014e86fd283f9ac64a46668d7f80e113ccb75e3cef8a",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 117,
+      "candidate_hash": "b7ab8ef02f35753529ad87808dd14964d09b00d3018db8f6bab4c2df71ab0d11",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 118,
+      "candidate_hash": "e92c0a2befe44cdc224f82b7dda99a4534350a7c90a3fd787877f5d2831e741b",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 119,
+      "candidate_hash": "34341feb3952200e5be810adf1d544ac512cc0d443ca9d95c72fc5679f6ba45c",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 120,
+      "candidate_hash": "84bc2b6918647f0e786fe7e58cdec07a9aa02f29b140bf3c6a396a754a2c45ca",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 121,
+      "candidate_hash": "e9d2eebfefb89cff821dc4e6881c3ccfc97b289e50e833317483129365cf3fcf",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 122,
+      "candidate_hash": "6d65a1ef739c434e79a0a78f2cb520d78414de61c859598524af3bdf38dbabf7",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 123,
+      "candidate_hash": "268c8707784617f014b343b146269f516cdc412c1b210efde28803008fa3b08c",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 124,
+      "candidate_hash": "a44f6acba853fa6485a2f833d9487937fecb900ebed83d80ca816dc43a0e78d5",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 125,
+      "candidate_hash": "56648de4cf911b12c59cf7e0599abd29eb35e36454df5534d17bd2b3d4624662",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 126,
+      "candidate_hash": "24a3cbf9c1369847c2fdea339e4ec14f8325c8ee83a44e3d092252dba54ea11e",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 127,
+      "candidate_hash": "b9a8ffbbe9f9630a7e3615730b5b4e0fcf445caafa96454e83335de3ac27b8d5",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 128,
+      "candidate_hash": "1c89d56985178b92e6d42ccc01d85b600c8d1392b3b7032ba34f5b972e7a4ea5",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 129,
+      "candidate_hash": "879f689dc2227a22596387af3cb0cafc32b40ec0a7679c695679cec131c0509c",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 130,
+      "candidate_hash": "fdb4eb404963dfb7f3051e83535167c68f41ca7f199300230711612862f63004",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 131,
+      "candidate_hash": "555654d072e3ec4df4ab18d2ee64cd6a0f7a2f9c971e28b2595807fa319e3950",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 132,
+      "candidate_hash": "2b7971f891d61df80936e2033ad439adfcc02895951dc521f648c002f44e37af",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 133,
+      "candidate_hash": "76d4f32da7497563cebafcb4f52f14dbc946f1e56155630ab1eefa24836bf9c2",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 134,
+      "candidate_hash": "6cf36e7bf55af81f52ba6c24ca2f56041d2128b51af9e726a4891d5c37fa59ce",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 135,
+      "candidate_hash": "109e3e346aa087704f741ec86dc49f9451cb7c84bedbfb078baea9784f8bc0e8",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 136,
+      "candidate_hash": "c3220bb559d468282698acf21fa76f62d28fac56b7bc85ec2135d57c8172a85b",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 137,
+      "candidate_hash": "ab57cb5361a0e3ac7094e537328109f47be72e55927d1ae78c1452056a932133",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 138,
+      "candidate_hash": "19bd0a51d564093dea5cfcec233d9ffb03d9858956178be6c929b9612506c52d",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 139,
+      "candidate_hash": "3f7fde958278fa45eb5d5f89fefada94b17ef1335c27d64ce30cd3c591616b77",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 140,
+      "candidate_hash": "604aa77a65abdb74167e315a77c5a73a1b11be37ba42531c8eb23cf863f4a6ad",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 141,
+      "candidate_hash": "8a0c99d4ca901e55fc88ab2112c80e0631a6d4085b2b4c287483c33be3897784",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 142,
+      "candidate_hash": "39f6c48ea83b0b822ff94423a3d96c8fc3a050332e852230e9e2a33bc848d802",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 143,
+      "candidate_hash": "52572be8a58ba8564ada5e884dc930a5cb95b8f695684f578638f4924dc15c11",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 144,
+      "candidate_hash": "6279f187da484eb49cd8958d90d3158161820084c58efad6bdfa2c42d681409c",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 145,
+      "candidate_hash": "b51fd0f41976ed34d9b07d2725d00c847f3157ebbf434ef4ad031f2819f55b47",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 146,
+      "candidate_hash": "25dca632ce24e9757610bb6049b3e7702f23fffe2f2a56dce569d4ee4db6bf2a",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 147,
+      "candidate_hash": "5db378841a163a8e3ec1830f6b08552e798d6499b0d219f32f5665fb8a2436c0",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 148,
+      "candidate_hash": "4d1bac344e0e87ccbe5865272f90f7c955d90f17071dd8d6dc485a64eb33f19b",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 149,
+      "candidate_hash": "b38290c069164585a5b186764cc7808e636cab91cb82731cc7820004436966f4",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 150,
+      "candidate_hash": "dccdbf25ce677f16f59d1bfa2c46f8bc796ee3d0485d80ff5f1cb97b2ad147e6",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 151,
+      "candidate_hash": "9fba2ff8602f967638d1df089f89bc37d0b13a5dd754abba87b1cebc49124f06",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 152,
+      "candidate_hash": "1ec136bcbdd16fb4e58cd4fbccbf065dda333b7f951116dc347dbcecfd60e33f",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 153,
+      "candidate_hash": "b51629b96e33abad52982d33eb75a68aa96b8f6d674df20378042bf65edfe109",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 154,
+      "candidate_hash": "6003d28c6d9c5c135aead9316179e4f43f2613a91d2cffe90a354a1e21aae25b",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 155,
+      "candidate_hash": "651dd57cda22bfac4264af29439ab31a06f932283ba7faee299e16edfcc3ad92",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 156,
+      "candidate_hash": "961d56a662ed0a9c09527bd1957aa8a1dfca1e7096748a3d8e2abc6584bf649a",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 157,
+      "candidate_hash": "d106a7c757f8966a51236ffd8edccf80751849f51cb301dc2e037535d3139acc",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    },
+    {
+      "candidate_index": 158,
+      "candidate_hash": "8faee6f9fa612e0d29e47671327cc62c32463ac55a0d9810e9e7be7bf8fcc742",
+      "status": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "actor": "",
+      "applicability": "",
+      "source_citation": ""
+    }
+  ]
+}

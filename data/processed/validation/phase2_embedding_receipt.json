@@ -1,0 +1,11 @@
+{
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "inserted": 11,
+  "second_pass_inserted": 0,
+  "retrieval_candidate_counts": {
+    "bm25": 1,
+    "vector": 5,
+    "hybrid": 5
+  },
+  "notice": "Real local embeddings and query smoke checks, not retrieval quality or benchmark scores."
+}

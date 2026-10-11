@@ -1,0 +1,816 @@
+{
+  "verification_method": "deterministic_attributes_v1",
+  "dataset_type": "synthetic_demonstration",
+  "results": [
+    {
+      "obligation_id": "15ad6a05-98fe-472c-a93a-a29f82e15242",
+      "obligation": "46(a)",
+      "policy_section_number": "1",
+      "policy_section_id": "005c821e-e216-48fa-a86b-f8ec0cc29f06",
+      "verification": {
+        "obligation": "46(a)",
+        "policy_section_id": "005c821e-e216-48fa-a86b-f8ec0cc29f06",
+        "status": "insufficient_evidence",
+        "matched_attributes": [],
+        "missing_attributes": [
+          "domestic_transactions",
+          "international_transactions",
+          "transaction_date_trigger"
+        ],
+        "explanation": "No explicit operative policy commitment was identified.",
+        "regulatory_evidence": "REs shall,\n(a) maintain all necessary records of transactions between the RE and the \ncustomer, both domestic and international, for at least five years from the date \nof transaction;",
+        "policy_evidence": "This policy describes sample procedures for customer identification,\ntransaction record retention, and regulatory information requests.",
+        "requires_human_review": true
+      }
+    },
+    {
+      "obligation_id": "15ad6a05-98fe-472c-a93a-a29f82e15242",
+      "obligation": "46(a)",
+      "policy_section_number": "2",
+      "policy_section_id": "2772183f-5364-4fd3-bc8d-336835622d04",
+      "verification": {
+        "obligation": "46(a)",
+        "policy_section_id": "2772183f-5364-4fd3-bc8d-336835622d04",
+        "status": "attributes_matched",
+        "matched_attributes": [
+          "domestic_transactions",
+          "international_transactions",
+          "transaction_date_trigger",
+          "minimum_retention_duration"
+        ],
+        "missing_attributes": [],
+        "explanation": "All attributes checked by this limited rule set were found in the policy. This is not a final compliance determination.",
+        "regulatory_evidence": "REs shall,\n(a) maintain all necessary records of transactions between the RE and the \ncustomer, both domestic and international, for at least five years from the date \nof transaction;",
+        "policy_evidence": "The bank shall maintain records of domestic and international customer\ntransactions for at least five years from the transaction date.",
+        "requires_human_review": true
+      }
+    },
+    {
+      "obligation_id": "15ad6a05-98fe-472c-a93a-a29f82e15242",
+      "obligation": "46(a)",
+      "policy_section_number": "3",
+      "policy_section_id": "2141eef4-4a1c-4c9e-8e49-6403a052870b",
+      "verification": {
+        "obligation": "46(a)",
+        "policy_section_id": "2141eef4-4a1c-4c9e-8e49-6403a052870b",
+        "status": "scope_mismatch",
+        "matched_attributes": [],
+        "missing_attributes": [
+          "domestic_transactions",
+          "international_transactions",
+          "transaction_date_trigger"
+        ],
+        "explanation": "The policy does not establish the required record or activity scope.",
+        "regulatory_evidence": "REs shall,\n(a) maintain all necessary records of transactions between the RE and the \ncustomer, both domestic and international, for at least five years from the date \nof transaction;",
+        "policy_evidence": "The bank shall preserve customer identification and address records\nfor at least five years after the customer relationship ends.",
+        "requires_human_review": true
+      }
+    },
+    {
+      "obligation_id": "15ad6a05-98fe-472c-a93a-a29f82e15242",
+      "obligation": "46(a)",
+      "policy_section_number": "4",
+      "policy_section_id": "8ad38cbb-a23c-40e2-9d15-08094462e255",
+      "verification": {
+        "obligation": "46(a)",
+        "policy_section_id": "8ad38cbb-a23c-40e2-9d15-08094462e255",
+        "status": "partial_evidence",
+        "matched_attributes": [],
+        "missing_attributes": [
+          "domestic_transactions",
+          "international_transactions",
+          "transaction_date_trigger",
+          "minimum_retention_duration"
+        ],
+        "explanation": "Some required attributes were not established by this policy section.",
+        "regulatory_evidence": "REs shall,\n(a) maintain all necessary records of transactions between the RE and the \ncustomer, both domestic and international, for at least five years from the date \nof transaction;",
+        "policy_evidence": "The bank shall make customer identification records and transaction\ndata available promptly to competent authorities upon request.",
+        "requires_human_review": true
+      }
+    },
+    {
+      "obligation_id": "15ad6a05-98fe-472c-a93a-a29f82e15242",
+      "obligation": "46(a)",
+      "policy_section_number": "5",
+      "policy_section_id": "2b0b1da8-a513-45f0-ac86-aa3c9785dd2d",
+      "verification": {
+        "obligation": "46(a)",
+        "policy_section_id": "2b0b1da8-a513-45f0-ac86-aa3c9785dd2d",
+        "status": "partial_evidence",
+        "matched_attributes": [],
+        "missing_attributes": [
+          "domestic_transactions",
+          "international_transactions",
+          "transaction_date_trigger",
+          "minimum_retention_duration"
+        ],
+        "explanation": "Some required attributes were not established by this policy section.",
+        "regulatory_evidence": "REs shall,\n(a) maintain all necessary records of transactions between the RE and the \ncustomer, both domestic and international, for at least five years from the date \nof transaction;",
+        "policy_evidence": "The bank shall maintain transaction details including transaction type,\namount, currency, date, and parties involved.",
+        "requires_human_review": true
+      }
+    },
+    {
+      "obligation_id": "15ad6a05-98fe-472c-a93a-a29f82e15242",
+      "obligation": "46(a)",
+      "policy_section_number": "6",
+      "policy_section_id": "363b6a0f-93bc-4b6c-a7cb-0aa3abc395af",
+      "verification": {
+        "obligation": "46(a)",
+        "policy_section_id": "363b6a0f-93bc-4b6c-a7cb-0aa3abc395af",
+        "status": "scope_mismatch",
+        "matched_attributes": [],
+        "missing_attributes": [
+          "domestic_transactions",
+          "international_transactions",
+          "transaction_date_trigger"
+        ],
+        "explanation": "The policy does not establish the required record or activity scope.",
+        "regulatory_evidence": "REs shall,\n(a) maintain all necessary records of transactions between the RE and the \ncustomer, both domestic and international, for at least five years from the date \nof transaction;",
+        "policy_evidence": "The bank shall maintain a system that permits authorized personnel\nto retrieve required account information efficiently.",
+        "requires_human_review": true
+      }
+    },
+    {
+      "obligation_id": "0f5ec0c5-12d8-4dc3-85c2-154534951ef0",
+      "obligation": "46(b)",
+      "policy_section_number": "1",
+      "policy_section_id": "005c821e-e216-48fa-a86b-f8ec0cc29f06",
+      "verification": {
+        "obligation": "46(b)",
+        "policy_section_id": "005c821e-e216-48fa-a86b-f8ec0cc29f06",
+        "status": "insufficient_evidence",
+        "matched_attributes": [],
+        "missing_attributes": [
+          "customer_identification",
+          "address_records",
+          "relationship_end_trigger"
+        ],
+        "explanation": "No explicit operative policy commitment was identified.",
+        "regulatory_evidence": "REs shall,\n(b) preserve the records pertaining to the identification of the customers and their \naddresses obtained while opening the account and during the course of \nbusiness relationship, for at least five years after the business relationship is \nended;",
+        "policy_evidence": "This policy describes sample procedures for customer identification,\ntransaction record retention, and regulatory information requests.",
+        "requires_human_review": true
+      }
+    },
+    {
+      "obligation_id": "0f5ec0c5-12d8-4dc3-85c2-154534951ef0",
+      "obligation": "46(b)",
+      "policy_section_number": "2",
+      "policy_section_id": "2772183f-5364-4fd3-bc8d-336835622d04",
+      "verification": {
+        "obligation": "46(b)",
+        "policy_section_id": "2772183f-5364-4fd3-bc8d-336835622d04",
+        "status": "scope_mismatch",
+        "matched_attributes": [],
+        "missing_attributes": [
+          "customer_identification",
+          "address_records",
+          "relationship_end_trigger"
+        ],
+        "explanation": "The policy does not establish the required record or activity scope.",
+        "regulatory_evidence": "REs shall,\n(b) preserve the records pertaining to the identification of the customers and their \naddresses obtained while opening the account and during the course of \nbusiness relationship, for at least five years after the business relationship is \nended;",
+        "policy_evidence": "The bank shall maintain records of domestic and international customer\ntransactions for at least five years from the transaction date.",
+        "requires_human_review": true
+      }
+    },
+    {
+      "obligation_id": "0f5ec0c5-12d8-4dc3-85c2-154534951ef0",
+      "obligation": "46(b)",
+      "policy_section_number": "3",
+      "policy_section_id": "2141eef4-4a1c-4c9e-8e49-6403a052870b",
+      "verification": {
+        "obligation": "46(b)",
+        "policy_section_id": "2141eef4-4a1c-4c9e-8e49-6403a052870b",
+        "status": "attributes_matched",
+        "matched_attributes": [
+          "customer_identification",
+          "address_records",
+          "relationship_end_trigger",
+          "minimum_retention_duration"
+        ],
+        "missing_attributes": [],
+        "explanation": "All attributes checked by this limited rule set were found in the policy. This is not a final compliance determination.",
+        "regulatory_evidence": "REs shall,\n(b) preserve the records pertaining to the identification of the customers and their \naddresses obtained while opening the account and during the course of \nbusiness relationship, for at least five years after the business relationship is \nended;",
+        "policy_evidence": "The bank shall preserve customer identification and address records\nfor at least five years after the customer relationship ends.",
+        "requires_human_review": true
+      }
+    },
+    {
+      "obligation_id": "0f5ec0c5-12d8-4dc3-85c2-154534951ef0",
+      "obligation": "46(b)",
+      "policy_section_number": "4",
+      "policy_section_id": "8ad38cbb-a23c-40e2-9d15-08094462e255",
+      "verification": {
+        "obligation": "46(b)",
+        "policy_section_id": "8ad38cbb-a23c-40e2-9d15-08094462e255",
+        "status": "partial_evidence",
+        "matched_attributes": [
+          "customer_identification"
+        ],
+        "missing_attributes": [
+          "address_records",
+          "relationship_end_trigger",
+          "minimum_retention_duration"
+        ],
+        "explanation": "Some required attributes were not established by this policy section.",
+        "regulatory_evidence": "REs shall,\n(b) preserve the records pertaining to the identification of the customers and their \naddresses obtained while opening the account and during the course of \nbusiness relationship, for at least five years after the business relationship is \nended;",
+        "policy_evidence": "The bank shall make customer identification records and transaction\ndata available promptly to competent authorities upon request.",
+        "requires_human_review": true
+      }
+    },
+    {
+      "obligation_id": "0f5ec0c5-12d8-4dc3-85c2-154534951ef0",
+      "obligation": "46(b)",
+      "policy_section_number": "5",
+      "policy_section_id": "2b0b1da8-a513-45f0-ac86-aa3c9785dd2d",
+      "verification": {
+        "obligation": "46(b)",
+        "policy_section_id": "2b0b1da8-a513-45f0-ac86-aa3c9785dd2d",
+        "status": "scope_mismatch",
+        "matched_attributes": [],
+        "missing_attributes": [
+          "customer_identification",
+          "address_records",
+          "relationship_end_trigger"
+        ],
+        "explanation": "The policy does not establish the required record or activity scope.",
+        "regulatory_evidence": "REs shall,\n(b) preserve the records pertaining to the identification of the customers and their \naddresses obtained while opening the account and during the course of \nbusiness relationship, for at least five years after the business relationship is \nended;",
+        "policy_evidence": "The bank shall maintain transaction details including transaction type,\namount, currency, date, and parties involved.",
+        "requires_human_review": true
+      }
+    },
+    {
+      "obligation_id": "0f5ec0c5-12d8-4dc3-85c2-154534951ef0",
+      "obligation": "46(b)",
+      "policy_section_number": "6",
+      "policy_section_id": "363b6a0f-93bc-4b6c-a7cb-0aa3abc395af",
+      "verification": {
+        "obligation": "46(b)",
+        "policy_section_id": "363b6a0f-93bc-4b6c-a7cb-0aa3abc395af",
+        "status": "scope_mismatch",
+        "matched_attributes": [],
+        "missing_attributes": [
+          "customer_identification",
+          "address_records",
+          "relationship_end_trigger"
+        ],
+        "explanation": "The policy does not establish the required record or activity scope.",
+        "regulatory_evidence": "REs shall,\n(b) preserve the records pertaining to the identification of the customers and their \naddresses obtained while opening the account and during the course of \nbusiness relationship, for at least five years after the business relationship is \nended;",
+        "policy_evidence": "The bank shall maintain a system that permits authorized personnel\nto retrieve required account information efficiently.",
+        "requires_human_review": true
+      }
+    },
+    {
+      "obligation_id": "b4a07f9a-e0dc-4d94-9458-9835e42e1b1b",
+      "obligation": "46(c)",
+      "policy_section_number": "1",
+      "policy_section_id": "005c821e-e216-48fa-a86b-f8ec0cc29f06",
+      "verification": {
+        "obligation": "46(c)",
+        "policy_section_id": "005c821e-e216-48fa-a86b-f8ec0cc29f06",
+        "status": "insufficient_evidence",
+        "matched_attributes": [],
+        "missing_attributes": [
+          "identification_records",
+          "transaction_data",
+          "competent_authorities",
+          "prompt_access",
+          "upon_request"
+        ],
+        "explanation": "No explicit operative policy commitment was identified.",
+        "regulatory_evidence": "REs shall,\n(c) 132make available swiftly, the identification records and transaction data to the \ncompetent authorities upon request;",
+        "policy_evidence": "This policy describes sample procedures for customer identification,\ntransaction record retention, and regulatory information requests.",
+        "requires_human_review": true
+      }
+    },
+    {
+      "obligation_id": "b4a07f9a-e0dc-4d94-9458-9835e42e1b1b",
+      "obligation": "46(c)",
+      "policy_section_number": "2",
+      "policy_section_id": "2772183f-5364-4fd3-bc8d-336835622d04",
+      "verification": {
+        "obligation": "46(c)",
+        "policy_section_id": "2772183f-5364-4fd3-bc8d-336835622d04",
+        "status": "scope_mismatch",
+        "matched_attributes": [],
+        "missing_attributes": [
+          "identification_records",
+          "transaction_data",
+          "competent_authorities",
+          "prompt_access",
+          "upon_request"
+        ],
+        "explanation": "The policy does not establish the required record or activity scope.",
+        "regulatory_evidence": "REs shall,\n(c) 132make available swiftly, the identification records and transaction data to the \ncompetent authorities upon request;",
+        "policy_evidence": "The bank shall maintain records of domestic and international customer\ntransactions for at least five years from the transaction date.",
+        "requires_human_review": true
+      }
+    },
+    {
+      "obligation_id": "b4a07f9a-e0dc-4d94-9458-9835e42e1b1b",
+      "obligation": "46(c)",
+      "policy_section_number": "3",
+      "policy_section_id": "2141eef4-4a1c-4c9e-8e49-6403a052870b",
+      "verification": {
+        "obligation": "46(c)",
+        "policy_section_id": "2141eef4-4a1c-4c9e-8e49-6403a052870b",
+        "status": "scope_mismatch",
+        "matched_attributes": [],
+        "missing_attributes": [
+          "identification_records",
+          "transaction_data",
+          "competent_authorities",
+          "prompt_access",
+          "upon_request"
+        ],
+        "explanation": "The policy does not establish the required record or activity scope.",
+        "regulatory_evidence": "REs shall,\n(c) 132make available swiftly, the identification records and transaction data to the \ncompetent authorities upon request;",
+        "policy_evidence": "The bank shall preserve customer identification and address records\nfor at least five years after the customer relationship ends.",
+        "requires_human_review": true
+      }
+    },
+    {
+      "obligation_id": "b4a07f9a-e0dc-4d94-9458-9835e42e1b1b",
+      "obligation": "46(c)",
+      "policy_section_number": "4",
+      "policy_section_id": "8ad38cbb-a23c-40e2-9d15-08094462e255",
+      "verification": {
+        "obligation": "46(c)",
+        "policy_section_id": "8ad38cbb-a23c-40e2-9d15-08094462e255",
+        "status": "attributes_matched",
+        "matched_attributes": [
+          "identification_records",
+          "transaction_data",
+          "competent_authorities",
+          "prompt_access",
+          "upon_request"
+        ],
+        "missing_attributes": [],
+        "explanation": "All attributes checked by this limited rule set were found in the policy. This is not a final compliance determination.",
+        "regulatory_evidence": "REs shall,\n(c) 132make available swiftly, the identification records and transaction data to the \ncompetent authorities upon request;",
+        "policy_evidence": "The bank shall make customer identification records and transaction\ndata available promptly to competent authorities upon request.",
+        "requires_human_review": true
+      }
+    },
+    {
+      "obligation_id": "b4a07f9a-e0dc-4d94-9458-9835e42e1b1b",
+      "obligation": "46(c)",
+      "policy_section_number": "5",
+      "policy_section_id": "2b0b1da8-a513-45f0-ac86-aa3c9785dd2d",
+      "verification": {
+        "obligation": "46(c)",
+        "policy_section_id": "2b0b1da8-a513-45f0-ac86-aa3c9785dd2d",
+        "status": "scope_mismatch",
+        "matched_attributes": [],
+        "missing_attributes": [
+          "identification_records",
+          "transaction_data",
+          "competent_authorities",
+          "prompt_access",
+          "upon_request"
+        ],
+        "explanation": "The policy does not establish the required record or activity scope.",
+        "regulatory_evidence": "REs shall,\n(c) 132make available swiftly, the identification records and transaction data to the \ncompetent authorities upon request;",
+        "policy_evidence": "The bank shall maintain transaction details including transaction type,\namount, currency, date, and parties involved.",
+        "requires_human_review": true
+      }
+    },
+    {
+      "obligation_id": "b4a07f9a-e0dc-4d94-9458-9835e42e1b1b",
+      "obligation": "46(c)",
+      "policy_section_number": "6",
+      "policy_section_id": "363b6a0f-93bc-4b6c-a7cb-0aa3abc395af",
+      "verification": {
+        "obligation": "46(c)",
+        "policy_section_id": "363b6a0f-93bc-4b6c-a7cb-0aa3abc395af",
+        "status": "scope_mismatch",
+        "matched_attributes": [],
+        "missing_attributes": [
+          "identification_records",
+          "transaction_data",
+          "competent_authorities",
+          "prompt_access",
+          "upon_request"
+        ],
+        "explanation": "The policy does not establish the required record or activity scope.",
+        "regulatory_evidence": "REs shall,\n(c) 132make available swiftly, the identification records and transaction data to the \ncompetent authorities upon request;",
+        "policy_evidence": "The bank shall maintain a system that permits authorized personnel\nto retrieve required account information efficiently.",
+        "requires_human_review": true
+      }
+    },
+    {
+      "obligation_id": "eca6ee0a-706d-445e-85b0-35ae7a525f03",
+      "obligation": "46(d)",
+      "policy_section_number": "1",
+      "policy_section_id": "005c821e-e216-48fa-a86b-f8ec0cc29f06",
+      "verification": {
+        "obligation": "46(d)",
+        "policy_section_id": "005c821e-e216-48fa-a86b-f8ec0cc29f06",
+        "status": "insufficient_evidence",
+        "matched_attributes": [],
+        "missing_attributes": [
+          "record_keeping_system",
+          "transaction_records",
+          "pml_rule_3"
+        ],
+        "explanation": "No explicit operative policy commitment was identified.",
+        "regulatory_evidence": "REs shall,\n(d) introduce a system of maintaining proper record of transactions prescribed \nunder Rule 3 of Prevention of Money Laundering (Maintenance of Records) \nRules, 2005 (PML Rules, 2005);",
+        "policy_evidence": "This policy describes sample procedures for customer identification,\ntransaction record retention, and regulatory information requests.",
+        "requires_human_review": true
+      }
+    },
+    {
+      "obligation_id": "eca6ee0a-706d-445e-85b0-35ae7a525f03",
+      "obligation": "46(d)",
+      "policy_section_number": "2",
+      "policy_section_id": "2772183f-5364-4fd3-bc8d-336835622d04",
+      "verification": {
+        "obligation": "46(d)",
+        "policy_section_id": "2772183f-5364-4fd3-bc8d-336835622d04",
+        "status": "partial_evidence",
+        "matched_attributes": [
+          "transaction_records"
+        ],
+        "missing_attributes": [
+          "record_keeping_system",
+          "pml_rule_3"
+        ],
+        "explanation": "Some required attributes were not established by this policy section.",
+        "regulatory_evidence": "REs shall,\n(d) introduce a system of maintaining proper record of transactions prescribed \nunder Rule 3 of Prevention of Money Laundering (Maintenance of Records) \nRules, 2005 (PML Rules, 2005);",
+        "policy_evidence": "The bank shall maintain records of domestic and international customer\ntransactions for at least five years from the transaction date.",
+        "requires_human_review": true
+      }
+    },
+    {
+      "obligation_id": "eca6ee0a-706d-445e-85b0-35ae7a525f03",
+      "obligation": "46(d)",
+      "policy_section_number": "3",
+      "policy_section_id": "2141eef4-4a1c-4c9e-8e49-6403a052870b",
+      "verification": {
+        "obligation": "46(d)",
+        "policy_section_id": "2141eef4-4a1c-4c9e-8e49-6403a052870b",
+        "status": "scope_mismatch",
+        "matched_attributes": [],
+        "missing_attributes": [
+          "record_keeping_system",
+          "transaction_records",
+          "pml_rule_3"
+        ],
+        "explanation": "The policy does not establish the required record or activity scope.",
+        "regulatory_evidence": "REs shall,\n(d) introduce a system of maintaining proper record of transactions prescribed \nunder Rule 3 of Prevention of Money Laundering (Maintenance of Records) \nRules, 2005 (PML Rules, 2005);",
+        "policy_evidence": "The bank shall preserve customer identification and address records\nfor at least five years after the customer relationship ends.",
+        "requires_human_review": true
+      }
+    },
+    {
+      "obligation_id": "eca6ee0a-706d-445e-85b0-35ae7a525f03",
+      "obligation": "46(d)",
+      "policy_section_number": "4",
+      "policy_section_id": "8ad38cbb-a23c-40e2-9d15-08094462e255",
+      "verification": {
+        "obligation": "46(d)",
+        "policy_section_id": "8ad38cbb-a23c-40e2-9d15-08094462e255",
+        "status": "partial_evidence",
+        "matched_attributes": [
+          "transaction_records"
+        ],
+        "missing_attributes": [
+          "record_keeping_system",
+          "pml_rule_3"
+        ],
+        "explanation": "Some required attributes were not established by this policy section.",
+        "regulatory_evidence": "REs shall,\n(d) introduce a system of maintaining proper record of transactions prescribed \nunder Rule 3 of Prevention of Money Laundering (Maintenance of Records) \nRules, 2005 (PML Rules, 2005);",
+        "policy_evidence": "The bank shall make customer identification records and transaction\ndata available promptly to competent authorities upon request.",
+        "requires_human_review": true
+      }
+    },
+    {
+      "obligation_id": "eca6ee0a-706d-445e-85b0-35ae7a525f03",
+      "obligation": "46(d)",
+      "policy_section_number": "5",
+      "policy_section_id": "2b0b1da8-a513-45f0-ac86-aa3c9785dd2d",
+      "verification": {
+        "obligation": "46(d)",
+        "policy_section_id": "2b0b1da8-a513-45f0-ac86-aa3c9785dd2d",
+        "status": "partial_evidence",
+        "matched_attributes": [
+          "transaction_records"
+        ],
+        "missing_attributes": [
+          "record_keeping_system",
+          "pml_rule_3"
+        ],
+        "explanation": "Some required attributes were not established by this policy section.",
+        "regulatory_evidence": "REs shall,\n(d) introduce a system of maintaining proper record of transactions prescribed \nunder Rule 3 of Prevention of Money Laundering (Maintenance of Records) \nRules, 2005 (PML Rules, 2005);",
+        "policy_evidence": "The bank shall maintain transaction details including transaction type,\namount, currency, date, and parties involved.",
+        "requires_human_review": true
+      }
+    },
+    {
+      "obligation_id": "eca6ee0a-706d-445e-85b0-35ae7a525f03",
+      "obligation": "46(d)",
+      "policy_section_number": "6",
+      "policy_section_id": "363b6a0f-93bc-4b6c-a7cb-0aa3abc395af",
+      "verification": {
+        "obligation": "46(d)",
+        "policy_section_id": "363b6a0f-93bc-4b6c-a7cb-0aa3abc395af",
+        "status": "scope_mismatch",
+        "matched_attributes": [],
+        "missing_attributes": [
+          "record_keeping_system",
+          "transaction_records",
+          "pml_rule_3"
+        ],
+        "explanation": "The policy does not establish the required record or activity scope.",
+        "regulatory_evidence": "REs shall,\n(d) introduce a system of maintaining proper record of transactions prescribed \nunder Rule 3 of Prevention of Money Laundering (Maintenance of Records) \nRules, 2005 (PML Rules, 2005);",
+        "policy_evidence": "The bank shall maintain a system that permits authorized personnel\nto retrieve required account information efficiently.",
+        "requires_human_review": true
+      }
+    },
+    {
+      "obligation_id": "cd2bd1e0-102e-4c9d-8089-5a904cac052a",
+      "obligation": "46(e)",
+      "policy_section_number": "1",
+      "policy_section_id": "005c821e-e216-48fa-a86b-f8ec0cc29f06",
+      "verification": {
+        "obligation": "46(e)",
+        "policy_section_id": "005c821e-e216-48fa-a86b-f8ec0cc29f06",
+        "status": "insufficient_evidence",
+        "matched_attributes": [],
+        "missing_attributes": [
+          "transaction_nature",
+          "amount",
+          "currency",
+          "transaction_date",
+          "parties",
+          "pml_rule_3"
+        ],
+        "explanation": "No explicit operative policy commitment was identified.",
+        "regulatory_evidence": "REs shall,\n(e) maintain all necessary information in respect of transactions prescribed under \nPML Rule 3 so as to permit reconstruction of individual transaction, including \nthe following:\n(i) the nature of the transactions;\n(ii) the amount of the transaction and the currency in which it was  \ndenominated;\n(iii) the date on which the transaction was conducted; and\n(iv) the parties to the transaction.",
+        "policy_evidence": "This policy describes sample procedures for customer identification,\ntransaction record retention, and regulatory information requests.",
+        "requires_human_review": true
+      }
+    },
+    {
+      "obligation_id": "cd2bd1e0-102e-4c9d-8089-5a904cac052a",
+      "obligation": "46(e)",
+      "policy_section_number": "2",
+      "policy_section_id": "2772183f-5364-4fd3-bc8d-336835622d04",
+      "verification": {
+        "obligation": "46(e)",
+        "policy_section_id": "2772183f-5364-4fd3-bc8d-336835622d04",
+        "status": "partial_evidence",
+        "matched_attributes": [
+          "transaction_date"
+        ],
+        "missing_attributes": [
+          "transaction_nature",
+          "amount",
+          "currency",
+          "parties",
+          "pml_rule_3"
+        ],
+        "explanation": "Some required attributes were not established by this policy section.",
+        "regulatory_evidence": "REs shall,\n(e) maintain all necessary information in respect of transactions prescribed under \nPML Rule 3 so as to permit reconstruction of individual transaction, including \nthe following:\n(i) the nature of the transactions;\n(ii) the amount of the transaction and the currency in which it was  \ndenominated;\n(iii) the date on which the transaction was conducted; and\n(iv) the parties to the transaction.",
+        "policy_evidence": "The bank shall maintain records of domestic and international customer\ntransactions for at least five years from the transaction date.",
+        "requires_human_review": true
+      }
+    },
+    {
+      "obligation_id": "cd2bd1e0-102e-4c9d-8089-5a904cac052a",
+      "obligation": "46(e)",
+      "policy_section_number": "3",
+      "policy_section_id": "2141eef4-4a1c-4c9e-8e49-6403a052870b",
+      "verification": {
+        "obligation": "46(e)",
+        "policy_section_id": "2141eef4-4a1c-4c9e-8e49-6403a052870b",
+        "status": "scope_mismatch",
+        "matched_attributes": [],
+        "missing_attributes": [
+          "transaction_nature",
+          "amount",
+          "currency",
+          "transaction_date",
+          "parties",
+          "pml_rule_3"
+        ],
+        "explanation": "The policy does not establish the required record or activity scope.",
+        "regulatory_evidence": "REs shall,\n(e) maintain all necessary information in respect of transactions prescribed under \nPML Rule 3 so as to permit reconstruction of individual transaction, including \nthe following:\n(i) the nature of the transactions;\n(ii) the amount of the transaction and the currency in which it was  \ndenominated;\n(iii) the date on which the transaction was conducted; and\n(iv) the parties to the transaction.",
+        "policy_evidence": "The bank shall preserve customer identification and address records\nfor at least five years after the customer relationship ends.",
+        "requires_human_review": true
+      }
+    },
+    {
+      "obligation_id": "cd2bd1e0-102e-4c9d-8089-5a904cac052a",
+      "obligation": "46(e)",
+      "policy_section_number": "4",
+      "policy_section_id": "8ad38cbb-a23c-40e2-9d15-08094462e255",
+      "verification": {
+        "obligation": "46(e)",
+        "policy_section_id": "8ad38cbb-a23c-40e2-9d15-08094462e255",
+        "status": "partial_evidence",
+        "matched_attributes": [],
+        "missing_attributes": [
+          "transaction_nature",
+          "amount",
+          "currency",
+          "transaction_date",
+          "parties",
+          "pml_rule_3"
+        ],
+        "explanation": "Some required attributes were not established by this policy section.",
+        "regulatory_evidence": "REs shall,\n(e) maintain all necessary information in respect of transactions prescribed under \nPML Rule 3 so as to permit reconstruction of individual transaction, including \nthe following:\n(i) the nature of the transactions;\n(ii) the amount of the transaction and the currency in which it was  \ndenominated;\n(iii) the date on which the transaction was conducted; and\n(iv) the parties to the transaction.",
+        "policy_evidence": "The bank shall make customer identification records and transaction\ndata available promptly to competent authorities upon request.",
+        "requires_human_review": true
+      }
+    },
+    {
+      "obligation_id": "cd2bd1e0-102e-4c9d-8089-5a904cac052a",
+      "obligation": "46(e)",
+      "policy_section_number": "5",
+      "policy_section_id": "2b0b1da8-a513-45f0-ac86-aa3c9785dd2d",
+      "verification": {
+        "obligation": "46(e)",
+        "policy_section_id": "2b0b1da8-a513-45f0-ac86-aa3c9785dd2d",
+        "status": "partial_evidence",
+        "matched_attributes": [
+          "transaction_nature",
+          "amount",
+          "currency",
+          "transaction_date",
+          "parties"
+        ],
+        "missing_attributes": [
+          "pml_rule_3"
+        ],
+        "explanation": "Some required attributes were not established by this policy section.",
+        "regulatory_evidence": "REs shall,\n(e) maintain all necessary information in respect of transactions prescribed under \nPML Rule 3 so as to permit reconstruction of individual transaction, including \nthe following:\n(i) the nature of the transactions;\n(ii) the amount of the transaction and the currency in which it was  \ndenominated;\n(iii) the date on which the transaction was conducted; and\n(iv) the parties to the transaction.",
+        "policy_evidence": "The bank shall maintain transaction details including transaction type,\namount, currency, date, and parties involved.",
+        "requires_human_review": true
+      }
+    },
+    {
+      "obligation_id": "cd2bd1e0-102e-4c9d-8089-5a904cac052a",
+      "obligation": "46(e)",
+      "policy_section_number": "6",
+      "policy_section_id": "363b6a0f-93bc-4b6c-a7cb-0aa3abc395af",
+      "verification": {
+        "obligation": "46(e)",
+        "policy_section_id": "363b6a0f-93bc-4b6c-a7cb-0aa3abc395af",
+        "status": "scope_mismatch",
+        "matched_attributes": [],
+        "missing_attributes": [
+          "transaction_nature",
+          "amount",
+          "currency",
+          "transaction_date",
+          "parties",
+          "pml_rule_3"
+        ],
+        "explanation": "The policy does not establish the required record or activity scope.",
+        "regulatory_evidence": "REs shall,\n(e) maintain all necessary information in respect of transactions prescribed under \nPML Rule 3 so as to permit reconstruction of individual transaction, including \nthe following:\n(i) the nature of the transactions;\n(ii) the amount of the transaction and the currency in which it was  \ndenominated;\n(iii) the date on which the transaction was conducted; and\n(iv) the parties to the transaction.",
+        "policy_evidence": "The bank shall maintain a system that permits authorized personnel\nto retrieve required account information efficiently.",
+        "requires_human_review": true
+      }
+    },
+    {
+      "obligation_id": "048e1f41-daa8-4388-bf36-b046b4d369fa",
+      "obligation": "46(f)",
+      "policy_section_number": "1",
+      "policy_section_id": "005c821e-e216-48fa-a86b-f8ec0cc29f06",
+      "verification": {
+        "obligation": "46(f)",
+        "policy_section_id": "005c821e-e216-48fa-a86b-f8ec0cc29f06",
+        "status": "insufficient_evidence",
+        "matched_attributes": [],
+        "missing_attributes": [
+          "account_information",
+          "retrieval_system",
+          "retrieval_capability",
+          "efficient_retrieval",
+          "authority_request_access"
+        ],
+        "explanation": "No explicit operative policy commitment was identified.",
+        "regulatory_evidence": "REs shall,\n(f) evolve a system for proper maintenance and preservation of account \ninformation in a manner that allows data to be retrieved easily and quickly \nwhenever required or when requested by the competent authorities;",
+        "policy_evidence": "This policy describes sample procedures for customer identification,\ntransaction record retention, and regulatory information requests.",
+        "requires_human_review": true
+      }
+    },
+    {
+      "obligation_id": "048e1f41-daa8-4388-bf36-b046b4d369fa",
+      "obligation": "46(f)",
+      "policy_section_number": "2",
+      "policy_section_id": "2772183f-5364-4fd3-bc8d-336835622d04",
+      "verification": {
+        "obligation": "46(f)",
+        "policy_section_id": "2772183f-5364-4fd3-bc8d-336835622d04",
+        "status": "scope_mismatch",
+        "matched_attributes": [],
+        "missing_attributes": [
+          "account_information",
+          "retrieval_system",
+          "retrieval_capability",
+          "efficient_retrieval",
+          "authority_request_access"
+        ],
+        "explanation": "The policy does not establish the required record or activity scope.",
+        "regulatory_evidence": "REs shall,\n(f) evolve a system for proper maintenance and preservation of account \ninformation in a manner that allows data to be retrieved easily and quickly \nwhenever required or when requested by the competent authorities;",
+        "policy_evidence": "The bank shall maintain records of domestic and international customer\ntransactions for at least five years from the transaction date.",
+        "requires_human_review": true
+      }
+    },
+    {
+      "obligation_id": "048e1f41-daa8-4388-bf36-b046b4d369fa",
+      "obligation": "46(f)",
+      "policy_section_number": "3",
+      "policy_section_id": "2141eef4-4a1c-4c9e-8e49-6403a052870b",
+      "verification": {
+        "obligation": "46(f)",
+        "policy_section_id": "2141eef4-4a1c-4c9e-8e49-6403a052870b",
+        "status": "scope_mismatch",
+        "matched_attributes": [],
+        "missing_attributes": [
+          "account_information",
+          "retrieval_system",
+          "retrieval_capability",
+          "efficient_retrieval",
+          "authority_request_access"
+        ],
+        "explanation": "The policy does not establish the required record or activity scope.",
+        "regulatory_evidence": "REs shall,\n(f) evolve a system for proper maintenance and preservation of account \ninformation in a manner that allows data to be retrieved easily and quickly \nwhenever required or when requested by the competent authorities;",
+        "policy_evidence": "The bank shall preserve customer identification and address records\nfor at least five years after the customer relationship ends.",
+        "requires_human_review": true
+      }
+    },
+    {
+      "obligation_id": "048e1f41-daa8-4388-bf36-b046b4d369fa",
+      "obligation": "46(f)",
+      "policy_section_number": "4",
+      "policy_section_id": "8ad38cbb-a23c-40e2-9d15-08094462e255",
+      "verification": {
+        "obligation": "46(f)",
+        "policy_section_id": "8ad38cbb-a23c-40e2-9d15-08094462e255",
+        "status": "scope_mismatch",
+        "matched_attributes": [],
+        "missing_attributes": [
+          "account_information",
+          "retrieval_system",
+          "retrieval_capability",
+          "efficient_retrieval",
+          "authority_request_access"
+        ],
+        "explanation": "The policy does not establish the required record or activity scope.",
+        "regulatory_evidence": "REs shall,\n(f) evolve a system for proper maintenance and preservation of account \ninformation in a manner that allows data to be retrieved easily and quickly \nwhenever required or when requested by the competent authorities;",
+        "policy_evidence": "The bank shall make customer identification records and transaction\ndata available promptly to competent authorities upon request.",
+        "requires_human_review": true
+      }
+    },
+    {
+      "obligation_id": "048e1f41-daa8-4388-bf36-b046b4d369fa",
+      "obligation": "46(f)",
+      "policy_section_number": "5",
+      "policy_section_id": "2b0b1da8-a513-45f0-ac86-aa3c9785dd2d",
+      "verification": {
+        "obligation": "46(f)",
+        "policy_section_id": "2b0b1da8-a513-45f0-ac86-aa3c9785dd2d",
+        "status": "scope_mismatch",
+        "matched_attributes": [],
+        "missing_attributes": [
+          "account_information",
+          "retrieval_system",
+          "retrieval_capability",
+          "efficient_retrieval",
+          "authority_request_access"
+        ],
+        "explanation": "The policy does not establish the required record or activity scope.",
+        "regulatory_evidence": "REs shall,\n(f) evolve a system for proper maintenance and preservation of account \ninformation in a manner that allows data to be retrieved easily and quickly \nwhenever required or when requested by the competent authorities;",
+        "policy_evidence": "The bank shall maintain transaction details including transaction type,\namount, currency, date, and parties involved.",
+        "requires_human_review": true
+      }
+    },
+    {
+      "obligation_id": "048e1f41-daa8-4388-bf36-b046b4d369fa",
+      "obligation": "46(f)",
+      "policy_section_number": "6",
+      "policy_section_id": "363b6a0f-93bc-4b6c-a7cb-0aa3abc395af",
+      "verification": {
+        "obligation": "46(f)",
+        "policy_section_id": "363b6a0f-93bc-4b6c-a7cb-0aa3abc395af",
+        "status": "partial_evidence",
+        "matched_attributes": [
+          "account_information",
+          "retrieval_system",
+          "retrieval_capability",
+          "efficient_retrieval"
+        ],
+        "missing_attributes": [
+          "authority_request_access"
+        ],
+        "explanation": "Some required attributes were not established by this policy section.",
+        "regulatory_evidence": "REs shall,\n(f) evolve a system for proper maintenance and preservation of account \ninformation in a manner that allows data to be retrieved easily and quickly \nwhenever required or when requested by the competent authorities;",
+        "policy_evidence": "The bank shall maintain a system that permits authorized personnel\nto retrieve required account information efficiently.",
+        "requires_human_review": true
+      }
+    }
+  ]
+}

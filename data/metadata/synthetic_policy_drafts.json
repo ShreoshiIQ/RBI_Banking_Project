@@ -1,0 +1,367 @@
+{
+  "policies": [
+    {
+      "policy_code": "SYN-ACCESS-DETAILED",
+      "path": "data\\raw\\policies\\synthetic_drafts\\SYN-ACCESS-DETAILED.txt",
+      "sha256": "a6596c74db99838d3c3d99351d53912aee5eddbb6530cad0ba43bd34e68bf9dd",
+      "topic": "access",
+      "variant": "detailed",
+      "design_note": "Both operational procedures are documented; execution evidence must still be checked.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "61",
+        "candidate_index": 156,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 23,
+        "end_page": 23,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "review_status": "pending"
+    },
+    {
+      "policy_code": "SYN-ACCESS-PARTIAL",
+      "path": "data\\raw\\policies\\synthetic_drafts\\SYN-ACCESS-PARTIAL.txt",
+      "sha256": "e4ecdf14e4549e56da7c3167b4c2d51bf6f1f3318b6110edcaa6f5498d430cca",
+      "topic": "access",
+      "variant": "partial",
+      "design_note": "Only the first procedure is documented; the second is intentionally omitted.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "61",
+        "candidate_index": 156,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 23,
+        "end_page": 23,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "review_status": "pending"
+    },
+    {
+      "policy_code": "SYN-ACCESS-VAGUE",
+      "path": "data\\raw\\policies\\synthetic_drafts\\SYN-ACCESS-VAGUE.txt",
+      "sha256": "cc903dd19cf079648d290f7dc4ecc3eede60026e5d59251d6b896c7a9bbe0a8d",
+      "topic": "access",
+      "variant": "vague",
+      "design_note": "A general commitment is present without a procedure or evidence requirements.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "61",
+        "candidate_index": 156,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 23,
+        "end_page": 23,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "review_status": "pending"
+    },
+    {
+      "policy_code": "SYN-ACCESS-CONFLICTING",
+      "path": "data\\raw\\policies\\synthetic_drafts\\SYN-ACCESS-CONFLICTING.txt",
+      "sha256": "36a472d3516d3c63ab398eb94a6b26985df8918e8cd82d4e12160ccbce309898",
+      "topic": "access",
+      "variant": "conflicting",
+      "design_note": "An explicit exception contradicts the approval procedure; this is an intentional test defect.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "61",
+        "candidate_index": 156,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 23,
+        "end_page": 23,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "review_status": "pending"
+    },
+    {
+      "policy_code": "SYN-VENDOR-DETAILED",
+      "path": "data\\raw\\policies\\synthetic_drafts\\SYN-VENDOR-DETAILED.txt",
+      "sha256": "bc6706e6aade93b116a1d197254b08bc7122f2262f9acdf6b8f3f6e00a6cdcc6",
+      "topic": "vendor",
+      "variant": "detailed",
+      "design_note": "Both operational procedures are documented; execution evidence must still be checked.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "42",
+        "candidate_index": 125,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 19,
+        "end_page": 19,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "review_status": "pending"
+    },
+    {
+      "policy_code": "SYN-VENDOR-PARTIAL",
+      "path": "data\\raw\\policies\\synthetic_drafts\\SYN-VENDOR-PARTIAL.txt",
+      "sha256": "71f2777f3b4b170eb3a3087408fc5d892f3552299d101ab9e688072c2514ee8e",
+      "topic": "vendor",
+      "variant": "partial",
+      "design_note": "Only the first procedure is documented; the second is intentionally omitted.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "42",
+        "candidate_index": 125,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 19,
+        "end_page": 19,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "review_status": "pending"
+    },
+    {
+      "policy_code": "SYN-VENDOR-VAGUE",
+      "path": "data\\raw\\policies\\synthetic_drafts\\SYN-VENDOR-VAGUE.txt",
+      "sha256": "9ba1146a3aba99f94e2e2c96e823f61066982bf51411e3ba979efa66471b7ca6",
+      "topic": "vendor",
+      "variant": "vague",
+      "design_note": "A general commitment is present without a procedure or evidence requirements.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "42",
+        "candidate_index": 125,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 19,
+        "end_page": 19,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "review_status": "pending"
+    },
+    {
+      "policy_code": "SYN-VENDOR-CONFLICTING",
+      "path": "data\\raw\\policies\\synthetic_drafts\\SYN-VENDOR-CONFLICTING.txt",
+      "sha256": "7255eb6da2e969c36fa7adfc0f8c88be9a07b8016fbe951351dcafadd333173b",
+      "topic": "vendor",
+      "variant": "conflicting",
+      "design_note": "An explicit exception contradicts the approval procedure; this is an intentional test defect.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "42",
+        "candidate_index": 125,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 19,
+        "end_page": 19,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "review_status": "pending"
+    },
+    {
+      "policy_code": "SYN-CONTINUITY-DETAILED",
+      "path": "data\\raw\\policies\\synthetic_drafts\\SYN-CONTINUITY-DETAILED.txt",
+      "sha256": "47af5a1a88eb26cb049e866ae87942955f251201bb52fe7b89e9c59d708f5b85",
+      "topic": "continuity",
+      "variant": "detailed",
+      "design_note": "Both operational procedures are documented; execution evidence must still be checked.",
+      "source_anchor": {
+        "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+        "clause_number": "60",
+        "candidate_index": 74,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+        "start_page": 24,
+        "end_page": 24,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "review_status": "pending"
+    },
+    {
+      "policy_code": "SYN-CONTINUITY-PARTIAL",
+      "path": "data\\raw\\policies\\synthetic_drafts\\SYN-CONTINUITY-PARTIAL.txt",
+      "sha256": "6e93a1f9e42b283afc07cd8d5df93a0c0a1bb16730eef8967f0709ebb6b7810b",
+      "topic": "continuity",
+      "variant": "partial",
+      "design_note": "Only the first procedure is documented; the second is intentionally omitted.",
+      "source_anchor": {
+        "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+        "clause_number": "60",
+        "candidate_index": 74,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+        "start_page": 24,
+        "end_page": 24,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "review_status": "pending"
+    },
+    {
+      "policy_code": "SYN-CONTINUITY-VAGUE",
+      "path": "data\\raw\\policies\\synthetic_drafts\\SYN-CONTINUITY-VAGUE.txt",
+      "sha256": "c5cd114dbec119d58b215928c6cf1972c3706e882e21fc8afb82d7a4b4002179",
+      "topic": "continuity",
+      "variant": "vague",
+      "design_note": "A general commitment is present without a procedure or evidence requirements.",
+      "source_anchor": {
+        "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+        "clause_number": "60",
+        "candidate_index": 74,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+        "start_page": 24,
+        "end_page": 24,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "review_status": "pending"
+    },
+    {
+      "policy_code": "SYN-CONTINUITY-CONFLICTING",
+      "path": "data\\raw\\policies\\synthetic_drafts\\SYN-CONTINUITY-CONFLICTING.txt",
+      "sha256": "68f7b2d26704a1521ed593e28df12ebed89a71b4cc76724735f3a088bccafc0d",
+      "topic": "continuity",
+      "variant": "conflicting",
+      "design_note": "An explicit exception contradicts the approval procedure; this is an intentional test defect.",
+      "source_anchor": {
+        "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+        "clause_number": "60",
+        "candidate_index": 74,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+        "start_page": 24,
+        "end_page": 24,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "review_status": "pending"
+    },
+    {
+      "policy_code": "SYN-FRAUD-DETAILED",
+      "path": "data\\raw\\policies\\synthetic_drafts\\SYN-FRAUD-DETAILED.txt",
+      "sha256": "70e1c975ddbcbb3ba1e0c6194296ae35776e373b95ed6f274a60a846a53f7e14",
+      "topic": "fraud",
+      "variant": "detailed",
+      "design_note": "Both operational procedures are documented; execution evidence must still be checked.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "11",
+        "candidate_index": 13,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 7,
+        "end_page": 9,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "review_status": "pending"
+    },
+    {
+      "policy_code": "SYN-FRAUD-PARTIAL",
+      "path": "data\\raw\\policies\\synthetic_drafts\\SYN-FRAUD-PARTIAL.txt",
+      "sha256": "214d1d36a25e4d1062693338497e1c0b7afd2e30ea9bd54c65c2fe51fc6229eb",
+      "topic": "fraud",
+      "variant": "partial",
+      "design_note": "Only the first procedure is documented; the second is intentionally omitted.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "11",
+        "candidate_index": 13,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 7,
+        "end_page": 9,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "review_status": "pending"
+    },
+    {
+      "policy_code": "SYN-FRAUD-VAGUE",
+      "path": "data\\raw\\policies\\synthetic_drafts\\SYN-FRAUD-VAGUE.txt",
+      "sha256": "02677c5cf9f16b5328949bddb440a0206475c99b04bf6db5ed387ce73f262177",
+      "topic": "fraud",
+      "variant": "vague",
+      "design_note": "A general commitment is present without a procedure or evidence requirements.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "11",
+        "candidate_index": 13,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 7,
+        "end_page": 9,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "review_status": "pending"
+    },
+    {
+      "policy_code": "SYN-FRAUD-CONFLICTING",
+      "path": "data\\raw\\policies\\synthetic_drafts\\SYN-FRAUD-CONFLICTING.txt",
+      "sha256": "b63de3555c4276e138d97758444689609459e76f649ade82f4d9d3f5306e5c33",
+      "topic": "fraud",
+      "variant": "conflicting",
+      "design_note": "An explicit exception contradicts the approval procedure; this is an intentional test defect.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "11",
+        "candidate_index": 13,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 7,
+        "end_page": 9,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "review_status": "pending"
+    },
+    {
+      "policy_code": "SYN-CARD-DETAILED",
+      "path": "data\\raw\\policies\\synthetic_drafts\\SYN-CARD-DETAILED.txt",
+      "sha256": "f012290cb180aec9d9449c774792782548194148fb9e62ae39175f7d366ccc30",
+      "topic": "card",
+      "variant": "detailed",
+      "design_note": "Both operational procedures are documented; execution evidence must still be checked.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "11",
+        "candidate_index": 14,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 7,
+        "end_page": 9,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "review_status": "pending"
+    },
+    {
+      "policy_code": "SYN-CARD-PARTIAL",
+      "path": "data\\raw\\policies\\synthetic_drafts\\SYN-CARD-PARTIAL.txt",
+      "sha256": "ac9d64d16df6b1caa508e117016a6c15ca120c2626b5e44e40e525348bf9f1ce",
+      "topic": "card",
+      "variant": "partial",
+      "design_note": "Only the first procedure is documented; the second is intentionally omitted.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "11",
+        "candidate_index": 14,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 7,
+        "end_page": 9,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "review_status": "pending"
+    },
+    {
+      "policy_code": "SYN-CARD-VAGUE",
+      "path": "data\\raw\\policies\\synthetic_drafts\\SYN-CARD-VAGUE.txt",
+      "sha256": "715b140925fe97313d9fd06545e84d3d09cd2461c3448ca0250adf23aa84eb5e",
+      "topic": "card",
+      "variant": "vague",
+      "design_note": "A general commitment is present without a procedure or evidence requirements.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "11",
+        "candidate_index": 14,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 7,
+        "end_page": 9,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "review_status": "pending"
+    },
+    {
+      "policy_code": "SYN-CARD-CONFLICTING",
+      "path": "data\\raw\\policies\\synthetic_drafts\\SYN-CARD-CONFLICTING.txt",
+      "sha256": "25e56bda6a48f320f8ce21549d6451eb1f45b99e8c254313b8c6b297d402e245",
+      "topic": "card",
+      "variant": "conflicting",
+      "design_note": "An explicit exception contradicts the approval procedure; this is an intentional test defect.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "11",
+        "candidate_index": 14,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 7,
+        "end_page": 9,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "review_status": "pending"
+    }
+  ],
+  "schema_version": 1,
+  "synthetic": true,
+  "notice": "Draft test data; human review required. No benchmark scores or legal conclusions."
+}

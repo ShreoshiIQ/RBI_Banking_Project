@@ -1,0 +1,505 @@
+{
+  "database": {
+    "counts": [
+      {
+        "embeddings": 6,
+        "obligations": 1150,
+        "policies": 21,
+        "policy_sections": 66,
+        "policy_versions": 21,
+        "vector_searchable_sections": 6,
+        "versions": 5
+      }
+    ],
+    "embedding_storage": [
+      {
+        "index_bytes": 49152,
+        "table_bytes": 16384,
+        "total_bytes": 98304
+      }
+    ],
+    "entity_columns": [],
+    "evidence_counts": [
+      {
+        "chunks": 12,
+        "documents": 7,
+        "embeddings": 12,
+        "unverified_chunks": 1
+      }
+    ],
+    "evidence_extraction_runs": [
+      {
+        "runs": 8
+      }
+    ],
+    "indexes": [
+      {
+        "indexdef": "CREATE UNIQUE INDEX alembic_version_pkc ON public.alembic_version USING btree (version_num)",
+        "indexname": "alembic_version_pkc",
+        "tablename": "alembic_version"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX evidence_chunks_pkey ON public.evidence_chunks USING btree (id)",
+        "indexname": "evidence_chunks_pkey",
+        "tablename": "evidence_chunks"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX evidence_documents_file_sha256_key ON public.evidence_documents USING btree (file_sha256)",
+        "indexname": "evidence_documents_file_sha256_key",
+        "tablename": "evidence_documents"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX evidence_documents_pkey ON public.evidence_documents USING btree (id)",
+        "indexname": "evidence_documents_pkey",
+        "tablename": "evidence_documents"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX evidence_embeddings_pkey ON public.evidence_embeddings USING btree (chunk_id, model)",
+        "indexname": "evidence_embeddings_pkey",
+        "tablename": "evidence_embeddings"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX evidence_extraction_runs_pkey ON public.evidence_extraction_runs USING btree (id)",
+        "indexname": "evidence_extraction_runs_pkey",
+        "tablename": "evidence_extraction_runs"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX gap_report_reviews_pkey ON public.gap_report_reviews USING btree (id)",
+        "indexname": "gap_report_reviews_pkey",
+        "tablename": "gap_report_reviews"
+      },
+      {
+        "indexdef": "CREATE INDEX ix_gap_report_reviews_report_id ON public.gap_report_reviews USING btree (report_id)",
+        "indexname": "ix_gap_report_reviews_report_id",
+        "tablename": "gap_report_reviews"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX llm_verification_cache_pkey ON public.llm_verification_cache USING btree (cache_key)",
+        "indexname": "llm_verification_cache_pkey",
+        "tablename": "llm_verification_cache"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX policy_document_versions_pkey ON public.policy_document_versions USING btree (id)",
+        "indexname": "policy_document_versions_pkey",
+        "tablename": "policy_document_versions"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX uq_policy_document_content_hash ON public.policy_document_versions USING btree (document_id, content_hash)",
+        "indexname": "uq_policy_document_content_hash",
+        "tablename": "policy_document_versions"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX policy_documents_pkey ON public.policy_documents USING btree (id)",
+        "indexname": "policy_documents_pkey",
+        "tablename": "policy_documents"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX policy_documents_policy_code_key ON public.policy_documents USING btree (policy_code)",
+        "indexname": "policy_documents_policy_code_key",
+        "tablename": "policy_documents"
+      },
+      {
+        "indexdef": "CREATE INDEX ix_policy_section_embeddings_policy_section_id ON public.policy_section_embeddings USING btree (policy_section_id)",
+        "indexname": "ix_policy_section_embeddings_policy_section_id",
+        "tablename": "policy_section_embeddings"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX policy_section_embeddings_pkey ON public.policy_section_embeddings USING btree (id)",
+        "indexname": "policy_section_embeddings_pkey",
+        "tablename": "policy_section_embeddings"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX uq_policy_section_embedding_model ON public.policy_section_embeddings USING btree (policy_section_id, embedding_model)",
+        "indexname": "uq_policy_section_embedding_model",
+        "tablename": "policy_section_embeddings"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX policy_sections_pkey ON public.policy_sections USING btree (id)",
+        "indexname": "policy_sections_pkey",
+        "tablename": "policy_sections"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX uq_policy_version_section_number ON public.policy_sections USING btree (version_id, section_number)",
+        "indexname": "uq_policy_version_section_number",
+        "tablename": "policy_sections"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX policy_version_provenance_pkey ON public.policy_version_provenance USING btree (version_id)",
+        "indexname": "policy_version_provenance_pkey",
+        "tablename": "policy_version_provenance"
+      },
+      {
+        "indexdef": "CREATE INDEX ix_regulatory_clause_candidates_version_id ON public.regulatory_clause_candidates USING btree (version_id)",
+        "indexname": "ix_regulatory_clause_candidates_version_id",
+        "tablename": "regulatory_clause_candidates"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX regulatory_clause_candidates_pkey ON public.regulatory_clause_candidates USING btree (id)",
+        "indexname": "regulatory_clause_candidates_pkey",
+        "tablename": "regulatory_clause_candidates"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX uq_clause_candidate_version_number ON public.regulatory_clause_candidates USING btree (version_id, clause_number)",
+        "indexname": "uq_clause_candidate_version_number",
+        "tablename": "regulatory_clause_candidates"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX regulatory_clauses_pkey ON public.regulatory_clauses USING btree (id)",
+        "indexname": "regulatory_clauses_pkey",
+        "tablename": "regulatory_clauses"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX uq_version_clause ON public.regulatory_clauses USING btree (version_id, clause_number)",
+        "indexname": "uq_version_clause",
+        "tablename": "regulatory_clauses"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX regulatory_document_versions_pkey ON public.regulatory_document_versions USING btree (id)",
+        "indexname": "regulatory_document_versions_pkey",
+        "tablename": "regulatory_document_versions"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX uq_document_content_hash ON public.regulatory_document_versions USING btree (document_id, content_hash)",
+        "indexname": "uq_document_content_hash",
+        "tablename": "regulatory_document_versions"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX regulatory_documents_pkey ON public.regulatory_documents USING btree (id)",
+        "indexname": "regulatory_documents_pkey",
+        "tablename": "regulatory_documents"
+      },
+      {
+        "indexdef": "CREATE INDEX ix_gap_reports_review_status ON public.regulatory_gap_reports USING btree (review_status)",
+        "indexname": "ix_gap_reports_review_status",
+        "tablename": "regulatory_gap_reports"
+      },
+      {
+        "indexdef": "CREATE INDEX ix_regulatory_gap_reports_regulatory_reference ON public.regulatory_gap_reports USING btree (regulatory_reference)",
+        "indexname": "ix_regulatory_gap_reports_regulatory_reference",
+        "tablename": "regulatory_gap_reports"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX regulatory_gap_reports_pkey ON public.regulatory_gap_reports USING btree (report_id)",
+        "indexname": "regulatory_gap_reports_pkey",
+        "tablename": "regulatory_gap_reports"
+      },
+      {
+        "indexdef": "CREATE INDEX ix_obligation_version_review ON public.regulatory_obligations USING btree (document_version_id, review_status)",
+        "indexname": "ix_obligation_version_review",
+        "tablename": "regulatory_obligations"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX regulatory_obligations_pkey ON public.regulatory_obligations USING btree (id)",
+        "indexname": "regulatory_obligations_pkey",
+        "tablename": "regulatory_obligations"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX uq_obligation_clause_fingerprint ON public.regulatory_obligations USING btree (source_clause_id, obligation_fingerprint)",
+        "indexname": "uq_obligation_clause_fingerprint",
+        "tablename": "regulatory_obligations"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX users_pkey ON public.users USING btree (id)",
+        "indexname": "users_pkey",
+        "tablename": "users"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX users_username_key ON public.users USING btree (username)",
+        "indexname": "users_username_key",
+        "tablename": "users"
+      }
+    ],
+    "regulators": [
+      {
+        "documents": 5,
+        "regulator": "RBI"
+      }
+    ],
+    "reviews": [
+      {
+        "obligations": 1150,
+        "review_status": "pending"
+      }
+    ],
+    "revision": [
+      {
+        "version_num": "d190f0020002"
+      }
+    ],
+    "rls": [
+      {
+        "relforcerowsecurity": false,
+        "relname": "alembic_version",
+        "relrowsecurity": false
+      },
+      {
+        "relforcerowsecurity": false,
+        "relname": "evidence_chunks",
+        "relrowsecurity": false
+      },
+      {
+        "relforcerowsecurity": false,
+        "relname": "evidence_documents",
+        "relrowsecurity": false
+      },
+      {
+        "relforcerowsecurity": false,
+        "relname": "evidence_embeddings",
+        "relrowsecurity": false
+      },
+      {
+        "relforcerowsecurity": false,
+        "relname": "evidence_extraction_runs",
+        "relrowsecurity": false
+      },
+      {
+        "relforcerowsecurity": false,
+        "relname": "gap_report_reviews",
+        "relrowsecurity": false
+      },
+      {
+        "relforcerowsecurity": false,
+        "relname": "llm_verification_cache",
+        "relrowsecurity": false
+      },
+      {
+        "relforcerowsecurity": false,
+        "relname": "policy_document_versions",
+        "relrowsecurity": false
+      },
+      {
+        "relforcerowsecurity": false,
+        "relname": "policy_documents",
+        "relrowsecurity": false
+      },
+      {
+        "relforcerowsecurity": false,
+        "relname": "policy_section_embeddings",
+        "relrowsecurity": false
+      },
+      {
+        "relforcerowsecurity": false,
+        "relname": "policy_sections",
+        "relrowsecurity": false
+      },
+      {
+        "relforcerowsecurity": false,
+        "relname": "policy_version_provenance",
+        "relrowsecurity": false
+      },
+      {
+        "relforcerowsecurity": false,
+        "relname": "regulatory_clause_candidates",
+        "relrowsecurity": false
+      },
+      {
+        "relforcerowsecurity": false,
+        "relname": "regulatory_clauses",
+        "relrowsecurity": false
+      },
+      {
+        "relforcerowsecurity": false,
+        "relname": "regulatory_document_versions",
+        "relrowsecurity": false
+      },
+      {
+        "relforcerowsecurity": false,
+        "relname": "regulatory_documents",
+        "relrowsecurity": false
+      },
+      {
+        "relforcerowsecurity": false,
+        "relname": "regulatory_gap_reports",
+        "relrowsecurity": false
+      },
+      {
+        "relforcerowsecurity": false,
+        "relname": "regulatory_obligations",
+        "relrowsecurity": false
+      },
+      {
+        "relforcerowsecurity": false,
+        "relname": "users",
+        "relrowsecurity": false
+      }
+    ]
+  },
+  "files": {
+    "candidate_review_status": {
+      "pending": 1150
+    },
+    "draft_scenarios": 100,
+    "extracted_candidate_rows": 1150,
+    "historical_sources": 4,
+    "notice": "Candidate rows are not unique validated coverage. File-only drafts are not persisted records.",
+    "phase3_corpus_access": "SEBI offline only; no shared tenant access",
+    "policy_files": 21,
+    "regulatory_pdf_snapshots": {
+      "BIS": 0,
+      "DORA": 0,
+      "FFIEC": 0,
+      "IRDAI": 0,
+      "RBI": 10,
+      "SEBI": 3
+    },
+    "source_artifacts": [
+      {
+        "path": "data/evaluation/synthetic_draft_scenarios.json",
+        "sha256": "759477e8d8521ae3426a3de3720837d3e0f7957ec71fb81c4c3633ecb9c7da3a"
+      },
+      {
+        "path": "data/metadata/demo_institution_profile.json",
+        "sha256": "f666c4abe2cda1816bb5b8b98c777162c6dab791979a43f9b846a66958173531"
+      },
+      {
+        "path": "data/metadata/rbi_manifest.json",
+        "sha256": "122dfc8dec2b9ba895dc2c7c9497dc29e1ce76457436e432814ec355910fd024"
+      },
+      {
+        "path": "data/metadata/synthetic_policy_drafts.json",
+        "sha256": "ee0fbdad52306efc5d8221749cb3883082d8cc4cae306d7e9085e6c37488b5ee"
+      },
+      {
+        "path": "data/processed/expansion_previews/40d23129ee8a_preview.json",
+        "sha256": "4a403d160db8658c4dd752fd173e3356e972bfc83cae8192a38e3cc4655d7415"
+      },
+      {
+        "path": "data/processed/expansion_previews/8028535a80e5_preview.json",
+        "sha256": "c7297cc9b5482c7df11c6b45a4fc2006c0e101b8c73b320e95ed599525d949ac"
+      },
+      {
+        "path": "data/processed/expansion_previews/84872c7f4693_preview.json",
+        "sha256": "feb957c2825449452914939d082abab3dab2379fbe81261d957a16427f96d511"
+      },
+      {
+        "path": "data/processed/expansion_previews/f86e3712e6a1_preview.json",
+        "sha256": "85a05979a5758faea2d434ee530ae495dc36048c6c849042d620d7a71b8dfe95"
+      },
+      {
+        "path": "data/processed/expansion_reviews/40d23129ee8a_decisions.json",
+        "sha256": "631c7928fef123917047c4b4cec43d054bea434ecdac74ad346d37f98583350b"
+      },
+      {
+        "path": "data/processed/expansion_reviews/8028535a80e5_decisions.json",
+        "sha256": "0f4e9464b0ed7c8047d82e175bbc76b7450280395d7f5c755483b989542cb7ea"
+      },
+      {
+        "path": "data/processed/expansion_reviews/84872c7f4693_decisions.json",
+        "sha256": "fc6a05f7c7185e6e7d4270ef2e00a806a848b2153d48d00416876cba84549d1d"
+      },
+      {
+        "path": "data/processed/expansion_reviews/applicability_decisions.json",
+        "sha256": "76a4c57d10a30cd8d09c3a08ed625e75f24fd1e5ea4fb906430d188c243d2b20"
+      },
+      {
+        "path": "data/processed/expansion_reviews/f86e3712e6a1_decisions.json",
+        "sha256": "32682002d80b5d90add755fcb3a494856e38857303e2537010b7281dc3c7738d"
+      },
+      {
+        "path": "data/processed/obligations/e525b18753fd_obligations.json",
+        "sha256": "153462ef974a6aaf0a0ffd78690b10f34a4a9daf9190ca2075260ba8f65c5549"
+      },
+      {
+        "path": "data/processed/validation/e525b18753fd_review_decisions.json",
+        "sha256": "ea91a4440a0a4d52b4eec7ee49b75b4fba77149c168af6f589b61cf676f5de0d"
+      },
+      {
+        "path": "data/raw/policies/sample_bank_kyc_policy.txt",
+        "sha256": "caaff8ee65899da02276bbc331d3a9a16447b928fbdec10f346172d4a5a83885"
+      },
+      {
+        "path": "data/raw/policies/synthetic_drafts/SYN-ACCESS-CONFLICTING.txt",
+        "sha256": "36a472d3516d3c63ab398eb94a6b26985df8918e8cd82d4e12160ccbce309898"
+      },
+      {
+        "path": "data/raw/policies/synthetic_drafts/SYN-ACCESS-DETAILED.txt",
+        "sha256": "a6596c74db99838d3c3d99351d53912aee5eddbb6530cad0ba43bd34e68bf9dd"
+      },
+      {
+        "path": "data/raw/policies/synthetic_drafts/SYN-ACCESS-PARTIAL.txt",
+        "sha256": "e4ecdf14e4549e56da7c3167b4c2d51bf6f1f3318b6110edcaa6f5498d430cca"
+      },
+      {
+        "path": "data/raw/policies/synthetic_drafts/SYN-ACCESS-VAGUE.txt",
+        "sha256": "cc903dd19cf079648d290f7dc4ecc3eede60026e5d59251d6b896c7a9bbe0a8d"
+      },
+      {
+        "path": "data/raw/policies/synthetic_drafts/SYN-CARD-CONFLICTING.txt",
+        "sha256": "25e56bda6a48f320f8ce21549d6451eb1f45b99e8c254313b8c6b297d402e245"
+      },
+      {
+        "path": "data/raw/policies/synthetic_drafts/SYN-CARD-DETAILED.txt",
+        "sha256": "f012290cb180aec9d9449c774792782548194148fb9e62ae39175f7d366ccc30"
+      },
+      {
+        "path": "data/raw/policies/synthetic_drafts/SYN-CARD-PARTIAL.txt",
+        "sha256": "ac9d64d16df6b1caa508e117016a6c15ca120c2626b5e44e40e525348bf9f1ce"
+      },
+      {
+        "path": "data/raw/policies/synthetic_drafts/SYN-CARD-VAGUE.txt",
+        "sha256": "715b140925fe97313d9fd06545e84d3d09cd2461c3448ca0250adf23aa84eb5e"
+      },
+      {
+        "path": "data/raw/policies/synthetic_drafts/SYN-CONTINUITY-CONFLICTING.txt",
+        "sha256": "68f7b2d26704a1521ed593e28df12ebed89a71b4cc76724735f3a088bccafc0d"
+      },
+      {
+        "path": "data/raw/policies/synthetic_drafts/SYN-CONTINUITY-DETAILED.txt",
+        "sha256": "47af5a1a88eb26cb049e866ae87942955f251201bb52fe7b89e9c59d708f5b85"
+      },
+      {
+        "path": "data/raw/policies/synthetic_drafts/SYN-CONTINUITY-PARTIAL.txt",
+        "sha256": "6e93a1f9e42b283afc07cd8d5df93a0c0a1bb16730eef8967f0709ebb6b7810b"
+      },
+      {
+        "path": "data/raw/policies/synthetic_drafts/SYN-CONTINUITY-VAGUE.txt",
+        "sha256": "c5cd114dbec119d58b215928c6cf1972c3706e882e21fc8afb82d7a4b4002179"
+      },
+      {
+        "path": "data/raw/policies/synthetic_drafts/SYN-FRAUD-CONFLICTING.txt",
+        "sha256": "b63de3555c4276e138d97758444689609459e76f649ade82f4d9d3f5306e5c33"
+      },
+      {
+        "path": "data/raw/policies/synthetic_drafts/SYN-FRAUD-DETAILED.txt",
+        "sha256": "70e1c975ddbcbb3ba1e0c6194296ae35776e373b95ed6f274a60a846a53f7e14"
+      },
+      {
+        "path": "data/raw/policies/synthetic_drafts/SYN-FRAUD-PARTIAL.txt",
+        "sha256": "214d1d36a25e4d1062693338497e1c0b7afd2e30ea9bd54c65c2fe51fc6229eb"
+      },
+      {
+        "path": "data/raw/policies/synthetic_drafts/SYN-FRAUD-VAGUE.txt",
+        "sha256": "02677c5cf9f16b5328949bddb440a0206475c99b04bf6db5ed387ce73f262177"
+      },
+      {
+        "path": "data/raw/policies/synthetic_drafts/SYN-VENDOR-CONFLICTING.txt",
+        "sha256": "7255eb6da2e969c36fa7adfc0f8c88be9a07b8016fbe951351dcafadd333173b"
+      },
+      {
+        "path": "data/raw/policies/synthetic_drafts/SYN-VENDOR-DETAILED.txt",
+        "sha256": "bc6706e6aade93b116a1d197254b08bc7122f2262f9acdf6b8f3f6e00a6cdcc6"
+      },
+      {
+        "path": "data/raw/policies/synthetic_drafts/SYN-VENDOR-PARTIAL.txt",
+        "sha256": "71f2777f3b4b170eb3a3087408fc5d892f3552299d101ab9e688072c2514ee8e"
+      },
+      {
+        "path": "data/raw/policies/synthetic_drafts/SYN-VENDOR-VAGUE.txt",
+        "sha256": "9ba1146a3aba99f94e2e2c96e823f61066982bf51411e3ba979efa66471b7ca6"
+      },
+      {
+        "path": "data/metadata/multimodal_synthetic_demo.json",
+        "sha256": "2ca42d692c9aef469b16ee6f29614333a831ab29d5753ec5675b33eea1a4fde5"
+      },
+      {
+        "path": "data/metadata/phase3_official_corpora_verified.json",
+        "sha256": "ad4c16db06e21ccf208d54e33c2b860df6287cf4806da716ab41d9d663ce23ea"
+      }
+    ],
+    "synthetic_evidence_files": 7,
+    "synthetic_policy_drafts": 20,
+    "synthetic_profiles": 2,
+    "unique_draft_prompts": 25
+  },
+  "schema_version": 1
+}

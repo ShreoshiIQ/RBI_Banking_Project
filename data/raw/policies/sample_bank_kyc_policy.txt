@@ -1,0 +1,28 @@
+﻿POLICY CODE: BANK-KYC-001
+TITLE: Sample Bank Customer Due Diligence and Record Retention Policy
+OWNER: Compliance Department
+STATUS: SYNTHETIC DEMONSTRATION DOCUMENT
+
+SECTION 1: PURPOSE
+This policy describes sample procedures for customer identification,
+transaction record retention, and regulatory information requests.
+
+SECTION 2: TRANSACTION RECORD RETENTION
+The bank shall maintain records of domestic and international customer
+transactions for at least five years from the transaction date.
+
+SECTION 3: CUSTOMER IDENTIFICATION RECORDS
+The bank shall preserve customer identification and address records
+for at least five years after the customer relationship ends.
+
+SECTION 4: REGULATORY REQUESTS
+The bank shall make customer identification records and transaction
+data available promptly to competent authorities upon request.
+
+SECTION 5: TRANSACTION RECONSTRUCTION
+The bank shall maintain transaction details including transaction type,
+amount, currency, date, and parties involved.
+
+SECTION 6: RECORD RETRIEVAL
+The bank shall maintain a system that permits authorized personnel
+to retrieve required account information efficiently.

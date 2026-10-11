@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "profile_id": "fictional-sebi-stockbroker-demo",
+  "name": "Fictional Demonstration Securities Broker",
+  "synthetic": true,
+  "institution_type": "stock_broker",
+  "regulator": "SEBI",
+  "features": {"securities_brokerage": true, "commercial_banking": false},
+  "cscrf_category": null,
+  "category_review_status": "pending",
+  "registration": "fictional_demo_only",
+  "runtime_access": "offline_only",
+  "notice": "Clearly synthetic engineering profile. No real SEBI registration, threshold/category determination, tenant, or legal approval. Bank policies are excluded."
+}

@@ -1,0 +1,14 @@
+POLICY CODE: SYN-ACCESS-CONFLICTING
+TITLE: Access Management - conflicting testing variant
+OWNER: Information Security
+STATUS: SYNTHETIC DEMONSTRATION DOCUMENT - UNREVIEWED DRAFT
+
+SECTION 1: PURPOSE AND SCOPE
+Fictional commercial-bank testing policy. This is not evidence of a real institution's controls or regulatory certification. Applicability remains unreviewed.
+
+SECTION 2: OPERATING PROCEDURE
+The access team records each request, verifies the manager's approval, grants only the approved role, and retains the request and provisioning record.
+An operator may bypass the required approval and documentation when workload is high. No exception record is required.
+
+SECTION 3: OVERSIGHT
+The policy owner records review findings and assigns an action owner and target date. Implementation evidence is required separately.

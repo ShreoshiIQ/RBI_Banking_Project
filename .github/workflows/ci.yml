@@ -1,0 +1,97 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  UV_VERSION: "0.12.7"
+  # Modules held to a clean lint baseline. Add paths as the older backlog is fixed.
+  STRICT_LINT_PATHS: >-
+    src/regintel/agents src/regintel/applicability src/regintel/crossreg
+    src/regintel/prioritization src/regintel/remediation src/regintel/watch
+    src/regintel/security/oidc.py src/regintel/api/tenancy.py src/regintel/db/roles.py
+    src/regintel/evidence/pack.py src/regintel/evidence/pack_eval.py
+    scripts/eval_gate.py scripts/provision_app_role.py
+    migrations/versions/d190f0030001_add_tenant_isolation.py
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    services:
+      postgres:
+        image: pgvector/pgvector:pg16
+        env:
+          POSTGRES_USER: regintel
+          POSTGRES_PASSWORD: ci-only-password
+          POSTGRES_DB: regintel_ci
+        ports: ["5432:5432"]
+        options: >-
+          --health-cmd "pg_isready -U regintel -d regintel_ci"
+          --health-interval 5s --health-timeout 5s --health-retries 10
+    env:
+      DATABASE_URL: postgresql+psycopg://regintel:ci-only-password@127.0.0.1:5432/regintel_ci
+      TEST_DATABASE_URL: postgresql+psycopg://regintel:ci-only-password@127.0.0.1:5432/regintel_ci
+      JWT_SECRET_KEY: ci-only-jwt-secret-with-at-least-32-characters
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          version: ${{ env.UV_VERSION }}
+          python-version: "3.12"
+      - run: uv sync --frozen
+      - name: Lint (strict modules)
+        run: uv run ruff check $STRICT_LINT_PATHS
+      - name: Lint backlog (reported, not blocking)
+        run: uv run ruff check src tests scripts migrations --statistics || true
+      - name: Migrate (round trip of the newest revision)
+        run: |
+          uv run python - <<'PY'
+          import os
+          from sqlalchemy import create_engine, text
+          with create_engine(os.environ["DATABASE_URL"]).begin() as conn:
+              conn.execute(text("CREATE EXTENSION IF NOT EXISTS vector"))
+          PY
+          uv run alembic upgrade head
+          uv run alembic downgrade -1
+          uv run alembic upgrade head
+      - name: Tests
+        run: uv run pytest -q
+      - name: Evaluation gates
+        run: uv run python scripts/eval_gate.py
+
+  manifests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Render Kubernetes manifests
+        run: kubectl kustomize deploy/k8s/overlays/production > rendered.yaml
+      - name: Validate schemas
+        uses: docker://ghcr.io/yannh/kubeconform:v0.6.7
+        with:
+          args: "-strict -summary -ignore-missing-schemas rendered.yaml"
+
+  image:
+    runs-on: ubuntu-latest
+    needs: [test]
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build
+        run: docker build -t regintel-api:${{ github.sha }} .
+      - name: Scan (fail on fixable critical/high)
+        uses: aquasecurity/trivy-action@0.28.0
+        with:
+          image-ref: regintel-api:${{ github.sha }}
+          severity: CRITICAL,HIGH
+          ignore-unfixed: true
+          exit-code: "1"

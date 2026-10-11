@@ -1,0 +1,9 @@
+{
+  "migration": "d190f0020001",
+  "pre_existing_rows_preserved": true,
+  "documents_inserted": 7,
+  "second_pass_inserted": 0,
+  "chunks": 11,
+  "ocr_documents_pending": 3,
+  "notice": "Only labeled synthetic evidence added; no OCR provider calls or regulatory records changed."
+}

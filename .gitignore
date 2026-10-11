@@ -1,0 +1,19 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.pyc
+
+# Test and browser-check scratch directories
+.benchmark-test-*/
+.browser-flow-*/
+.layout-qa-*/
+.phase*-tests-*/
+.review-browser-*/
+.review-flow-*/
+
+# Build output
+dist/

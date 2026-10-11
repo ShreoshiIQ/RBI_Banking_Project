@@ -1,0 +1,327 @@
+{
+  "schema_version": 1,
+  "demo_profile": {
+    "schema_version": 1,
+    "name": "Fictional Demonstration Commercial Bank",
+    "synthetic": true,
+    "institution_type": "domestic_scheduled_commercial_bank",
+    "excluded_entity_types": [
+      "small_finance_bank",
+      "payments_bank",
+      "local_area_bank",
+      "regional_rural_bank",
+      "NBFC"
+    ],
+    "features": {
+      "customer_accounts_and_kyc": true,
+      "digital_payments": true,
+      "credit_and_debit_cards": true,
+      "outsourced_it_services": true,
+      "ppi_issuance": false,
+      "foreign_bank_branch": false
+    },
+    "status": "working_demo_assumption",
+    "notice": "Engineering demo scope, not a real institution or verified legal applicability determination. PPI material is retained for optional future scenarios."
+  },
+  "notice": "Exact extracted source passages for review; no legal applicability decisions are inferred.",
+  "sources": [
+    {
+      "title": "Reserve Bank of India (Commercial Banks – Credit Cards and Debit Cards: Issuance and Conduct) Directions, 2025 (Updated as on October 1, 2026)",
+      "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+      "source_page_url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13155",
+      "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+      "pdf_path": "data\\raw\\rbi\\Reserve_Bank_of_India_Commercial_Banks_Credit_Cards_and_Debit_Cards_Issuance_and_Conduct_Directions__40d23129ee8a.pdf",
+      "review_status": "pending",
+      "applicability_decision": null,
+      "passages": [
+        {
+          "category": "title_or_commencement",
+          "clause_number": "1",
+          "start_page": 2,
+          "end_page": 2,
+          "quote": "1. These Directions shall be called the Reserve Bank of India (Commercial Banks - Credit\nCards and Debit Cards: Issuance and Conduct) Directions, 2025.",
+          "quote_sha256": "4e7422151d40072d31084bc6b553606e1c3e19ad3dfc21ae4d82a27c28dda26b"
+        },
+        {
+          "category": "title_or_commencement",
+          "clause_number": "2",
+          "start_page": 2,
+          "end_page": 2,
+          "quote": "2. These Directions shall come into force with immediate effect.\nB. Applicability",
+          "quote_sha256": "14e3f4ea57550d658a491c7023478e9e4ac29e9101e3e20dfd603d9cd31780aa"
+        },
+        {
+          "category": "applicability_or_scope",
+          "clause_number": "3",
+          "start_page": 2,
+          "end_page": 2,
+          "quote": "3. These Directions shall be applicable to Commercial Banks (hereinafter collectively\nreferred to as 'banks' and individually as a 'bank'). \nFor the purpose of these Directions, ‘Commercial Banks’ mean banking companies (other \nthan Small Finance Banks, Payment Banks, and Local Area Banks), corresponding new \nbanks, and the State Bank of India, as defined respectively under clauses (c), (da), and \n(nc) of Section 5 of the Banking Regulation Act, 1949.",
+          "quote_sha256": "548eea24079efa90b55d110d8bf5fe7366ab815a043e2b624e7d9247bb61d868"
+        },
+        {
+          "category": "scope_or_exception",
+          "clause_number": "76",
+          "start_page": 26,
+          "end_page": 26,
+          "quote": "76. Card-issuers shall not levy any charge that was not explicitly indicated to the cardholders\nat the time of issue of the card and without getting their explicit consent. However, this \nshall not be applicable to charges like service taxes which may subsequently be levied by \nthe Government or any other statutory authority. The details of all the charges associated \nwith cards shall be displayed on the card-issuer’s website.",
+          "quote_sha256": "ab2cc596c2262e5bbb1aaa9bb95037e987961b3848bca58766bb39ced7278a71"
+        },
+        {
+          "category": "repeal_or_saving",
+          "clause_number": "92",
+          "start_page": 32,
+          "end_page": 33,
+          "quote": "92. Items to be disclosed in stages:\n(1) During marketing - Item no: 91 (1)  \n(2) At application - Key fact statement containing items from 91 (1) to (3) and any additional \ninformation that the customer may desire.  \n(3) Welcome kit - Item nos: all items from 91 (1) to (8)   \n(4) On billing - Item nos: 91 (1) to (3)   \n(5) On an ongoing basis, any change of the terms and conditions  \n(6) Note:  \n(i) The font size of MITC shall be minimum Arial-12  \n(ii) The normal terms and conditions communicated by the card-issuer to the cardholder \nat different stages shall continue as hitherto.  \n  \n \n \n \n33 \n \nChapter VIII – Repeal and Other Provisions \nA. Repeal and saving",
+          "quote_sha256": "46db2b20c9f2189cbae5ee8e51f0870995f200a479d071fe9ddd45eeb67aabd5"
+        },
+        {
+          "category": "repeal_or_saving",
+          "clause_number": "93",
+          "start_page": 33,
+          "end_page": 33,
+          "quote": "93. With the issue of these Directions, the existing Directions, instructions, and guidelines\nrelating to Credit Card and Debit Card: Issuance and Conduct as applicable for \nCommercial \nBanks \nstand \nrepealed, \nas \ncommunicated \nvide \ncircular \nDOR.RRC.REC.302/33-01-010/2025-26 dated November 28, 2025. The Directions, \ninstructions and guidelines already repealed shall continue to remain repealed.",
+          "quote_sha256": "0a9ed0da81646e792151e84d590e818343afb989f96f5b8507a560daf784dbe0"
+        },
+        {
+          "category": "repeal_or_saving",
+          "clause_number": "94",
+          "start_page": 33,
+          "end_page": 33,
+          "quote": "94. Notwithstanding such repeal, any action taken or purported to have been taken, or\ninitiated under the repealed Directions, instructions, or guidelines shall continue to be \ngoverned by the provisions thereof. All approvals or acknowledgments granted under \nthese repealed lists shall be deemed as governed by these Directions. Further, the repeal \nof these directions, instructions, or guidelines shall not in any way prejudicially affect: \n(1) any right, obligation or liability acquired, accrued, or incurred thereunder;  \n(2) any, penalty, forfeiture, or punishment incurred in respect of any contravention \ncommitted thereunder;  \n(3) any investigation, legal proceeding, or remedy in respect of any such right, privilege, \nobligation, liability, penalty, forfeiture, or punishment as aforesaid; and any such \ninvestigation, legal proceedings or remedy may be instituted, continued, or enforced \nand any such penalty, forfeiture or punishment may be imposed as if those directions, \ninstructions, or guidelines had not been repealed. \nB. Application of other laws not barred",
+          "quote_sha256": "5d5cb9ff4e02735dcfc519953cf05e63567d55193d62fde9aaebd45395650f91"
+        }
+      ]
+    },
+    {
+      "title": "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+      "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+      "source_page_url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13643",
+      "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+      "pdf_path": "data\\raw\\rbi\\Reserve_Bank_of_India_Commercial_Banks_Cybersecurity_Technology_Risk_Resilience_and_Assurance_Framew_8028535a80e5.pdf",
+      "review_status": "pending",
+      "applicability_decision": null,
+      "passages": [
+        {
+          "category": "title_or_commencement",
+          "clause_number": "1",
+          "start_page": 4,
+          "end_page": 4,
+          "quote": "1.\nThese Directions shall be called the Reserve Bank of India (Commercial Banks – \nCybersecurity, Technology: Risk, Resilience and Assurance Framework) \nDirections, 2026.",
+          "quote_sha256": "9861290eb1e08cf0fbbc8810f2a4ba92ddfa027224fd5dd1c64251a83e46e0c9"
+        },
+        {
+          "category": "title_or_commencement",
+          "clause_number": "2",
+          "start_page": 4,
+          "end_page": 4,
+          "quote": "2.\nThese Directions shall come into effect immediately upon issuance. \nB. \nApplicability",
+          "quote_sha256": "ed0edd768079935b6c042bc66221dd3fb266261c2d5c91958d344b97a3f497dd"
+        },
+        {
+          "category": "applicability_or_scope",
+          "clause_number": "3",
+          "start_page": 4,
+          "end_page": 4,
+          "quote": "3.\nThese Directions shall be applicable to Commercial Banks (hereinafter \ncollectively referred to as 'banks' and individually as a 'bank'). \nFor the purpose of these Directions, ‘Commercial Banks’ means banking \ncompanies (other than Small Finance Banks, Payments Banks, and Local Area \nBanks), corresponding new banks, and the State Bank of India, as defined \nrespectively under clauses (c), (da), and (nc) of Section 5 of the Banking \nRegulation Act, 1949.",
+          "quote_sha256": "258c003d31daa2027326f927824af4a4d0da1fbe174452f38f30d58ebd5f4844"
+        },
+        {
+          "category": "scope_or_exception",
+          "clause_number": "4",
+          "start_page": 4,
+          "end_page": 6,
+          "quote": "4.\nIn the case of a foreign bank operating in India through branch mode, reference \nto the Board or Board of Directors in these Directions should be read as reference \nto the controlling office / head office which has the oversight over the branch \noperations in India. Further, such foreign bank shall be subject to a ‘comply or \nexplain’ approach in terms of the applicability of  Chapter II,  Chapter III, Chapter \nIV, and Chapter VII and for the following select  paragraphs in Chapter V of these \nDirections: \n(1) \nInventory Management of Information Assets – Paragraph 49 \n(2) \nData Migration Controls – Paragraph 55 \nRBI (CBs – Cybersecurity, Technology: Risk, Resilience  \nand Assurance Framework) Directions, 2026 \n \n \n \n5 \n \n(3) \nPhysical and Environmental Controls – Paragraphs 62, 63 \n(4) \nCapacity Management – Paragraphs 64 and 65 \n(5) \nApplication Security Life Cycle – Paragraphs 89, 90, 92 \n(6) \nMaintenance, Monitoring, and Analysis of Audit Logs – Paragraphs 93 and \n95 \n(7) \nPatch, Vulnerability and Change Management – Paragraph 98 \n(8) \nUser Access Control / Management – Paragraphs 104, 105 and 110 \n(9) \nControls on Teleworking – Paragraph 114 \n(10) Third-Party Arrangements – Paragraph 126 \n(11) Cryptographic Controls – Paragraph 140 \n(12) Straight Through Processing - Paragraphs 141 and 142 \n(13) Vulnerability Assessment (VA) and Penetration Test (PT) - Paragraphs 151 \nto 155 \n(14) Business Continuity (BCP) and Disaster Recovery (DR) – Paragraphs 163 \nto 174 \n(15) Cyber Incident Response and Recovery Management – Paragraphs 175, \n181, 183, 187, and 190 \n(16) Metrics – Paragraphs 195 and 196 \nThe ‘comply or explain’ approach shall allow such foreign bank to deviate from \nany specific part of the above referred Chapters and select paragraphs of \nChapter V of these Directions subject to examination and acceptance by RBI of \na reasonably justifiable explanation for the same, as part of the supervisory \nprocess. \nRBI (CBs – Cybersecurity, Technology: Risk, Resilience  \nand Assurance Framework) Directions, 2026 \n \n \n \n6 \n \nC. \nDefinitions",
+          "quote_sha256": "e89148d4a5fb497a979aedcaee5c183f6e88498111dde643d0528ba5bdc8ccd7"
+        },
+        {
+          "category": "scope_or_exception",
+          "clause_number": "17",
+          "start_page": 13,
+          "end_page": 13,
+          "quote": "17. While constituting the ITSC, the bank shall ensure the following -\n(1) \nITSC has minimum of three directors (including the Chairperson of the \nITSC) as members;  \n(Note: Foreign banks operating in India through branch mode may leverage \nupon controlling office / head office / regional / zonal Committees for \ncompliance with this Master Direction as long as governance obligations / \nresponsibilities outlined for the prescribed committees are met.) \n(2) \nThe Chairperson of the ITSC is an independent director having substantial \nIT expertise in managing / guiding information technology initiatives; \n‘Substantial IT expertise’ means having a minimum of seven years’ \nexperience in managing information systems and / or leading / guiding \ntechnology/ cybersecurity initiatives / projects. The Chairperson should also \nunderstand the business processes at a broader level and the impact of IT \non such processes. \n(3) \nMembers are technically competent. Technically competent herein shall \nmean the ability to understand and evaluate information systems and \nassociated IT / cyber risks.",
+          "quote_sha256": "cd721b462dabf28004393981241ebac9e58695c6ddafc50219135008cb54d64d"
+        },
+        {
+          "category": "repeal_or_saving",
+          "clause_number": "229",
+          "start_page": 54,
+          "end_page": 55,
+          "quote": "229. The bank may consider, wherever possible, a continuous auditing approach for\ncritical systems, performing control and risk assessments on a more frequent \nbasis. \n \n \nRBI (CBs – Cybersecurity, Technology: Risk, Resilience  \nand Assurance Framework) Directions, 2026 \n \n \n \n55 \n \nChapter VIII - Repeal and Other Provisions \nA. \nRepeal and Saving",
+          "quote_sha256": "2a12ed449359a12dd313c7608e4fe3816b4b55598e59e3c15464780f8aea9cad"
+        },
+        {
+          "category": "repeal_or_saving",
+          "clause_number": "230",
+          "start_page": 55,
+          "end_page": 55,
+          "quote": "230. With the issue of these Directions, the existing Directions, instructions, and\nguidelines relating to Cybersecurity Framework and IT Governance as applicable \nto Commercial Banks stand repealed, as communicated vide circular no. \nDoS.CO.PPG.66/11.01.005/2026-27 dated July 31, 2026. The directions, \ninstructions, and guidelines repealed prior to the issuance of these Directions \nshall continue to remain repealed.",
+          "quote_sha256": "abd2c1e5ea1f5c6bfb9b06f275c67c7c22f2df75e1fa2f1a0d0ceda74f27cf36"
+        },
+        {
+          "category": "repeal_or_saving",
+          "clause_number": "231",
+          "start_page": 55,
+          "end_page": 55,
+          "quote": "231. Notwithstanding such repeal, any action taken or purported to have been taken,\nor initiated under the repealed directions, instructions, or guidelines shall \ncontinue to be governed by the provisions thereof. All approvals or \nacknowledgments granted under these repealed lists shall be deemed as \ngoverned by these Directions. Further, the repeal of these directions, \ninstructions, or guidelines shall not in any way prejudicially affect:  \n(1) \nany right, obligation or liability acquired, accrued, or incurred thereunder; \n(2) \nany penalty, forfeiture, or punishment incurred in respect of any \ncontravention committed thereunder; \n(3) \nany investigation, legal proceeding, or remedy in respect of any such right, \nprivilege, obligation, liability, penalty, forfeiture, or punishment as aforesaid; \nand any such investigation, legal proceedings or remedy may be instituted, \ncontinued, or enforced and any such penalty, forfeiture or punishment may \nbe imposed as if those directions, instructions, or guidelines had not been \nrepealed. \nB. \nApplication of Other Laws Not barred",
+          "quote_sha256": "a3d1e50d1d7c211806af44b3aa280c1d81307abb96715126b29ee9d7ecf29af0"
+        }
+      ]
+    },
+    {
+      "title": "Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026 (Updated as on October 01, 2026)",
+      "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/411MD1918998D1AD74F159D57664FB10E053F.PDF",
+      "source_page_url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13642",
+      "content_hash": "84872c7f4693777cc82ed2f232b8be2e586545c1ecc44b9cbfe59ee2a0923e36",
+      "pdf_path": "data\\raw\\rbi\\Reserve_Bank_of_India_Commercial_Banks_Digital_Payment_Security_Controls_Directions_2026_Updated_as__84872c7f4693.pdf",
+      "review_status": "pending",
+      "applicability_decision": null,
+      "passages": [
+        {
+          "category": "title_or_commencement",
+          "clause_number": "1",
+          "start_page": 2,
+          "end_page": 2,
+          "quote": "1.\nThese Directions shall be called the Reserve Bank of India (Commercial Banks – \nDigital Payment Security Controls) Directions, 2026.",
+          "quote_sha256": "cffc3d233cab0f24bcb4eab0ab3521690c7dfd691904282ff346a18e41fcb2d7"
+        },
+        {
+          "category": "title_or_commencement",
+          "clause_number": "2",
+          "start_page": 2,
+          "end_page": 2,
+          "quote": "2.\nThese Directions shall come into effect immediately upon issuance. \nB. \nApplicability",
+          "quote_sha256": "ed0edd768079935b6c042bc66221dd3fb266261c2d5c91958d344b97a3f497dd"
+        },
+        {
+          "category": "applicability_or_scope",
+          "clause_number": "3",
+          "start_page": 2,
+          "end_page": 2,
+          "quote": "3.\nThese Directions shall be applicable to Commercial Banks (hereinafter \ncollectively referred to as 'banks' and individually as 'bank'). \nFor the purpose of these Directions, ‘Commercial Banks’ means banking \ncompanies (other than Small Finance Banks, Payments Banks and Local Area \nBanks), corresponding new banks, and the State Bank of India, as defined \nrespectively under clauses (c), (da), and (nc) of Section 5 of the Banking \nRegulation Act, 1949.",
+          "quote_sha256": "0ddb4812f16f4d071d075ae44465b0f58f5c8fe7e37b3119abe80fc26779f1f8"
+        },
+        {
+          "category": "scope_or_exception",
+          "clause_number": "8",
+          "start_page": 6,
+          "end_page": 7,
+          "quote": "8.\nThe bank shall formulate a policy for digital payment products and services with \nthe approval of its Board. The contours of the policy, while discussing the \nparameters of any ‘new product’ including its alignment with the overall business \nstrategy and inherent risk of the product, risk management / mitigation measures, \ncompliance with regulatory instructions, and customer experience, shall explicitly \ncover payment security requirements from Functionality, Security and \nPerformance (FSP) angles such as: \n(1) \nnecessary controls to protect the confidentiality of customer data, and \nintegrity of data, and processes associated with the digital product / \nservices offered; \n(2) \navailability of requisite infrastructure such as human resources and \ntechnology, with necessary backup; \n(3) \nassurance that the payment product is built in a secure manner offering \nrobust performance ensuring safety, consistency, and rolled out after \nnecessary testing for achieving desired FSP; \n(4) \ncapacity building and expansion with scalability (to meet the growth for \nefficient transaction processing); \n(5) \nminimal customer service disruption with high availability of systems / \nchannels (to have minimal technical declines); \n(6) \nefficient and effective dispute resolution mechanism and handling of \ncustomer grievance; and \n(7) \nadequate and appropriate review mechanism followed by swift corrective \naction, in case any one of the above requirements is hampered or having \nhigh potential to get hampered. \n(Note: Foreign Banks need not have a separate local policy if aspects on \npolicy for digital payment products and services as prescribed in paragraph \n \nRBI (CBs – Digital Payment Security Controls) Directions, 2026 \n \n7 \n \n8 of these Directions are appropriately covered in the global policy of the \nbank.)",
+          "quote_sha256": "6d96ccbe30f512377b347e9e9630dfa60eb4843161c9f6cd7e857ba54e285c41"
+        },
+        {
+          "category": "repeal_or_saving",
+          "clause_number": "69",
+          "start_page": 26,
+          "end_page": 31,
+          "quote": "69. In addition to the controls prescribed in Chapter III, the following instructions are\napplicable to the bank issuing / intending to issue cards (credit / debit / prepaid) \n(physical or virtual) to its customers: \n(1) \nThe bank shall follow various payment card standards [over and above \nPayment Card Industry-Data Security Standard (PCI-DSS) and Payment \nCard Industry-Software Security Framework (PCI-SSF)] as per Payment \nCard Industry (PCI) prescriptions for comprehensive payment card security \nas per applicability / readiness of updated versions of the standards such \nas: \n(i) \nPayment Card Industry-Personal Identification Number (PCI-PIN) - \nsecure management, processing, and transmission of PIN data; \n(ii) \nPayment Card Industry-PIN Transaction Security (PCI-PTS) - security \napproval framework addressing the logical and / or physical protection \nof cardholder and other sensitive data at point of interaction (POI) \ndevices and hardware security modules (HSMs); \n(iii) Payment Card Industry-Hardware Security Module (PCI-HSM) - \nsecuring cardholder-authentication applications and processes \nincluding key generation, key injection, PIN verification, secure \nencryption algorithm; and \n(iv) Payment Card Industry-Point to Point Encryption (PCI-P2PE) - \nsecurity standard that requires payment card information to be \nencrypted instantly upon its initial swipe and then securely transferred \ndirectly to the payment processor. \n(2) \nWith reference to paragraph 69(1), though formal certification may not be \nmandatory, the bank shall follow these standards holistically, as per \napplicability. The standards shall apply to the bank in its capacity as both \nissuer and acquirer. The scope of applicability shall vary depending on the \noutsourcing model adopted by the bank. The bank shall obtain appropriate \n \nRBI (CBs – Digital Payment Security Controls) Directions, 2026 \n \n27 \n \nconfirmation from the relevant third parties regarding compliance with these \nstandards. The bank shall put up a status report on compliance with these \nstandards to its IT Strategy Committee, as prescribed under Reserve Bank \nof India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience \nand Assurance Framework) Directions, 2026, for deliberation and \nappropriate action. \n(3) \nThe bank shall ensure that (i) terminals installed at the merchants for \ncapturing card details for payments or otherwise are validated against the \nPCI-P2PE program to use PCI-approved P2PE solutions and (ii) Point of \nSales (PoS) terminals with PIN entry installed at the merchants for \ncapturing card payments (including the double swipe terminals) are \napproved by the PCI-PTS program. While deploying any new PoS \nterminals, the bank shall ensure that such terminals are certified in \naccordance with PCI-PTS requirements. PoS terminals already deployed \nmay not be required to undergo re-certification upon expiry of the \ncertification, provided that, they were duly certified at the time of \ndeployment. The bank may also consider mandating re-certification through \nits vendor, as deemed appropriate. \n(4) \nThe bank as an Acquirer shall secure its card payment infrastructure \n[Unique Key Per Terminal (UKPT) or Derived Unique Key Per Transaction \n(DUKPT) / Terminal Line Encryption (TLE)]. \n(5) \nThe bank shall implement the following controls at the HSMs: \n(i) \nThe HSMs shall have logging enabled and the logs must themselves \nbe tamper proof. \n(ii) \nThe bank shall mitigate the risk of single point of failure at HSM by \nimplementing ‘clustering’ for high availability and ensuring secure \nbackups. \n(iii) The bank shall ensure access to the HSM through Access Control \nLists (ACLs). \n \nRBI (CBs – Digital Payment Security Controls) Directions, 2026 \n \n28 \n \n(iv) The bank shall maintain separate ACLs for each individual application \nto ensure application-level isolation. \n(v) \nThe bank shall manage and monitor access to HSM using a robust \nPrivileged Identity and Access Management solution. \n(vi) The bank shall ensure decryption and validation of keys, PIN at HSM. \n(vii) The bank shall ensure card PIN generation and printing directly at \nsystem connected to HSM. \n(viii) The bank shall ensure generation and validation of CVV at HSM. \n(ix) The bank shall ensure that HSM is implemented with secure PIN block \nformat with controls to disable outputting PIN block in weaker format. \n(x) \nThe bank shall ensure secure key management for HSMs, including \nLocal Master Keys (LMKs). \n(xi) The bank shall ensure proper security for the maintenance of physical \nkeys of the HSM.   \n(6) \nThe bank shall ensure the following for improving the security posture of \nthe ATM: \n(i) \nimplement security measures such as Basic Input / Output System \n(BIOS) password, disabling Universal Serial Bus (USB) ports, \ndisabling auto-run facility, applying the latest patches of operating \nsystem, and other software, terminal security solution, time-based \nadmin access; \n(ii) \nimplement anti-skimming and whitelisting solution; and \n(iii) upgrade all ATMs with supported versions of operating system. \n(7) \nWith regard to card transactions, the bank shall: \n \nRBI (CBs – Digital Payment Security Controls) Directions, 2026 \n \n29 \n \n(i) \nensure robust surveillance / monitoring of card transactions \n(especially overseas cash withdrawals) and setting up of rules and \nlimits commensurate with its risk appetite; \n(ii) \ntake up with the card network and / or ATM network, to put in place \ntransaction limits at card, Bank Identification Number (BIN) as well as \nat the bank level. Such limits shall be mandatorily set at the card \nnetwork switch itself. Limits may be mandated for domestic as well as \ninternational transactions separately;  \n(iii) put in place transaction control mechanisms with necessary caps \n(restrictions on transactions), if any of the limits set as per the above \nrequirement is breached. A periodic review mechanism of such limits \nset as per the risk appetite of the bank shall be put in place as per the \nBoard-approved policy;  \n(iv) institute a mechanism to monitor breaches, if any, on a 24x7 basis, \nincluding weekends, and holidays and put in place a robust incident \nresponse mechanism to mitigate the fraud loss, on account of \nsuspicious transactions, if any;  \n(v) \nensure that card details of the customers are not stored in plain text \nat the bank and its vendor(s) locations, systems, and applications; and \n(vi) ensure that the processing of card details in readable format is \nperformed in a secure manner to strictly avoid data leakage of \nsensitive customer information. \n(8) \nThe bank using card data scanning tools to identify unencrypted (clear text) \npayments card data in its ecosystem especially during audits, shall adhere \nto the following safety measures: \n(i) \nany tool (procured by / from a third-party) for the purpose of scanning \nof unencrypted card data shall first be tested in a test environment to \nunderstand the scope and impact of the tool’s capabilities; \n \nRBI (CBs – Digital Payment Security Controls) Directions, 2026 \n \n30 \n \n(ii) \nthe scanning tool shall be installed only in the bank’s premises on its \ndevices; \n(iii) card data scanning shall not be done remotely; \n(iv) discovered data, if any, shall reside in the scanning tool; \n(v) \nexportable card data shall be appropriately masked (no data, even \nmasked, shall be taken out of the bank’s premises / infrastructure); \nand \n(vi) service providers shall be provided limited access to conduct the scan \nor analyse the data, and such access shall be provided only on the \nbank’s devices. \n \n \n \nRBI (CBs – Digital Payment Security Controls) Directions, 2026 \n \n31 \n \nChapter VII - Repeal and Other Provisions \nA. \nRepeal and Saving",
+          "quote_sha256": "d983f7f8b7cbd4374813c2fe83aee0c21a4189dea74a65ca43a5802f19c50c55"
+        },
+        {
+          "category": "repeal_or_saving",
+          "clause_number": "70",
+          "start_page": 31,
+          "end_page": 31,
+          "quote": "70. With the issue of these Directions, the existing directions, instructions, and\nguidelines relating to Digital Payment Security Controls as applicable to \nCommercial Banks stand repealed, as communicated vide circular no. \nDoS.CO.PPG.66/11.01.005/2026-27 dated July 31, 2026. The directions, \ninstructions, and guidelines repealed prior to the issuance of these Directions \nshall continue to remain repealed.",
+          "quote_sha256": "b19063aa1d301bca8251048b43758caf3ce9919085c21078f54282cd38e589e0"
+        },
+        {
+          "category": "repeal_or_saving",
+          "clause_number": "71",
+          "start_page": 31,
+          "end_page": 31,
+          "quote": "71. Notwithstanding such repeal, any action taken or purported to have been taken,\nor initiated under the repealed directions, instructions, or guidelines shall \ncontinue to be governed by the provisions thereof. All approvals or \nacknowledgments granted under these repealed lists shall be deemed as \ngoverned by these Directions. Further, the repeal of these directions, \ninstructions, or guidelines shall not in any way prejudicially affect:  \n(1) \nany right, obligation or liability acquired, accrued, or incurred thereunder;  \n(2) \nany penalty, forfeiture, or punishment incurred in respect of any \ncontravention committed thereunder;   \n(3) \nany investigation, legal proceeding, or remedy in respect of any such right, \nprivilege, obligation, liability, penalty, forfeiture, or punishment as aforesaid; \nand any such investigation, legal proceedings or remedy may be instituted, \ncontinued, or enforced and any such penalty, forfeiture or punishment may \nbe imposed as if those directions, instructions, or guidelines had not been \nrepealed.  \nB. \nApplication of Other Laws Not barred",
+          "quote_sha256": "22ebdce24e01260bf8ffdf24be5ed5a716ac320f8673a16a3a7fbd41603751a4"
+        }
+      ]
+    },
+    {
+      "title": "Reserve Bank of India (Commercial Banks – Managing Risks in Outsourcing) Directions, 2025",
+      "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/171MD.PDF",
+      "source_page_url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13139",
+      "content_hash": "f86e3712e6a14894c30c91e93c0e16028ff41008c52b4c3b98b2f843a22bc68a",
+      "pdf_path": "data\\raw\\rbi\\Reserve_Bank_of_India_Commercial_Banks_Managing_Risks_in_Outsourcing_Directions_2025_f86e3712e6a1.pdf",
+      "review_status": "pending",
+      "applicability_decision": null,
+      "passages": [
+        {
+          "category": "title_or_commencement",
+          "clause_number": "1",
+          "start_page": 4,
+          "end_page": 4,
+          "quote": "1. These Directions shall be called the Reserve Bank of India (Commercial Banks -\nManaging Risks in Outsourcing) Directions, 2025.",
+          "quote_sha256": "5ed05299f0f9c6064dcceb03893cdbdd97ebb8eed79f3e9a274483a6f4712276"
+        },
+        {
+          "category": "title_or_commencement",
+          "clause_number": "2",
+          "start_page": 4,
+          "end_page": 4,
+          "quote": "2. These Directions shall come into force with immediate effect.\nProvided that a bank’s existing Information Technology (IT) outsourcing agreements \nregardless of whether they are due for renewal on or after the effective date of these \nDirections shall comply with the provisions of these Directions either at the time of \nrenewal or by April 10, 2026, whichever is earlier. However, the bank’s new IT \noutsourcing agreements that come into force on or after the effective date of these \nDirections, shall comply with the provisions of these Directions from the date of \nagreement itself. \nProvided further that nothing in the preceding proviso shall be construed as permitting \nnon-compliance with any other extant regulatory instructions or statutory \nrequirements applicable to such arrangements. \nB. Applicability and Scope",
+          "quote_sha256": "c52fb209fb674a1453ee16da40cf6d12b8a12a746512e8aadcf719812f7a69bb"
+        },
+        {
+          "category": "scope_or_exception",
+          "clause_number": "3",
+          "start_page": 4,
+          "end_page": 5,
+          "quote": "3. These Directions shall be applicable to Scheduled Commercial Banks (hereinafter\ncollectively referred to as 'banks' and individually as a 'bank'). \nFor the purpose of these Directions, ‘Commercial Banks’ means banking companies \n(other than Small Finance Banks, Local Area Banks, Payments Banks and Regional \nRural Banks), corresponding new banks, and the State Bank of India, as defined \nrespectively under clauses (c), (da), and (nc) of section 5 of the Banking Regulation \nAct, 1949. \n \n5 \n \nProvided that in respect of foreign banks operating in India through branch mode, any \nreference to the Board or Board of Directors in these Directions shall be read as a \nreference to the Head Office or Controlling Office that has oversight over the branch \noperations in India. Additionally, with respect to the Directions contained in Chapter \nIV regarding outsourcing of IT services, foreign banks shall be subject to a ‘comply or \nexplain’ approach, which shall allow them to deviate from any specific provision of \nthose Directions, subject to examination and acceptance by RBI of a reasonably \njustifiable explanation for such deviation.",
+          "quote_sha256": "c00f7be0cd44ffe22eec31924b19d6242d826f7eda18497440bcf21fdda19f11"
+        },
+        {
+          "category": "scope_or_exception",
+          "clause_number": "4",
+          "start_page": 5,
+          "end_page": 6,
+          "quote": "4. The scope of provisions contained in Chapter III shall be as under:\n(1) The provisions shall apply to outsourcing arrangements entered into by a bank \nwith a service provider which may be either a member of the group / conglomerate \nto which the bank belongs, or an unrelated party, which is located in India or \nelsewhere, for outsourcing of financial services like applications processing (loan \norigination, credit card), document processing, marketing and research, \nsupervision of loans, data processing and back office related activities.  \nProvided that for outsourced services relating to credit cards, the provisions set \nout in the Reserve Bank of India (Commercial Banks – Credit Cards and Debit \nCards: Issuance and Conduct) Directions, 2025, as amended from time to time, \nshall also apply to the applicable entities.  \n(2) The provisions shall also apply, mutatis mutandis, to subcontracted activities. For \nthis purpose, the outsourcing contract shall provide for prior approval or consent \nof the bank before a service provider engages any subcontractor for all or part of \nthe outsourced activity. Before granting such consent, the bank shall review the \nsubcontracting arrangement and ensure that the same complies with the \nDirections set out in Chapter III of these Directions. \n(3) The provisions shall not apply to outsourcing of: \n(i) IT services as defined in paragraph 53(1) of these Directions, unless specified \notherwise in respective paragraphs of Chapter IV;  \n \n6 \n \n(ii) activities unrelated to banking services like usage of courier, catering of staff, \nhousekeeping and janitorial services, security of the premises, and movement \nand archiving of records; and \n(iii) audit-related assignments to Chartered Accountant firms which shall continue \nto be governed by the instructions and guidelines issued by the Department of \nSupervision, RBI.",
+          "quote_sha256": "c5b9917db7976f43d9bba913cf57fadfe6b0881e19221315ae14ae94e6bd6767"
+        },
+        {
+          "category": "scope_or_exception",
+          "clause_number": "5",
+          "start_page": 6,
+          "end_page": 8,
+          "quote": "5. The scope of provisions contained in Chapter IV shall be as under:\n(1) The provisions shall apply to a bank’s material outsourcing of IT services, as \ndefined in paragraph 53(2). In this context, ‘Outsourcing of IT Services’ shall \ninclude outsourcing of the following services: \n(i) \nIT infrastructure management, maintenance and support (hardware, software \nor firmware); \n(ii) \nnetwork and security solutions, and maintenance (hardware, software or \nfirmware); \n(iii) application development, maintenance, and testing by Application Service \nProviders (ASPs) including ATM Switch ASPs; \n(iv) services and operations related to data centres; \n(v) \ncloud computing services; \n(vi) managed security services; and \n(vii) management of IT infrastructure and technology services associated with \npayment system ecosystem.  \n(2) The provisions shall not apply to the following services: \n(i) corporate internet banking services obtained by a bank as a corporate \ncustomer or sub-member of another Regulated Entity (RE); \nProvided that for the purpose of these Directions, the following indicative (but \nnot exhaustive) list of entities shall be considered as REs – other Commercial \nBanks; Local Area Banks; Small Finance Banks; Payments Banks; Regional \n \n7 \n \nRural Banks; Non-Banking Financial Companies in Base Layer (NBFC - BL), \nMiddle Layer (NBFC - ML), and Upper Layer (NBFC – UL); All India Financial \nInstitutions; Credit Information Companies; Urban Co-operative Banks; Rural \nCo-operative Banks; and, Payment System Operators; \n(ii) external audit services such as Vulnerability Assessment (VA) / Penetration \nTesting (PT), Information Systems Audit, and security review; \n(iii) SMS gateways (including bulk SMS service providers); \n(iv) procurement of IT hardware or appliances; \n(v) acquisition of IT software, product or application (e.g., Core Banking Solution \n(CBS), database, and security solutions) on a licence or subscription basis, \nand any enhancements made to such licensed third-party applications by the \nvendor (as upgrades) or on specific change request made by a bank; \n(vi) any maintenance service (including security patches, and bug fixes) for IT \ninfrastructure or licensed products, provided by the Original Equipment \nManufacturer (OEM) themselves, in order to ensure continued usage of the \nsame by the bank; \n(vii) applications provided by financial sector regulators or institutions such as \nClearing Corporation of India Limited (CCIL), National Stock Exchange \n(NSE), and Bombay Stock Exchange (BSE); \n(viii) platforms provided by entities such as Reuters, Bloomberg, and Society for \nWorldwide Interbank Financial Telecommunication (SWIFT); \n(ix) any other off-the-shelf products (e.g., anti-virus software, and email solutions) \nsubscribed to by a bank, wherein only a license is procured with no or minimal \ncustomisation; \n(x) services obtained by a bank as a sub-member of a Centralised Payment \nSystem (CPS) from another RE; \n(xi) Business Correspondent (BC) services, payroll processing, and statement \nprinting. \n \n8 \n \nC. Definitions",
+          "quote_sha256": "ed70d7ae385d926351966e9d46f93f0fff6f6710ae68d41546e16094bda4c821"
+        },
+        {
+          "category": "scope_or_exception",
+          "clause_number": "34",
+          "start_page": 17,
+          "end_page": 18,
+          "quote": "34. Some of the key provisions of the agreement shall include:\n(i) \ndetails of the activity being outsourced, including appropriate service, and \nperformance standards; \n(ii) \nbank’s access to all books, records, and information relevant to the outsourced \nactivity available with the service provider; \n(iii) regular and continuous monitoring, and assessment by the bank of the service \nprovider for continuous management of the risks holistically, so that any \nnecessary corrective measure can be taken immediately; \n(iv) prior approval or consent by the bank for the use of subcontractors by the \nservice provider for all, or part of an outsourced activity as set out in paragraph \n4(2)of these Directions; \n(v) \ncontrols for maintaining confidentiality of data including of its customers, and \nincorporating service provider’s liability in the event of security breach and \nleakage of such confidential information; \n(vi) contingency plans to ensure business continuity; \n(vii) bank’s right to conduct audits on the service provider whether by its internal or \nexternal auditors, or by agents appointed to act on its behalf and to obtain \ncopies of any audit or review reports and findings made on the service provider \nin conjunction with the services performed for the bank; \n(viii) right of RBI or persons authorised by it to access the bank’s documents, \nrecords of transactions, and other necessary information given to, stored or \nprocessed by the service provider within a reasonable time; including in cases \nwhere the controlling / Head Offices of foreign banks operating in India \noutsource the activities related to the Indian operations;  \n \n18 \n \n(ix) right of RBI to cause an inspection to be made of the service provider by one \nor more of its officers, employees or other authorised persons; including in \ncases where the controlling / Head Offices of foreign banks operating in India \noutsource the activities related to the Indian operations;  \n(x) \na termination clause and minimum period for executing termination, if deemed \nnecessary; \n(xi) provision that confidentiality of customers’ information shall be maintained \neven after the contract expires or gets terminated; and \n(xii) provisions to ensure that the service provider preserves documents and data \nin accordance with legal and regulatory obligations of the bank. \nF.3 Monitoring and Control of Outsourced Activities",
+          "quote_sha256": "0f62d0d04116b2ee7e8383b4c5749259974cb4272d377497dc5c901cfea8d23d"
+        },
+        {
+          "category": "repeal_or_saving",
+          "clause_number": "94",
+          "start_page": 42,
+          "end_page": 43,
+          "quote": "94. Outsourcing arrangements entered into by a bank shall not affect the rights of its\ncustomers against the bank, including the ability of the customers to obtain redressal \nas applicable under relevant laws. \n \n43 \n \nChapter V – Repeal and Other Provisions \nA. Repeal and saving",
+          "quote_sha256": "0be9a0fe50480e22715a5fb288a1c01a7b51dfc9bbf04ecefbf74bd407735e01"
+        },
+        {
+          "category": "repeal_or_saving",
+          "clause_number": "95",
+          "start_page": 43,
+          "end_page": 43,
+          "quote": "95. With the issue of these Directions, the existing Directions, instructions, and\nguidelines relating to outsourcing of financial services and IT services as applicable \nto Commercial Banks stand repealed, as communicated vide circular \nDOR.RRC.REC.302/33-01-010/2025-26 dated November 28, 2025. The Directions, \ninstructions, and guidelines repealed prior to the issuance of these Directions shall \ncontinue to remain repealed.",
+          "quote_sha256": "f65260582b9adde28aefaad73beb89385a9592cc5e3ba5d2794c5fda79b2ce8b"
+        },
+        {
+          "category": "repeal_or_saving",
+          "clause_number": "96",
+          "start_page": 43,
+          "end_page": 43,
+          "quote": "96. Notwithstanding such repeal, any action taken or purported to have been taken, or\ninitiated under the repealed Directions, instructions, or guidelines shall continue to \nbe governed by the provisions thereof. All approvals or acknowledgments granted \nunder these repealed lists shall be deemed as governed by these \nDirections. Further, the repeal of these Directions, instructions, or guidelines shall \nnot in any way prejudicially affect: \n(1) any right, obligation or liability acquired, accrued, or incurred thereunder;  \n(2) any, penalty, forfeiture, or punishment incurred in respect of any contravention \ncommitted thereunder;  \n(3) any investigation, legal proceeding, or remedy in respect of any such right, \nprivilege, obligation, liability, penalty, forfeiture, or punishment as aforesaid; \nand any such investigation, legal proceedings or remedy may be instituted, \ncontinued, or enforced and any such penalty, forfeiture or punishment may be \nimposed as if those Directions, instructions, or guidelines had not been \nrepealed. \nB. Application of other laws not barred",
+          "quote_sha256": "d5a6cbe9279c659e771216f39654d957e06371dbc3eaf0389f16099575a9d459"
+        }
+      ]
+    }
+  ],
+  "review_checklist": [
+    "Confirm the institution matches the source definition and exclusions.",
+    "Verify commencement, amendment dates, transitional periods, and saving clauses.",
+    "Check feature and activity scope separately for each candidate obligation.",
+    "Verify quoted text against the preserved PDF; extraction boundaries may contain annexes."
+  ]
+}

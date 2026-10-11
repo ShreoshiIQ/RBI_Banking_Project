@@ -1,0 +1,10 @@
+{
+  "browser": "Microsoft Edge headless",
+  "query_options": 6,
+  "visible_candidates": 25,
+  "status": "pending; 0 selected. 0/6 queries reviewed.",
+  "paging": "500 matching candidates; page 1 of 20",
+  "external_network": "blocked with loopback proxy",
+  "scope": "Initial rendering only; download/import interaction not exercised in browser",
+  "human_approvals_created": 0
+}

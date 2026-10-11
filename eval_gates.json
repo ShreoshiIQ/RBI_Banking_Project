@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "notice": "Release gates on synthetic fixtures. Raising a threshold is fine; lowering one needs a written reason in the change.",
+  "offline_evidence_pack": {
+    "seeds": [42, 1, 2],
+    "native_record_recall_min": 1.0,
+    "native_field_accuracy_min": 1.0,
+    "silent_errors_max": 0,
+    "defect_precision_accepted_min": 1.0
+  },
+  "live_ocr_summary": {
+    "path": "data/processed/validation/evidence_pack_v2/summary.json",
+    "silent_errors_max": 0,
+    "ocr_field_accuracy_min": 0.9,
+    "ocr_record_recall_min": 1.0
+  },
+  "risk_scoring": {
+    "report": "data/processed/reports/rbi_46f_gap_report.json",
+    "as_of": "2026-10-11",
+    "expected_scores": {"missing": 88.8, "partial": 63.8}
+  }
+}

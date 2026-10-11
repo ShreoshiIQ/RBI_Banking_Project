@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RegIntel | Compliance workspace</title>
+  <link rel="stylesheet" href="/dashboard/assets/style.css">
+  <script src="/dashboard/assets/app.js" defer></script>
+</head>
+<body>
+  <header><span class="brand">RegIntel</span><span>Compliance workspace</span><a href="/docs">API documentation</a></header>
+  <main>
+    <p class="eyebrow">REGULATORY COMPLIANCE AI</p>
+    <h1>Evidence first. Human decisions.</h1>
+    <p class="intro">Inspect assessments, trace their evidence, and review the decision history. Every assessment requires human review.</p>
+    <p id="message" role="status" aria-live="polite"></p>
+    <section id="login-panel" class="card">
+      <h2>Sign in</h2><p>Use your local development account.</p>
+      <form id="login"><label>Username<input name="username" autocomplete="username" required></label>
+        <label>Password<input name="password" type="password" autocomplete="current-password" required></label>
+        <button type="submit">Sign in</button></form>
+    </section>
+    <div id="workspace" hidden>
+      <div class="toolbar"><span id="identity"></span><button id="refresh">Refresh reports</button><button id="logout" class="secondary">Sign out</button></div>
+      <div class="layout">
+        <section class="card"><h2>Reports</h2><p id="count"></p><div id="reports"></div>
+          <div class="toolbar"><button id="previous" class="secondary">Previous</button><button id="next" class="secondary">Next</button></div>
+        </section>
+        <section class="card"><h2>Assessment detail</h2><div id="detail">Select a report to inspect its evidence.</div><h2>Audit history</h2><div id="history">No report selected.</div></section>
+      </div>
+      <section class="card">
+        <h2>Multimodal evidence preview</h2>
+        <form id="evidence-preview"><label>Evidence file (PDF, DOCX, XLSX, CSV, PNG, JPG)<input id="evidence-file" type="file" accept=".pdf,.docx,.xlsx,.csv,.png,.jpg,.jpeg" required></label><button type="submit">Preview source locations</button></form>
+        <p>Previews are not saved. Image-based content is flagged for OCR; live transcription uses the explicitly enabled local workflow and requires human verification.</p>
+        <div id="evidence-result"></div>
+      </section>
+      <section class="card">
+        <h2>Persisted regulatory catalog</h2>
+        <form id="ingestion-preview"><label>Preview a regulatory PDF<input id="ingestion-file" type="file" accept=".pdf,application/pdf" required></label><button type="submit">Preview clauses</button></form>
+        <p>Uploads are unreviewed previews. No database ingestion or OCR is performed.</p><div id="ingestion-result"></div>
+        <p>Database ingestion counts do not establish applicability or quality. File-only expansion previews are excluded.</p>
+        <button id="catalog-refresh">Load source versions</button><div id="catalog-versions"></div>
+        <div class="toolbar"><button id="catalog-previous" class="secondary" disabled>Previous versions</button><button id="catalog-next" class="secondary" disabled>Next versions</button></div>
+        <h3>Obligation candidates</h3><div id="catalog-obligations">Select a source version.</div>
+        <div class="toolbar"><button id="obligation-previous" class="secondary" disabled>Previous candidates</button><button id="obligation-next" class="secondary" disabled>Next candidates</button></div>
+      </section>
+      <section class="card">
+        <h2>What-if regulatory change</h2>
+        <p>Upload a JSON scenario containing baseline, proposal, and policy_sections. This is hypothetical analysis; source provenance and applicability need human review.</p>
+        <form id="simulation"><label>Scenario JSON<input id="scenario" type="file" accept=".json,application/json" required></label><button type="submit">Simulate change</button></form>
+        <div id="simulation-result" aria-live="polite"></div>
+      </section>
+      <section class="card">
+        <h2>Evaluation evidence</h2>
+        <p>No project benchmark scores are bundled. Load a unified benchmark runner report to inspect its metrics and input hashes. The file stays in your browser; review identity and label quality are not verified.</p>
+        <label>Benchmark report JSON<input id="benchmark-file" type="file" accept=".json,application/json"></label>
+        <div id="benchmark-result" aria-live="polite"></div>
+      </section>
+    </div>
+    <footer>Synthetic evidence is demonstration material. Pending reports are not approved compliance determinations.</footer>
+  </main>
+</body>
+</html>

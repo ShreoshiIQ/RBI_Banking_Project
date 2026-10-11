@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "packet_sha256": "bac8382f3f377d02d1db39d95e59f3e2195a98503a5f26a178f95038096fef7d",
+  "cases": [
+    {
+      "scenario_id": "probe-0",
+      "query": "customer identity verification and ongoing due diligence",
+      "review_status": "pending",
+      "reviewer": null,
+      "answerability": "pending",
+      "relevant_section_ids": [],
+      "rationale": "",
+      "full_corpus_reviewed": false,
+      "split": "test"
+    },
+    {
+      "scenario_id": "probe-1",
+      "query": "outsourcing risk assessment and vendor monitoring",
+      "review_status": "pending",
+      "reviewer": null,
+      "answerability": "pending",
+      "relevant_section_ids": [],
+      "rationale": "",
+      "full_corpus_reviewed": false,
+      "split": "test"
+    },
+    {
+      "scenario_id": "probe-2",
+      "query": "incident reporting and cybersecurity controls",
+      "review_status": "pending",
+      "reviewer": null,
+      "answerability": "pending",
+      "relevant_section_ids": [],
+      "rationale": "",
+      "full_corpus_reviewed": false,
+      "split": "test"
+    },
+    {
+      "scenario_id": "probe-3",
+      "query": "credit card customer consent and dispute resolution",
+      "review_status": "pending",
+      "reviewer": null,
+      "answerability": "pending",
+      "relevant_section_ids": [],
+      "rationale": "",
+      "full_corpus_reviewed": false,
+      "split": "test"
+    },
+    {
+      "scenario_id": "probe-4",
+      "query": "digital payment authentication and access review",
+      "review_status": "pending",
+      "reviewer": null,
+      "answerability": "pending",
+      "relevant_section_ids": [],
+      "rationale": "",
+      "full_corpus_reviewed": false,
+      "split": "test"
+    },
+    {
+      "scenario_id": "probe-5",
+      "query": "business continuity and disaster recovery testing",
+      "review_status": "pending",
+      "reviewer": null,
+      "answerability": "pending",
+      "relevant_section_ids": [],
+      "rationale": "",
+      "full_corpus_reviewed": false,
+      "split": "test"
+    }
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "schema_version": 1,
+  "corpora": [
+    {
+      "schema_version": 1,
+      "profile_id": "fictional-commercial-bank-demo",
+      "profile_path": "data/metadata/demo_institution_profile.json",
+      "profile_sha256": "f666c4abe2cda1816bb5b8b98c777162c6dab791979a43f9b846a66958173531",
+      "sources": [
+        {
+          "regulator": "RBI",
+          "content_hash": "f86e3712e6a14894c30c91e93c0e16028ff41008c52b4c3b98b2f843a22bc68a",
+          "source_page_url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13139",
+          "resolved_page_url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13139",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/171MD.PDF",
+          "pdf_path": "data/raw/phase3/rbi/f86e3712e6a14894c30c91e93c0e16028ff41008c52b4c3b98b2f843a22bc68a.pdf",
+          "page_path": "data/raw/phase3/rbi/07fc3d31ed201bf00a9e9a84d0b8bb1d160d99928005ab2e2dda27e89b4b0be9.html",
+          "page_sha256": "07fc3d31ed201bf00a9e9a84d0b8bb1d160d99928005ab2e2dda27e89b4b0be9",
+          "text_path": "data/raw/phase3/rbi/f86e3712e6a14894c30c91e93c0e16028ff41008c52b4c3b98b2f843a22bc68a.json",
+          "title": "Master Directions",
+          "page_count": 44,
+          "retrieved_at": "2026-10-11T04:46:55.235519+00:00",
+          "source_status": {
+            "status": "requires_applicability_review",
+            "withdrawal_marker_pages": [],
+            "current_obligation_extraction_allowed": null,
+            "notice": "No marker does not prove current applicability. Verify repeal and replacement instruments."
+          },
+          "snapshot_verification": "official_page_link_and_pdf_bytes_verified",
+          "legal_current_status": "pending",
+          "amendment_completeness": "pending",
+          "applicability": {
+            "profile_id": "fictional-commercial-bank-demo",
+            "decision": "pending",
+            "reviewer": null
+          },
+          "eligible_for_current_approved_catalog": false,
+          "text_sha256": "a30b1b1d5fb2e12872f9066795b4b8dca050915d94a5952f5eee4ca66d0e7fa9"
+        },
+        {
+          "regulator": "RBI",
+          "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+          "source_page_url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13155",
+          "resolved_page_url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13155",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+          "pdf_path": "data/raw/phase3/rbi/40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0.pdf",
+          "page_path": "data/raw/phase3/rbi/5db0d93ffbc2dc951232bf15ccc6b3d5423a71f2f0712c1bc12e5471998f1dd8.html",
+          "page_sha256": "5db0d93ffbc2dc951232bf15ccc6b3d5423a71f2f0712c1bc12e5471998f1dd8",
+          "text_path": "data/raw/phase3/rbi/40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0.json",
+          "title": "Master Directions",
+          "page_count": 34,
+          "retrieved_at": "2026-10-11T04:46:55.996516+00:00",
+          "source_status": {
+            "status": "requires_applicability_review",
+            "withdrawal_marker_pages": [],
+            "current_obligation_extraction_allowed": null,
+            "notice": "No marker does not prove current applicability. Verify repeal and replacement instruments."
+          },
+          "snapshot_verification": "official_page_link_and_pdf_bytes_verified",
+          "legal_current_status": "pending",
+          "amendment_completeness": "pending",
+          "applicability": {
+            "profile_id": "fictional-commercial-bank-demo",
+            "decision": "pending",
+            "reviewer": null
+          },
+          "eligible_for_current_approved_catalog": false,
+          "text_sha256": "e75daaf40229d67fe707d3b2ca333136f35964c193b8c88edccdd5176b9fa139"
+        },
+        {
+          "regulator": "RBI",
+          "content_hash": "84872c7f4693777cc82ed2f232b8be2e586545c1ecc44b9cbfe59ee2a0923e36",
+          "source_page_url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13642",
+          "resolved_page_url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13642",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/411MD1918998D1AD74F159D57664FB10E053F.PDF",
+          "pdf_path": "data/raw/phase3/rbi/84872c7f4693777cc82ed2f232b8be2e586545c1ecc44b9cbfe59ee2a0923e36.pdf",
+          "page_path": "data/raw/phase3/rbi/7dbbf81d09f0dd52bdecd2afd29ff14173e7b4ff9359bca7cf0abe5c7cd08f7c.html",
+          "page_sha256": "7dbbf81d09f0dd52bdecd2afd29ff14173e7b4ff9359bca7cf0abe5c7cd08f7c",
+          "text_path": "data/raw/phase3/rbi/84872c7f4693777cc82ed2f232b8be2e586545c1ecc44b9cbfe59ee2a0923e36.json",
+          "title": "Master Directions",
+          "page_count": 32,
+          "retrieved_at": "2026-10-11T04:46:56.878133+00:00",
+          "source_status": {
+            "status": "requires_applicability_review",
+            "withdrawal_marker_pages": [],
+            "current_obligation_extraction_allowed": null,
+            "notice": "No marker does not prove current applicability. Verify repeal and replacement instruments."
+          },
+          "snapshot_verification": "official_page_link_and_pdf_bytes_verified",
+          "legal_current_status": "pending",
+          "amendment_completeness": "pending",
+          "applicability": {
+            "profile_id": "fictional-commercial-bank-demo",
+            "decision": "pending",
+            "reviewer": null
+          },
+          "eligible_for_current_approved_catalog": false,
+          "text_sha256": "1604208782ca763271e89dc705fdfc59bcc34fd8449c9b687ac422049e2b2eb1"
+        },
+        {
+          "regulator": "RBI",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_page_url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13643",
+          "resolved_page_url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13643",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "pdf_path": "data/raw/phase3/rbi/8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b.pdf",
+          "page_path": "data/raw/phase3/rbi/ae661f099c1103830ce1e35ea35038a58408b180a01b9d1b6bc676ebd3a1d351.html",
+          "page_sha256": "ae661f099c1103830ce1e35ea35038a58408b180a01b9d1b6bc676ebd3a1d351",
+          "text_path": "data/raw/phase3/rbi/8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b.json",
+          "title": "Master Directions",
+          "page_count": 56,
+          "retrieved_at": "2026-10-11T04:46:57.980094+00:00",
+          "source_status": {
+            "status": "requires_applicability_review",
+            "withdrawal_marker_pages": [],
+            "current_obligation_extraction_allowed": null,
+            "notice": "No marker does not prove current applicability. Verify repeal and replacement instruments."
+          },
+          "snapshot_verification": "official_page_link_and_pdf_bytes_verified",
+          "legal_current_status": "pending",
+          "amendment_completeness": "pending",
+          "applicability": {
+            "profile_id": "fictional-commercial-bank-demo",
+            "decision": "pending",
+            "reviewer": null
+          },
+          "eligible_for_current_approved_catalog": false,
+          "text_sha256": "f8af9648faccb4a2818c6ae9eb2e266d20a1fdbacb49f3c75f970f50f1971781"
+        }
+      ],
+      "runtime_access": "offline_only",
+      "notice": "Separate review corpus, not a tenant or current legally approved catalog."
+    },
+    {
+      "schema_version": 1,
+      "profile_id": "fictional-sebi-stockbroker-demo",
+      "profile_path": "data/metadata/sebi_stockbroker_profile.json",
+      "profile_sha256": "872d906ff3fe8f3bca16305daaca758f61b76cfeb30d82bf1dbedc6ee6008114",
+      "sources": [
+        {
+          "regulator": "SEBI",
+          "content_hash": "bd9ddb68bb49b9a92771ff01ed3138e01f0962b383e9ff643008b729290fc85d",
+          "source_page_url": "https://www.sebi.gov.in/legal/circulars/aug-2024/cybersecurity-and-cyber-resilience-framework-cscrf-for-sebi-regulated-entities-res-_85964.html",
+          "resolved_page_url": "https://www.sebi.gov.in/legal/circulars/aug-2024/cybersecurity-and-cyber-resilience-framework-cscrf-for-sebi-regulated-entities-res-_85964.html",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/aug-2024/1724326790365.pdf",
+          "pdf_path": "data/raw/phase3/sebi/bd9ddb68bb49b9a92771ff01ed3138e01f0962b383e9ff643008b729290fc85d.pdf",
+          "page_path": "data/raw/phase3/sebi/bdfecad244d5af52932d3891f4782f645923c26fd6dc0868d2eadbb44812b793.html",
+          "page_sha256": "bdfecad244d5af52932d3891f4782f645923c26fd6dc0868d2eadbb44812b793",
+          "text_path": "data/raw/phase3/sebi/bd9ddb68bb49b9a92771ff01ed3138e01f0962b383e9ff643008b729290fc85d.json",
+          "title": "Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities (REs)",
+          "page_count": 205,
+          "retrieved_at": "2026-10-11T04:47:01.582927+00:00",
+          "source_status": {
+            "status": "requires_applicability_review",
+            "withdrawal_marker_pages": [],
+            "current_obligation_extraction_allowed": null,
+            "notice": "No marker does not prove current applicability. Verify repeal and replacement instruments."
+          },
+          "snapshot_verification": "official_page_link_and_pdf_bytes_verified",
+          "legal_current_status": "pending",
+          "amendment_completeness": "pending",
+          "applicability": {
+            "profile_id": "fictional-sebi-stockbroker-demo",
+            "decision": "pending",
+            "reviewer": null
+          },
+          "eligible_for_current_approved_catalog": false,
+          "text_sha256": "2460b4cc1838ce97ac12706b9581f549cd661840153acffc9186501bc007950b"
+        },
+        {
+          "regulator": "SEBI",
+          "content_hash": "3e9943ffc93396408b82274c6b71112404c49bb2eef849db7282fef819037180",
+          "source_page_url": "https://www.sebi.gov.in/legal/circulars/dec-2024/clarifications-to-cybersecurity-and-cyber-resilience-framework-cscrf-for-sebi-regulated-entities-res-_90401.html",
+          "resolved_page_url": "https://www.sebi.gov.in/legal/circulars/dec-2024/clarifications-to-cybersecurity-and-cyber-resilience-framework-cscrf-for-sebi-regulated-entities-res-_90401.html",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/dec-2024/1735646756843.pdf",
+          "pdf_path": "data/raw/phase3/sebi/3e9943ffc93396408b82274c6b71112404c49bb2eef849db7282fef819037180.pdf",
+          "page_path": "data/raw/phase3/sebi/cbe278b1ae52908e624397613d05ae1635072e10a08e4e8eff1c0b4f12696915.html",
+          "page_sha256": "cbe278b1ae52908e624397613d05ae1635072e10a08e4e8eff1c0b4f12696915",
+          "text_path": "data/raw/phase3/sebi/3e9943ffc93396408b82274c6b71112404c49bb2eef849db7282fef819037180.json",
+          "title": "Clarifications to Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities (REs)",
+          "page_count": 3,
+          "retrieved_at": "2026-10-11T04:47:02.453538+00:00",
+          "source_status": {
+            "status": "requires_applicability_review",
+            "withdrawal_marker_pages": [],
+            "current_obligation_extraction_allowed": null,
+            "notice": "No marker does not prove current applicability. Verify repeal and replacement instruments."
+          },
+          "snapshot_verification": "official_page_link_and_pdf_bytes_verified",
+          "legal_current_status": "pending",
+          "amendment_completeness": "pending",
+          "applicability": {
+            "profile_id": "fictional-sebi-stockbroker-demo",
+            "decision": "pending",
+            "reviewer": null
+          },
+          "eligible_for_current_approved_catalog": false,
+          "text_sha256": "481c6d3015f8274dcc83441d0dd99fac88af63c02c4345e1864bfa240af8e8b5"
+        },
+        {
+          "regulator": "SEBI",
+          "content_hash": "7eb58ae065db764eec8a118c35777c8d4fb3a3b4ceee15878c28cb9599f1c31d",
+          "source_page_url": "https://www.sebi.gov.in/legal/circulars/aug-2025/technical-clarifications-to-cybersecurity-and-cyber-resilience-framework-cscrf-for-sebi-regulated-entities-res-_96329.html",
+          "resolved_page_url": "https://www.sebi.gov.in/legal/circulars/aug-2025/technical-clarifications-to-cybersecurity-and-cyber-resilience-framework-cscrf-for-sebi-regulated-entities-res-_96329.html",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/aug-2025/1756380695925.pdf",
+          "pdf_path": "data/raw/phase3/sebi/7eb58ae065db764eec8a118c35777c8d4fb3a3b4ceee15878c28cb9599f1c31d.pdf",
+          "page_path": "data/raw/phase3/sebi/a7581f48fb19b77d605ecedaab691e0a4819ce0eb75eea623ae8abeec8763c91.html",
+          "page_sha256": "a7581f48fb19b77d605ecedaab691e0a4819ce0eb75eea623ae8abeec8763c91",
+          "text_path": "data/raw/phase3/sebi/7eb58ae065db764eec8a118c35777c8d4fb3a3b4ceee15878c28cb9599f1c31d.json",
+          "title": "Technical Clarifications to Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities (REs)",
+          "page_count": 11,
+          "retrieved_at": "2026-10-11T04:47:03.432848+00:00",
+          "source_status": {
+            "status": "requires_applicability_review",
+            "withdrawal_marker_pages": [],
+            "current_obligation_extraction_allowed": null,
+            "notice": "No marker does not prove current applicability. Verify repeal and replacement instruments."
+          },
+          "snapshot_verification": "official_page_link_and_pdf_bytes_verified",
+          "legal_current_status": "pending",
+          "amendment_completeness": "pending",
+          "applicability": {
+            "profile_id": "fictional-sebi-stockbroker-demo",
+            "decision": "pending",
+            "reviewer": null
+          },
+          "eligible_for_current_approved_catalog": false,
+          "text_sha256": "775baae9909eae82c1a3dfe38566f95a47349617f897ea7a4238a968f02d85ca"
+        }
+      ],
+      "runtime_access": "offline_only",
+      "notice": "Separate review corpus, not a tenant or current legally approved catalog."
+    }
+  ]
+}

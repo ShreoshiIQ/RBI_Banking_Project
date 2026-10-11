@@ -1,0 +1,2107 @@
+{
+  "scenarios": [
+    {
+      "scenario_id": "SYN-ACCESS-DETAILED-retrieve_topic",
+      "policy_code": "SYN-ACCESS-DETAILED",
+      "case": "retrieve_topic",
+      "prompt": "Review access management in this synthetic policy: retrieve topic.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "61",
+        "candidate_index": 156,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 23,
+        "end_page": 23,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-ACCESS-DETAILED-inspect_procedure",
+      "policy_code": "SYN-ACCESS-DETAILED",
+      "case": "inspect_procedure",
+      "prompt": "Review access management in this synthetic policy: inspect procedure.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "61",
+        "candidate_index": 156,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 23,
+        "end_page": 23,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-ACCESS-DETAILED-check_missing_detail",
+      "policy_code": "SYN-ACCESS-DETAILED",
+      "case": "check_missing_detail",
+      "prompt": "Review access management in this synthetic policy: check missing detail.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "61",
+        "candidate_index": 156,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 23,
+        "end_page": 23,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-ACCESS-DETAILED-check_exceptions",
+      "policy_code": "SYN-ACCESS-DETAILED",
+      "case": "check_exceptions",
+      "prompt": "Review access management in this synthetic policy: check exceptions.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "61",
+        "candidate_index": 156,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 23,
+        "end_page": 23,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-ACCESS-DETAILED-verify_execution_evidence",
+      "policy_code": "SYN-ACCESS-DETAILED",
+      "case": "verify_execution_evidence",
+      "prompt": "Review access management in this synthetic policy: verify execution evidence.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "61",
+        "candidate_index": 156,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 23,
+        "end_page": 23,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-ACCESS-PARTIAL-retrieve_topic",
+      "policy_code": "SYN-ACCESS-PARTIAL",
+      "case": "retrieve_topic",
+      "prompt": "Review access management in this synthetic policy: retrieve topic.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "61",
+        "candidate_index": 156,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 23,
+        "end_page": 23,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-ACCESS-PARTIAL-inspect_procedure",
+      "policy_code": "SYN-ACCESS-PARTIAL",
+      "case": "inspect_procedure",
+      "prompt": "Review access management in this synthetic policy: inspect procedure.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "61",
+        "candidate_index": 156,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 23,
+        "end_page": 23,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-ACCESS-PARTIAL-check_missing_detail",
+      "policy_code": "SYN-ACCESS-PARTIAL",
+      "case": "check_missing_detail",
+      "prompt": "Review access management in this synthetic policy: check missing detail.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "61",
+        "candidate_index": 156,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 23,
+        "end_page": 23,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-ACCESS-PARTIAL-check_exceptions",
+      "policy_code": "SYN-ACCESS-PARTIAL",
+      "case": "check_exceptions",
+      "prompt": "Review access management in this synthetic policy: check exceptions.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "61",
+        "candidate_index": 156,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 23,
+        "end_page": 23,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-ACCESS-PARTIAL-verify_execution_evidence",
+      "policy_code": "SYN-ACCESS-PARTIAL",
+      "case": "verify_execution_evidence",
+      "prompt": "Review access management in this synthetic policy: verify execution evidence.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "61",
+        "candidate_index": 156,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 23,
+        "end_page": 23,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-ACCESS-VAGUE-retrieve_topic",
+      "policy_code": "SYN-ACCESS-VAGUE",
+      "case": "retrieve_topic",
+      "prompt": "Review access management in this synthetic policy: retrieve topic.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "61",
+        "candidate_index": 156,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 23,
+        "end_page": 23,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-ACCESS-VAGUE-inspect_procedure",
+      "policy_code": "SYN-ACCESS-VAGUE",
+      "case": "inspect_procedure",
+      "prompt": "Review access management in this synthetic policy: inspect procedure.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "61",
+        "candidate_index": 156,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 23,
+        "end_page": 23,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-ACCESS-VAGUE-check_missing_detail",
+      "policy_code": "SYN-ACCESS-VAGUE",
+      "case": "check_missing_detail",
+      "prompt": "Review access management in this synthetic policy: check missing detail.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "61",
+        "candidate_index": 156,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 23,
+        "end_page": 23,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-ACCESS-VAGUE-check_exceptions",
+      "policy_code": "SYN-ACCESS-VAGUE",
+      "case": "check_exceptions",
+      "prompt": "Review access management in this synthetic policy: check exceptions.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "61",
+        "candidate_index": 156,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 23,
+        "end_page": 23,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-ACCESS-VAGUE-verify_execution_evidence",
+      "policy_code": "SYN-ACCESS-VAGUE",
+      "case": "verify_execution_evidence",
+      "prompt": "Review access management in this synthetic policy: verify execution evidence.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "61",
+        "candidate_index": 156,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 23,
+        "end_page": 23,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-ACCESS-CONFLICTING-retrieve_topic",
+      "policy_code": "SYN-ACCESS-CONFLICTING",
+      "case": "retrieve_topic",
+      "prompt": "Review access management in this synthetic policy: retrieve topic.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "61",
+        "candidate_index": 156,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 23,
+        "end_page": 23,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-ACCESS-CONFLICTING-inspect_procedure",
+      "policy_code": "SYN-ACCESS-CONFLICTING",
+      "case": "inspect_procedure",
+      "prompt": "Review access management in this synthetic policy: inspect procedure.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "61",
+        "candidate_index": 156,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 23,
+        "end_page": 23,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-ACCESS-CONFLICTING-check_missing_detail",
+      "policy_code": "SYN-ACCESS-CONFLICTING",
+      "case": "check_missing_detail",
+      "prompt": "Review access management in this synthetic policy: check missing detail.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "61",
+        "candidate_index": 156,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 23,
+        "end_page": 23,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-ACCESS-CONFLICTING-check_exceptions",
+      "policy_code": "SYN-ACCESS-CONFLICTING",
+      "case": "check_exceptions",
+      "prompt": "Review access management in this synthetic policy: check exceptions.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "61",
+        "candidate_index": 156,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 23,
+        "end_page": 23,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-ACCESS-CONFLICTING-verify_execution_evidence",
+      "policy_code": "SYN-ACCESS-CONFLICTING",
+      "case": "verify_execution_evidence",
+      "prompt": "Review access management in this synthetic policy: verify execution evidence.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "61",
+        "candidate_index": 156,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 23,
+        "end_page": 23,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-VENDOR-DETAILED-retrieve_topic",
+      "policy_code": "SYN-VENDOR-DETAILED",
+      "case": "retrieve_topic",
+      "prompt": "Review vendor risk management in this synthetic policy: retrieve topic.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "42",
+        "candidate_index": 125,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 19,
+        "end_page": 19,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-VENDOR-DETAILED-inspect_procedure",
+      "policy_code": "SYN-VENDOR-DETAILED",
+      "case": "inspect_procedure",
+      "prompt": "Review vendor risk management in this synthetic policy: inspect procedure.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "42",
+        "candidate_index": 125,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 19,
+        "end_page": 19,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-VENDOR-DETAILED-check_missing_detail",
+      "policy_code": "SYN-VENDOR-DETAILED",
+      "case": "check_missing_detail",
+      "prompt": "Review vendor risk management in this synthetic policy: check missing detail.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "42",
+        "candidate_index": 125,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 19,
+        "end_page": 19,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-VENDOR-DETAILED-check_exceptions",
+      "policy_code": "SYN-VENDOR-DETAILED",
+      "case": "check_exceptions",
+      "prompt": "Review vendor risk management in this synthetic policy: check exceptions.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "42",
+        "candidate_index": 125,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 19,
+        "end_page": 19,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-VENDOR-DETAILED-verify_execution_evidence",
+      "policy_code": "SYN-VENDOR-DETAILED",
+      "case": "verify_execution_evidence",
+      "prompt": "Review vendor risk management in this synthetic policy: verify execution evidence.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "42",
+        "candidate_index": 125,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 19,
+        "end_page": 19,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-VENDOR-PARTIAL-retrieve_topic",
+      "policy_code": "SYN-VENDOR-PARTIAL",
+      "case": "retrieve_topic",
+      "prompt": "Review vendor risk management in this synthetic policy: retrieve topic.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "42",
+        "candidate_index": 125,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 19,
+        "end_page": 19,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-VENDOR-PARTIAL-inspect_procedure",
+      "policy_code": "SYN-VENDOR-PARTIAL",
+      "case": "inspect_procedure",
+      "prompt": "Review vendor risk management in this synthetic policy: inspect procedure.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "42",
+        "candidate_index": 125,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 19,
+        "end_page": 19,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-VENDOR-PARTIAL-check_missing_detail",
+      "policy_code": "SYN-VENDOR-PARTIAL",
+      "case": "check_missing_detail",
+      "prompt": "Review vendor risk management in this synthetic policy: check missing detail.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "42",
+        "candidate_index": 125,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 19,
+        "end_page": 19,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-VENDOR-PARTIAL-check_exceptions",
+      "policy_code": "SYN-VENDOR-PARTIAL",
+      "case": "check_exceptions",
+      "prompt": "Review vendor risk management in this synthetic policy: check exceptions.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "42",
+        "candidate_index": 125,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 19,
+        "end_page": 19,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-VENDOR-PARTIAL-verify_execution_evidence",
+      "policy_code": "SYN-VENDOR-PARTIAL",
+      "case": "verify_execution_evidence",
+      "prompt": "Review vendor risk management in this synthetic policy: verify execution evidence.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "42",
+        "candidate_index": 125,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 19,
+        "end_page": 19,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-VENDOR-VAGUE-retrieve_topic",
+      "policy_code": "SYN-VENDOR-VAGUE",
+      "case": "retrieve_topic",
+      "prompt": "Review vendor risk management in this synthetic policy: retrieve topic.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "42",
+        "candidate_index": 125,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 19,
+        "end_page": 19,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-VENDOR-VAGUE-inspect_procedure",
+      "policy_code": "SYN-VENDOR-VAGUE",
+      "case": "inspect_procedure",
+      "prompt": "Review vendor risk management in this synthetic policy: inspect procedure.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "42",
+        "candidate_index": 125,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 19,
+        "end_page": 19,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-VENDOR-VAGUE-check_missing_detail",
+      "policy_code": "SYN-VENDOR-VAGUE",
+      "case": "check_missing_detail",
+      "prompt": "Review vendor risk management in this synthetic policy: check missing detail.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "42",
+        "candidate_index": 125,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 19,
+        "end_page": 19,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-VENDOR-VAGUE-check_exceptions",
+      "policy_code": "SYN-VENDOR-VAGUE",
+      "case": "check_exceptions",
+      "prompt": "Review vendor risk management in this synthetic policy: check exceptions.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "42",
+        "candidate_index": 125,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 19,
+        "end_page": 19,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-VENDOR-VAGUE-verify_execution_evidence",
+      "policy_code": "SYN-VENDOR-VAGUE",
+      "case": "verify_execution_evidence",
+      "prompt": "Review vendor risk management in this synthetic policy: verify execution evidence.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "42",
+        "candidate_index": 125,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 19,
+        "end_page": 19,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-VENDOR-CONFLICTING-retrieve_topic",
+      "policy_code": "SYN-VENDOR-CONFLICTING",
+      "case": "retrieve_topic",
+      "prompt": "Review vendor risk management in this synthetic policy: retrieve topic.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "42",
+        "candidate_index": 125,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 19,
+        "end_page": 19,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-VENDOR-CONFLICTING-inspect_procedure",
+      "policy_code": "SYN-VENDOR-CONFLICTING",
+      "case": "inspect_procedure",
+      "prompt": "Review vendor risk management in this synthetic policy: inspect procedure.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "42",
+        "candidate_index": 125,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 19,
+        "end_page": 19,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-VENDOR-CONFLICTING-check_missing_detail",
+      "policy_code": "SYN-VENDOR-CONFLICTING",
+      "case": "check_missing_detail",
+      "prompt": "Review vendor risk management in this synthetic policy: check missing detail.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "42",
+        "candidate_index": 125,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 19,
+        "end_page": 19,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-VENDOR-CONFLICTING-check_exceptions",
+      "policy_code": "SYN-VENDOR-CONFLICTING",
+      "case": "check_exceptions",
+      "prompt": "Review vendor risk management in this synthetic policy: check exceptions.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "42",
+        "candidate_index": 125,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 19,
+        "end_page": 19,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-VENDOR-CONFLICTING-verify_execution_evidence",
+      "policy_code": "SYN-VENDOR-CONFLICTING",
+      "case": "verify_execution_evidence",
+      "prompt": "Review vendor risk management in this synthetic policy: verify execution evidence.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "42",
+        "candidate_index": 125,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 19,
+        "end_page": 19,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-CONTINUITY-DETAILED-retrieve_topic",
+      "policy_code": "SYN-CONTINUITY-DETAILED",
+      "case": "retrieve_topic",
+      "prompt": "Review business continuity in this synthetic policy: retrieve topic.",
+      "source_anchor": {
+        "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+        "clause_number": "60",
+        "candidate_index": 74,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+        "start_page": 24,
+        "end_page": 24,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-CONTINUITY-DETAILED-inspect_procedure",
+      "policy_code": "SYN-CONTINUITY-DETAILED",
+      "case": "inspect_procedure",
+      "prompt": "Review business continuity in this synthetic policy: inspect procedure.",
+      "source_anchor": {
+        "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+        "clause_number": "60",
+        "candidate_index": 74,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+        "start_page": 24,
+        "end_page": 24,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-CONTINUITY-DETAILED-check_missing_detail",
+      "policy_code": "SYN-CONTINUITY-DETAILED",
+      "case": "check_missing_detail",
+      "prompt": "Review business continuity in this synthetic policy: check missing detail.",
+      "source_anchor": {
+        "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+        "clause_number": "60",
+        "candidate_index": 74,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+        "start_page": 24,
+        "end_page": 24,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-CONTINUITY-DETAILED-check_exceptions",
+      "policy_code": "SYN-CONTINUITY-DETAILED",
+      "case": "check_exceptions",
+      "prompt": "Review business continuity in this synthetic policy: check exceptions.",
+      "source_anchor": {
+        "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+        "clause_number": "60",
+        "candidate_index": 74,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+        "start_page": 24,
+        "end_page": 24,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-CONTINUITY-DETAILED-verify_execution_evidence",
+      "policy_code": "SYN-CONTINUITY-DETAILED",
+      "case": "verify_execution_evidence",
+      "prompt": "Review business continuity in this synthetic policy: verify execution evidence.",
+      "source_anchor": {
+        "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+        "clause_number": "60",
+        "candidate_index": 74,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+        "start_page": 24,
+        "end_page": 24,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-CONTINUITY-PARTIAL-retrieve_topic",
+      "policy_code": "SYN-CONTINUITY-PARTIAL",
+      "case": "retrieve_topic",
+      "prompt": "Review business continuity in this synthetic policy: retrieve topic.",
+      "source_anchor": {
+        "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+        "clause_number": "60",
+        "candidate_index": 74,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+        "start_page": 24,
+        "end_page": 24,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-CONTINUITY-PARTIAL-inspect_procedure",
+      "policy_code": "SYN-CONTINUITY-PARTIAL",
+      "case": "inspect_procedure",
+      "prompt": "Review business continuity in this synthetic policy: inspect procedure.",
+      "source_anchor": {
+        "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+        "clause_number": "60",
+        "candidate_index": 74,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+        "start_page": 24,
+        "end_page": 24,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-CONTINUITY-PARTIAL-check_missing_detail",
+      "policy_code": "SYN-CONTINUITY-PARTIAL",
+      "case": "check_missing_detail",
+      "prompt": "Review business continuity in this synthetic policy: check missing detail.",
+      "source_anchor": {
+        "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+        "clause_number": "60",
+        "candidate_index": 74,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+        "start_page": 24,
+        "end_page": 24,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-CONTINUITY-PARTIAL-check_exceptions",
+      "policy_code": "SYN-CONTINUITY-PARTIAL",
+      "case": "check_exceptions",
+      "prompt": "Review business continuity in this synthetic policy: check exceptions.",
+      "source_anchor": {
+        "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+        "clause_number": "60",
+        "candidate_index": 74,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+        "start_page": 24,
+        "end_page": 24,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-CONTINUITY-PARTIAL-verify_execution_evidence",
+      "policy_code": "SYN-CONTINUITY-PARTIAL",
+      "case": "verify_execution_evidence",
+      "prompt": "Review business continuity in this synthetic policy: verify execution evidence.",
+      "source_anchor": {
+        "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+        "clause_number": "60",
+        "candidate_index": 74,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+        "start_page": 24,
+        "end_page": 24,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-CONTINUITY-VAGUE-retrieve_topic",
+      "policy_code": "SYN-CONTINUITY-VAGUE",
+      "case": "retrieve_topic",
+      "prompt": "Review business continuity in this synthetic policy: retrieve topic.",
+      "source_anchor": {
+        "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+        "clause_number": "60",
+        "candidate_index": 74,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+        "start_page": 24,
+        "end_page": 24,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-CONTINUITY-VAGUE-inspect_procedure",
+      "policy_code": "SYN-CONTINUITY-VAGUE",
+      "case": "inspect_procedure",
+      "prompt": "Review business continuity in this synthetic policy: inspect procedure.",
+      "source_anchor": {
+        "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+        "clause_number": "60",
+        "candidate_index": 74,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+        "start_page": 24,
+        "end_page": 24,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-CONTINUITY-VAGUE-check_missing_detail",
+      "policy_code": "SYN-CONTINUITY-VAGUE",
+      "case": "check_missing_detail",
+      "prompt": "Review business continuity in this synthetic policy: check missing detail.",
+      "source_anchor": {
+        "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+        "clause_number": "60",
+        "candidate_index": 74,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+        "start_page": 24,
+        "end_page": 24,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-CONTINUITY-VAGUE-check_exceptions",
+      "policy_code": "SYN-CONTINUITY-VAGUE",
+      "case": "check_exceptions",
+      "prompt": "Review business continuity in this synthetic policy: check exceptions.",
+      "source_anchor": {
+        "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+        "clause_number": "60",
+        "candidate_index": 74,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+        "start_page": 24,
+        "end_page": 24,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-CONTINUITY-VAGUE-verify_execution_evidence",
+      "policy_code": "SYN-CONTINUITY-VAGUE",
+      "case": "verify_execution_evidence",
+      "prompt": "Review business continuity in this synthetic policy: verify execution evidence.",
+      "source_anchor": {
+        "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+        "clause_number": "60",
+        "candidate_index": 74,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+        "start_page": 24,
+        "end_page": 24,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-CONTINUITY-CONFLICTING-retrieve_topic",
+      "policy_code": "SYN-CONTINUITY-CONFLICTING",
+      "case": "retrieve_topic",
+      "prompt": "Review business continuity in this synthetic policy: retrieve topic.",
+      "source_anchor": {
+        "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+        "clause_number": "60",
+        "candidate_index": 74,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+        "start_page": 24,
+        "end_page": 24,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-CONTINUITY-CONFLICTING-inspect_procedure",
+      "policy_code": "SYN-CONTINUITY-CONFLICTING",
+      "case": "inspect_procedure",
+      "prompt": "Review business continuity in this synthetic policy: inspect procedure.",
+      "source_anchor": {
+        "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+        "clause_number": "60",
+        "candidate_index": 74,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+        "start_page": 24,
+        "end_page": 24,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-CONTINUITY-CONFLICTING-check_missing_detail",
+      "policy_code": "SYN-CONTINUITY-CONFLICTING",
+      "case": "check_missing_detail",
+      "prompt": "Review business continuity in this synthetic policy: check missing detail.",
+      "source_anchor": {
+        "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+        "clause_number": "60",
+        "candidate_index": 74,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+        "start_page": 24,
+        "end_page": 24,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-CONTINUITY-CONFLICTING-check_exceptions",
+      "policy_code": "SYN-CONTINUITY-CONFLICTING",
+      "case": "check_exceptions",
+      "prompt": "Review business continuity in this synthetic policy: check exceptions.",
+      "source_anchor": {
+        "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+        "clause_number": "60",
+        "candidate_index": 74,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+        "start_page": 24,
+        "end_page": 24,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-CONTINUITY-CONFLICTING-verify_execution_evidence",
+      "policy_code": "SYN-CONTINUITY-CONFLICTING",
+      "case": "verify_execution_evidence",
+      "prompt": "Review business continuity in this synthetic policy: verify execution evidence.",
+      "source_anchor": {
+        "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+        "clause_number": "60",
+        "candidate_index": 74,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+        "start_page": 24,
+        "end_page": 24,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-FRAUD-DETAILED-retrieve_topic",
+      "policy_code": "SYN-FRAUD-DETAILED",
+      "case": "retrieve_topic",
+      "prompt": "Review payment fraud monitoring in this synthetic policy: retrieve topic.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "11",
+        "candidate_index": 13,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 7,
+        "end_page": 9,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-FRAUD-DETAILED-inspect_procedure",
+      "policy_code": "SYN-FRAUD-DETAILED",
+      "case": "inspect_procedure",
+      "prompt": "Review payment fraud monitoring in this synthetic policy: inspect procedure.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "11",
+        "candidate_index": 13,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 7,
+        "end_page": 9,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-FRAUD-DETAILED-check_missing_detail",
+      "policy_code": "SYN-FRAUD-DETAILED",
+      "case": "check_missing_detail",
+      "prompt": "Review payment fraud monitoring in this synthetic policy: check missing detail.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "11",
+        "candidate_index": 13,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 7,
+        "end_page": 9,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-FRAUD-DETAILED-check_exceptions",
+      "policy_code": "SYN-FRAUD-DETAILED",
+      "case": "check_exceptions",
+      "prompt": "Review payment fraud monitoring in this synthetic policy: check exceptions.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "11",
+        "candidate_index": 13,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 7,
+        "end_page": 9,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-FRAUD-DETAILED-verify_execution_evidence",
+      "policy_code": "SYN-FRAUD-DETAILED",
+      "case": "verify_execution_evidence",
+      "prompt": "Review payment fraud monitoring in this synthetic policy: verify execution evidence.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "11",
+        "candidate_index": 13,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 7,
+        "end_page": 9,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-FRAUD-PARTIAL-retrieve_topic",
+      "policy_code": "SYN-FRAUD-PARTIAL",
+      "case": "retrieve_topic",
+      "prompt": "Review payment fraud monitoring in this synthetic policy: retrieve topic.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "11",
+        "candidate_index": 13,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 7,
+        "end_page": 9,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-FRAUD-PARTIAL-inspect_procedure",
+      "policy_code": "SYN-FRAUD-PARTIAL",
+      "case": "inspect_procedure",
+      "prompt": "Review payment fraud monitoring in this synthetic policy: inspect procedure.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "11",
+        "candidate_index": 13,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 7,
+        "end_page": 9,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-FRAUD-PARTIAL-check_missing_detail",
+      "policy_code": "SYN-FRAUD-PARTIAL",
+      "case": "check_missing_detail",
+      "prompt": "Review payment fraud monitoring in this synthetic policy: check missing detail.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "11",
+        "candidate_index": 13,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 7,
+        "end_page": 9,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-FRAUD-PARTIAL-check_exceptions",
+      "policy_code": "SYN-FRAUD-PARTIAL",
+      "case": "check_exceptions",
+      "prompt": "Review payment fraud monitoring in this synthetic policy: check exceptions.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "11",
+        "candidate_index": 13,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 7,
+        "end_page": 9,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-FRAUD-PARTIAL-verify_execution_evidence",
+      "policy_code": "SYN-FRAUD-PARTIAL",
+      "case": "verify_execution_evidence",
+      "prompt": "Review payment fraud monitoring in this synthetic policy: verify execution evidence.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "11",
+        "candidate_index": 13,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 7,
+        "end_page": 9,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-FRAUD-VAGUE-retrieve_topic",
+      "policy_code": "SYN-FRAUD-VAGUE",
+      "case": "retrieve_topic",
+      "prompt": "Review payment fraud monitoring in this synthetic policy: retrieve topic.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "11",
+        "candidate_index": 13,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 7,
+        "end_page": 9,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-FRAUD-VAGUE-inspect_procedure",
+      "policy_code": "SYN-FRAUD-VAGUE",
+      "case": "inspect_procedure",
+      "prompt": "Review payment fraud monitoring in this synthetic policy: inspect procedure.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "11",
+        "candidate_index": 13,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 7,
+        "end_page": 9,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-FRAUD-VAGUE-check_missing_detail",
+      "policy_code": "SYN-FRAUD-VAGUE",
+      "case": "check_missing_detail",
+      "prompt": "Review payment fraud monitoring in this synthetic policy: check missing detail.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "11",
+        "candidate_index": 13,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 7,
+        "end_page": 9,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-FRAUD-VAGUE-check_exceptions",
+      "policy_code": "SYN-FRAUD-VAGUE",
+      "case": "check_exceptions",
+      "prompt": "Review payment fraud monitoring in this synthetic policy: check exceptions.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "11",
+        "candidate_index": 13,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 7,
+        "end_page": 9,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-FRAUD-VAGUE-verify_execution_evidence",
+      "policy_code": "SYN-FRAUD-VAGUE",
+      "case": "verify_execution_evidence",
+      "prompt": "Review payment fraud monitoring in this synthetic policy: verify execution evidence.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "11",
+        "candidate_index": 13,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 7,
+        "end_page": 9,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-FRAUD-CONFLICTING-retrieve_topic",
+      "policy_code": "SYN-FRAUD-CONFLICTING",
+      "case": "retrieve_topic",
+      "prompt": "Review payment fraud monitoring in this synthetic policy: retrieve topic.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "11",
+        "candidate_index": 13,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 7,
+        "end_page": 9,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-FRAUD-CONFLICTING-inspect_procedure",
+      "policy_code": "SYN-FRAUD-CONFLICTING",
+      "case": "inspect_procedure",
+      "prompt": "Review payment fraud monitoring in this synthetic policy: inspect procedure.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "11",
+        "candidate_index": 13,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 7,
+        "end_page": 9,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-FRAUD-CONFLICTING-check_missing_detail",
+      "policy_code": "SYN-FRAUD-CONFLICTING",
+      "case": "check_missing_detail",
+      "prompt": "Review payment fraud monitoring in this synthetic policy: check missing detail.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "11",
+        "candidate_index": 13,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 7,
+        "end_page": 9,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-FRAUD-CONFLICTING-check_exceptions",
+      "policy_code": "SYN-FRAUD-CONFLICTING",
+      "case": "check_exceptions",
+      "prompt": "Review payment fraud monitoring in this synthetic policy: check exceptions.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "11",
+        "candidate_index": 13,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 7,
+        "end_page": 9,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-FRAUD-CONFLICTING-verify_execution_evidence",
+      "policy_code": "SYN-FRAUD-CONFLICTING",
+      "case": "verify_execution_evidence",
+      "prompt": "Review payment fraud monitoring in this synthetic policy: verify execution evidence.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "11",
+        "candidate_index": 13,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 7,
+        "end_page": 9,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-CARD-DETAILED-retrieve_topic",
+      "policy_code": "SYN-CARD-DETAILED",
+      "case": "retrieve_topic",
+      "prompt": "Review card customer protection in this synthetic policy: retrieve topic.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "11",
+        "candidate_index": 14,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 7,
+        "end_page": 9,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-CARD-DETAILED-inspect_procedure",
+      "policy_code": "SYN-CARD-DETAILED",
+      "case": "inspect_procedure",
+      "prompt": "Review card customer protection in this synthetic policy: inspect procedure.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "11",
+        "candidate_index": 14,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 7,
+        "end_page": 9,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-CARD-DETAILED-check_missing_detail",
+      "policy_code": "SYN-CARD-DETAILED",
+      "case": "check_missing_detail",
+      "prompt": "Review card customer protection in this synthetic policy: check missing detail.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "11",
+        "candidate_index": 14,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 7,
+        "end_page": 9,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-CARD-DETAILED-check_exceptions",
+      "policy_code": "SYN-CARD-DETAILED",
+      "case": "check_exceptions",
+      "prompt": "Review card customer protection in this synthetic policy: check exceptions.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "11",
+        "candidate_index": 14,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 7,
+        "end_page": 9,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-CARD-DETAILED-verify_execution_evidence",
+      "policy_code": "SYN-CARD-DETAILED",
+      "case": "verify_execution_evidence",
+      "prompt": "Review card customer protection in this synthetic policy: verify execution evidence.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "11",
+        "candidate_index": 14,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 7,
+        "end_page": 9,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-CARD-PARTIAL-retrieve_topic",
+      "policy_code": "SYN-CARD-PARTIAL",
+      "case": "retrieve_topic",
+      "prompt": "Review card customer protection in this synthetic policy: retrieve topic.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "11",
+        "candidate_index": 14,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 7,
+        "end_page": 9,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-CARD-PARTIAL-inspect_procedure",
+      "policy_code": "SYN-CARD-PARTIAL",
+      "case": "inspect_procedure",
+      "prompt": "Review card customer protection in this synthetic policy: inspect procedure.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "11",
+        "candidate_index": 14,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 7,
+        "end_page": 9,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-CARD-PARTIAL-check_missing_detail",
+      "policy_code": "SYN-CARD-PARTIAL",
+      "case": "check_missing_detail",
+      "prompt": "Review card customer protection in this synthetic policy: check missing detail.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "11",
+        "candidate_index": 14,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 7,
+        "end_page": 9,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-CARD-PARTIAL-check_exceptions",
+      "policy_code": "SYN-CARD-PARTIAL",
+      "case": "check_exceptions",
+      "prompt": "Review card customer protection in this synthetic policy: check exceptions.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "11",
+        "candidate_index": 14,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 7,
+        "end_page": 9,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-CARD-PARTIAL-verify_execution_evidence",
+      "policy_code": "SYN-CARD-PARTIAL",
+      "case": "verify_execution_evidence",
+      "prompt": "Review card customer protection in this synthetic policy: verify execution evidence.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "11",
+        "candidate_index": 14,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 7,
+        "end_page": 9,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-CARD-VAGUE-retrieve_topic",
+      "policy_code": "SYN-CARD-VAGUE",
+      "case": "retrieve_topic",
+      "prompt": "Review card customer protection in this synthetic policy: retrieve topic.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "11",
+        "candidate_index": 14,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 7,
+        "end_page": 9,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-CARD-VAGUE-inspect_procedure",
+      "policy_code": "SYN-CARD-VAGUE",
+      "case": "inspect_procedure",
+      "prompt": "Review card customer protection in this synthetic policy: inspect procedure.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "11",
+        "candidate_index": 14,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 7,
+        "end_page": 9,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-CARD-VAGUE-check_missing_detail",
+      "policy_code": "SYN-CARD-VAGUE",
+      "case": "check_missing_detail",
+      "prompt": "Review card customer protection in this synthetic policy: check missing detail.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "11",
+        "candidate_index": 14,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 7,
+        "end_page": 9,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-CARD-VAGUE-check_exceptions",
+      "policy_code": "SYN-CARD-VAGUE",
+      "case": "check_exceptions",
+      "prompt": "Review card customer protection in this synthetic policy: check exceptions.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "11",
+        "candidate_index": 14,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 7,
+        "end_page": 9,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-CARD-VAGUE-verify_execution_evidence",
+      "policy_code": "SYN-CARD-VAGUE",
+      "case": "verify_execution_evidence",
+      "prompt": "Review card customer protection in this synthetic policy: verify execution evidence.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "11",
+        "candidate_index": 14,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 7,
+        "end_page": 9,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-CARD-CONFLICTING-retrieve_topic",
+      "policy_code": "SYN-CARD-CONFLICTING",
+      "case": "retrieve_topic",
+      "prompt": "Review card customer protection in this synthetic policy: retrieve topic.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "11",
+        "candidate_index": 14,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 7,
+        "end_page": 9,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-CARD-CONFLICTING-inspect_procedure",
+      "policy_code": "SYN-CARD-CONFLICTING",
+      "case": "inspect_procedure",
+      "prompt": "Review card customer protection in this synthetic policy: inspect procedure.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "11",
+        "candidate_index": 14,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 7,
+        "end_page": 9,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-CARD-CONFLICTING-check_missing_detail",
+      "policy_code": "SYN-CARD-CONFLICTING",
+      "case": "check_missing_detail",
+      "prompt": "Review card customer protection in this synthetic policy: check missing detail.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "11",
+        "candidate_index": 14,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 7,
+        "end_page": 9,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-CARD-CONFLICTING-check_exceptions",
+      "policy_code": "SYN-CARD-CONFLICTING",
+      "case": "check_exceptions",
+      "prompt": "Review card customer protection in this synthetic policy: check exceptions.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "11",
+        "candidate_index": 14,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 7,
+        "end_page": 9,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    },
+    {
+      "scenario_id": "SYN-CARD-CONFLICTING-verify_execution_evidence",
+      "policy_code": "SYN-CARD-CONFLICTING",
+      "case": "verify_execution_evidence",
+      "prompt": "Review card customer protection in this synthetic policy: verify execution evidence.",
+      "source_anchor": {
+        "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+        "clause_number": "11",
+        "candidate_index": 14,
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+        "start_page": 7,
+        "end_page": 9,
+        "relationship": "topic_anchor_only_not_verified_control_mapping"
+      },
+      "reference_policy_sections": [
+        "2"
+      ],
+      "label_type": "provisional_design_intent_not_compliance_ground_truth",
+      "review_status": "pending",
+      "expected_compliance_status": null
+    }
+  ],
+  "schema_version": 1,
+  "synthetic": true,
+  "notice": "Draft test data; human review required. No benchmark scores or legal conclusions."
+}

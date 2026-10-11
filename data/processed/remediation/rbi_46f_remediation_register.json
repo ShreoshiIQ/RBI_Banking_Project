@@ -1,0 +1,253 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-11T08:00:31.301339+00:00",
+  "as_of": "2026-10-11",
+  "risk_model": {
+    "version": "risk_model_v1",
+    "sha256": "daffdd3c1fbe569a0350ffedfadf1a798e7de601d7ea577dd8fa005f3a5d2f5e",
+    "notice": "Illustrative prioritisation weights. They order review work; they are not a regulatory risk rating and require calibration and approval by the compliance function before operational use."
+  },
+  "items": [
+    {
+      "gap_id": "gap-f165d35e69c05131#0",
+      "source": {
+        "kind": "gap_report",
+        "report_id": "gap-f165d35e69c05131",
+        "finding_index": 0
+      },
+      "reference": "RBI KYC Section 46(f)",
+      "requirement": "Maintenance and preservation of account information",
+      "status": "missing",
+      "explanation": "The provided policy sections address retrieval and availability but do not explicitly define the requirements for the maintenance and preservation of account information.",
+      "cited_section_ids": [],
+      "review_status": "pending_review",
+      "risk": {
+        "score": 88.8,
+        "band": "critical",
+        "factors": {
+          "severity": 1.0,
+          "obligation": 0.75,
+          "domain": 1.0,
+          "deadline": 0.5,
+          "evidence_uncertainty": 1.0
+        },
+        "contributions": {
+          "severity": 40.0,
+          "obligation": 11.25,
+          "domain": 20.0,
+          "deadline": 7.5,
+          "evidence_uncertainty": 10.0
+        },
+        "domain": "kyc",
+        "deadline_bucket": "unknown",
+        "target_days": 30,
+        "model_version": "risk_model_v1"
+      },
+      "remediation": {
+        "gap_id": "gap-f165d35e69c05131#0",
+        "target_days": 30,
+        "review_status": "pending_review",
+        "requires_human_review": true,
+        "actions": [
+          {
+            "kind": "policy_update",
+            "description": "Add an explicit policy commitment covering: Maintenance and preservation of account information. Reference RBI KYC Section 46(f) and name the accountable function.",
+            "owner_role": "policy_owner",
+            "cited_section_ids": []
+          },
+          {
+            "kind": "control_design",
+            "description": "Design a control that operationalises 'Maintenance and preservation of account information', with frequency, owner, and retained evidence defined.",
+            "owner_role": "control_owner",
+            "cited_section_ids": []
+          }
+        ],
+        "policy_redline": null,
+        "rationale": "Template response for a missing finding.",
+        "method": "template_v1",
+        "attempts": []
+      }
+    },
+    {
+      "gap_id": "gap-f165d35e69c05131#3",
+      "source": {
+        "kind": "gap_report",
+        "report_id": "gap-f165d35e69c05131",
+        "finding_index": 3
+      },
+      "reference": "RBI KYC Section 46(f)",
+      "requirement": "System for proper maintenance and preservation of account information",
+      "status": "missing",
+      "explanation": "The verifier identified this as missing evidence. Confirm against the complete approved policy corpus.",
+      "cited_section_ids": [],
+      "review_status": "pending_review",
+      "risk": {
+        "score": 88.8,
+        "band": "critical",
+        "factors": {
+          "severity": 1.0,
+          "obligation": 0.75,
+          "domain": 1.0,
+          "deadline": 0.5,
+          "evidence_uncertainty": 1.0
+        },
+        "contributions": {
+          "severity": 40.0,
+          "obligation": 11.25,
+          "domain": 20.0,
+          "deadline": 7.5,
+          "evidence_uncertainty": 10.0
+        },
+        "domain": "kyc",
+        "deadline_bucket": "unknown",
+        "target_days": 30,
+        "model_version": "risk_model_v1"
+      },
+      "remediation": {
+        "gap_id": "gap-f165d35e69c05131#3",
+        "target_days": 30,
+        "review_status": "pending_review",
+        "requires_human_review": true,
+        "actions": [
+          {
+            "kind": "policy_update",
+            "description": "Add an explicit policy commitment covering: System for proper maintenance and preservation of account information. Reference RBI KYC Section 46(f) and name the accountable function.",
+            "owner_role": "policy_owner",
+            "cited_section_ids": []
+          },
+          {
+            "kind": "control_design",
+            "description": "Design a control that operationalises 'System for proper maintenance and preservation of account information', with frequency, owner, and retained evidence defined.",
+            "owner_role": "control_owner",
+            "cited_section_ids": []
+          }
+        ],
+        "policy_redline": null,
+        "rationale": "Template response for a missing finding.",
+        "method": "template_v1",
+        "attempts": []
+      }
+    },
+    {
+      "gap_id": "gap-f165d35e69c05131#1",
+      "source": {
+        "kind": "gap_report",
+        "report_id": "gap-f165d35e69c05131",
+        "finding_index": 1
+      },
+      "reference": "RBI KYC Section 46(f)",
+      "requirement": "Retrieval of data easily and quickly",
+      "status": "partial",
+      "explanation": "The policy mandates efficient retrieval for authorized personnel, but does not explicitly use the terms 'easily' or 'quickly' for all required scenarios.",
+      "cited_section_ids": [
+        "363b6a0f-93bc-4b6c-a7cb-0aa3abc395af"
+      ],
+      "review_status": "pending_review",
+      "risk": {
+        "score": 63.8,
+        "band": "high",
+        "factors": {
+          "severity": 0.55,
+          "obligation": 0.75,
+          "domain": 1.0,
+          "deadline": 0.5,
+          "evidence_uncertainty": 0.3
+        },
+        "contributions": {
+          "severity": 22.0,
+          "obligation": 11.25,
+          "domain": 20.0,
+          "deadline": 7.5,
+          "evidence_uncertainty": 3.0
+        },
+        "domain": "kyc",
+        "deadline_bucket": "unknown",
+        "target_days": 60,
+        "model_version": "risk_model_v1"
+      },
+      "remediation": {
+        "gap_id": "gap-f165d35e69c05131#1",
+        "target_days": 60,
+        "review_status": "pending_review",
+        "requires_human_review": true,
+        "actions": [
+          {
+            "kind": "policy_update",
+            "description": "Clarify the cited policy text so it fully addresses: Retrieval of data easily and quickly. Close the uncovered elements described in the finding.",
+            "owner_role": "policy_owner",
+            "cited_section_ids": [
+              "363b6a0f-93bc-4b6c-a7cb-0aa3abc395af"
+            ]
+          }
+        ],
+        "policy_redline": null,
+        "rationale": "Template response for a partial finding.",
+        "method": "template_v1",
+        "attempts": []
+      }
+    }
+  ],
+  "human_queue": [
+    {
+      "gap_id": "gap-f165d35e69c05131#0",
+      "score": 88.8,
+      "reasons": [
+        "critical risk"
+      ]
+    },
+    {
+      "gap_id": "gap-f165d35e69c05131#3",
+      "score": 88.8,
+      "reasons": [
+        "critical risk"
+      ]
+    },
+    {
+      "gap_id": "gap-f165d35e69c05131#1",
+      "score": 63.8,
+      "reasons": [
+        "high risk"
+      ]
+    }
+  ],
+  "rejected_inputs": [],
+  "trace": [
+    {
+      "step": "intake",
+      "ms": 0.02,
+      "gaps": 3,
+      "rejected": 0
+    },
+    {
+      "step": "prioritise",
+      "ms": 0.11,
+      "bands": {
+        "critical": 2,
+        "high": 1
+      }
+    },
+    {
+      "step": "remediate",
+      "ms": 0.2,
+      "drafted": 3,
+      "method": "template",
+      "rejected_llm_attempts": 0
+    },
+    {
+      "step": "route",
+      "ms": 0.01,
+      "queued": 3
+    },
+    {
+      "step": "assemble",
+      "ms": 0.0
+    }
+  ],
+  "notice": "Prioritised remediation drafts for human review. Not a compliance certification; no report, policy, or review status was changed.",
+  "inputs": [
+    {
+      "path": "data\\processed\\reports\\rbi_46f_gap_report.json",
+      "sha256": "a32d3fb5018372cbc6e70aa9b4a38b167d905e82972946bade889e45097a9875"
+    }
+  ]
+}

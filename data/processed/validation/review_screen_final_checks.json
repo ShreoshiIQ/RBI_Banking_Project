@@ -1,0 +1,11 @@
+{
+  "artifact": "data/processed/validation/relevance_review_verified.html",
+  "browser": "Edge headless",
+  "query_count": 6,
+  "visible_candidates": 25,
+  "status": "pending; 0 selected. 0/6 queries reviewed.",
+  "python_tests_passed": 15,
+  "javascript_tests_passed": 5,
+  "scope": "Initial browser render plus unit tests; browser download/import interactions pending",
+  "human_approvals_created": 0
+}

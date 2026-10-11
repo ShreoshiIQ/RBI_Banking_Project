@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "file_sha256": "f4f5d42aa4aa2a4b6dae97b90f1705b310ac7b70272d3c3f10d9b1ac2fb7b23e",
+  "format": "png",
+  "chunks": [
+    {
+      "text": "SYNTHETIC DEMONSTRATION - NOT REAL BANK EVIDENCE\nAccount SYN-001 last reviewed 2026-10-01\nAccount SYN-002 last reviewed 2026-01-01",
+      "location": {
+        "kind": "image",
+        "bbox": [
+          0,
+          0,
+          595,
+          842
+        ],
+        "coordinate_system": "pixels",
+        "region_scope": "whole_image"
+      },
+      "method": "gemini_ocr",
+      "transcription_verified": false,
+      "chunk_id": "c45c44bc0d12aa2d8260499d1165163c33c5e1b24a66f865c73824d2a66b0eba"
+    }
+  ],
+  "ocr_model": "gemini-3.1-flash-lite",
+  "warnings": [],
+  "review_status": "pending",
+  "notice": "Source locations identify extracted evidence; OCR transcription and authenticity require review.",
+  "live_provider_call": true
+}

@@ -1,0 +1,13 @@
+POLICY CODE: SYN-CARD-VAGUE
+TITLE: Card Customer Protection - vague testing variant
+OWNER: Card Operations
+STATUS: SYNTHETIC DEMONSTRATION DOCUMENT - UNREVIEWED DRAFT
+
+SECTION 1: PURPOSE AND SCOPE
+Fictional commercial-bank testing policy. This is not evidence of a real institution's controls or regulatory certification. Applicability remains unreviewed.
+
+SECTION 2: OPERATING PROCEDURE
+The bank aims to maintain suitable controls for this topic. Detailed operating procedures are not specified in this document.
+
+SECTION 3: OVERSIGHT
+The policy owner records review findings and assigns an action owner and target date. Implementation evidence is required separately.

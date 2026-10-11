@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "recorded_on": "2026-10-11",
+  "full_tests_directory": {"passed": 419, "skipped": 4, "failed": 0, "elapsed_seconds": 28.89},
+  "final_affected_tests": {"passed": 7, "failed": 0},
+  "initial_benchmark_and_existing_scorer_tests": {"passed": 25, "failed": 0},
+  "ruff_changed_python_files": "passed",
+  "application_inventory_counts_and_reviews": "unchanged from Phase 3",
+  "human_approvals_created": 0,
+  "genuine_workload": {"source_candidate_rows": 1150, "unique_source_quotes": 1148, "measured_sizes": [500], "unavailable_sizes": [2000, 5000, 10000]},
+  "synthetic_infrastructure_workload": {"measured_sizes": [500, 2000, 5000, 10000], "regulatory_coverage_rows": 0},
+  "recall_at_5": null,
+  "recall_at_10": null,
+  "recall_status": "Pending reviewed held-out relevance labels",
+  "d3_f3_reliability_demonstrated": false,
+  "report": "docs/phase4_evaluation.md"
+}

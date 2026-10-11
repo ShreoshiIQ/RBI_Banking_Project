@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "artifacts": [
+    {
+      "path": "dist/regulatory_compliance_ai-0.1.0-py3-none-any.whl",
+      "bytes": 132660,
+      "sha256": "558da0fa433f00084916c1d237f4e467201033f6498258ab02c3cf1935db4f4f"
+    },
+    {
+      "path": "dependency_audit.json",
+      "bytes": 6319,
+      "sha256": "ea4180c37c74cc03c35ea6e064c7b2479f09b136b78cd2af075fe93b9e7169bb"
+    },
+    {
+      "path": "linux_dependency_audit.json",
+      "bytes": 6161,
+      "sha256": "f48ef933f9e499e620f9824fc09e1e4fdec04e962ade1b3542e6de76801fe458"
+    },
+    {
+      "path": "linux_dependency_audit_before_updates.json",
+      "bytes": 20199,
+      "sha256": "206996d2249ff8d4f0ea18b4e287a6fe9dc28e662a378e409f54df26cc0b4e56"
+    },
+    {
+      "path": "linux_image_audit_metadata.json",
+      "bytes": 147,
+      "sha256": "be176c48de1863900d727d539296671b9af15a8a47a6e830b24afd6b11a31d1b"
+    },
+    {
+      "path": "linux_image_requirements.txt",
+      "bytes": 2011,
+      "sha256": "d7eb66d42d5f86b2797cd4e067504caabe2c7d284cf35ac2192be5888b5a7117"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5429,
+      "sha256": "e4269d95de917b7bc1b8af73a0ea1f1f14eb071a85f171654ca1905989a9d879"
+    },
+    {
+      "path": "Dockerfile",
+      "bytes": 523,
+      "sha256": "36f61039cd4c9edc7b8952cc2a6af909c508d3b719ace1aac912b74fef6caa2d"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 1031,
+      "sha256": "54da44e7ec7b62b83cb056439962489ef6c8674a18c450b45c1e2ca8f330ab5b"
+    },
+    {
+      "path": "uv.lock",
+      "bytes": 317232,
+      "sha256": "2e2fc54e10014ebf18ebae0e5ac11796dc533457985c3550281834720d3b929c"
+    },
+    {
+      "path": "docs/architecture.md",
+      "bytes": 2613,
+      "sha256": "398aaa4a2cb9dcb7c62e4359401168231ee6d9566f3ab344133f4c762243ffde"
+    },
+    {
+      "path": "docs/benchmark_runner.md",
+      "bytes": 1792,
+      "sha256": "8e80730b73d7f49b53c40d5f15b639f11c19d5525cccb8905a01ea4c29c99054"
+    },
+    {
+      "path": "docs/change_intelligence.md",
+      "bytes": 4040,
+      "sha256": "2251fcf53a6505257ab1a42bd504eb084151f053659de0b50664938da19b4ac0"
+    },
+    {
+      "path": "docs/citation_benchmark.md",
+      "bytes": 1457,
+      "sha256": "26b580b8f3e28d1c183cbeec12d8819e33006decd46d85cef656c7c653e25470"
+    },
+    {
+      "path": "docs/dashboard.md",
+      "bytes": 4575,
+      "sha256": "15faa15bfc6121a79442c91da92deb826e69a0bab4486b68825d305526654e9b"
+    },
+    {
+      "path": "docs/dataset_validation.md",
+      "bytes": 5441,
+      "sha256": "3ee4447502f12c1d244fd58a33a5e3b1fbc62c3bfaddbfe37e2d9eaa42b73056"
+    },
+    {
+      "path": "docs/demo_walkthrough.md",
+      "bytes": 2669,
+      "sha256": "a78af1830ef09b0e247fc9b29adefe447a84ad770cc9773d6c5e54ad6458802a"
+    },
+    {
+      "path": "docs/docker_api.md",
+      "bytes": 2412,
+      "sha256": "a4f11e53f65bb77c3897703601d8bdd89dc1e3af29add3237f4834c3d7f2cd3b"
+    },
+    {
+      "path": "docs/evaluation_report.md",
+      "bytes": 2939,
+      "sha256": "688a85e2733a7c17a14c4859184940256854ae37a85120500ef5d59a7f4896f8"
+    },
+    {
+      "path": "docs/extraction_benchmark.md",
+      "bytes": 1648,
+      "sha256": "b2d2fc0fc0ded922fb2bf859e6f70828457c1eaf8311e078fe8bba7c7da38e39"
+    },
+    {
+      "path": "docs/gap_benchmark.md",
+      "bytes": 1574,
+      "sha256": "b594d5a31c9eceac79475f82e00f2829ee01a0786139ec83ceae2e48f5ecd846"
+    },
+    {
+      "path": "docs/local_setup.md",
+      "bytes": 3359,
+      "sha256": "f62bbe2e9561492937ad94d9c81c647e2e7eade507806adf671119833982384b"
+    },
+    {
+      "path": "docs/mapping_benchmark.md",
+      "bytes": 1319,
+      "sha256": "d9c984acf8e0c9e301de0414d85108800f0d3000d9f5284303dd15e3fbfec5eb"
+    },
+    {
+      "path": "docs/regulatory_expansion.md",
+      "bytes": 8069,
+      "sha256": "8a52b7ad3b89a663005b197619ec9e5ce15f1d3637ab4730aa9b454ad955015b"
+    },
+    {
+      "path": "docs/retrieval_benchmark.md",
+      "bytes": 1618,
+      "sha256": "4eafcf81cf3debc28832e690c6b8f00828f06fd26997a9d15c6612f6b417ad90"
+    },
+    {
+      "path": "docs/runtime_benchmark.md",
+      "bytes": 1571,
+      "sha256": "351e5e3d08b92dde1d66bfed5bcbd169263fb871ed767f06c9fe0f0c2c1351f0"
+    },
+    {
+      "path": "docs/security_review.md",
+      "bytes": 5243,
+      "sha256": "3999a94a2121a1dc6e1b4450610d14c26664453e1eb494e73670aa2451634923"
+    },
+    {
+      "path": "docs/submission_checklist.md",
+      "bytes": 4793,
+      "sha256": "d10189fb2577bebe04e01eb4a9a9f96ea54b77b1c1a7b7bc96dd23c686210e9d"
+    },
+    {
+      "path": "docs/synthetic_dataset.md",
+      "bytes": 2784,
+      "sha256": "0755919b22f0d4777d0d0383b085ae8d024d5864c2b98243d75283dbc2abc686"
+    }
+  ],
+  "audited_image": {
+    "image": "regintel-api:local",
+    "image_id": "sha256:b5f02314c4e2dec037180ed675ae7bf5ae6c2a130a46bebb651b50808b11a0d5",
+    "packages": 105
+  },
+  "notice": "Hashes identify files, not correctness or certification. Image identity is from the saved audit snapshot; the current tag may change.",
+  "pending": [
+    "reviewed regulatory applicability and obligation catalog",
+    "empirical project benchmarks",
+    "browser interaction verification",
+    "full assessment deployment",
+    "comprehensive secret and OS-package scanning"
+  ]
+}

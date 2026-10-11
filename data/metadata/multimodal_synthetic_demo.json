@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "synthetic": true,
+  "profile_id": "fictional-commercial-bank-demo",
+  "review_status": "pending",
+  "files": [
+    {
+      "path": "data/raw/evidence/synthetic_demo/SYN-access-native.pdf",
+      "sha256": "392b4ddd1d6a89b67846cd6cacba51c0c5cef0c34450c964f12fa8f7fa9cf87b",
+      "synthetic": true
+    },
+    {
+      "path": "data/raw/evidence/synthetic_demo/SYN-access-scanned.pdf",
+      "sha256": "79fd6f0bbed160ba671958964a0dfc6671f2f95690b6317912edf5e528968670",
+      "synthetic": true
+    },
+    {
+      "path": "data/raw/evidence/synthetic_demo/SYN-access.png",
+      "sha256": "f4f5d42aa4aa2a4b6dae97b90f1705b310ac7b70272d3c3f10d9b1ac2fb7b23e",
+      "synthetic": true
+    },
+    {
+      "path": "data/raw/evidence/synthetic_demo/SYN-access.jpg",
+      "sha256": "8ee1a6bd50e1361ceb62941462997dc1b40cbd42a51225739a802cdd429c3ad3",
+      "synthetic": true
+    },
+    {
+      "path": "data/raw/evidence/synthetic_demo/SYN-access-design.docx",
+      "sha256": "d1ffd4f79ea1b23df7f92d8d5eaa9e2a39d67955900b8bd9da9b3e3e64bf3356",
+      "synthetic": true
+    },
+    {
+      "path": "data/raw/evidence/synthetic_demo/SYN-access-records.xlsx",
+      "sha256": "88b0b6ca194c4edd54f7c294c78384ac9788b1c9c79ba1e1db42ca736c782720",
+      "synthetic": true
+    },
+    {
+      "path": "data/raw/evidence/synthetic_demo/SYN-access-records.csv",
+      "sha256": "67b4c160a85692138dea63eb216cb8d308ad2b0eee93e094b31e4f324a8efcb7",
+      "synthetic": true
+    }
+  ],
+  "notice": "Infrastructure/control demonstrations only; not independent evaluation ground truth or regulatory coverage."
+}

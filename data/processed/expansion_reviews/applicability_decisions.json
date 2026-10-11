@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "profile_hash": "9a05667c9e8be23b479e19ebebaf5bef38cbd21355a0240987b5ec205c5eb9e6",
+  "decisions": [
+    {
+      "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+      "packet_source_hash": "8a4108cadb3f2e657bda6db1c87ac4b1f384e28f750ecc89cee67e54fa4360bd",
+      "decision": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "cited_clause_numbers": [],
+      "conditions": ""
+    },
+    {
+      "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+      "packet_source_hash": "2d6d4c549d8d24b27e18bdcbd2509f698cc4579e69def84374ba9e0acb10f63e",
+      "decision": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "cited_clause_numbers": [],
+      "conditions": ""
+    },
+    {
+      "content_hash": "84872c7f4693777cc82ed2f232b8be2e586545c1ecc44b9cbfe59ee2a0923e36",
+      "packet_source_hash": "d8cba2fc6d7c8c9d9c98e596de36546bcb758f5132b39a1809937aab96618c11",
+      "decision": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "cited_clause_numbers": [],
+      "conditions": ""
+    },
+    {
+      "content_hash": "f86e3712e6a14894c30c91e93c0e16028ff41008c52b4c3b98b2f843a22bc68a",
+      "packet_source_hash": "c9348d73eb64bb72f2d320b0846a5034ad4453437995f293cee7f2a1138a22eb",
+      "decision": "pending",
+      "reviewer": "",
+      "rationale": "",
+      "cited_clause_numbers": [],
+      "conditions": ""
+    }
+  ]
+}

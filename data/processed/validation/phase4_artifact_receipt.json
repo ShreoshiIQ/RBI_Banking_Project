@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "final_implementation_and_artifact_sha256": {
+    "data/processed/validation/phase4_scalability_results.json": "a5f36fb06f44a096db67fdc6e23a8a75fa177a417d8486cdd315d336499a3969",
+    "data/processed/validation/phase4_synthetic_stress_results.json": "9c512503c0b48ef69ed657b490c4ef6f8bf337da403913c855627efed15e865d",
+    "data/processed/validation/phase4_scalability_warm_results.json": "c61d70c5851e1acdb7041dd7680a6424ac43e73037ffefea52417a8e029add1b",
+    "data/processed/validation/phase4_synthetic_stress_warm_results.json": "8aa0122c68abfbf1292ea62129bd1a43c542880ba77b1369bbb54e1d3ffdfe41",
+    "data/processed/validation/phase4_evidence_evaluation_final.json": "cb2c5d5b8dbc6ae0e4c42a757ca549cc70c21b3008aea69945552e1d2c94eb47",
+    "data/processed/validation/phase4_inventory_verified.json": "b0da84e9e5d8e0811b696325cdf1925d4c26b4ac3304f5620fee33747f820686",
+    "data/processed/validation/phase4_test_results.json": "68b2c1aacb38952ec5a6f7be5eaf47d17feb17f677b5cc7745c8c6bf21950390",
+    "src/regintel/mapping/scalability.py": "be114774bd5ca165dd274bf03fa77fbf384630d250bd8af92730441d13001600",
+    "src/regintel/evidence/evaluation.py": "685e2933588df2752329a03538c104d0351d5efa3df866b78fb7e4efc837087e",
+    "scripts/run_phase4_scalability.py": "b4c1ca74a5cc266dec5c7a6117fc6b21ca4584564a0231467d1590c01f22410a"
+  },
+  "retained_benchmark_databases": [
+    "regintel_benchmark_792850f9a6124e81bce661e72c6909d3",
+    "regintel_benchmark_f1931c34c0c84b368f06fb2f2dc6b662",
+    "regintel_benchmark_1b0ddf8130b44f84ab3e4c38ee2e715d",
+    "regintel_benchmark_0ac98db44cbd4c9e81f8aab083d66e17"
+  ],
+  "all_measured_attempt_batches": {
+    "attempts_per_method_concurrency_size": 60,
+    "observed_error_rate": 0
+  },
+  "note": "Checks reflect these short recorded probes, not production reliability or reviewed relevance."
+}

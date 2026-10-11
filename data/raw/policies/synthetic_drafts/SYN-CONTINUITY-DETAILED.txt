@@ -1,0 +1,14 @@
+POLICY CODE: SYN-CONTINUITY-DETAILED
+TITLE: Business Continuity - detailed testing variant
+OWNER: Technology Operations
+STATUS: SYNTHETIC DEMONSTRATION DOCUMENT - UNREVIEWED DRAFT
+
+SECTION 1: PURPOSE AND SCOPE
+Fictional commercial-bank testing policy. This is not evidence of a real institution's controls or regulatory certification. Applicability remains unreviewed.
+
+SECTION 2: OPERATING PROCEDURE
+The continuity coordinator maintains the critical-service inventory, recovery dependencies, named alternates, and escalation contacts.
+The operations team rehearses recovery, records actual restoration results, reconciles recovered data, and assigns corrective actions for failed steps.
+
+SECTION 3: OVERSIGHT
+The policy owner records review findings and assigns an action owner and target date. Implementation evidence is required separately.

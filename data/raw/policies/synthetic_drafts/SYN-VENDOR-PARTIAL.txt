@@ -1,0 +1,13 @@
+POLICY CODE: SYN-VENDOR-PARTIAL
+TITLE: Vendor Risk Management - partial testing variant
+OWNER: Third Party Risk
+STATUS: SYNTHETIC DEMONSTRATION DOCUMENT - UNREVIEWED DRAFT
+
+SECTION 1: PURPOSE AND SCOPE
+Fictional commercial-bank testing policy. This is not evidence of a real institution's controls or regulatory certification. Applicability remains unreviewed.
+
+SECTION 2: OPERATING PROCEDURE
+The vendor owner documents due diligence, information-security risks, approved services, and contractual responsibilities before onboarding a service provider.
+
+SECTION 3: OVERSIGHT
+The policy owner records review findings and assigns an action owner and target date. Implementation evidence is required separately.

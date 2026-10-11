@@ -1,0 +1,3029 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-11T08:09:56.585823+00:00",
+  "method": {
+    "embedding": "sentence-transformers/all-MiniLM-L6-v2",
+    "family_threshold": 0.72,
+    "candidate_threshold": 0.62,
+    "duration_pair_threshold": 0.55,
+    "mutual_top_k": 3,
+    "detectors": [
+      "quantitative_divergence",
+      "polarity_conflict",
+      "retention_erasure_tension"
+    ],
+    "judge": null
+  },
+  "corpus": {
+    "provisions": 1015,
+    "documents": 8,
+    "by_regulator": {
+      "RBI": 553,
+      "SEBI": 462
+    }
+  },
+  "summary": {
+    "families": 45,
+    "cross_regulator_families": 6,
+    "contradiction_candidates": {
+      "quantitative_divergence": 1
+    }
+  },
+  "families": [
+    {
+      "family_id": "fam-41baa05950dd",
+      "label_terms": [
+        "information",
+        "ciso",
+        "security",
+        "function",
+        "equivalent",
+        "cybersecurity"
+      ],
+      "regulators": [
+        "RBI",
+        "SEBI"
+      ],
+      "documents": [
+        "Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities (REs)",
+        "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+      ],
+      "cross_regulator": true,
+      "members": [
+        {
+          "provision_id": "RBI:8028535a80e5:clause 27",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 27",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "location": {
+            "start_page": 17,
+            "end_page": 17
+          },
+          "text": "27. A senior level executive (preferably in the rank of a General Manager or an equivalent position) shall be designated as the CISO. The CISO shall not have any direct reporting relationship with the Head of IT Function and shall not be given any business targets. The bank shall ensure the following: (1) The CISO has the requisite technical background and expertise. (2) The CISO is appointed for a reasonable minimum term. (3) The CISO’s office is adequately staffed with people having necessary technical expertise, commensurate with the business volume, extent of technology adoption and complexity. (4) The budget for the information security / cybersecurity is determined keeping in view the current / emerging threat landscape."
+        },
+        {
+          "provision_id": "RBI:8028535a80e5:clause 28",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 28",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "location": {
+            "start_page": 17,
+            "end_page": 18
+          },
+          "text": "28. The bank shall ensure that the roles and responsibilities of the CISO are clearly defined and documented covering, at a minimum, the following points: (1) The CISO shall be responsible for driving cybersecurity strategy and ensuring compliance to the extant regulatory / statutory instructions on information security / cybersecurity. (2) The CISO shall be responsible for enforcing the policies that a bank uses to protect its information assets apart from coordinating information security / cybersecurity related issues within the bank as well as with relevant external agencies. (3) The CISO shall be a permanent invitee to the ITSC and IT Steering Committee. (4) The CISO’s office shall manage and monitor Security Operations Centre (SOC) and drive cybersecurity related projects. (5) The CISO’s office shall ensure effective functioning of the security solutions deployed. RBI (CBs – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 18 (6) The CISO shall directly report to the Executive Director or equivalent executive overseeing the risk management function. (7) The CISO shall place a review of cybersecurity risks / arrangements / preparedness of the bank before the Board / Risk Management Committee of the Board (RMCB) / ITSC at least on a quarterly basis. H. Information Technology Project Management"
+        },
+        {
+          "provision_id": "SEBI:bd9ddb68bb49:p.80 block 048091df",
+          "regulator": "SEBI",
+          "document_title": "Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities (REs)",
+          "ref": "p.80 block 048091df",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/aug-2024/1724326790365.pdf",
+          "location": {
+            "page": 80,
+            "bbox": [
+              190.33999633789062,
+              265.9100341796875,
+              670.7559814453125,
+              469.8999938964844
+            ],
+            "units": "pdf_points"
+          },
+          "text": "1. REs shall designate a senior official as Chief Information Security Officer (CISO) whose function would be to assess, identify, and reduce cybersecurity risks, respond to incidents, establish appropriate standards and controls, and direct the establishment and implementation of processes and procedures as per the cybersecurity and cyber resilience policy approved by the Board/ Partners/ Proprietor of the MII and qualified REs. The reporting of the CISO of the MII and Qualified REs shall be directly to the MD & CEO of their organization. CISO shall possess sufficient qualification and capabilities to carry out his/ her responsibilities. REs shall establish a reporting procedure to facilitate communication of cybersecurity incidents/ unusual activities to the CISO or to the senior management in a time-bound manner as defined by guidelines/ policies/ laws/ circulars/ regulations, etc. MIIs and REs which have been identified as CII by NCIIPC shall define roles and responsibilities of CISO as per NCIIPC guidelines22. The level, grade, and standing of CISO shall be atleast equivalent to CTO/ CIO."
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "family_id": "fam-693f236b924f",
+      "label_terms": [
+        "risk",
+        "management"
+      ],
+      "regulators": [
+        "RBI",
+        "SEBI"
+      ],
+      "documents": [
+        "Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities (REs)",
+        "Reserve Bank of India (Know Your Customer (KYC)) Directions, 2016"
+      ],
+      "cross_regulator": true,
+      "members": [
+        {
+          "provision_id": "RBI:e525b18753fd:clause 12",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Know Your Customer (KYC)) Directions, 2016",
+          "ref": "clause 12",
+          "source_url": "https://www.rbi.org.in/commonman/Upload/English/Notification/PDFs/MD18KYCF6E92C82E1E1419D87323E3869BC9F13.pdf",
+          "location": {
+            "start_page": 21,
+            "end_page": 22
+          },
+          "text": "For Risk Management, REs shall have a risk-based approach which includes the following."
+        },
+        {
+          "provision_id": "SEBI:bd9ddb68bb49:p.56 block 9c10b786",
+          "regulator": "SEBI",
+          "document_title": "Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities (REs)",
+          "ref": "p.56 block 9c10b786",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/aug-2024/1724326790365.pdf",
+          "location": {
+            "page": 56,
+            "bbox": [
+              128.66000366210938,
+              91.99998474121094,
+              526.7559814453125,
+              283.9700012207031
+            ],
+            "units": "pdf_points"
+          },
+          "text": "procedures to address them. Cyber risk management objectives shall be agreed to by the REs’ stakeholders. 2. Cybersecurity risk management activities and outcomes shall be included in risk management processes of the REs. 3. Different scenarios and their respective responses shall be documented and tested on a periodic basis to check the risk management plan of the REs. 4. Risk tolerance and risk appetite statements shall be established, communicated, and maintained. REs shall determine and clearly express their risk tolerance and risk acceptance. The risk tolerance of the REs shall be informed by their role in critical infrastructure and/ or sector specific risk analysis. REs shall maintain a risk register which shall be periodically reviewed by their IT Committee for REs."
+        },
+        {
+          "provision_id": "SEBI:bd9ddb68bb49:p.86 block bcbf8021",
+          "regulator": "SEBI",
+          "document_title": "Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities (REs)",
+          "ref": "p.86 block bcbf8021",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/aug-2024/1724326790365.pdf",
+          "location": {
+            "page": 86,
+            "bbox": [
+              193.22000122070312,
+              312.59002685546875,
+              670.6178588867188,
+              341.8299865722656
+            ],
+            "units": "pdf_points"
+          },
+          "text": "implementation, and maintenance of information security risk management. c. Risk management strategy of REs shall include (but not limited to) risk assessment,"
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "family_id": "fam-6082d5daa308",
+      "label_terms": [
+        "capabilities",
+        "critical",
+        "rapid",
+        "data",
+        "support",
+        "resumption"
+      ],
+      "regulators": [
+        "RBI",
+        "SEBI"
+      ],
+      "documents": [
+        "Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities (REs)",
+        "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+      ],
+      "cross_regulator": true,
+      "members": [
+        {
+          "provision_id": "RBI:8028535a80e5:clause 164",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 164",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "location": {
+            "start_page": 43,
+            "end_page": 43
+          },
+          "text": "164. The bank’s BCP and DR capabilities shall be designed to effectively support resilience objectives and enable rapid recovery and secure resumption of critical operations including key cybersecurity controls post cyber-attacks / other incidents aligned with recovery time objectives while ensuring security of processes and data."
+        },
+        {
+          "provision_id": "SEBI:bd9ddb68bb49:p.130 block b47417a4",
+          "regulator": "SEBI",
+          "document_title": "Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities (REs)",
+          "ref": "p.130 block b47417a4",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/aug-2024/1724326790365.pdf",
+          "location": {
+            "page": 130,
+            "bbox": [
+              193.22000122070312,
+              460.96002197265625,
+              670.6781005859375,
+              506.0159912109375
+            ],
+            "units": "pdf_points"
+          },
+          "text": "1. While ensuring protection of data, and security of processes, RE’s BCP-DR capabilities shall support its cyber resilience objectives, and rapid recovery and resumption of critical operations after cybersecurity incident."
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "family_id": "fam-9ad1c1961499",
+      "label_terms": [
+        "awareness",
+        "employee",
+        "assess",
+        "level",
+        "cybersecurity"
+      ],
+      "regulators": [
+        "RBI",
+        "SEBI"
+      ],
+      "documents": [
+        "Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities (REs)",
+        "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+      ],
+      "cross_regulator": true,
+      "members": [
+        {
+          "provision_id": "RBI:8028535a80e5:clause 197",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 197",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "location": {
+            "start_page": 47,
+            "end_page": 47
+          },
+          "text": "197. The adequacy of and adherence to cybersecurity framework shall be assessed and measured through development of indicators to assess the level of risk / preparedness. The awareness among the stakeholders including employees may also form a part of this assessment. BB. User / Employee / Management Awareness"
+        },
+        {
+          "provision_id": "SEBI:bd9ddb68bb49:p.87 block 94b3e6b9",
+          "regulator": "SEBI",
+          "document_title": "Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities (REs)",
+          "ref": "p.87 block 94b3e6b9",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/aug-2024/1724326790365.pdf",
+          "location": {
+            "page": 87,
+            "bbox": [
+              193.22000122070312,
+              108.36620330810547,
+              724.06884765625,
+              135.50001525878906
+            ],
+            "units": "pdf_points"
+          },
+          "text": "e. REs shall periodically assess level of employee cybersecurity awareness, for e.g.,"
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "family_id": "fam-b0c2256c8fd3",
+      "label_terms": [
+        "audit",
+        "auditors",
+        "cert",
+        "empanelled",
+        "cyber"
+      ],
+      "regulators": [
+        "RBI",
+        "SEBI"
+      ],
+      "documents": [
+        "Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities (REs)",
+        "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+      ],
+      "cross_regulator": true,
+      "members": [
+        {
+          "provision_id": "RBI:8028535a80e5:clause 159",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 159",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "location": {
+            "start_page": 42,
+            "end_page": 42
+          },
+          "text": "159. The bank shall continuously interact with the VA / PT auditors during the audit and in case of CERT-In empanelled auditors, the bank shall be guided by CERT- In’s Comprehensive Cyber Security Audit Policy Guidelines."
+        },
+        {
+          "provision_id": "SEBI:bd9ddb68bb49:p.152 block 3c4b71bc",
+          "regulator": "SEBI",
+          "document_title": "Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities (REs)",
+          "ref": "p.152 block 3c4b71bc",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/aug-2024/1724326790365.pdf",
+          "location": {
+            "page": 152,
+            "bbox": [
+              90.02400207519531,
+              139.40000915527344,
+              526.4420166015625,
+              183.49998474121094
+            ],
+            "units": "pdf_points"
+          },
+          "text": "1. Auditor Selection Norms for VAPT and Cyber Audit a. Auditors must mandatorily be CERT-In empanelled. b. Auditor must preferably have a minimum 3 years of experience in IT audit of"
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "family_id": "fam-bd403f2aae09",
+      "label_terms": [
+        "ccmp",
+        "plan",
+        "crisis",
+        "management",
+        "cyber"
+      ],
+      "regulators": [
+        "RBI",
+        "SEBI"
+      ],
+      "documents": [
+        "Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities (REs)",
+        "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+      ],
+      "cross_regulator": true,
+      "members": [
+        {
+          "provision_id": "RBI:8028535a80e5:clause 192",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 192",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "location": {
+            "start_page": 46,
+            "end_page": 46
+          },
+          "text": "192. The bank shall document a Cyber Crisis Management Plan (CCMP) which shall be part of the overall Board approved framework in cybersecurity."
+        },
+        {
+          "provision_id": "SEBI:bd9ddb68bb49:p.16 block 967431b8",
+          "regulator": "SEBI",
+          "document_title": "Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities (REs)",
+          "ref": "p.16 block 967431b8",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/aug-2024/1724326790365.pdf",
+          "location": {
+            "page": 16,
+            "bbox": [
+              90.02400207519531,
+              441.1099853515625,
+              526.7559814453125,
+              486.3099670410156
+            ],
+            "units": "pdf_points"
+          },
+          "text": "and the corresponding SOPs. c. All REs shall formulate an up-to-date Cyber Crisis Management Plan (CCMP). d. In the event of an incident, Root Cause Analysis (RCA) shall be conducted to"
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "family_id": "fam-18b481898bd5",
+      "label_terms": [
+        "notwithstanding",
+        "forfeiture",
+        "imposed",
+        "privilege",
+        "repeal",
+        "proceeding"
+      ],
+      "regulators": [
+        "RBI"
+      ],
+      "documents": [
+        "Reserve Bank of India (Commercial Banks – Credit Cards and Debit Cards: Issuance and Conduct) Directions, 2025 (Updated as on October 1, 2026)",
+        "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+        "Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026 (Updated as on October 01, 2026)",
+        "Reserve Bank of India (Commercial Banks – Managing Risks in Outsourcing) Directions, 2025"
+      ],
+      "cross_regulator": false,
+      "members": [
+        {
+          "provision_id": "RBI:40d23129ee8a:clause 94",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Credit Cards and Debit Cards: Issuance and Conduct) Directions, 2025 (Updated as on October 1, 2026)",
+          "ref": "clause 94",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+          "location": {
+            "start_page": 33,
+            "end_page": 33
+          },
+          "text": "94. Notwithstanding such repeal, any action taken or purported to have been taken, or initiated under the repealed Directions, instructions, or guidelines shall continue to be governed by the provisions thereof. All approvals or acknowledgments granted under these repealed lists shall be deemed as governed by these Directions. Further, the repeal of these directions, instructions, or guidelines shall not in any way prejudicially affect: (1) any right, obligation or liability acquired, accrued, or incurred thereunder; (2) any, penalty, forfeiture, or punishment incurred in respect of any contravention committed thereunder; (3) any investigation, legal proceeding, or remedy in respect of any such right, privilege, obligation, liability, penalty, forfeiture, or punishment as aforesaid; and any such investigation, legal proceedings or remedy may be instituted, continued, or enforced and any such penalty, forfeiture or punishment may be imposed as if those directions, instructions, or guidelines had not been repealed. B. Application of other laws not barred"
+        },
+        {
+          "provision_id": "RBI:8028535a80e5:clause 231",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 231",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "location": {
+            "start_page": 55,
+            "end_page": 55
+          },
+          "text": "231. Notwithstanding such repeal, any action taken or purported to have been taken, or initiated under the repealed directions, instructions, or guidelines shall continue to be governed by the provisions thereof. All approvals or acknowledgments granted under these repealed lists shall be deemed as governed by these Directions. Further, the repeal of these directions, instructions, or guidelines shall not in any way prejudicially affect: (1) any right, obligation or liability acquired, accrued, or incurred thereunder; (2) any penalty, forfeiture, or punishment incurred in respect of any contravention committed thereunder; (3) any investigation, legal proceeding, or remedy in respect of any such right, privilege, obligation, liability, penalty, forfeiture, or punishment as aforesaid; and any such investigation, legal proceedings or remedy may be instituted, continued, or enforced and any such penalty, forfeiture or punishment may be imposed as if those directions, instructions, or guidelines had not been repealed. B. Application of Other Laws Not barred"
+        },
+        {
+          "provision_id": "RBI:84872c7f4693:clause 71",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 71",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/411MD1918998D1AD74F159D57664FB10E053F.PDF",
+          "location": {
+            "start_page": 31,
+            "end_page": 31
+          },
+          "text": "71. Notwithstanding such repeal, any action taken or purported to have been taken, or initiated under the repealed directions, instructions, or guidelines shall continue to be governed by the provisions thereof. All approvals or acknowledgments granted under these repealed lists shall be deemed as governed by these Directions. Further, the repeal of these directions, instructions, or guidelines shall not in any way prejudicially affect: (1) any right, obligation or liability acquired, accrued, or incurred thereunder; (2) any penalty, forfeiture, or punishment incurred in respect of any contravention committed thereunder; (3) any investigation, legal proceeding, or remedy in respect of any such right, privilege, obligation, liability, penalty, forfeiture, or punishment as aforesaid; and any such investigation, legal proceedings or remedy may be instituted, continued, or enforced and any such penalty, forfeiture or punishment may be imposed as if those directions, instructions, or guidelines had not been repealed. B. Application of Other Laws Not barred"
+        },
+        {
+          "provision_id": "RBI:f86e3712e6a1:clause 96",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Managing Risks in Outsourcing) Directions, 2025",
+          "ref": "clause 96",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/171MD.PDF",
+          "location": {
+            "start_page": 43,
+            "end_page": 43
+          },
+          "text": "96. Notwithstanding such repeal, any action taken or purported to have been taken, or initiated under the repealed Directions, instructions, or guidelines shall continue to be governed by the provisions thereof. All approvals or acknowledgments granted under these repealed lists shall be deemed as governed by these Directions. Further, the repeal of these Directions, instructions, or guidelines shall not in any way prejudicially affect: (1) any right, obligation or liability acquired, accrued, or incurred thereunder; (2) any, penalty, forfeiture, or punishment incurred in respect of any contravention committed thereunder; (3) any investigation, legal proceeding, or remedy in respect of any such right, privilege, obligation, liability, penalty, forfeiture, or punishment as aforesaid; and any such investigation, legal proceedings or remedy may be instituted, continued, or enforced and any such penalty, forfeiture or punishment may be imposed as if those Directions, instructions, or guidelines had not been repealed. B. Application of other laws not barred"
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "family_id": "fam-3b1e87228508",
+      "label_terms": [
+        "banks",
+        "small",
+        "individually",
+        "respectively",
+        "state",
+        "defined"
+      ],
+      "regulators": [
+        "RBI"
+      ],
+      "documents": [
+        "Reserve Bank of India (Commercial Banks – Credit Cards and Debit Cards: Issuance and Conduct) Directions, 2025 (Updated as on October 1, 2026)",
+        "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+        "Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026 (Updated as on October 01, 2026)",
+        "Reserve Bank of India (Commercial Banks – Managing Risks in Outsourcing) Directions, 2025"
+      ],
+      "cross_regulator": false,
+      "members": [
+        {
+          "provision_id": "RBI:40d23129ee8a:clause 3",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Credit Cards and Debit Cards: Issuance and Conduct) Directions, 2025 (Updated as on October 1, 2026)",
+          "ref": "clause 3",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+          "location": {
+            "start_page": 2,
+            "end_page": 2
+          },
+          "text": "3. These Directions shall be applicable to Commercial Banks (hereinafter collectively referred to as 'banks' and individually as a 'bank'). For the purpose of these Directions, ‘Commercial Banks’ mean banking companies (other than Small Finance Banks, Payment Banks, and Local Area Banks), corresponding new banks, and the State Bank of India, as defined respectively under clauses (c), (da), and (nc) of Section 5 of the Banking Regulation Act, 1949."
+        },
+        {
+          "provision_id": "RBI:8028535a80e5:clause 3",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 3",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "location": {
+            "start_page": 4,
+            "end_page": 4
+          },
+          "text": "3. These Directions shall be applicable to Commercial Banks (hereinafter collectively referred to as 'banks' and individually as a 'bank'). For the purpose of these Directions, ‘Commercial Banks’ means banking companies (other than Small Finance Banks, Payments Banks, and Local Area Banks), corresponding new banks, and the State Bank of India, as defined respectively under clauses (c), (da), and (nc) of Section 5 of the Banking Regulation Act, 1949."
+        },
+        {
+          "provision_id": "RBI:84872c7f4693:clause 3",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 3",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/411MD1918998D1AD74F159D57664FB10E053F.PDF",
+          "location": {
+            "start_page": 2,
+            "end_page": 2
+          },
+          "text": "3. These Directions shall be applicable to Commercial Banks (hereinafter collectively referred to as 'banks' and individually as 'bank'). For the purpose of these Directions, ‘Commercial Banks’ means banking companies (other than Small Finance Banks, Payments Banks and Local Area Banks), corresponding new banks, and the State Bank of India, as defined respectively under clauses (c), (da), and (nc) of Section 5 of the Banking Regulation Act, 1949."
+        },
+        {
+          "provision_id": "RBI:f86e3712e6a1:clause 3",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Managing Risks in Outsourcing) Directions, 2025",
+          "ref": "clause 3",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/171MD.PDF",
+          "location": {
+            "start_page": 4,
+            "end_page": 5
+          },
+          "text": "3. These Directions shall be applicable to Scheduled Commercial Banks (hereinafter collectively referred to as 'banks' and individually as a 'bank'). For the purpose of these Directions, ‘Commercial Banks’ means banking companies (other than Small Finance Banks, Local Area Banks, Payments Banks and Regional Rural Banks), corresponding new banks, and the State Bank of India, as defined respectively under clauses (c), (da), and (nc) of section 5 of the Banking Regulation Act, 1949. 5 Provided that in respect of foreign banks operating in India through branch mode, any reference to the Board or Board of Directors in these Directions shall be read as a reference to the Head Office or Controlling Office that has oversight over the branch operations in India. Additionally, with respect to the Directions contained in Chapter IV regarding outsourcing of IT services, foreign banks shall be subject to a ‘comply or explain’ approach, which shall allow them to deviate from any specific provision of those Directions, subject to examination and acceptance by RBI of a reasonably justifiable explanation for such deviation."
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "family_id": "fam-5fdf1bac2ea2",
+      "label_terms": [
+        "clarifications",
+        "effect",
+        "respect",
+        "final",
+        "considers",
+        "provisions"
+      ],
+      "regulators": [
+        "RBI"
+      ],
+      "documents": [
+        "Reserve Bank of India (Commercial Banks – Credit Cards and Debit Cards: Issuance and Conduct) Directions, 2025 (Updated as on October 1, 2026)",
+        "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+        "Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026 (Updated as on October 01, 2026)",
+        "Reserve Bank of India (Commercial Banks – Managing Risks in Outsourcing) Directions, 2025"
+      ],
+      "cross_regulator": false,
+      "members": [
+        {
+          "provision_id": "RBI:40d23129ee8a:clause 96",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Credit Cards and Debit Cards: Issuance and Conduct) Directions, 2025 (Updated as on October 1, 2026)",
+          "ref": "clause 96",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+          "location": {
+            "start_page": 33,
+            "end_page": 34
+          },
+          "text": "96. For the purpose of giving effect to the provisions of these Directions or in order to remove any difficulties in the application or interpretation of the provisions of these Directions, the RBI may, if it considers necessary, issue necessary clarifications in respect of any matter covered herein and the interpretation of any provision of these Directions given by the RBI shall be final and binding. 34 D. Exemptions"
+        },
+        {
+          "provision_id": "RBI:8028535a80e5:clause 233",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 233",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "location": {
+            "start_page": 56,
+            "end_page": 56
+          },
+          "text": "233. For the purposes of giving effect to the provisions of these Directions or for removing any difficulties in their application or interpretation, RBI may, if it deems necessary, issue such clarifications as it considers appropriate in respect of any matter covered herein. The interpretation of any provision of these Directions by RBI shall be final and binding on all concerned entities. (N. Suganandh) Chief General Manager"
+        },
+        {
+          "provision_id": "RBI:84872c7f4693:clause 73",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 73",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/411MD1918998D1AD74F159D57664FB10E053F.PDF",
+          "location": {
+            "start_page": 32,
+            "end_page": 32
+          },
+          "text": "73. For the purposes of giving effect to the provisions of these Directions or for removing any difficulties in their application or interpretation, RBI may, if it deems necessary, issue such clarifications as it considers appropriate in respect of any matter covered herein. The interpretation of any provision of these Directions by RBI shall be final and binding on all concerned entities. (N. Suganandh) Chief General Manager"
+        },
+        {
+          "provision_id": "RBI:f86e3712e6a1:clause 98",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Managing Risks in Outsourcing) Directions, 2025",
+          "ref": "clause 98",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/171MD.PDF",
+          "location": {
+            "start_page": 44,
+            "end_page": 44
+          },
+          "text": "98. For the purpose of giving effect to the provisions of these Directions or in order to remove any difficulties in the application or interpretation of the provisions of these Directions, the RBI may, if it considers necessary, issue necessary clarifications in respect of any matter covered herein and the interpretation of any provision of these Directions given by the RBI shall be final and binding. (Sunil T S Nair) Chief General Manager"
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "family_id": "fam-912e8cd57e56",
+      "label_terms": [
+        "banks",
+        "remain",
+        "issuance",
+        "relating",
+        "repealed",
+        "dated"
+      ],
+      "regulators": [
+        "RBI"
+      ],
+      "documents": [
+        "Reserve Bank of India (Commercial Banks – Credit Cards and Debit Cards: Issuance and Conduct) Directions, 2025 (Updated as on October 1, 2026)",
+        "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+        "Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026 (Updated as on October 01, 2026)",
+        "Reserve Bank of India (Commercial Banks – Managing Risks in Outsourcing) Directions, 2025"
+      ],
+      "cross_regulator": false,
+      "members": [
+        {
+          "provision_id": "RBI:40d23129ee8a:clause 93",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Credit Cards and Debit Cards: Issuance and Conduct) Directions, 2025 (Updated as on October 1, 2026)",
+          "ref": "clause 93",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+          "location": {
+            "start_page": 33,
+            "end_page": 33
+          },
+          "text": "93. With the issue of these Directions, the existing Directions, instructions, and guidelines relating to Credit Card and Debit Card: Issuance and Conduct as applicable for Commercial Banks stand repealed, as communicated vide circular DOR.RRC.REC.302/33-01-010/2025-26 dated November 28, 2025. The Directions, instructions and guidelines already repealed shall continue to remain repealed."
+        },
+        {
+          "provision_id": "RBI:8028535a80e5:clause 230",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 230",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "location": {
+            "start_page": 55,
+            "end_page": 55
+          },
+          "text": "230. With the issue of these Directions, the existing Directions, instructions, and guidelines relating to Cybersecurity Framework and IT Governance as applicable to Commercial Banks stand repealed, as communicated vide circular no. DoS.CO.PPG.66/11.01.005/2026-27 dated July 31, 2026. The directions, instructions, and guidelines repealed prior to the issuance of these Directions shall continue to remain repealed."
+        },
+        {
+          "provision_id": "RBI:84872c7f4693:clause 70",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 70",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/411MD1918998D1AD74F159D57664FB10E053F.PDF",
+          "location": {
+            "start_page": 31,
+            "end_page": 31
+          },
+          "text": "70. With the issue of these Directions, the existing directions, instructions, and guidelines relating to Digital Payment Security Controls as applicable to Commercial Banks stand repealed, as communicated vide circular no. DoS.CO.PPG.66/11.01.005/2026-27 dated July 31, 2026. The directions, instructions, and guidelines repealed prior to the issuance of these Directions shall continue to remain repealed."
+        },
+        {
+          "provision_id": "RBI:f86e3712e6a1:clause 95",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Managing Risks in Outsourcing) Directions, 2025",
+          "ref": "clause 95",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/171MD.PDF",
+          "location": {
+            "start_page": 43,
+            "end_page": 43
+          },
+          "text": "95. With the issue of these Directions, the existing Directions, instructions, and guidelines relating to outsourcing of financial services and IT services as applicable to Commercial Banks stand repealed, as communicated vide circular DOR.RRC.REC.302/33-01-010/2025-26 dated November 28, 2025. The Directions, instructions, and guidelines repealed prior to the issuance of these Directions shall continue to remain repealed."
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "family_id": "fam-9332feeb4639",
+      "label_terms": [
+        "statutory",
+        "case",
+        "thereto",
+        "same",
+        "unless",
+        "defined"
+      ],
+      "regulators": [
+        "RBI"
+      ],
+      "documents": [
+        "Reserve Bank of India (Commercial Banks – Credit Cards and Debit Cards: Issuance and Conduct) Directions, 2025 (Updated as on October 1, 2026)",
+        "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+        "Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026 (Updated as on October 01, 2026)",
+        "Reserve Bank of India (Commercial Banks – Managing Risks in Outsourcing) Directions, 2025"
+      ],
+      "cross_regulator": false,
+      "members": [
+        {
+          "provision_id": "RBI:40d23129ee8a:clause 6",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Credit Cards and Debit Cards: Issuance and Conduct) Directions, 2025 (Updated as on October 1, 2026)",
+          "ref": "clause 6",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+          "location": {
+            "start_page": 5,
+            "end_page": 6
+          },
+          "text": "6. All other expressions unless defined herein shall have the same meaning as have been assigned to them under the Banking Regulation Act, 1949 or the Reserve Bank of India Act, 1934 or any statutory modification or re-enactment thereto or as used in commercial parlance, as the case may be. 6 Chapter II – Conduct of Credit Card Business A. Eligibility"
+        },
+        {
+          "provision_id": "RBI:8028535a80e5:clause 6",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 6",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "location": {
+            "start_page": 10,
+            "end_page": 11
+          },
+          "text": "6. All other expressions unless defined herein shall have the same meaning as have been assigned to them under the Reserve Bank of India Act, 1934, the Banking Regulation Act, 1949, the Information Technology Act, 2000, the Companies Act, 2013 or any statutory modification or re-enactment thereto or other regulations issued by the RBI or the Glossary of Terms published by the RBI or as used in commercial parlance, as the case may be. RBI (CBs – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 11 Chapter II - Role of the Board A. Board Approved Policies"
+        },
+        {
+          "provision_id": "RBI:84872c7f4693:clause 6",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 6",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/411MD1918998D1AD74F159D57664FB10E053F.PDF",
+          "location": {
+            "start_page": 4,
+            "end_page": 5
+          },
+          "text": "6. All other expressions unless defined herein shall have the same meaning as have been assigned to them under the Reserve Bank of India Act, 1934, Banking Regulation Act, 1949, Payment and Settlement Systems Act, 2007, Information Technology Act, 2000, or the Companies Act, 2013, or any statutory modification or re-enactment thereto or other regulations issued by the RBI or the Glossary of Terms published by the RBI or as used in commercial parlance, as the case may be. RBI (CBs – Digital Payment Security Controls) Directions, 2026 5 Chapter II - Role of the Board A. Board Approved Policies"
+        },
+        {
+          "provision_id": "RBI:f86e3712e6a1:clause 8",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Managing Risks in Outsourcing) Directions, 2025",
+          "ref": "clause 8",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/171MD.PDF",
+          "location": {
+            "start_page": 8,
+            "end_page": 9
+          },
+          "text": "8. All other expressions unless defined herein shall have the same meaning as have been assigned to them under the Banking Regulation Act, 1949, or the Reserve Bank of India Act, 1934 or the Information Technology Act, 2000 or the Companies Act, 2013 and Rules made thereunder, or any statutory modification or re-enactment thereto, or Glossary of Terms published by RBI or as used in commercial parlance, as the case may be. 9 Chapter II – Role of the Board"
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "family_id": "fam-d994ce2d9c8f",
+      "label_terms": [
+        "banks",
+        "commercial",
+        "called",
+        "directions",
+        "reserve",
+        "bank"
+      ],
+      "regulators": [
+        "RBI"
+      ],
+      "documents": [
+        "Reserve Bank of India (Commercial Banks – Credit Cards and Debit Cards: Issuance and Conduct) Directions, 2025 (Updated as on October 1, 2026)",
+        "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+        "Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026 (Updated as on October 01, 2026)",
+        "Reserve Bank of India (Commercial Banks – Managing Risks in Outsourcing) Directions, 2025"
+      ],
+      "cross_regulator": false,
+      "members": [
+        {
+          "provision_id": "RBI:40d23129ee8a:clause 1",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Credit Cards and Debit Cards: Issuance and Conduct) Directions, 2025 (Updated as on October 1, 2026)",
+          "ref": "clause 1",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+          "location": {
+            "start_page": 2,
+            "end_page": 2
+          },
+          "text": "1. These Directions shall be called the Reserve Bank of India (Commercial Banks - Credit Cards and Debit Cards: Issuance and Conduct) Directions, 2025."
+        },
+        {
+          "provision_id": "RBI:8028535a80e5:clause 1",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 1",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "location": {
+            "start_page": 4,
+            "end_page": 4
+          },
+          "text": "1. These Directions shall be called the Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026."
+        },
+        {
+          "provision_id": "RBI:84872c7f4693:clause 1",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 1",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/411MD1918998D1AD74F159D57664FB10E053F.PDF",
+          "location": {
+            "start_page": 2,
+            "end_page": 2
+          },
+          "text": "1. These Directions shall be called the Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026."
+        },
+        {
+          "provision_id": "RBI:f86e3712e6a1:clause 1",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Managing Risks in Outsourcing) Directions, 2025",
+          "ref": "clause 1",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/171MD.PDF",
+          "location": {
+            "start_page": 4,
+            "end_page": 4
+          },
+          "text": "1. These Directions shall be called the Reserve Bank of India (Commercial Banks - Managing Risks in Outsourcing) Directions, 2025."
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "family_id": "fam-03838272482f",
+      "label_terms": [
+        "bank",
+        "security",
+        "directions",
+        "risk",
+        "technology",
+        "cybersecurity"
+      ],
+      "regulators": [
+        "RBI"
+      ],
+      "documents": [
+        "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+        "Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026 (Updated as on October 01, 2026)",
+        "Reserve Bank of India (Commercial Banks – Managing Risks in Outsourcing) Directions, 2025"
+      ],
+      "cross_regulator": false,
+      "members": [
+        {
+          "provision_id": "RBI:8028535a80e5:clause 41",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 41",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "location": {
+            "start_page": 20,
+            "end_page": 21
+          },
+          "text": "41. The risk assessment for each information asset within the bank’s scope shall be guided by appropriate security standards / IT control frameworks. RBI (CBs – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 21"
+        },
+        {
+          "provision_id": "RBI:8028535a80e5:clause 43",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 43",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "location": {
+            "start_page": 21,
+            "end_page": 21
+          },
+          "text": "43. The bank shall review the security infrastructure and security policies at least annually, factoring in its own experiences and emerging threats and risks. The bank shall take steps to adequately tackle cyber-attacks including phishing, spoofing attacks and mitigate their adverse effects."
+        },
+        {
+          "provision_id": "RBI:8028535a80e5:clause 71",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 71",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "location": {
+            "start_page": 25,
+            "end_page": 26
+          },
+          "text": "71. The bank shall ensure that all the network devices are configured appropriately. The bank shall periodically assess whether the configurations are appropriate to the desired level of network security. RBI (CBs – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 26"
+        },
+        {
+          "provision_id": "RBI:8028535a80e5:clause 75",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 75",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "location": {
+            "start_page": 26,
+            "end_page": 26
+          },
+          "text": "75. The bank shall put in place mechanism to detect and remedy any unusual activities in systems, servers, network devices, and endpoints."
+        },
+        {
+          "provision_id": "RBI:8028535a80e5:clause 81",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 81",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "location": {
+            "start_page": 26,
+            "end_page": 27
+          },
+          "text": "81. Besides business functionalities, the bank shall clearly specify security requirements relating to system access control, authentication, transaction authorisation, data integrity, system activity logging, audit trail, session RBI (CBs – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 27 management, security event tracking, and exception handling during the initial and ongoing stages of system development / acquisition / implementation."
+        },
+        {
+          "provision_id": "RBI:8028535a80e5:clause 88",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 88",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "location": {
+            "start_page": 27,
+            "end_page": 28
+          },
+          "text": "88. The bank shall ensure adequate evaluation of adoption of new technologies for existing / evolving security threats. Such technologies shall be introduced for critical systems after IT and security team of the bank reach reasonable level of comfort and maturity. RBI (CBs – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 28"
+        },
+        {
+          "provision_id": "RBI:8028535a80e5:clause 93",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 93",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "location": {
+            "start_page": 28,
+            "end_page": 28
+          },
+          "text": "93. The bank shall ensure that every IT application / system that can access or affect critical or sensitive information has necessary audit logging capabilities and provides audit trails."
+        },
+        {
+          "provision_id": "RBI:8028535a80e5:clause 96",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 96",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "location": {
+            "start_page": 29,
+            "end_page": 29
+          },
+          "text": "96. The bank shall put in place a system for regularly monitoring the audit trails and system logs to detect, understand or recover from any unauthorised activity or attack."
+        },
+        {
+          "provision_id": "RBI:8028535a80e5:clause 208",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 208",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "location": {
+            "start_page": 48,
+            "end_page": 49
+          },
+          "text": "208. The bank shall proactively promote awareness of its cyber resilience objectives among customers. RBI (CBs – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 49 DD. Risk based Transaction Monitoring"
+        },
+        {
+          "provision_id": "RBI:8028535a80e5:clause 232",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 232",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "location": {
+            "start_page": 55,
+            "end_page": 56
+          },
+          "text": "232. The provisions of these Directions shall be in addition to, and not in derogation of the provisions of any other laws, rules, regulations, or directions, for the time being in force. RBI (CBs – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 56 C. Interpretations"
+        },
+        {
+          "provision_id": "RBI:84872c7f4693:clause 15",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 15",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/411MD1918998D1AD74F159D57664FB10E053F.PDF",
+          "location": {
+            "start_page": 8,
+            "end_page": 9
+          },
+          "text": "15. The bank shall conduct risk assessments with regard to the safety and security of digital payment products / services and associated processes as well as suitability and appropriateness of the same vis-à-vis the target users, both prior to establishing the service(s) and regularly thereafter. The risk assessment shall factor in: (1) the technology stack and solutions used; (2) known vulnerabilities at each of the touchpoints of the digital product / service and the remedial action taken by the bank; (3) dependence on third-party service providers and oversight over such providers; RBI (CBs – Digital Payment Security Controls) Directions, 2026 9 (4) risk arising out of integration of digital payment platform with other systems both internal and external to the bank, including core systems and systems of PSOs; (5) customer experience, convenience, and technology adoption required to use such products / services; (6) reconciliation process; (7) interoperability aspects; (8) data storage, security, and privacy protection as per extant laws / instructions; (9) operational risk including fraud risk; (10) business continuity and service availability; (11) compliance with extant cybersecurity requirements; and (12) compatibility aspects."
+        },
+        {
+          "provision_id": "RBI:84872c7f4693:clause 17",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 17",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/411MD1918998D1AD74F159D57664FB10E053F.PDF",
+          "location": {
+            "start_page": 9,
+            "end_page": 10
+          },
+          "text": "17. The bank shall evaluate the risks associated with the chosen technology platforms, application architecture, both on the server and client side. Further, RBI (CBs – Digital Payment Security Controls) Directions, 2026 10 the bank shall undertake a review of the risk scenarios and existing security measures based on incidents affecting its services, before any major change to the infrastructure or procedures, or whenever any new threats are identified through risk monitoring activities. Further, unused, or unwanted features of the platform shall be closely controlled to minimise risk."
+        },
+        {
+          "provision_id": "RBI:84872c7f4693:clause 29",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 29",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/411MD1918998D1AD74F159D57664FB10E053F.PDF",
+          "location": {
+            "start_page": 11,
+            "end_page": 12
+          },
+          "text": "29. The bank shall explicitly define security objectives (including protection of customer information / data) during (1) requirements gathering; RBI (CBs – Digital Payment Security Controls) Directions, 2026 12 (2) designing; (3) development; (4) testing including source code review; (5) implementation, maintenance, and monitoring; and (6) decommissioning phases of the digital payment applications."
+        },
+        {
+          "provision_id": "RBI:84872c7f4693:clause 52",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 52",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/411MD1918998D1AD74F159D57664FB10E053F.PDF",
+          "location": {
+            "start_page": 16,
+            "end_page": 16
+          },
+          "text": "52. The bank shall document and implement the configuration requirements for identifying suspicious transactional behaviour, including rules, preventive and detective controls, mechanism to alert the customers in case of failed authentication attempts, and the applicable time frames."
+        },
+        {
+          "provision_id": "RBI:84872c7f4693:clause 64",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 64",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/411MD1918998D1AD74F159D57664FB10E053F.PDF",
+          "location": {
+            "start_page": 19,
+            "end_page": 20
+          },
+          "text": "64. The bank may continuously create public awareness on the types of threats and attacks used against the customers while using digital payment products and precautionary measures to safeguard against the same. The bank shall caution the customers against commonly observed threats including phishing, vishing, reverse phishing, remote access of mobile devices, and educate them to secure RBI (CBs – Digital Payment Security Controls) Directions, 2026 20 and safeguard their account details, credentials, PIN, card details, devices and other authentication information."
+        },
+        {
+          "provision_id": "RBI:84872c7f4693:clause 72",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 72",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/411MD1918998D1AD74F159D57664FB10E053F.PDF",
+          "location": {
+            "start_page": 31,
+            "end_page": 32
+          },
+          "text": "72. The provisions of these Directions shall be in addition to, and not in derogation of the provisions of any other laws, rules, regulations, or directions, for the time being in force. RBI (CBs – Digital Payment Security Controls) Directions, 2026 32 C. Interpretations"
+        },
+        {
+          "provision_id": "RBI:f86e3712e6a1:clause 25",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Managing Risks in Outsourcing) Directions, 2025",
+          "ref": "clause 25",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/171MD.PDF",
+          "location": {
+            "start_page": 15,
+            "end_page": 15
+          },
+          "text": "25. A bank shall review and monitor the security practices and control processes of its service providers on a regular basis and require the service provider to disclose security breaches."
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "family_id": "fam-43380771e47f",
+      "label_terms": [
+        "bank",
+        "service",
+        "information",
+        "ensure",
+        "security",
+        "provider"
+      ],
+      "regulators": [
+        "RBI"
+      ],
+      "documents": [
+        "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+        "Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026 (Updated as on October 01, 2026)",
+        "Reserve Bank of India (Commercial Banks – Managing Risks in Outsourcing) Directions, 2025"
+      ],
+      "cross_regulator": false,
+      "members": [
+        {
+          "provision_id": "RBI:8028535a80e5:clause 42",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 42",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "location": {
+            "start_page": 21,
+            "end_page": 21
+          },
+          "text": "42. The bank shall ensure that all staff members and service providers comply with the extant information security and acceptable-use policies as applicable to them."
+        },
+        {
+          "provision_id": "RBI:8028535a80e5:clause 64",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 64",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "location": {
+            "start_page": 24,
+            "end_page": 24
+          },
+          "text": "64. The bank shall ensure that information systems and infrastructure are able to support business functions and ensure availability of all service delivery channels."
+        },
+        {
+          "provision_id": "RBI:8028535a80e5:clause 116",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 116",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "location": {
+            "start_page": 32,
+            "end_page": 32
+          },
+          "text": "116. The bank shall act as the identity provider for identification and authentication of customers for access to partner systems using secure authentication technologies. O. Secure Mail and Messaging Systems"
+        },
+        {
+          "provision_id": "RBI:84872c7f4693:clause 63",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 63",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/411MD1918998D1AD74F159D57664FB10E053F.PDF",
+          "location": {
+            "start_page": 19,
+            "end_page": 19
+          },
+          "text": "63. The bank shall provide clear and effective communication, along with sufficient instructions, to enable customers to properly utilise any new operating features or functions, particularly those relating to security, integrity, and authentication, introduced to online delivery channels."
+        },
+        {
+          "provision_id": "RBI:f86e3712e6a1:clause 23",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Managing Risks in Outsourcing) Directions, 2025",
+          "ref": "clause 23",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/171MD.PDF",
+          "location": {
+            "start_page": 15,
+            "end_page": 15
+          },
+          "text": "23. A bank shall seek to ensure the security, preservation, and protection of the customer information in the custody or possession of the service provider."
+        },
+        {
+          "provision_id": "RBI:f86e3712e6a1:clause 63",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Managing Risks in Outsourcing) Directions, 2025",
+          "ref": "clause 63",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/171MD.PDF",
+          "location": {
+            "start_page": 28,
+            "end_page": 28
+          },
+          "text": "63. A bank shall be responsible for the confidentiality, and integrity of data and information pertaining to its customers that are available to the service provider."
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "family_id": "fam-80ff908cae58",
+      "label_terms": [
+        "bank",
+        "ensure",
+        "security",
+        "information",
+        "directions",
+        "service"
+      ],
+      "regulators": [
+        "RBI"
+      ],
+      "documents": [
+        "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+        "Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026 (Updated as on October 01, 2026)",
+        "Reserve Bank of India (Commercial Banks – Managing Risks in Outsourcing) Directions, 2025"
+      ],
+      "cross_regulator": false,
+      "members": [
+        {
+          "provision_id": "RBI:8028535a80e5:clause 36",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 36",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "location": {
+            "start_page": 19,
+            "end_page": 19
+          },
+          "text": "36. The bank shall ensure identification and mapping of the security classification (in terms of confidentiality, integrity, and availability) of information assets based on their criticality to the bank’s operations."
+        },
+        {
+          "provision_id": "RBI:8028535a80e5:clause 53",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 53",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "location": {
+            "start_page": 22,
+            "end_page": 23
+          },
+          "text": "53. The bank, as owner of customers’ personal and sensitive data, shall take appropriate steps in preserving the confidentiality, integrity, and availability of the same, irrespective of whether the data is stored / in transit within itself or with the RBI (CBs – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 23 third-party vendors. The bank shall ensure that the confidentiality of such custodial information is not compromised at any situation and to this end, shall put in place suitable systems and processes across the data / information lifecycle."
+        },
+        {
+          "provision_id": "RBI:8028535a80e5:clause 135",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 135",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "location": {
+            "start_page": 34,
+            "end_page": 35
+          },
+          "text": "135. The bank shall thoroughly satisfy itself about the credentials of vendor / third- party personnel accessing and managing the bank’s critical assets. Background RBI (CBs – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 35 checks, non-disclosure and security policy compliance agreements shall be mandated for all third-party service providers."
+        },
+        {
+          "provision_id": "RBI:84872c7f4693:clause 56",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 56",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/411MD1918998D1AD74F159D57664FB10E053F.PDF",
+          "location": {
+            "start_page": 17,
+            "end_page": 18
+          },
+          "text": "56. The bank shall maintain updated contact details of service providers, intermediaries, external agencies, and other stakeholders for coordination in incident response. The bank shall put in place a mechanism with the RBI (CBs – Digital Payment Security Controls) Directions, 2026 18 stakeholders to update and verify such contact details. The bank shall also formulate specific Standard Operating Procedures (SOPs) to handle incidents related to payment ecosystem to mitigate the loss either to the customer or the bank. F. Reconciliation Mechanism"
+        },
+        {
+          "provision_id": "RBI:f86e3712e6a1:clause 27",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Managing Risks in Outsourcing) Directions, 2025",
+          "ref": "clause 27",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/171MD.PDF",
+          "location": {
+            "start_page": 15,
+            "end_page": 15
+          },
+          "text": "27. A bank shall ensure that a service provider is able to isolate and clearly identify the bank’s customer information, documents, records, and assets to protect the confidentiality of the information."
+        },
+        {
+          "provision_id": "RBI:f86e3712e6a1:clause 64",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Managing Risks in Outsourcing) Directions, 2025",
+          "ref": "clause 64",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/171MD.PDF",
+          "location": {
+            "start_page": 28,
+            "end_page": 29
+          },
+          "text": "64. In this regard, a bank shall adhere to directions stated in paragraph 23 to paragraph 26 of these Directions and additionally ensure that: 29 (1) access by service providers to data at the bank, or its data centre shall be on ‘need to know’ basis, with appropriate controls to prevent security breaches or data misuse; (2) in the event of multiple service provider relationships where two or more service providers collaborate to deliver an end-to-end solution, the bank remains responsible for understanding and monitoring the control environment of all service providers that have access to its data, systems, records, or resources; (3) it immediately notifies RBI in the event of breach of security, and leakage of confidential customer-related information. In these eventualities, the bank shall adhere to the extant instructions issued by RBI from time to time on Incident Response and Recovery Management."
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "family_id": "fam-d54477dbcfd6",
+      "label_terms": [
+        "bank",
+        "risk",
+        "management",
+        "alia",
+        "place",
+        "function"
+      ],
+      "regulators": [
+        "RBI"
+      ],
+      "documents": [
+        "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+        "Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026 (Updated as on October 01, 2026)",
+        "Reserve Bank of India (Commercial Banks – Managing Risks in Outsourcing) Directions, 2025"
+      ],
+      "cross_regulator": false,
+      "members": [
+        {
+          "provision_id": "RBI:8028535a80e5:clause 25",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 25",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "location": {
+            "start_page": 16,
+            "end_page": 16
+          },
+          "text": "25. The Head of IT Function shall, inter alia, be responsible for the following: (1) ensuring that the execution of IT projects / initiatives is aligned with the bank’s IT Policy and IT Strategy; (2) ensuring that there is an effective organisational structure to support IT functions in the bank; and (3) putting in place an effective DR setup and business continuity strategy / plan."
+        },
+        {
+          "provision_id": "RBI:8028535a80e5:clause 40",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 40",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "location": {
+            "start_page": 20,
+            "end_page": 20
+          },
+          "text": "40. The bank shall establish a robust IT and Information Security Risk Management Framework (the bank may have flexibility to define information security / cybersecurity risk management framework distinct from IT risk management framework) covering, inter alia, the following aspects: (1) implementation of comprehensive information security management function, internal controls, and processes (including applicable insurance covers) to mitigate / manage identified risks. The implemented controls and processes must be reviewed periodically on their efficacy in a risk environment characterised by change; (2) roles and responsibilities of stakeholders (including third-party personnel) involved in IT risk management. Areas of possible role conflicts and accountability gaps must be specifically identified and eliminated or managed; (3) identification of critical information systems of the organisation and fortification of the security environment of such systems; and (4) definition and implementation of necessary systems, procedures, and controls to ensure secure storage / transmission / processing of data / information. C. Risk Identification, Assessment, and Documentation"
+        },
+        {
+          "provision_id": "RBI:84872c7f4693:clause 12",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 12",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/411MD1918998D1AD74F159D57664FB10E053F.PDF",
+          "location": {
+            "start_page": 7,
+            "end_page": 7
+          },
+          "text": "12. The bank shall incorporate appropriate processes into its governance and risk management programs for identifying, analysing, monitoring, and managing the specific risks, including compliance risk and fraud risk, associated with the portfolio of digital payment products and services on a continual basis and in a holistic manner."
+        },
+        {
+          "provision_id": "RBI:f86e3712e6a1:clause 59",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Managing Risks in Outsourcing) Directions, 2025",
+          "ref": "clause 59",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/171MD.PDF",
+          "location": {
+            "start_page": 27,
+            "end_page": 28
+          },
+          "text": "59. The responsibilities of the IT Function of a bank shall, inter alia, include: (1) assisting the Senior Management in identifying, measuring, monitoring, mitigating, and managing the level of IT outsourcing risk in the bank; (2) ensuring that a central database of all IT outsourcing arrangements is maintained and is accessible for review by Board, Senior Management, auditors, and supervisors; 28 (3) effectively monitoring and supervising the outsourced IT service to ensure that the service provider meets the laid down performance standards and provides uninterrupted services, reporting to the Senior Management, co-ordinating periodic due diligence, and highlighting concerns, if any; and (4) putting in place necessary documentation required for contractual agreements including service level management, monitoring of vendor operations, key risk indicators, and classifying the vendors as per the determined risk. D. Risk Management D.1 Risk Management Framework"
+        },
+        {
+          "provision_id": "RBI:f86e3712e6a1:clause 60",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Managing Risks in Outsourcing) Directions, 2025",
+          "ref": "clause 60",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/171MD.PDF",
+          "location": {
+            "start_page": 28,
+            "end_page": 28
+          },
+          "text": "60. A bank shall put in place a risk management framework that comprehensively deals with the processes and responsibilities for identification, measurement, mitigation, management, and reporting of risks associated with such IT outsourcing arrangements."
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "family_id": "fam-3554665640ae",
+      "label_terms": [
+        "applicability",
+        "directions",
+        "effect",
+        "come",
+        "these",
+        "into"
+      ],
+      "regulators": [
+        "RBI"
+      ],
+      "documents": [
+        "Reserve Bank of India (Commercial Banks – Credit Cards and Debit Cards: Issuance and Conduct) Directions, 2025 (Updated as on October 1, 2026)",
+        "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+        "Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026 (Updated as on October 01, 2026)"
+      ],
+      "cross_regulator": false,
+      "members": [
+        {
+          "provision_id": "RBI:40d23129ee8a:clause 2",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Credit Cards and Debit Cards: Issuance and Conduct) Directions, 2025 (Updated as on October 1, 2026)",
+          "ref": "clause 2",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+          "location": {
+            "start_page": 2,
+            "end_page": 2
+          },
+          "text": "2. These Directions shall come into force with immediate effect. B. Applicability"
+        },
+        {
+          "provision_id": "RBI:8028535a80e5:clause 2",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 2",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "location": {
+            "start_page": 4,
+            "end_page": 4
+          },
+          "text": "2. These Directions shall come into effect immediately upon issuance. B. Applicability"
+        },
+        {
+          "provision_id": "RBI:84872c7f4693:clause 2",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 2",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/411MD1918998D1AD74F159D57664FB10E053F.PDF",
+          "location": {
+            "start_page": 2,
+            "end_page": 2
+          },
+          "text": "2. These Directions shall come into effect immediately upon issuance. B. Applicability"
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "family_id": "fam-628cb7a44a85",
+      "label_terms": [
+        "periodically",
+        "bank",
+        "data",
+        "backed",
+        "procedures",
+        "recovery"
+      ],
+      "regulators": [
+        "RBI"
+      ],
+      "documents": [
+        "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+        "Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026 (Updated as on October 01, 2026)",
+        "Reserve Bank of India (Commercial Banks – Managing Risks in Outsourcing) Directions, 2025"
+      ],
+      "cross_regulator": false,
+      "members": [
+        {
+          "provision_id": "RBI:8028535a80e5:clause 169",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 169",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "location": {
+            "start_page": 43,
+            "end_page": 43
+          },
+          "text": "169. The bank shall backup data and periodically restore such backed-up data to check its usability. The integrity of such backup data shall be preserved along with securing it from unauthorised access."
+        },
+        {
+          "provision_id": "RBI:84872c7f4693:clause 20",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 20",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/411MD1918998D1AD74F159D57664FB10E053F.PDF",
+          "location": {
+            "start_page": 10,
+            "end_page": 10
+          },
+          "text": "20. The bank shall have necessary capacity, systems, and procedures in place to periodically test backed-up data and applications pertaining to digital products / services to ensure recovery without loss of transactions or audit-trails. These facilities shall be tested at least on a half-yearly basis. B. Other Generic Security Controls"
+        },
+        {
+          "provision_id": "RBI:f86e3712e6a1:clause 40",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Managing Risks in Outsourcing) Directions, 2025",
+          "ref": "clause 40",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/171MD.PDF",
+          "location": {
+            "start_page": 19,
+            "end_page": 19
+          },
+          "text": "40. A bank shall require its service provider to develop and establish a robust framework for documenting, maintaining, and testing business continuity and recovery procedures. The bank shall ensure that the service provider periodically tests the Business Continuity and Recovery Plan and may also consider occasional joint testing and recovery exercises with its service provider."
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "family_id": "fam-8b6c7cb53f57",
+      "label_terms": [
+        "grievance",
+        "information",
+        "directions",
+        "bank",
+        "redressal",
+        "satisfied"
+      ],
+      "regulators": [
+        "RBI"
+      ],
+      "documents": [
+        "Reserve Bank of India (Commercial Banks – Credit Cards and Debit Cards: Issuance and Conduct) Directions, 2025 (Updated as on October 1, 2026)",
+        "Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026 (Updated as on October 01, 2026)",
+        "Reserve Bank of India (Commercial Banks – Managing Risks in Outsourcing) Directions, 2025"
+      ],
+      "cross_regulator": false,
+      "members": [
+        {
+          "provision_id": "RBI:40d23129ee8a:clause 85",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Credit Cards and Debit Cards: Issuance and Conduct) Directions, 2025 (Updated as on October 1, 2026)",
+          "ref": "clause 85",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+          "location": {
+            "start_page": 27,
+            "end_page": 28
+          },
+          "text": "85. Card-issuers shall be liable to compensate the complainant for the loss of his / her time, expenses, financial loss as well as for the harassment and mental anguish suffered by him/her for the fault of the card-issuer and where the grievance has not been redressed in time. For redressal of his / her grievance, the customer must first approach the concerned card-issuer. If the card-issuer does not respond within a period of 30 days after filing of the complaint or rejects the complaint wholly / partly or if the customer is not satisfied with the response / resolution given by the card-issuer, the customer can lodge his / her a complaint with the Ombudsman, Reserve Bank through any of the following methods: (1) Online at https://cms.rbi.org.in. (2) Physical complaint (letter / post) in the form as specified in Annexure ‘A’ of the Reserve Bank - Integrated Ombudsman Scheme, 2021 to “Centralised Receipt and Processing Centre, 4th Floor, Reserve Bank of India, Sector -17, Central Vista, Chandigarh - 160017”. 10 Substituted w.e.f. October 1, 2026, consequent to Reserve Bank of India (Commercial Banks - Governance) Amendment Directions, 2026. 28 E. Confidentiality of customer information"
+        },
+        {
+          "provision_id": "RBI:84872c7f4693:clause 59",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 59",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/411MD1918998D1AD74F159D57664FB10E053F.PDF",
+          "location": {
+            "start_page": 18,
+            "end_page": 19
+          },
+          "text": "59. The bank shall incorporate a section in the digital payment application clearly specifying the process and procedure (including relevant forms and contact information) to lodge customer grievances. A mechanism shall be put in place to keep this information periodically updated. The reporting facility on the application shall provide an option for registering a grievance. Customer dispute handling, reporting, and resolution procedures, including the expected timelines for the bank’s response, shall be clearly defined. RBI (CBs – Digital Payment Security Controls) Directions, 2026 19"
+        },
+        {
+          "provision_id": "RBI:f86e3712e6a1:clause 52",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Managing Risks in Outsourcing) Directions, 2025",
+          "ref": "clause 52",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/171MD.PDF",
+          "location": {
+            "start_page": 23,
+            "end_page": 24
+          },
+          "text": "52. In addition to the above, (1) a bank shall constitute Grievance Redressal Machinery in accordance with the provisions of Reserve Bank of India (Commercial Banks - Responsible Business Conduct) Directions, 2025, and give wide publicity about it within the bank through electronic and print media; (2) the name and contact number of designated grievance redressal officer of the bank shall be made known and widely publicised. The designated officer shall ensure that genuine grievances of customers are redressed promptly without involving delay. It shall be clearly indicated that bank’s Grievance Redressal Machinery will also deal with the issue relating to services provided by the service provider; and (3) the time frame fixed for responding to the complaints (maximum 30 days) shall be placed on the bank's website. If a complaint is rejected wholly or partly by a bank, and the complainant is not satisfied with the reply, or does not get any reply within 30 days after the bank received the complaint, the complainant shall have the option to seek grievance redressal under the RBI’s Integrated Ombudsman Scheme, 2021. 24 Chapter IV – Outsourcing of Information Technology (IT) Services A. Definitions"
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "family_id": "fam-7128b73603ef",
+      "label_terms": [
+        "bank",
+        "applications",
+        "devices",
+        "including",
+        "security",
+        "secure"
+      ],
+      "regulators": [
+        "RBI"
+      ],
+      "documents": [
+        "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+        "Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026 (Updated as on October 01, 2026)"
+      ],
+      "cross_regulator": false,
+      "members": [
+        {
+          "provision_id": "RBI:8028535a80e5:clause 57",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 57",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "location": {
+            "start_page": 23,
+            "end_page": 23
+          },
+          "text": "57. The bank shall have a mechanism to control installation of software / applications centrally / otherwise on its information systems including end-user Personal Computers (PCs), laptops, workstations, servers, mobile devices, and cloud environments. The bank shall also have a mechanism to block / prevent and identify installation and running of unauthorised software / applications on such devices / systems."
+        },
+        {
+          "provision_id": "RBI:8028535a80e5:clause 66",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 66",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "location": {
+            "start_page": 25,
+            "end_page": 25
+          },
+          "text": "66. The bank shall document and apply baseline security requirements / configurations to all categories of devices including endpoints / workstations, mobile devices, operating systems, databases, applications, network devices, security devices, and security systems, throughout the lifecycle (from conception to deployment) and carry out reviews periodically."
+        },
+        {
+          "provision_id": "RBI:8028535a80e5:clause 199",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 199",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "location": {
+            "start_page": 48,
+            "end_page": 48
+          },
+          "text": "199. The bank shall define and communicate its security policies to users / employees, vendors, and partners, covering secure and acceptable use of bank’s information assets including customer information / data, and educating them about cybersecurity risks and protection measures at their level."
+        },
+        {
+          "provision_id": "RBI:84872c7f4693:clause 58",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 58",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/411MD1918998D1AD74F159D57664FB10E053F.PDF",
+          "location": {
+            "start_page": 18,
+            "end_page": 18
+          },
+          "text": "58. The bank shall incorporate secure, safe, and responsible usage guidelines and training materials for end users within the digital payment applications. The bank shall make it mandatory (i.e., not providing any option to circumvent / avoid the material) for the customer to go through secure usage guidelines (in the customer’s preferred language) while obtaining and recording confirmation during the on-boarding procedure in the first instance and first use after each update of the digital payment application or after major updates to secure and safe usage guidelines."
+        },
+        {
+          "provision_id": "RBI:84872c7f4693:clause 61",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 61",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/411MD1918998D1AD74F159D57664FB10E053F.PDF",
+          "location": {
+            "start_page": 19,
+            "end_page": 19
+          },
+          "text": "61. The bank shall educate customers about the need to maintain the physical and logical security of their devices accessing digital payment products and services. This shall include but not be limited to recommending secure and regular installation of operating system and application updates, downloading applications only from authorised sources, and having anti-malware / anti-virus applications on devices."
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "family_id": "fam-1a1ae7228887",
+      "label_terms": [
+        "plan",
+        "recovery",
+        "scenario",
+        "based",
+        "incident",
+        "data"
+      ],
+      "regulators": [
+        "SEBI"
+      ],
+      "documents": [
+        "Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities (REs)",
+        "Technical Clarifications to Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities (REs)"
+      ],
+      "cross_regulator": false,
+      "members": [
+        {
+          "provision_id": "SEBI:bd9ddb68bb49:p.74 block 8b54ac42",
+          "regulator": "SEBI",
+          "document_title": "Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities (REs)",
+          "ref": "p.74 block 8b54ac42",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/aug-2024/1724326790365.pdf",
+          "location": {
+            "page": 74,
+            "bbox": [
+              128.66000366210938,
+              566.8900146484375,
+              526.7319946289062,
+              706.2999877929688
+            ],
+            "units": "pdf_points"
+          },
+          "text": "1. Recovery plan of REs shall have different cyber-scenario based classifications. 2. RTO and RPO, as specified by SEBI, shall be mandated while executing recovery plan for the restoration of systems after a cybersecurity incident. 3. REs shall periodically conduct drills for testing different recovery scenarios. 4. Backup and recovery plan of data shall be documented to ensure that there is no data loss."
+        },
+        {
+          "provision_id": "SEBI:bd9ddb68bb49:p.129 block 946ef86c",
+          "regulator": "SEBI",
+          "document_title": "Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities (REs)",
+          "ref": "p.129 block 946ef86c",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/aug-2024/1724326790365.pdf",
+          "location": {
+            "page": 129,
+            "bbox": [
+              211.22000122070312,
+              108.36620330810547,
+              724.06884765625,
+              151.4600067138672
+            ],
+            "units": "pdf_points"
+          },
+          "text": "REs. The recovery plan shall be scenario-based and in line with the RTO and RPO specified."
+        },
+        {
+          "provision_id": "SEBI:bd9ddb68bb49:p.130 block ad88117d",
+          "regulator": "SEBI",
+          "document_title": "Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities (REs)",
+          "ref": "p.130 block ad88117d",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/aug-2024/1724326790365.pdf",
+          "location": {
+            "page": 130,
+            "bbox": [
+              185.66000366210938,
+              122.12001037597656,
+              670.6900024414062,
+              294.16998291015625
+            ],
+            "units": "pdf_points"
+          },
+          "text": "1. A backup and recovery plan shall be formulated by the REs and approved by their respective IT Committee for REs. The backup and recovery plan shall include policies and software solutions that work together to maintain business continuity in the event of a security incident. Such plan shall include guidance on restoration of data with the backup software used by the RE. 2. The backup and recovery policy shall include backup of data as well as backup of server images. 3. The backup of data and server images shall be maintained at off-site locations to keep backup copies intact and unbroken. 4. RTO and RPO, as prescribed by SEBI from time to time, shall be included in the recovery plan for the restoration of systems after cybersecurity incidents."
+        },
+        {
+          "provision_id": "SEBI:7eb58ae065db:p.9 block 9d242791",
+          "regulator": "SEBI",
+          "document_title": "Technical Clarifications to Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities (REs)",
+          "ref": "p.9 block 9d242791",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/aug-2025/1756380695925.pdf",
+          "location": {
+            "page": 9,
+            "bbox": [
+              114.62000274658203,
+              217.0399627685547,
+              526.6900634765625,
+              230.39596557617188
+            ],
+            "units": "pdf_points"
+          },
+          "text": "The recovery plan shall be scenario-based and in line with the RTO and RPO"
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "family_id": "fam-a3e4b8ea16ae",
+      "label_terms": [
+        "systems",
+        "critical",
+        "identify",
+        "classify",
+        "entities",
+        "included"
+      ],
+      "regulators": [
+        "SEBI"
+      ],
+      "documents": [
+        "Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities (REs)",
+        "Technical Clarifications to Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities (REs)"
+      ],
+      "cross_regulator": false,
+      "members": [
+        {
+          "provision_id": "SEBI:bd9ddb68bb49:p.15 block 427b5dd4",
+          "regulator": "SEBI",
+          "document_title": "Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities (REs)",
+          "ref": "p.15 block 427b5dd4",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/aug-2024/1724326790365.pdf",
+          "location": {
+            "page": 15,
+            "bbox": [
+              90.02400207519531,
+              123.67997741699219,
+              526.5220947265625,
+              137.0599822998047
+            ],
+            "units": "pdf_points"
+          },
+          "text": "a. REs shall identify and classify critical systems based on their sensitivity and"
+        },
+        {
+          "provision_id": "SEBI:bd9ddb68bb49:p.26 block f63522b8",
+          "regulator": "SEBI",
+          "document_title": "Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities (REs)",
+          "ref": "p.26 block f63522b8",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/aug-2024/1724326790365.pdf",
+          "location": {
+            "page": 26,
+            "bbox": [
+              73.8239974975586,
+              221.9600067138672,
+              526.7080078125,
+              296.9299621582031
+            ],
+            "units": "pdf_points"
+          },
+          "text": "2. Critical Systems – Entities shall identify and classify their critical IT systems. Following systems shall be included in critical systems (both on premise and cloud): a. Any system, if compromised, that will have an adverse impact on core and"
+        },
+        {
+          "provision_id": "SEBI:7eb58ae065db:p.6 block 2f0d0101",
+          "regulator": "SEBI",
+          "document_title": "Technical Clarifications to Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities (REs)",
+          "ref": "p.6 block 2f0d0101",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/aug-2025/1756380695925.pdf",
+          "location": {
+            "page": 6,
+            "bbox": [
+              90.02400207519531,
+              350.75,
+              526.5259399414062,
+              364.1299743652344
+            ],
+            "units": "pdf_points"
+          },
+          "text": "6.1. Critical Systems definition (Page 26): Entities shall identify and classify their"
+        },
+        {
+          "provision_id": "SEBI:7eb58ae065db:p.6 block 3dd66ced",
+          "regulator": "SEBI",
+          "document_title": "Technical Clarifications to Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities (REs)",
+          "ref": "p.6 block 3dd66ced",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/aug-2025/1756380695925.pdf",
+          "location": {
+            "page": 6,
+            "bbox": [
+              111.62000274658203,
+              371.3899841308594,
+              526.4719848632812,
+              384.7459716796875
+            ],
+            "units": "pdf_points"
+          },
+          "text": "critical IT systems. Following systems shall be included in critical systems (both"
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "family_id": "fam-ed7c43c82ba8",
+      "label_terms": [
+        "efficacy",
+        "functional",
+        "report"
+      ],
+      "regulators": [
+        "SEBI"
+      ],
+      "documents": [
+        "Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities (REs)",
+        "Technical Clarifications to Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities (REs)"
+      ],
+      "cross_regulator": false,
+      "members": [
+        {
+          "provision_id": "SEBI:bd9ddb68bb49:p.118 block b0d082af",
+          "regulator": "SEBI",
+          "document_title": "Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities (REs)",
+          "ref": "p.118 block b0d082af",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/aug-2024/1724326790365.pdf",
+          "location": {
+            "page": 118,
+            "bbox": [
+              190.33999633789062,
+              418.33001708984375,
+              670.593994140625,
+              447.5500183105469
+            ],
+            "units": "pdf_points"
+          },
+          "text": "2. Functional efficacy of SOC a. REs shall measure functional efficacy of their SOC using the quantifiable method"
+        },
+        {
+          "provision_id": "SEBI:bd9ddb68bb49:p.118 block 1aba8160",
+          "regulator": "SEBI",
+          "document_title": "Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities (REs)",
+          "ref": "p.118 block 1aba8160",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/aug-2024/1724326790365.pdf",
+          "location": {
+            "page": 118,
+            "bbox": [
+              204.5,
+              450.010009765625,
+              594.64599609375,
+              479.3800048828125
+            ],
+            "units": "pdf_points"
+          },
+          "text": "given in Annexure-N. b. REs shall review the functional efficacy of SOC on a half-yearly basis."
+        },
+        {
+          "provision_id": "SEBI:bd9ddb68bb49:p.190 block 69754c1e",
+          "regulator": "SEBI",
+          "document_title": "Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities (REs)",
+          "ref": "p.190 block 69754c1e",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/aug-2024/1724326790365.pdf",
+          "location": {
+            "page": 190,
+            "bbox": [
+              72.02400207519531,
+              352.54998779296875,
+              526.7559814453125,
+              380.8099670410156
+            ],
+            "units": "pdf_points"
+          },
+          "text": "I/ We hereby confirm that report of functional efficacy of SOC has been verified by me/ us and I/ We shall take the responsibility and ownership of the report."
+        },
+        {
+          "provision_id": "SEBI:7eb58ae065db:p.8 block 895b3971",
+          "regulator": "SEBI",
+          "document_title": "Technical Clarifications to Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities (REs)",
+          "ref": "p.8 block 895b3971",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/aug-2025/1756380695925.pdf",
+          "location": {
+            "page": 8,
+            "bbox": [
+              114.62000274658203,
+              713.9199829101562,
+              526.7559814453125,
+              727.2759399414062
+            ],
+            "units": "pdf_points"
+          },
+          "text": "Further, such REs shall be required to submit the SOC efficacy report"
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "family_id": "fam-f99da62b3189",
+      "label_terms": [
+        "based",
+        "bank",
+        "outsourcing",
+        "risk",
+        "need",
+        "evaluate"
+      ],
+      "regulators": [
+        "RBI"
+      ],
+      "documents": [
+        "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+        "Reserve Bank of India (Commercial Banks – Managing Risks in Outsourcing) Directions, 2025"
+      ],
+      "cross_regulator": false,
+      "members": [
+        {
+          "provision_id": "RBI:8028535a80e5:clause 128",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 128",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "location": {
+            "start_page": 34,
+            "end_page": 34
+          },
+          "text": "128. The bank shall carefully evaluate the need for outsourcing critical processes and selection of vendor / partner based on comprehensive risk assessment."
+        },
+        {
+          "provision_id": "RBI:f86e3712e6a1:clause 21",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Managing Risks in Outsourcing) Directions, 2025",
+          "ref": "clause 21",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/171MD.PDF",
+          "location": {
+            "start_page": 13,
+            "end_page": 14
+          },
+          "text": "21. The Senior Management of a bank shall, inter alia, be responsible for: (i) evaluating the risks and materiality of all existing and prospective outsourcing, based on the framework approved by the Board or a Committee of the Board; (ii) developing and implementing sound and prudent outsourcing policies and procedures commensurate with the nature, scope, and complexity of the outsourcing; (iii) reviewing periodically the effectiveness of policies and procedures; (iv) communicating information pertaining to material outsourcing risks to the Board in a timely manner; (v) ensuring that contingency plans, based on realistic and probable disruptive scenarios, are in place and tested; (vi) ensuring that there is independent review and audit for compliance with set policies; and (vii) undertaking periodic review of outsourcing arrangements to identify new material outsourcing risks as they arise. 14 E. Risk Management E.1 Evaluation of the Risks"
+        },
+        {
+          "provision_id": "RBI:f86e3712e6a1:clause 55",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Managing Risks in Outsourcing) Directions, 2025",
+          "ref": "clause 55",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/171MD.PDF",
+          "location": {
+            "start_page": 25,
+            "end_page": 26
+          },
+          "text": "55. A bank shall evaluate the need for outsourcing of IT services based on a comprehensive assessment of attendant benefits, risks, and availability of commensurate processes to manage those risks. For this purpose, the bank shall, inter alia, consider the following: (i) the need for outsourcing based on materiality / criticality of service to be outsourced; 26 (ii) expectations and outcomes from outsourcing; (iii) success factors and cost-benefit analysis; and (iv) the model for outsourcing."
+        },
+        {
+          "provision_id": "RBI:f86e3712e6a1:clause 67",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Managing Risks in Outsourcing) Directions, 2025",
+          "ref": "clause 67",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/171MD.PDF",
+          "location": {
+            "start_page": 30,
+            "end_page": 30
+          },
+          "text": "67. A bank should adopt a risk-based approach in conducting such due diligence activities. E.2 Outsourcing Agreement"
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "family_id": "fam-04b379f77a63",
+      "label_terms": [
+        "committee",
+        "governance",
+        "directions",
+        "bank",
+        "banks",
+        "information"
+      ],
+      "regulators": [
+        "RBI"
+      ],
+      "documents": [
+        "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+        "Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026 (Updated as on October 01, 2026)"
+      ],
+      "cross_regulator": false,
+      "members": [
+        {
+          "provision_id": "RBI:8028535a80e5:clause 10",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 10",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "location": {
+            "start_page": 11,
+            "end_page": 12
+          },
+          "text": "10. The Audit Committee of the Board (ACB) shall be responsible for exercising oversight of IS Audit of the bank. 1 Substituted w.e.f. October 1, 2026, consequent to Reserve Bank of India (Commercial Banks - Governance) Amendment Directions, 2026. RBI (CBs – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 12 Chapter III – Information Technology Governance and Oversight A. IT Governance Framework"
+        },
+        {
+          "provision_id": "RBI:8028535a80e5:clause 19",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 19",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "location": {
+            "start_page": 13,
+            "end_page": 14
+          },
+          "text": "19. The ITSC shall: (1) ensure that the bank has put an effective IT strategic planning process in place; (2) guide in preparation of IT Strategy and ensure that the IT Strategy aligns with the overall strategy of the bank towards accomplishment of its business objectives; RBI (CBs – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 14 (3) satisfy itself that the IT Governance and Information Security Governance structure fosters accountability, is effective and efficient, has adequate skilled resources, well - defined objectives, and unambiguous responsibilities for each level in the organisation; (4) ensure that the bank has put in place processes for assessing and managing IT and cybersecurity risks; (5) ensure that the budgetary allocations for the IT function, including IT security / cybersecurity, are commensurate with the bank’s IT maturity, digital depth, threat environment, and industry standards and are utilised in a manner intended for meeting the stated objectives; (6) review the organisational arrangements so that the security concerns are appreciated, receive adequate attention, and get escalated to appropriate levels in the hierarchy to enable quick action; (7) review, at least on an annual basis, the adequacy and effectiveness of the Business Continuity Planning and Disaster Recovery (DR) Management of the bank; (Note: The reference to Business Continuity / Disaster Recovery Management in these Directions is limited to operational resilience focussing on People, Processes, and Systems associated with the IT, Information Systems (IS), information security / cybersecurity controls and operations) (8) review the assessment of IT capacity requirements and the measures taken to address the issues; and (9) approve documented standards and procedures for administering need- based access to an information system. D. Senior Management and IT Steering Committee"
+        },
+        {
+          "provision_id": "RBI:84872c7f4693:clause 7",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 7",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/411MD1918998D1AD74F159D57664FB10E053F.PDF",
+          "location": {
+            "start_page": 5,
+            "end_page": 6
+          },
+          "text": "7. The Board of Directors shall approve the policies related to digital payment products and services. The Board may delegate the review of such policies to the Board-level IT Strategy Committee (ITSC). Material amendments thereto shall be approved by the Board. The review shall be undertaken atleast annually.1 1 Substituted w.e.f. October 1, 2026, consequent to Reserve Bank of India (Commercial Banks - Governance) Amendment Directions, 2026. RBI (CBs – Digital Payment Security Controls) Directions, 2026 6 Chapter III - General Controls A. Governance and Management of Security Risks"
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "family_id": "fam-5042afa95066",
+      "label_terms": [
+        "technology",
+        "bank",
+        "place",
+        "risk",
+        "management",
+        "services"
+      ],
+      "regulators": [
+        "RBI"
+      ],
+      "documents": [
+        "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+        "Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026 (Updated as on October 01, 2026)"
+      ],
+      "cross_regulator": false,
+      "members": [
+        {
+          "provision_id": "RBI:8028535a80e5:clause 33",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 33",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "location": {
+            "start_page": 18,
+            "end_page": 19
+          },
+          "text": "33. The bank shall design the IT architecture to facilitate security measures being in place at all times. The IT architecture shall be reviewed by the ITSC at least annually and upgraded, as required, based on the bank’s risk assessment and RBI (CBs – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 19 in a phased manner. The bank shall document in writing any risk-cost or potential cost trade-off decisions to enable appropriate supervisory assessment. J. IT Services Management"
+        },
+        {
+          "provision_id": "RBI:8028535a80e5:clause 65",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 65",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "location": {
+            "start_page": 24,
+            "end_page": 25
+          },
+          "text": "65. On an annual or more frequent basis, the bank shall proactively assess capacity requirement of IT resources. The bank shall ensure that IT capacity planning across components, services, system resources, supporting infrastructure is RBI (CBs – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 25 consistent with past trends (peak usage), the current business requirements, and projected future needs as per the IT strategy of the bank. G. Secure Configuration"
+        },
+        {
+          "provision_id": "RBI:84872c7f4693:clause 19",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 19",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/411MD1918998D1AD74F159D57664FB10E053F.PDF",
+          "location": {
+            "start_page": 10,
+            "end_page": 10
+          },
+          "text": "19. The bank shall ensure that its digital payment architecture is robust and scalable, commensurate with the transaction volumes and customer growth. The Information Technology (IT) strategy of the bank shall ensure that a robust capacity management plan is in place to meet evolving demand. The bank shall also put in place a mechanism to review its IT / IT security architecture and technology platform overhaul on a periodic basis based on the Board-approved policy."
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "family_id": "fam-70ff77cfd69b",
+      "label_terms": [
+        "bank",
+        "vulnerabilities",
+        "necessary",
+        "manner",
+        "time",
+        "bound"
+      ],
+      "regulators": [
+        "RBI"
+      ],
+      "documents": [
+        "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+        "Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026 (Updated as on October 01, 2026)"
+      ],
+      "cross_regulator": false,
+      "members": [
+        {
+          "provision_id": "RBI:8028535a80e5:clause 102",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 102",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "location": {
+            "start_page": 30,
+            "end_page": 30
+          },
+          "text": "102. As part of its threat mitigation strategy, the bank shall determine the root cause of any detected incident and implement necessary patches to address the vulnerabilities."
+        },
+        {
+          "provision_id": "RBI:8028535a80e5:clause 153",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 153",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "location": {
+            "start_page": 41,
+            "end_page": 41
+          },
+          "text": "153. The bank shall ensure to fix the identified vulnerabilities and associated risks in a time-bound manner by undertaking requisite corrective measures and ensure that the compliance is sustained to avoid recurrence of known vulnerabilities such as those available in Common Vulnerabilities and Exposures (CVE) database."
+        },
+        {
+          "provision_id": "RBI:84872c7f4693:clause 34",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 34",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/411MD1918998D1AD74F159D57664FB10E053F.PDF",
+          "location": {
+            "start_page": 13,
+            "end_page": 13
+          },
+          "text": "34. The bank shall compare the results from earlier vulnerability scans to verify / ascertain that vulnerabilities are addressed either by patching, implementing a compensating control, or documenting and accepting the residual risk with necessary approval and that there is no recurrence of the known vulnerabilities. The identified vulnerabilities shall be fixed in a time-bound manner."
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "family_id": "fam-ed8fc26185f6",
+      "label_terms": [
+        "audit",
+        "vapt",
+        "cyber",
+        "mentioned",
+        "timelines",
+        "these"
+      ],
+      "regulators": [
+        "SEBI"
+      ],
+      "documents": [
+        "Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities (REs)",
+        "Technical Clarifications to Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities (REs)"
+      ],
+      "cross_regulator": false,
+      "members": [
+        {
+          "provision_id": "SEBI:bd9ddb68bb49:p.49 block c424bb18",
+          "regulator": "SEBI",
+          "document_title": "Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities (REs)",
+          "ref": "p.49 block c424bb18",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/aug-2024/1724326790365.pdf",
+          "location": {
+            "page": 49,
+            "bbox": [
+              148.33999633789062,
+              662.2462158203125,
+              520.461669921875,
+              713.171630859375
+            ],
+            "units": "pdf_points"
+          },
+          "text": "All open observations after follow-on audit of cyber audit and/ or VAPT shall be appropriately categorised (indicative categories are mentioned below). These open observations to be placed before the IT Committee for REs and shall be closed as per their timelines approved by the Boards/ Partners/ Proprietor."
+        },
+        {
+          "provision_id": "SEBI:bd9ddb68bb49:p.120 block 4e3d2bfe",
+          "regulator": "SEBI",
+          "document_title": "Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities (REs)",
+          "ref": "p.120 block 4e3d2bfe",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/aug-2024/1724326790365.pdf",
+          "location": {
+            "page": 120,
+            "bbox": [
+              188.89999389648438,
+              245.75001525878906,
+              670.7560424804688,
+              481.17999267578125
+            ],
+            "units": "pdf_points"
+          },
+          "text": "1. The details of periodicity, timeline and report submission for cyber audit by REs have been provided in the ‘CSCRF Compliance, Audit Report Submission, and Timelines’ section. 2. REs shall regularly conduct cybersecurity audit and VAPT with scope as mentioned in CSCRF in order to detect vulnerabilities in the IT environment. Further, REs shall conduct in-depth evaluation of the security posture of the system through simulations of actual attacks. An indicative (but not exhaustive and limited to) VAPT scope has been attached at Annexure-L. 3. The assets under these audits shall include (but not limited to) all critical systems, infrastructure components (like networking systems, security devices, load balancers, servers, databases, applications, remote access points, systems accessible through WAN, LAN as well as with Public IP’s, websites, etc.), and other IT systems pertaining to the operations of REs. 4. REs shall perform VAPT prior to the commissioning of new systems, especially those which are part of critical systems or connected to critical systems."
+        },
+        {
+          "provision_id": "SEBI:7eb58ae065db:p.8 block 01fa6499",
+          "regulator": "SEBI",
+          "document_title": "Technical Clarifications to Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities (REs)",
+          "ref": "p.8 block 01fa6499",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/aug-2025/1756380695925.pdf",
+          "location": {
+            "page": 8,
+            "bbox": [
+              111.73999786376953,
+              113.71995544433594,
+              526.4899291992188,
+              127.0999526977539
+            ],
+            "units": "pdf_points"
+          },
+          "text": "Clarification: REs shall submit the summary of VAPT and cyber audit reports"
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "family_id": "fam-034938970310",
+      "label_terms": [],
+      "regulators": [
+        "SEBI"
+      ],
+      "documents": [
+        "Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities (REs)",
+        "Technical Clarifications to Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities (REs)"
+      ],
+      "cross_regulator": false,
+      "members": [
+        {
+          "provision_id": "SEBI:bd9ddb68bb49:p.113 block 909d0ed7",
+          "regulator": "SEBI",
+          "document_title": "Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities (REs)",
+          "ref": "p.113 block 909d0ed7",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/aug-2024/1724326790365.pdf",
+          "location": {
+            "page": 113,
+            "bbox": [
+              227.5399932861328,
+              201.5900115966797,
+              648.5260009765625,
+              214.9700164794922
+            ],
+            "units": "pdf_points"
+          },
+          "text": "shall be undertaken by REs to ensure competence and effectiveness of audits."
+        },
+        {
+          "provision_id": "SEBI:7eb58ae065db:p.10 block d69e1bdd",
+          "regulator": "SEBI",
+          "document_title": "Technical Clarifications to Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities (REs)",
+          "ref": "p.10 block d69e1bdd",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/aug-2025/1756380695925.pdf",
+          "location": {
+            "page": 10,
+            "bbox": [
+              90.02400207519531,
+              664.239990234375,
+              526.3760375976562,
+              677.6199951171875
+            ],
+            "units": "pdf_points"
+          },
+          "text": "auditing organisations and auditee organisations. REs shall follow these guidelines"
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "family_id": "fam-181dfeaed8dc",
+      "label_terms": [
+        "force",
+        "provisions",
+        "circular",
+        "immediate",
+        "effect",
+        "come"
+      ],
+      "regulators": [
+        "SEBI"
+      ],
+      "documents": [
+        "Clarifications to Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities (REs)",
+        "Technical Clarifications to Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities (REs)"
+      ],
+      "cross_regulator": false,
+      "members": [
+        {
+          "provision_id": "SEBI:3e9943ffc933:p.3 block 68ad43bf",
+          "regulator": "SEBI",
+          "document_title": "Clarifications to Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities (REs)",
+          "ref": "p.3 block 68ad43bf",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/dec-2024/1735646756843.pdf",
+          "location": {
+            "page": 3,
+            "bbox": [
+              72.02400207519531,
+              382.7900085449219,
+              484.2760009765625,
+              396.16998291015625
+            ],
+            "units": "pdf_points"
+          },
+          "text": "3. The provisions of this Circular shall come into force with immediate effect."
+        },
+        {
+          "provision_id": "SEBI:7eb58ae065db:p.11 block bd6db23b",
+          "regulator": "SEBI",
+          "document_title": "Technical Clarifications to Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities (REs)",
+          "ref": "p.11 block bd6db23b",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/aug-2025/1756380695925.pdf",
+          "location": {
+            "page": 11,
+            "bbox": [
+              72.02400207519531,
+              341.3899841308594,
+              484.2760009765625,
+              354.76995849609375
+            ],
+            "units": "pdf_points"
+          },
+          "text": "11. The provisions of this Circular shall come into force with immediate effect."
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "family_id": "fam-26c7be8a00b2",
+      "label_terms": [
+        "factor",
+        "based",
+        "implement",
+        "multi",
+        "authentication",
+        "bank"
+      ],
+      "regulators": [
+        "RBI"
+      ],
+      "documents": [
+        "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+        "Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026 (Updated as on October 01, 2026)"
+      ],
+      "cross_regulator": false,
+      "members": [
+        {
+          "provision_id": "RBI:8028535a80e5:clause 110",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 110",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "location": {
+            "start_page": 31,
+            "end_page": 31
+          },
+          "text": "110. The bank, based on the risk assessment, shall implement two-factor or multi- factor authentication, including mandatory multi-factor authentication for privileged users of (i) critical information systems and (ii) critical activities."
+        },
+        {
+          "provision_id": "RBI:84872c7f4693:clause 42",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 42",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/411MD1918998D1AD74F159D57664FB10E053F.PDF",
+          "location": {
+            "start_page": 15,
+            "end_page": 15
+          },
+          "text": "42. The bank shall ensure to design and implement robust multi-factor authentication methods to: (1) act as a strong fraud deterrent; (2) be more difficult to compromise; (3) protect the confidentiality of payment data; and (4) enhance confidence in digital payment by effectively addressing various cyber-attack mechanisms like phishing, keylogging, spyware / malware, and other internet-based frauds targeted at the bank and its customers."
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "family_id": "fam-43432dfa86f2",
+      "label_terms": [
+        "derogation",
+        "regulations",
+        "provisions",
+        "rules",
+        "force",
+        "laws"
+      ],
+      "regulators": [
+        "RBI"
+      ],
+      "documents": [
+        "Reserve Bank of India (Commercial Banks – Credit Cards and Debit Cards: Issuance and Conduct) Directions, 2025 (Updated as on October 1, 2026)",
+        "Reserve Bank of India (Commercial Banks – Managing Risks in Outsourcing) Directions, 2025"
+      ],
+      "cross_regulator": false,
+      "members": [
+        {
+          "provision_id": "RBI:40d23129ee8a:clause 95",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Credit Cards and Debit Cards: Issuance and Conduct) Directions, 2025 (Updated as on October 1, 2026)",
+          "ref": "clause 95",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+          "location": {
+            "start_page": 33,
+            "end_page": 33
+          },
+          "text": "95. The provisions of these Directions shall be in addition to, and not in derogation of the provisions of any other laws, rules, regulations, or directions, for the time being in force. C. Interpretations"
+        },
+        {
+          "provision_id": "RBI:f86e3712e6a1:clause 97",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Managing Risks in Outsourcing) Directions, 2025",
+          "ref": "clause 97",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/171MD.PDF",
+          "location": {
+            "start_page": 43,
+            "end_page": 44
+          },
+          "text": "97. The provisions of these Directions shall be in addition to, and not in derogation of the provisions of any other laws, rules, regulations, or Directions, for the time being in force. 44 C. Interpretations"
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "family_id": "fam-48d4c89a38a1",
+      "label_terms": [
+        "critical",
+        "resumption",
+        "minutes",
+        "operations"
+      ],
+      "regulators": [
+        "SEBI"
+      ],
+      "documents": [
+        "Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities (REs)",
+        "Technical Clarifications to Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities (REs)"
+      ],
+      "cross_regulator": false,
+      "members": [
+        {
+          "provision_id": "SEBI:bd9ddb68bb49:p.128 block cae27412",
+          "regulator": "SEBI",
+          "document_title": "Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities (REs)",
+          "ref": "p.128 block cae27412",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/aug-2024/1724326790365.pdf",
+          "location": {
+            "page": 128,
+            "bbox": [
+              193.22000122070312,
+              418.21002197265625,
+              670.6660766601562,
+              479.3800048828125
+            ],
+            "units": "pdf_points"
+          },
+          "text": "1. In the event of disruption of any one or more of the critical systems, the RE shall, within 30 minutes of the incident, declare that incident as ‘Disaster’ based on the business impact analysis. Accordingly, the RTO shall be two (2) hours as recommended by IOSCO33 for the resumption of critical operations. The RPO shall be 15 minutes for all"
+        },
+        {
+          "provision_id": "SEBI:7eb58ae065db:p.9 block 140503dd",
+          "regulator": "SEBI",
+          "document_title": "Technical Clarifications to Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities (REs)",
+          "ref": "p.9 block 140503dd",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/aug-2025/1756380695925.pdf",
+          "location": {
+            "page": 9,
+            "bbox": [
+              114.62000274658203,
+              196.40000915527344,
+              526.3880615234375,
+              209.75601196289062
+            ],
+            "units": "pdf_points"
+          },
+          "text": "the resumption of critical operations. The RPO shall be 15 minutes for all REs."
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "family_id": "fam-5504ae3a5e56",
+      "label_terms": [
+        "bank",
+        "have"
+      ],
+      "regulators": [
+        "RBI"
+      ],
+      "documents": [
+        "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+        "Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026 (Updated as on October 01, 2026)"
+      ],
+      "cross_regulator": false,
+      "members": [
+        {
+          "provision_id": "RBI:8028535a80e5:clause 74",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 74",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "location": {
+            "start_page": 26,
+            "end_page": 26
+          },
+          "text": "74. The bank shall have mechanism to automatically identify unauthorised device connections to the bank’s network and block such connections."
+        },
+        {
+          "provision_id": "RBI:84872c7f4693:clause 51",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 51",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/411MD1918998D1AD74F159D57664FB10E053F.PDF",
+          "location": {
+            "start_page": 16,
+            "end_page": 16
+          },
+          "text": "51. The bank shall have a secure procedure in place to re-activate the access to blocked product / service. The bank shall notify the customer of failed login or authentication attempts. E. Fraud Risk Management"
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "family_id": "fam-5f4afcd20751",
+      "label_terms": [
+        "configurations",
+        "adopt",
+        "length",
+        "vulnerable",
+        "suites",
+        "regulatory"
+      ],
+      "regulators": [
+        "RBI"
+      ],
+      "documents": [
+        "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+        "Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026 (Updated as on October 01, 2026)"
+      ],
+      "cross_regulator": false,
+      "members": [
+        {
+          "provision_id": "RBI:8028535a80e5:clause 140",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 140",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "location": {
+            "start_page": 39,
+            "end_page": 39
+          },
+          "text": "140. The key length, algorithms, cipher suites and applicable protocols used in transmission channels, processing of data and authentication purpose shall be strong. The bank shall adopt internationally accepted and published standards that are not deprecated / demonstrated to be insecure / vulnerable, and the configurations involved in implementing such controls shall be compliant with extant laws and regulatory instructions. S. Straight Through Processing"
+        },
+        {
+          "provision_id": "RBI:84872c7f4693:clause 24",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 24",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/411MD1918998D1AD74F159D57664FB10E053F.PDF",
+          "location": {
+            "start_page": 11,
+            "end_page": 11
+          },
+          "text": "24. The key length (for symmetric / asymmetric encryption, hashing), algorithms (for encryption, signing, exchange of keys, creation of message digest, random number generators), cipher suites, digital certificates, and applicable protocols used in transmission channels, processing of data, and for authentication purposes shall be strong. The bank shall adopt internationally accepted and published standards that are not deprecated / demonstrated to be insecure / vulnerable and shall ensure that the configurations involved in implementing such controls are compliant with extant laws and regulatory instructions."
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "family_id": "fam-603a9a378ae7",
+      "label_terms": [
+        "case",
+        "access",
+        "foreign",
+        "india",
+        "data",
+        "risk"
+      ],
+      "regulators": [
+        "RBI"
+      ],
+      "documents": [
+        "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+        "Reserve Bank of India (Commercial Banks – Managing Risks in Outsourcing) Directions, 2025"
+      ],
+      "cross_regulator": false,
+      "members": [
+        {
+          "provision_id": "RBI:8028535a80e5:clause 4",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 4",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "location": {
+            "start_page": 4,
+            "end_page": 6
+          },
+          "text": "4. In the case of a foreign bank operating in India through branch mode, reference to the Board or Board of Directors in these Directions should be read as reference to the controlling office / head office which has the oversight over the branch operations in India. Further, such foreign bank shall be subject to a ‘comply or explain’ approach in terms of the applicability of Chapter II, Chapter III, Chapter IV, and Chapter VII and for the following select paragraphs in Chapter V of these Directions: (1) Inventory Management of Information Assets – Paragraph 49 (2) Data Migration Controls – Paragraph 55 RBI (CBs – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 5 (3) Physical and Environmental Controls – Paragraphs 62, 63 (4) Capacity Management – Paragraphs 64 and 65 (5) Application Security Life Cycle – Paragraphs 89, 90, 92 (6) Maintenance, Monitoring, and Analysis of Audit Logs – Paragraphs 93 and 95 (7) Patch, Vulnerability and Change Management – Paragraph 98 (8) User Access Control / Management – Paragraphs 104, 105 and 110 (9) Controls on Teleworking – Paragraph 114 (10) Third-Party Arrangements – Paragraph 126 (11) Cryptographic Controls – Paragraph 140 (12) Straight Through Processing - Paragraphs 141 and 142 (13) Vulnerability Assessment (VA) and Penetration Test (PT) - Paragraphs 151 to 155 (14) Business Continuity (BCP) and Disaster Recovery (DR) – Paragraphs 163 to 174 (15) Cyber Incident Response and Recovery Management – Paragraphs 175, 181, 183, 187, and 190 (16) Metrics – Paragraphs 195 and 196 The ‘comply or explain’ approach shall allow such foreign bank to deviate from any specific part of the above referred Chapters and select paragraphs of Chapter V of these Directions subject to examination and acceptance by RBI of a reasonably justifiable explanation for the same, as part of the supervisory process. RBI (CBs – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 6 C. Definitions"
+        },
+        {
+          "provision_id": "RBI:f86e3712e6a1:clause 47",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Managing Risks in Outsourcing) Directions, 2025",
+          "ref": "clause 47",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/171MD.PDF",
+          "location": {
+            "start_page": 21,
+            "end_page": 22
+          },
+          "text": "47. While engaging with service provider(s) in a foreign country, a bank shall: (i) closely monitor government policies of the jurisdiction in which the service provider is based and political, social, economic, and legal conditions, both during the risk assessment and on a continuous basis, and establish sound procedures for dealing with country risk. This includes having appropriate contingency and exit strategies; (ii) clearly specify the governing law of the outsourcing arrangement; (iii) ensure that the availability of records to the bank and RBI will not be affected even in the case of liquidation of the service provider or offshore custodian; (iv) ensure activities outsourced outside India are conducted in a manner so as not to hinder efforts to supervise or reconstruct the activities of the bank in a timely manner; 22 (v) ensure that, where the offshore service provider is a regulated entity, the relevant offshore regulator will neither obstruct the arrangement nor object to the RBI’s inspections or visits of bank’s internal or external auditors; (vi) ensure that the regulatory authority of the offshore location does not have access to the data relating to Indian operations of the bank simply on the ground that the processing is being undertaken there; (vii) ensure that the jurisdiction of the courts in the offshore location where data is maintained does not extend to the operations of the bank in India on the strength of the fact that the data is being processed there even though the actual transactions are undertaken in India; and (viii) ensure that all original records continue to be maintained in India."
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "family_id": "fam-7977170c3750",
+      "label_terms": [
+        "audits",
+        "internal",
+        "external",
+        "bank"
+      ],
+      "regulators": [
+        "RBI"
+      ],
+      "documents": [
+        "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+        "Reserve Bank of India (Commercial Banks – Managing Risks in Outsourcing) Directions, 2025"
+      ],
+      "cross_regulator": false,
+      "members": [
+        {
+          "provision_id": "RBI:8028535a80e5:clause 227",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 227",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "location": {
+            "start_page": 54,
+            "end_page": 54
+          },
+          "text": "227. The bank shall have a separate IS Audit function or resources who possess required professional skills and competence within the Internal Audit function. Where the bank uses external resources for conducting IS audit in areas where skills are lacking within the bank, the responsibility and accountability for such external IS audits would continue to remain with the competent authority within Internal Audit function."
+        },
+        {
+          "provision_id": "RBI:f86e3712e6a1:clause 71",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Managing Risks in Outsourcing) Directions, 2025",
+          "ref": "clause 71",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/171MD.PDF",
+          "location": {
+            "start_page": 32,
+            "end_page": 33
+          },
+          "text": "71. A bank shall conduct regular audits (as applicable to the scope of Directions in this Chapter), of service providers (including subcontractors) with regard to the service outsourced by it. Such audits may be conducted either by bank’s internal or external auditors appointed to act on bank’s behalf. 33"
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "family_id": "fam-7bbdd84af4cc",
+      "label_terms": [
+        "banks",
+        "time",
+        "unless",
+        "data",
+        "amended",
+        "outsourcing"
+      ],
+      "regulators": [
+        "RBI"
+      ],
+      "documents": [
+        "Reserve Bank of India (Commercial Banks – Credit Cards and Debit Cards: Issuance and Conduct) Directions, 2025 (Updated as on October 1, 2026)",
+        "Reserve Bank of India (Commercial Banks – Managing Risks in Outsourcing) Directions, 2025"
+      ],
+      "cross_regulator": false,
+      "members": [
+        {
+          "provision_id": "RBI:40d23129ee8a:clause 89",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Credit Cards and Debit Cards: Issuance and Conduct) Directions, 2025 (Updated as on October 1, 2026)",
+          "ref": "clause 89",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+          "location": {
+            "start_page": 28,
+            "end_page": 29
+          },
+          "text": "89. Card-issuers shall ensure adherence to the Reserve Bank of India (Commercial Banks - Managing Risks in Outsourcing) Directions, 2025, as amended from time to time. Further, the card-issuers shall not share card data (including transaction data) of the cardholders with the outsourcing partners unless sharing of such data is essential to discharge the functions assigned to the latter. In case of sharing of any data as stated above, explicit consent from the cardholder shall be obtained. It shall also be ensured that the storage and the ownership of card data remains with the card-issuer. 29 G. Compliance with Know Your Customer (KYC) Norms / Anti-Money Laundering (AML) Standards / Combating of Financing of Terrorism (CFT) / Obligation under the PMLA, 2002"
+        },
+        {
+          "provision_id": "RBI:f86e3712e6a1:clause 4",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Managing Risks in Outsourcing) Directions, 2025",
+          "ref": "clause 4",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/171MD.PDF",
+          "location": {
+            "start_page": 5,
+            "end_page": 6
+          },
+          "text": "4. The scope of provisions contained in Chapter III shall be as under: (1) The provisions shall apply to outsourcing arrangements entered into by a bank with a service provider which may be either a member of the group / conglomerate to which the bank belongs, or an unrelated party, which is located in India or elsewhere, for outsourcing of financial services like applications processing (loan origination, credit card), document processing, marketing and research, supervision of loans, data processing and back office related activities. Provided that for outsourced services relating to credit cards, the provisions set out in the Reserve Bank of India (Commercial Banks – Credit Cards and Debit Cards: Issuance and Conduct) Directions, 2025, as amended from time to time, shall also apply to the applicable entities. (2) The provisions shall also apply, mutatis mutandis, to subcontracted activities. For this purpose, the outsourcing contract shall provide for prior approval or consent of the bank before a service provider engages any subcontractor for all or part of the outsourced activity. Before granting such consent, the bank shall review the subcontracting arrangement and ensure that the same complies with the Directions set out in Chapter III of these Directions. (3) The provisions shall not apply to outsourcing of: (i) IT services as defined in paragraph 53(1) of these Directions, unless specified otherwise in respective paragraphs of Chapter IV; 6 (ii) activities unrelated to banking services like usage of courier, catering of staff, housekeeping and janitorial services, security of the premises, and movement and archiving of records; and (iii) audit-related assignments to Chartered Accountant firms which shall continue to be governed by the instructions and guidelines issued by the Department of Supervision, RBI."
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "family_id": "fam-8b7458e4edff",
+      "label_terms": [
+        "carried",
+        "interconnected",
+        "disrupt",
+        "more",
+        "lexicon",
+        "disclosed"
+      ],
+      "regulators": [
+        "RBI"
+      ],
+      "documents": [
+        "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+        "Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026 (Updated as on October 01, 2026)"
+      ],
+      "cross_regulator": false,
+      "members": [
+        {
+          "provision_id": "RBI:8028535a80e5:clause 5",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 5",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "location": {
+            "start_page": 6,
+            "end_page": 10
+          },
+          "text": "5. The following definitions are sourced from FSB Cyber Lexicon unless explicitly mentioned otherwise. In these Directions, unless the context states otherwise, the terms herein shall bear the meanings assigned to them below. (1) ‘Audit Trail’ - A chronological record that reconstructs and examines the sequence of activities surrounding or leading to a specific operation, procedure, or event in a security-relevant transaction from inception to result. (Source: NIST SP 800-53r5 on Security and Privacy Controls for Information Systems and Organizations) (2) ‘Availability’ - Property of being accessible and usable on demand by an authorised entity. (3) ‘Confidentiality’ - Property that information is neither made available nor disclosed to unauthorised individuals, entities, processes, or systems. (4) ‘Cyber’ - Relating to, within, or through the medium of the interconnected information infrastructure of interactions among persons, processes, data, and information systems. (5) ‘Cyber Event’ – Any observable occurrence in an information system. Cyber events sometimes provide indication that a cyber incident is occurring. (6) ‘Cybersecurity’ - Preservation of confidentiality, integrity, and availability of information and / or information systems through the cyber medium. In addition, other properties, such as authenticity, accountability, non- repudiation, and reliability can also be involved. (7) ‘Cyber Incident’ - A cyber event that adversely affects the cybersecurity of an information asset whether resulting from malicious activity or not. (Source: Cyber incident definition is adapted from FSB Cyber Lexicon. By the definition, it includes cybersecurity incidents as well as IT incidents) RBI (CBs – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 7 (8) ‘Cyber Resilience’ - The ability of an organisation to continue to carry out its mission by anticipating and adapting to cyber threats and other relevant changes in the environment and by withstanding, containing, and rapidly recovering from cyber incidents. (9) ‘Cyber-attack’ - Malicious attempt(s) to exploit vulnerabilities through the cyber medium to damage, disrupt, or gain unauthorised access to assets. (10) ‘Cyber Threat’ - A circumstance with the potential to exploit one or more vulnerabilities that adversely affects cybersecurity. (11) ‘Data Dictionary’ - A description of data in business terms, including information about the data. It includes elements like data types, structure details, and security restrictions. (Source: ISACA glossary) (12) ‘De-militarized Zone’ or ‘DMZ’ - A perimeter network segment that is logically between internal and external networks. (Source: NIST SP 800-82 Rev. 2) (13) ‘Distributed Denial of Service (DDoS)’ - A denial of service that is carried out using numerous sources simultaneously. (14) ‘Digital Forensics’ - The process used to acquire, preserve, analyse, and report on evidence using scientific methods that are demonstrably reliable, accurate, and repeatable. (Source: adapted from NIST Cloud Computing Forensic Science Challenges) (15) ‘Framework’ - A structured set of strategies, policies, processes, methods, and best practices that guides organisational activities, enables governance and control, and supports the achievement of defined objectives. (Source: adapted from ISACA glossary and ISO 22340:2024) RBI (CBs – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 8 (16) ‘Honeypot’ - A specially configured server, also known as a decoy server, designed to attract and monitor intruders in a manner so that their actions do not affect production systems. (Source: ISACA glossary) (17) ‘Indicators of Compromise (IOCs)’ - Identifying signs that a cyber incident may have occurred or may be currently occurring. (18) ‘Information Asset’ - Any piece of data, device, or other component of the environment that supports information-related activities. Information Assets include information system, data, hardware, and software. (Source: Information Asset definition is adapted from “Guidance on cyber resilience for financial market infrastructures” publication of Bank for International Settlements and International Organization of Securities Commissions of June 2016) (19) ‘Information System’ - Set of applications, services, information technology assets, or other information-handling components, which includes the operating environment and networks. (20) ‘Integrity’ - Property of accuracy and completeness. (21) ‘IT Governance’ - The responsibility of executives and the board of directors; consists of the leadership, organisational structures, and processes that ensure that the enterprise’s IT sustains and extends the enterprise's strategies and objectives. (Source: ISACA glossary and COBIT) (22) ‘IT Risk’ - The business risk associated with the use, ownership, operation, involvement, influence, and adoption of IT within an enterprise. (Source: ISACA glossary) RBI (CBs – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 9 (23) ‘Malware’ - Software designed with malicious intent containing features or capabilities that can potentially cause harm directly or indirectly to entities or their information systems. (24) ‘Penetration Testing’ - A test methodology in which assessors typically working under specific constraints, attempt to circumvent or defeat the security features of an information system. (25) ‘Phishing’ - A digital form of social engineering that attempts to acquire private or confidential information by pretending to be a trustworthy entity in an electronic communication. (26) ‘Privileged User’ - A user who, by virtue of function, and / or role, has been allocated powers within an information system, which are significantly greater than those available to the majority of users. (Source: adapted from ISO/IEC 24775-2:2021) (27) ‘Recovery Point Objective’ - The point in time to which data must be recovered after an outage. (Source: NIST glossary) (28) ‘Recovery Time Objective’ - The overall length of time an information system’s components can be in the recovery phase before negatively impacting the organisation’s mission or mission / business processes. (Source: NIST glossary) (29) ‘Red Team’ - A group of people authorised and organised to emulate a potential adversary’s attack or exploitation capabilities against an enterprise’s security posture. The Red Team’s objective is to improve enterprise cybersecurity by demonstrating the impacts of successful attacks and by demonstrating what works for the defenders (i.e., the Blue Team) in an operational environment. (Source: NIST glossary) RBI (CBs – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 10 (30) ‘Red Teaming Exercise’ - An exercise, reflecting real-world conditions, that is conducted as a simulated adversarial attempt by a red team to compromise organisational missions and / or business processes to provide a comprehensive assessment of the security capability of the information system and organisation. (Source: adapted from NIST glossary) (31) ‘Vulnerability’ - A weakness, susceptibility, or flaw of an asset or control that can be exploited by one or more threats. (32) ‘Vulnerability Assessment (VA)’ - Systematic examination of an information system or product to determine the adequacy of security measures, identify security deficiencies, provide data from which to predict the effectiveness of proposed security measures and confirm the adequacy of such measures after implementation."
+        },
+        {
+          "provision_id": "RBI:84872c7f4693:clause 5",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 5",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/411MD1918998D1AD74F159D57664FB10E053F.PDF",
+          "location": {
+            "start_page": 3,
+            "end_page": 4
+          },
+          "text": "5. The following definitions are sourced from Financial Stability Board (FSB) Cyber Lexicon unless explicitly mentioned otherwise. In these Directions, unless the context states otherwise, the terms herein shall bear the meaning assigned to them below: (1) ‘Availability’ - Property of being accessible and usable on demand by an authorised entity. (2) ‘Confidentiality’ - Property that information is neither made available nor disclosed to unauthorised individuals, entities, processes, or systems. (3) ‘Cyber’ - Relating to, within, or through the medium of the interconnected information infrastructure of interactions among persons, processes, data, and information systems. (4) ‘Cybersecurity’ - Preservation of confidentiality, integrity, and availability of information, and / or information systems through the cyber medium. In addition, other properties, such as authenticity, accountability, non- repudiation, and reliability can also be involved. (5) ‘Cyber-attack’ - Malicious attempt(s) to exploit vulnerabilities through the cyber medium to damage, disrupt, or gain unauthorised access to assets. (6) ‘Distributed Denial of Service (DDoS)’ - A denial of service that is carried out using numerous sources simultaneously. (7) ‘Framework’ - A framework is a structured set of strategies, policies, procedures, methods, and best practices that guides organisational activities, enables governance, and supports the achievement of defined objectives. (Source: adapted from ISACA glossary) RBI (CBs – Digital Payment Security Controls) Directions, 2026 4 (8) ‘Information System’ - Set of applications, services, information technology assets, or other information-handling components, which includes the operating environment and networks. (9) ‘Integrity’ - Property of accuracy and completeness. (10) ‘Malware’ - Software designed with malicious intent containing features or capabilities that can potentially cause harm directly or indirectly to entities or their information systems. (11) ‘Penetration Testing’ - A test methodology in which assessors typically working under specific constraints, attempt to circumvent or defeat the security features of an information system. (12) ‘Phishing’ - A digital form of social engineering that attempts to acquire private or confidential information by pretending to be a trustworthy entity in an electronic communication. (13) ‘Vulnerability’ - A weakness, susceptibility, or flaw of an asset or control that can be exploited by one or more threats. (14) ‘Vulnerability Assessment (VA)’ - Systematic examination of an information system or product to determine the adequacy of security measures, identify security deficiencies, provide data from which to predict the effectiveness of proposed security measures and confirm the adequacy of such measures after implementation."
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "family_id": "fam-9c5704d81d87",
+      "label_terms": [
+        "authentication",
+        "bank",
+        "information"
+      ],
+      "regulators": [
+        "RBI"
+      ],
+      "documents": [
+        "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+        "Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026 (Updated as on October 01, 2026)"
+      ],
+      "cross_regulator": false,
+      "members": [
+        {
+          "provision_id": "RBI:8028535a80e5:clause 107",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 107",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "location": {
+            "start_page": 31,
+            "end_page": 31
+          },
+          "text": "107. The bank shall protect user access credentials such as logon user-id, authentication information and tokens, access profiles, against leakage / attacks."
+        },
+        {
+          "provision_id": "RBI:84872c7f4693:clause 40",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 40",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/411MD1918998D1AD74F159D57664FB10E053F.PDF",
+          "location": {
+            "start_page": 14,
+            "end_page": 14
+          },
+          "text": "40. The bank shall redact / mask customer information such as account numbers / card numbers / other sensitive information when transmitted via SMS / emails (including attachments). D. Authentication Framework"
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "family_id": "fam-b6b500be0945",
+      "label_terms": [
+        "vendor",
+        "place",
+        "applications",
+        "source",
+        "code",
+        "escrow"
+      ],
+      "regulators": [
+        "RBI"
+      ],
+      "documents": [
+        "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+        "Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026 (Updated as on October 01, 2026)"
+      ],
+      "cross_regulator": false,
+      "members": [
+        {
+          "provision_id": "RBI:8028535a80e5:clause 90",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 90",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "location": {
+            "start_page": 28,
+            "end_page": 28
+          },
+          "text": "90. The bank shall obtain the source codes for all critical applications from its vendors. Where obtaining of the source code is not possible, the bank shall put in place a source code escrow arrangement or other arrangements to adequately mitigate the risk of default by the vendor. The bank shall ensure that all product updates and programme fixes are included in the source code escrow arrangement."
+        },
+        {
+          "provision_id": "RBI:84872c7f4693:clause 31",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 31",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/411MD1918998D1AD74F159D57664FB10E053F.PDF",
+          "location": {
+            "start_page": 12,
+            "end_page": 12
+          },
+          "text": "31. For digital payment applications licensed by a third-party vendor, the bank shall put in place a source code escrow arrangement or other arrangements for ensuring continuity of services in case the vendor defaults or is unable to provide services."
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "family_id": "fam-bca25991e885",
+      "label_terms": [
+        "mentioned",
+        "guidelines"
+      ],
+      "regulators": [
+        "SEBI"
+      ],
+      "documents": [
+        "Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities (REs)",
+        "Technical Clarifications to Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities (REs)"
+      ],
+      "cross_regulator": false,
+      "members": [
+        {
+          "provision_id": "SEBI:bd9ddb68bb49:p.33 block 147c72f7",
+          "regulator": "SEBI",
+          "document_title": "Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities (REs)",
+          "ref": "p.33 block 147c72f7",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/aug-2024/1724326790365.pdf",
+          "location": {
+            "page": 33,
+            "bbox": [
+              93.38400268554688,
+              343.30999755859375,
+              526.4278564453125,
+              371.80999755859375
+            ],
+            "units": "pdf_points"
+          },
+          "text": "For ease of compliance, REs are required to comply with the standards and mandatory guidelines as mentioned in the CSCRF."
+        },
+        {
+          "provision_id": "SEBI:7eb58ae065db:p.7 block 7b7a62f9",
+          "regulator": "SEBI",
+          "document_title": "Technical Clarifications to Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities (REs)",
+          "ref": "p.7 block 7b7a62f9",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/aug-2025/1756380695925.pdf",
+          "location": {
+            "page": 7,
+            "bbox": [
+              114.62000274658203,
+              72.29997253417969,
+              526.4061889648438,
+              85.67996978759766
+            ],
+            "units": "pdf_points"
+          },
+          "text": "Clarification: Above-mentioned guidelines shall now be read as under: REs"
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "family_id": "fam-c3eadff8e213",
+      "label_terms": [
+        "security",
+        "bank"
+      ],
+      "regulators": [
+        "RBI"
+      ],
+      "documents": [
+        "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+        "Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026 (Updated as on October 01, 2026)"
+      ],
+      "cross_regulator": false,
+      "members": [
+        {
+          "provision_id": "RBI:8028535a80e5:clause 83",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 83",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "location": {
+            "start_page": 27,
+            "end_page": 27
+          },
+          "text": "83. The bank shall ensure that the software / application development process is guided by threat modelling, adheres to secure coding practices, includes security testing aligned with global standards, and ensures a secure deployment."
+        },
+        {
+          "provision_id": "RBI:84872c7f4693:clause 36",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 36",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/411MD1918998D1AD74F159D57664FB10E053F.PDF",
+          "location": {
+            "start_page": 13,
+            "end_page": 13
+          },
+          "text": "36. The bank shall verify and thoroughly test the functionality (to validate whether the system meets the functional requirements / specifications) and security controls of payment products and services before their launch / moving to the production environment."
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "family_id": "fam-f934fd56f50b",
+      "label_terms": [
+        "model",
+        "follow",
+        "trust",
+        "access",
+        "security",
+        "zero"
+      ],
+      "regulators": [
+        "SEBI"
+      ],
+      "documents": [
+        "Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities (REs)",
+        "Technical Clarifications to Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities (REs)"
+      ],
+      "cross_regulator": false,
+      "members": [
+        {
+          "provision_id": "SEBI:bd9ddb68bb49:p.97 block b11d99c3",
+          "regulator": "SEBI",
+          "document_title": "Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities (REs)",
+          "ref": "p.97 block b11d99c3",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/aug-2024/1724326790365.pdf",
+          "location": {
+            "page": 97,
+            "bbox": [
+              190.33999633789062,
+              254.27000427246094,
+              670.7559814453125,
+              331.25
+            ],
+            "units": "pdf_points"
+          },
+          "text": "1. REs shall follow zero-trust security model in such a way that access (from within or outside REs’ network) to their critical systems is by default denied by default and allowed only after proper authentication and authorization. 2. Delegated access and unused tokens shall be reviewed and cleaned at least on a quarterly basis."
+        },
+        {
+          "provision_id": "SEBI:7eb58ae065db:p.6 block 8e6e88e1",
+          "regulator": "SEBI",
+          "document_title": "Technical Clarifications to Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities (REs)",
+          "ref": "p.6 block 8e6e88e1",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/aug-2025/1756380695925.pdf",
+          "location": {
+            "page": 6,
+            "bbox": [
+              111.62000274658203,
+              702.6400146484375,
+              526.5700073242188,
+              715.9959716796875
+            ],
+            "units": "pdf_points"
+          },
+          "text": "“REs shall follow zero-trust security model in such a way that access (from"
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "family_id": "fam-fb2d3b5912c6",
+      "label_terms": [
+        "refer",
+        "owasp",
+        "testing",
+        "vulnerabilities",
+        "application",
+        "bank"
+      ],
+      "regulators": [
+        "RBI"
+      ],
+      "documents": [
+        "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+        "Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026 (Updated as on October 01, 2026)"
+      ],
+      "cross_regulator": false,
+      "members": [
+        {
+          "provision_id": "RBI:8028535a80e5:clause 85",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 85",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "location": {
+            "start_page": 27,
+            "end_page": 27
+          },
+          "text": "85. The scope of application security assessments shall be comprehensive and shall not be restricted to testing solely against the OWASP top 10 vulnerabilities. The bank shall also refer to other recognised security standards and guidelines, as appropriate."
+        },
+        {
+          "provision_id": "RBI:84872c7f4693:clause 39",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026 (Updated as on October 01, 2026)",
+          "ref": "clause 39",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/411MD1918998D1AD74F159D57664FB10E053F.PDF",
+          "location": {
+            "start_page": 14,
+            "end_page": 14
+          },
+          "text": "39. The security controls for digital payment applications shall focus on how these applications handle, store, and protect payment data. The Application Programming Interfaces (APIs) for secure data storage and communication shall be implemented and used correctly in order to be effective. The bank shall refer to standards such as OWASP-Mobile Application Security Verification Standard (OWASP-MASVS), OWASP-Application Security Verification Standard (OWASP-ASVS), and other relevant OWASP standards, security and data protection guidelines in ISO 12812, threat catalogues and guides developed by National Institute of Standards and Technology (NIST) (including for Bluetooth and Long-Term Evolution (LTE) security), for application security, and other protection measures. Such testing shall necessarily verify for vulnerabilities including but not limited to OWASP / OWASP Mobile Top 10, application security guidelines / requirements developed / shared by operating system providers / Original Equipment Manufacturers (OEMs)."
+        }
+      ],
+      "review_status": "pending"
+    }
+  ],
+  "contradiction_candidates": [
+    {
+      "type": "quantitative_divergence",
+      "action": "reporting",
+      "values": {
+        "RBI:f86e3712e6a1:clause 56": "six hours",
+        "SEBI:bd9ddb68bb49:p.202 block dcdad2d8": "15 days"
+      },
+      "explanation": "Different reporting periods for related provisions. Where both apply, the stricter requirement (RBI:f86e3712e6a1:clause 56) normally governs; confirm scope and applicability.",
+      "severity": "medium",
+      "similarity": 0.559,
+      "status": "candidate",
+      "review_status": "pending",
+      "provisions": [
+        {
+          "provision_id": "RBI:f86e3712e6a1:clause 56",
+          "regulator": "RBI",
+          "document_title": "Reserve Bank of India (Commercial Banks – Managing Risks in Outsourcing) Directions, 2025",
+          "ref": "clause 56",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/171MD.PDF",
+          "location": {
+            "start_page": 26,
+            "end_page": 26
+          },
+          "text": "56. A bank shall ensure that cyber incidents are reported to it by the service provider without undue delay, so that an incident is reported by the bank to the RBI within six hours of detection by the service provider. C. Governance Framework C.1 Outsourcing Policy"
+        },
+        {
+          "provision_id": "SEBI:bd9ddb68bb49:p.202 block dcdad2d8",
+          "regulator": "SEBI",
+          "document_title": "Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities (REs)",
+          "ref": "p.202 block dcdad2d8",
+          "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/aug-2024/1724326790365.pdf",
+          "location": {
+            "page": 202,
+            "bbox": [
+              79.10399627685547,
+              90.67997741699219,
+              526.7559814453125,
+              683.5
+            ],
+            "units": "pdf_points"
+          },
+          "text": "timelines and any other aspect relevant to the incident. Additionally, it shall also include time when operations/ functions/ services were restored and in the event of a disaster, time when disaster was declared. # Additional time may be provided by SEBI for the submission of RCA on a case-by-case basis on request of the RE taking into account the complexity and nature of the incident(s). The same shall be an exception rather than the rule. 3.4. The RCA, forensic audit, VAPT reports, and closure reports shall be reviewed by the respective IT Committee for REs before the reports are submitted to SEBI. A report on the review conducted/ recommendations provided by IT Committee for REs shall also be submitted to SEBI along with the reports mentioned in Table 36. 3.5. SEBI shall examine the incident on the basis of reports submitted. Further, RE shall classify the cybersecurity incident based on its severity as per Table 35 and the same shall be reviewed by respective IT Committee for REs of the RE before the reports are submitted to SEBI. 3.6. In case the reports are found to be deficient or inaccurate in any manner (for instance no identification or incorrect identification of root cause, inaccurate sequence of events, etc.), appropriate regulatory action may be taken by SEBI. RE may be provided an additional time upto 15 days from the day of being notified of the deficiency/ inaccuracy, for submitting the accurate and complete report. 3.7. In the event of RE not submitting accurate and complete reports after being provided additional time, appropriate regulatory action may be taken by SEBI (over and above the action mentioned in clause 3.6 above). 3.8. Critical or High category of cybersecurity incidents experienced by MIIs, Qualified REs, and Mid-size REs shall be mandatorily put up for the review for HPSC-CS. Remaining incidents i.e., low and medium for all REs, and high and critical severity incidents for small-size and self-certification REs shall be processed by SEBI internally. The review by HPSC-CS and SEBI shall be as follows: 3.8.1. Review by HPSC-CS i. For all the incidents placed before HPSC-CS, the committee may"
+        }
+      ]
+    }
+  ],
+  "notice": "Similarity links and detector findings are unreviewed candidates. They are not legal interpretations, confirmed conflicts, or applicability decisions."
+}

@@ -1,0 +1,1749 @@
+{
+  "schema_version": 1,
+  "packet_sha256": "0c6127c86d03d68879fa8f8ab9a0d34c5fcb8fed1390643d4f136d15823fea87",
+  "results_canonical_sha256": "6ccee3d8a43f6248bf3749e64b3cf10e4e6468567fdf8852556e9f8a2a0b9146",
+  "recorded_embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "new_model_calls": 0,
+  "human_approvals_created": 0,
+  "cases": [
+    {
+      "scenario_id": "probe-0",
+      "query": "customer identity verification and ongoing due diligence",
+      "review_status": "pending",
+      "reviewer": null,
+      "answerability": "pending",
+      "relevant_section_ids": [],
+      "suggested_candidates": [
+        {
+          "candidate_id": "5ac0a0fd-49fe-435b-bb33-cd4183836b60",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "bm25": 1,
+            "exact_vector": 1,
+            "hybrid": 1
+          },
+          "rrf_score": 0.03278688524590164,
+          "evidence_quote": "The bank shall implement an authentication framework to ensure positive identity\nverification for customers accessing its services and to enable customers to \nverify the authenticity of the bank, across all delivery channels.",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "start_page": 32,
+          "end_page": 32,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+        },
+        {
+          "candidate_id": "6c29e7cc-6afe-4499-9895-8850aa65b816",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "bm25": 4,
+            "exact_vector": 2,
+            "hybrid": 2
+          },
+          "rrf_score": 0.031754032258064516,
+          "evidence_quote": "The bank shall act as the identity provider for identification and authentication of\ncustomers for access to partner systems using secure authentication \ntechnologies.",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "start_page": 32,
+          "end_page": 32,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+        },
+        {
+          "candidate_id": "9abf6ecb-0ca2-404c-9ddf-c6dfe3812811",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "bm25": 3,
+            "exact_vector": 3,
+            "hybrid": 3
+          },
+          "rrf_score": 0.031746031746031744,
+          "evidence_quote": "Card-issuers shall carry out due diligence in respect of the co-branding partner entity with\nwhich they intend to enter into tie-up for issue of such cards to protect themselves against \nthe reputation risk they are exposed to in such an arrangement.",
+          "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+          "start_page": 22,
+          "end_page": 22,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Credit Cards and Debit Cards: Issuance and Conduct) Directions, 2025 (Updated as on October 1, 2026)"
+        },
+        {
+          "candidate_id": "c5b4669e-9c79-4bc7-a08e-11a1d9589687",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "bm25": 2,
+            "hybrid": 4
+          },
+          "rrf_score": 0.016129032258064516,
+          "evidence_quote": "The bank shall regularly conduct effective due diligence, oversight, and\nmanagement of third-party vendors / service providers and partners.",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "start_page": 34,
+          "end_page": 34,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+        },
+        {
+          "candidate_id": "1e88e7c6-ebf5-4c2f-9407-ab9b5b81f181",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "exact_vector": 4,
+            "hybrid": 5
+          },
+          "rrf_score": 0.015625,
+          "evidence_quote": "Card-issuers shall ensure that their employees / agents do not indulge in mis-selling of\ncredit cards by providing incomplete or incorrect information to the customers, prior to the \nissuance of a credit card.",
+          "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+          "start_page": 19,
+          "end_page": 20,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Credit Cards and Debit Cards: Issuance and Conduct) Directions, 2025 (Updated as on October 1, 2026)"
+        },
+        {
+          "candidate_id": "31f2134a-3c15-4e1c-be16-412eb7ba7eff",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "exact_vector": 5,
+            "hybrid": 6
+          },
+          "rrf_score": 0.015384615384615385,
+          "evidence_quote": "There shall be a system of acknowledging customers' \ncomplaints for follow up, such as complaint number / docket number, even if the \ncomplaints are received over phone.",
+          "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+          "start_page": 27,
+          "end_page": 27,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Credit Cards and Debit Cards: Issuance and Conduct) Directions, 2025 (Updated as on October 1, 2026)"
+        },
+        {
+          "candidate_id": "c54c1c4c-02ae-41c7-b116-b60272071ba7",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "bm25": 5,
+            "hybrid": 7
+          },
+          "rrf_score": 0.015384615384615385,
+          "evidence_quote": "Items to be disclosed in stages:\n(1) During marketing - Item no: 91 (1)  \n(2) At application - Key fact statement containing items from 91 (1) to (3) and any additional \ninformation that the customer may desire.  \n(3) Welcome kit - Item nos: all items from 91 (1) to (8)   \n(4) On billing - Item nos: 91 (1) to (3)   \n(5) On an ongoing basis, any change of the terms and conditions  \n(6) Note:",
+          "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+          "start_page": 32,
+          "end_page": 33,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Credit Cards and Debit Cards: Issuance and Conduct) Directions, 2025 (Updated as on October 1, 2026)"
+        },
+        {
+          "candidate_id": "879af571-35ad-4ed5-aa16-b83c552943ec",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "exact_vector": 6,
+            "hybrid": 8
+          },
+          "rrf_score": 0.015151515151515152,
+          "evidence_quote": "Card-issuers shall ensure \nthat cash backs, discounts and other offers advertised by a co-branding partner are \ndelivered to the cardholder on time.",
+          "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+          "start_page": 22,
+          "end_page": 23,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Credit Cards and Debit Cards: Issuance and Conduct) Directions, 2025 (Updated as on October 1, 2026)"
+        },
+        {
+          "candidate_id": "c0e245af-8656-416f-b40a-e3c78eb96f97",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "bm25": 6,
+            "hybrid": 9
+          },
+          "rrf_score": 0.015151515151515152,
+          "evidence_quote": "The bank shall, on an ongoing basis, review the performance of the VA / PT\nauditor and ensure that appropriate action is taken in case of noting any \ndeficiencies.",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "start_page": 42,
+          "end_page": 42,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+        },
+        {
+          "candidate_id": "d4deb132-7bc9-4302-8b50-c1c90f9078ee",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "bm25": 7,
+            "hybrid": 10
+          },
+          "rrf_score": 0.014925373134328358,
+          "evidence_quote": "Explanation: In case a cardholder makes partial payment or does not clear the total \namount due within the payment due date, interest free credit period will be lost, and \ninterest may be levied from the date of transaction on the outstanding amount (adjusted \nfor payments / refunds / reversed transactions as and when credited) and not on the \ntotal amount due.",
+          "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+          "start_page": 13,
+          "end_page": 15,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Credit Cards and Debit Cards: Issuance and Conduct) Directions, 2025 (Updated as on October 1, 2026)"
+        },
+        {
+          "candidate_id": "e126673e-f60e-4864-a77c-a9464bddfe13",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "exact_vector": 7
+          },
+          "rrf_score": 0.014925373134328358,
+          "evidence_quote": "Card-issuers shall obtain \nthe details of the cardholder\u2019s bank account, if the same is not available with them.",
+          "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+          "start_page": 12,
+          "end_page": 12,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Credit Cards and Debit Cards: Issuance and Conduct) Directions, 2025 (Updated as on October 1, 2026)"
+        },
+        {
+          "candidate_id": "2a6ce9dd-6531-4bcf-b915-d0719d201017",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "bm25": 8
+          },
+          "rrf_score": 0.014705882352941176,
+          "evidence_quote": "Any credit amount arising out of refund / failed / reversed transactions or similar\ntransactions before the due date of payment for which payment has not been made by \n \n16 \nthe cardholder, shall be immediately adjusted against the \u2018payment due\u2019 and notified to \nthe cardholder.",
+          "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+          "start_page": 15,
+          "end_page": 16,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Credit Cards and Debit Cards: Issuance and Conduct) Directions, 2025 (Updated as on October 1, 2026)"
+        },
+        {
+          "candidate_id": "f374fe9c-59fc-434d-a2af-47819e64a546",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "exact_vector": 8
+          },
+          "rrf_score": 0.014705882352941176,
+          "evidence_quote": "Customer Acquisition:\n(1) Card-issuers shall provide a one-page Key Fact Statement along with the credit card \napplication containing the important aspects of the card such as rate of interest, quantum \nof charges, among others.",
+          "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+          "start_page": 7,
+          "end_page": 9,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Credit Cards and Debit Cards: Issuance and Conduct) Directions, 2025 (Updated as on October 1, 2026)"
+        },
+        {
+          "candidate_id": "30aa6c1e-6fa1-4216-b393-feb08bc58e60",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "exact_vector": 9
+          },
+          "rrf_score": 0.014492753623188406,
+          "evidence_quote": "Alternatively, card-issuers may \nuse other digital modes with multifactor authentication to obtain explicit customer \nconsent.",
+          "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+          "start_page": 7,
+          "end_page": 9,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Credit Cards and Debit Cards: Issuance and Conduct) Directions, 2025 (Updated as on October 1, 2026)"
+        },
+        {
+          "candidate_id": "d90f1a29-1108-426d-81f2-edcdd5f22217",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "bm25": 9
+          },
+          "rrf_score": 0.014492753623188406,
+          "evidence_quote": "Late payment charges and other related charges shall be levied, only on the \noutstanding amount after the due date, and not on the total amount due.  \n(6) Interest shall be levied only on the outstanding amount, adjusted for payments / refunds \n/ reversed transactions.",
+          "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+          "start_page": 13,
+          "end_page": 15,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Credit Cards and Debit Cards: Issuance and Conduct) Directions, 2025 (Updated as on October 1, 2026)"
+        },
+        {
+          "candidate_id": "941ffa9d-2dc3-4d1b-b5db-1899f02479e9",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "bm25": 10
+          },
+          "rrf_score": 0.014285714285714285,
+          "evidence_quote": "The Minimum Amount \nDue (MAD) for the month A shall be calculated in a way that it does not result in negative \namortization.",
+          "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+          "start_page": 13,
+          "end_page": 15,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Credit Cards and Debit Cards: Issuance and Conduct) Directions, 2025 (Updated as on October 1, 2026)"
+        },
+        {
+          "candidate_id": "c3ca10c5-3c37-44fe-ad47-20f99d4d67cf",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "exact_vector": 10
+          },
+          "rrf_score": 0.014285714285714285,
+          "evidence_quote": "For providing information relating to credit history / repayment record of the cardholder to\na Credit Information Company (that has obtained Certificate of Registration from RBI), the \ncard-issuer shall explicitly bring to the notice of the customer that such information is being \nprovided in terms of the Credit Information Companies (Regulation) Act, 2005.",
+          "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+          "start_page": 18,
+          "end_page": 18,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Credit Cards and Debit Cards: Issuance and Conduct) Directions, 2025 (Updated as on October 1, 2026)"
+        }
+      ]
+    },
+    {
+      "scenario_id": "probe-1",
+      "query": "outsourcing risk assessment and vendor monitoring",
+      "review_status": "pending",
+      "reviewer": null,
+      "answerability": "pending",
+      "relevant_section_ids": [],
+      "suggested_candidates": [
+        {
+          "candidate_id": "74c7cf58-4e19-4ef2-a654-f6a2a442aa3f",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "bm25": 1,
+            "exact_vector": 1,
+            "hybrid": 1
+          },
+          "rrf_score": 0.03278688524590164,
+          "evidence_quote": "The bank shall carefully evaluate the need for outsourcing critical processes and\nselection of vendor / partner based on comprehensive risk assessment.",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "start_page": 34,
+          "end_page": 34,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+        },
+        {
+          "candidate_id": "85418f6e-6295-431d-8fe4-03972a46b7de",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "bm25": 2,
+            "exact_vector": 3,
+            "hybrid": 2
+          },
+          "rrf_score": 0.03200204813108039,
+          "evidence_quote": "The bank shall establish appropriate policies and procedures to evaluate,\nassess, approve, review, control and monitor the risks and materiality of all its \nvendor / outsourcing activities.",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "start_page": 34,
+          "end_page": 34,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+        },
+        {
+          "candidate_id": "4a4becb4-ebff-4a3a-923f-c98210a325a1",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "exact_vector": 2,
+            "hybrid": 3
+          },
+          "rrf_score": 0.016129032258064516,
+          "evidence_quote": "The bank shall be accountable for ensuring appropriate management and\nassurance on security risks in outsourced and partner arrangements.",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "start_page": 34,
+          "end_page": 34,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+        },
+        {
+          "candidate_id": "813a1f8f-8afa-42b3-9b01-928ae5a6c739",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "bm25": 3,
+            "hybrid": 4
+          },
+          "rrf_score": 0.015873015873015872,
+          "evidence_quote": "Enterprise-wide risk management policy or operational risk management policy\nshall also incorporate periodic assessment of IT-related risks (both inherent and \npotential risk).",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "start_page": 12,
+          "end_page": 12,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+        },
+        {
+          "candidate_id": "4c3d8743-6086-4c5d-b96b-43c2c68a8188",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "exact_vector": 4,
+            "hybrid": 5
+          },
+          "rrf_score": 0.015625,
+          "evidence_quote": "When card-issuers outsource various credit card related operations, they shall be\nextremely careful that the appointment of such service providers do not compromise the \nquality of the customer service and the card-issuers' ability to manage credit, liquidity and \noperational risks.",
+          "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+          "start_page": 19,
+          "end_page": 19,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Credit Cards and Debit Cards: Issuance and Conduct) Directions, 2025 (Updated as on October 1, 2026)"
+        },
+        {
+          "candidate_id": "e403fd1b-4231-4b76-a2d3-957b9d48481d",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "bm25": 4,
+            "hybrid": 6
+          },
+          "rrf_score": 0.015625,
+          "evidence_quote": "The bank shall implement risk-based transaction monitoring or surveillance\nprocess as part of fraud risk management system across all delivery channels.",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "start_page": 49,
+          "end_page": 49,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+        },
+        {
+          "candidate_id": "117ecca5-f8c0-47ed-a243-56eac8d3ddb1",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "bm25": 5,
+            "hybrid": 7
+          },
+          "rrf_score": 0.015384615384615385,
+          "evidence_quote": "The risk assessment for each information asset within the bank\u2019s scope shall be\nguided by appropriate security standards / IT control frameworks.",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "start_page": 20,
+          "end_page": 21,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+        },
+        {
+          "candidate_id": "47579cb9-fcd3-4c34-bdc5-455e175112ea",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "exact_vector": 5,
+            "hybrid": 8
+          },
+          "rrf_score": 0.015384615384615385,
+          "evidence_quote": "Riskiness of the business component shall also be factored into while assessing \nthe inherent risks.",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "start_page": 21,
+          "end_page": 21,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+        },
+        {
+          "candidate_id": "2f4fc0ed-e697-42ac-b7a4-4fed5b8d3560",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "bm25": 6,
+            "hybrid": 9
+          },
+          "rrf_score": 0.015151515151515152,
+          "evidence_quote": "The bank shall document in writing any risk-cost or potential \ncost trade-off decisions to enable appropriate supervisory assessment.",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "start_page": 18,
+          "end_page": 19,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+        },
+        {
+          "candidate_id": "71e7c8e2-448c-42d5-9a5c-fd59221cdb14",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "exact_vector": 6,
+            "hybrid": 10
+          },
+          "rrf_score": 0.015151515151515152,
+          "evidence_quote": "While identifying and assessing the inherent risks, the bank shall reckon the\ntechnologies adopted, alignment with business and regulatory requirements, \norganisational culture, and internal and external threats.",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "start_page": 21,
+          "end_page": 21,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+        },
+        {
+          "candidate_id": "6fa0ea5a-dcbf-4ec9-a1f5-39d67b39e42a",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "exact_vector": 7
+          },
+          "rrf_score": 0.014925373134328358,
+          "evidence_quote": "They shall provide assurance to the bank that the application is free from \nembedded malicious / fraudulent code. \n(13) The ASP shall have a robust change management process in place to \nrecord / monitor all the changes that are moved / pushed into the production \nenvironment.",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "start_page": 36,
+          "end_page": 39,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+        },
+        {
+          "candidate_id": "92981ecb-70d4-4f63-97a9-49a7d92ce247",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "bm25": 7
+          },
+          "rrf_score": 0.014925373134328358,
+          "evidence_quote": "Periodicity of DR drills for critical information systems shall be at least on a half-\nyearly basis and for other information systems, as per the bank\u2019s risk \nassessment.",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "start_page": 43,
+          "end_page": 43,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+        },
+        {
+          "candidate_id": "07325a6a-1608-4b54-b87b-7fe78deeeae9",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "bm25": 8
+          },
+          "rrf_score": 0.014705882352941176,
+          "evidence_quote": "The IT architecture shall be reviewed by the ITSC at least \nannually and upgraded, as required, based on the bank\u2019s risk assessment and \nRBI (CBs \u2013 Cybersecurity, Technology: Risk, Resilience  \nand Assurance Framework) Directions, 2026 \n \n \n \n19 \n \nin a phased manner.",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "start_page": 18,
+          "end_page": 19,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+        },
+        {
+          "candidate_id": "1c600fb2-1e92-49c0-9854-68a6671ba402",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "exact_vector": 8
+          },
+          "rrf_score": 0.014705882352941176,
+          "evidence_quote": "The implemented controls and \nprocesses must be reviewed periodically on their efficacy in a risk \nenvironment characterised by change; \n(2) \nroles and responsibilities of stakeholders (including third-party personnel) \ninvolved in IT risk management.",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "start_page": 20,
+          "end_page": 20,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+        },
+        {
+          "candidate_id": "628173cf-c6e0-43fd-904b-d1735785210e",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "bm25": 9
+          },
+          "rrf_score": 0.014492753623188406,
+          "evidence_quote": "Where obtaining of the source code is not possible, the bank shall put \nin place a source code escrow arrangement or other arrangements to adequately \nmitigate the risk of default by the vendor.",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "start_page": 28,
+          "end_page": 28,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+        },
+        {
+          "candidate_id": "b2a2f86c-657b-40f8-9b6f-8b14b4fbfa9c",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "exact_vector": 9
+          },
+          "rrf_score": 0.014492753623188406,
+          "evidence_quote": "For non-critical information systems, the bank shall adopt \na risk-based approach to define suitable metrics.",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "start_page": 47,
+          "end_page": 47,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+        },
+        {
+          "candidate_id": "2c2d313a-1d83-4344-97c6-1b11d31cfe05",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "bm25": 10
+          },
+          "rrf_score": 0.014285714285714285,
+          "evidence_quote": "The bank shall ensure similar arrangements at the vendor-managed facilities as\nwell.",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "start_page": 22,
+          "end_page": 22,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+        },
+        {
+          "candidate_id": "3c089835-a42f-4007-aae1-70f5fb97460d",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "exact_vector": 10
+          },
+          "rrf_score": 0.014285714285714285,
+          "evidence_quote": "Further, \nthe card-issuers shall not share card data (including transaction data) of the cardholders \nwith the outsourcing partners unless sharing of such data is essential to discharge the \nfunctions assigned to the latter.",
+          "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+          "start_page": 28,
+          "end_page": 29,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Credit Cards and Debit Cards: Issuance and Conduct) Directions, 2025 (Updated as on October 1, 2026)"
+        }
+      ]
+    },
+    {
+      "scenario_id": "probe-2",
+      "query": "incident reporting and cybersecurity controls",
+      "review_status": "pending",
+      "reviewer": null,
+      "answerability": "pending",
+      "relevant_section_ids": [],
+      "suggested_candidates": [
+        {
+          "candidate_id": "bdc2643d-3411-4d40-ae3d-7b2fb1fc3320",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "bm25": 1,
+            "exact_vector": 8,
+            "hybrid": 1
+          },
+          "rrf_score": 0.031099324975891997,
+          "evidence_quote": "The bank shall encourage the reporting of suspicious behaviour incidents to the\nincident management team.",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "start_page": 48,
+          "end_page": 48,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+        },
+        {
+          "candidate_id": "c250841f-7295-4996-a1de-603a77dd0a5f",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "bm25": 7,
+            "exact_vector": 7,
+            "hybrid": 2
+          },
+          "rrf_score": 0.029850746268656716,
+          "evidence_quote": "The ASP shall have a written incident \nresponse procedure including the roles of staff / outsourced staff handling \nsuch incidents.",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "start_page": 36,
+          "end_page": 39,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+        },
+        {
+          "candidate_id": "3537ada3-d7fb-4ed3-a752-b7fcaaf2d03b",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "exact_vector": 1,
+            "hybrid": 3
+          },
+          "rrf_score": 0.01639344262295082,
+          "evidence_quote": "The cybersecurity policy shall be distinct and separate from the broader IT \npolicy / Information Security policy so that it can highlight the risks from cyber \nthreats and the measures to address / mitigate these risks.",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "start_page": 12,
+          "end_page": 13,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+        },
+        {
+          "candidate_id": "2318a1d5-2862-47c1-9591-8f98d1ad4250",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "bm25": 2,
+            "hybrid": 4
+          },
+          "rrf_score": 0.016129032258064516,
+          "evidence_quote": "The Board of Directors shall approve the strategies and policies related to \nInformation Technology, Information Assets, Business Continuity, Information \nSecurity and Cybersecurity (including Incident Response and Recovery \nManagement / Cyber Crisis Management) frameworks.",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "start_page": 11,
+          "end_page": 11,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+        },
+        {
+          "candidate_id": "cddae1b5-be7e-4899-a2db-d6085d81050b",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "exact_vector": 2,
+            "hybrid": 5
+          },
+          "rrf_score": 0.016129032258064516,
+          "evidence_quote": "The bank shall report cyber incidents within six hours of detection on DAKSH\nplatform (Reserve Bank\u2019s Advanced Supervisory Monitoring System - \nhttps://daksh.rbi.org.in).",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "start_page": 45,
+          "end_page": 45,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+        },
+        {
+          "candidate_id": "040a2617-440e-4484-91b9-5f557ebaac5a",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "bm25": 3,
+            "hybrid": 6
+          },
+          "rrf_score": 0.015873015873015872,
+          "evidence_quote": "36. 4Before reporting default status of a credit cardholder to a Credit Information Company\n(CIC), the card-issuers shall ensure that they adhere to the procedure laid down in the \napproved policy, and intimate the cardholder prior to reporting of the status.",
+          "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+          "start_page": 18,
+          "end_page": 18,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Credit Cards and Debit Cards: Issuance and Conduct) Directions, 2025 (Updated as on October 1, 2026)"
+        },
+        {
+          "candidate_id": "20f08b8f-079a-484b-bd67-9d5dbd87b50d",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "exact_vector": 3,
+            "hybrid": 7
+          },
+          "rrf_score": 0.015873015873015872,
+          "evidence_quote": "The bank shall provide specialised training to the personnel handling cyber\nincidents.",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "start_page": 45,
+          "end_page": 45,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+        },
+        {
+          "candidate_id": "54591fb4-e2f8-4b1a-911c-0acbb927ae46",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "exact_vector": 4,
+            "hybrid": 8
+          },
+          "rrf_score": 0.015625,
+          "evidence_quote": "Such arrangements shall facilitate forensic auditing, if need be.  \n(17) The ASP shall implement an alert mechanism to monitor any change in the \nlog settings. \n(18) The ASP is responsible for meeting the requirements prescribed for incident \nmanagement and Business Continuity Plan (BCP) / DR even if their IT \ninfrastructure, systems, and applications, are managed by third-party \nvendors / service providers.",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "start_page": 36,
+          "end_page": 39,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+        },
+        {
+          "candidate_id": "5b879eb3-4f39-4991-b360-13fe891e474f",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "bm25": 4,
+            "hybrid": 9
+          },
+          "rrf_score": 0.015625,
+          "evidence_quote": "The CISO shall not have \nany direct reporting relationship with the Head of IT Function and shall not be \ngiven any business targets.",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "start_page": 17,
+          "end_page": 17,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+        },
+        {
+          "candidate_id": "5deae6b6-62fb-4a83-8627-d42dd8158c90",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "bm25": 5,
+            "hybrid": 10
+          },
+          "rrf_score": 0.015384615384615385,
+          "evidence_quote": "The bank shall implement Domain-based Message Authentication, Reporting,\nand Conformance (DMARC) solution for the email domains.",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "start_page": 32,
+          "end_page": 33,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+        },
+        {
+          "candidate_id": "6a61a6a6-a1c5-4790-ad5f-d55a8c725540",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "exact_vector": 5
+          },
+          "rrf_score": 0.015384615384615385,
+          "evidence_quote": "The adequacy of and adherence to cybersecurity framework shall be assessed\nand measured through development of indicators to assess the level of risk / \npreparedness.",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "start_page": 47,
+          "end_page": 47,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+        },
+        {
+          "candidate_id": "3ab30cf0-8d65-4d1c-ae29-df4176038d9b",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "bm25": 6
+          },
+          "rrf_score": 0.015151515151515152,
+          "evidence_quote": "The bank shall have clear communication plans for escalation and reporting the\nincidents to the Board and Senior Management as well as to customers, as \nrequired.",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "start_page": 45,
+          "end_page": 45,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+        },
+        {
+          "candidate_id": "4a398403-dc23-4c20-b08f-459857b5358c",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "exact_vector": 6
+          },
+          "rrf_score": 0.015151515151515152,
+          "evidence_quote": "The bank shall analyse cyber incidents (including through forensic analysis, if\nnecessary) for their severity, impact, and root cause.",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "start_page": 45,
+          "end_page": 45,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+        },
+        {
+          "candidate_id": "98d36e5a-5a5a-4b53-a136-4af8c3194f31",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "bm25": 8
+          },
+          "rrf_score": 0.014705882352941176,
+          "evidence_quote": "The bank shall encourage customers to report phishing mails / phishing sites and\non such reporting, the bank shall take effective remedial action.",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "start_page": 48,
+          "end_page": 48,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+        },
+        {
+          "candidate_id": "5c8d7417-9260-490e-93dd-5961b56880b1",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "bm25": 9
+          },
+          "rrf_score": 0.014492753623188406,
+          "evidence_quote": "The bank\u2019s BCP and DR capabilities shall be designed to effectively support\nresilience objectives and enable rapid recovery and secure resumption of critical \noperations including key cybersecurity controls post cyber-attacks / other \nincidents aligned with recovery time objectives while ensuring security of \nprocesses and data.",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "start_page": 43,
+          "end_page": 43,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+        },
+        {
+          "candidate_id": "613af5e9-0391-4ecf-aa4b-6e92055f65ac",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "exact_vector": 9
+          },
+          "rrf_score": 0.014492753623188406,
+          "evidence_quote": "Findings of VA / PT and the follow up actions necessitated shall be monitored\nclosely by the Information Security / Information Systems Audit team as well as \nSenior Management.",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "start_page": 42,
+          "end_page": 42,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+        },
+        {
+          "candidate_id": "1c600fb2-1e92-49c0-9854-68a6671ba402",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "exact_vector": 10
+          },
+          "rrf_score": 0.014285714285714285,
+          "evidence_quote": "The implemented controls and \nprocesses must be reviewed periodically on their efficacy in a risk \nenvironment characterised by change; \n(2) \nroles and responsibilities of stakeholders (including third-party personnel) \ninvolved in IT risk management.",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "start_page": 20,
+          "end_page": 20,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+        },
+        {
+          "candidate_id": "8174f3e3-de16-4749-bf07-f085e1b51683",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "bm25": 10
+          },
+          "rrf_score": 0.014285714285714285,
+          "evidence_quote": "The bank shall document and implement email server specific controls.",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "start_page": 32,
+          "end_page": 32,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+        }
+      ]
+    },
+    {
+      "scenario_id": "probe-3",
+      "query": "credit card customer consent and dispute resolution",
+      "review_status": "pending",
+      "reviewer": null,
+      "answerability": "pending",
+      "relevant_section_ids": [],
+      "suggested_candidates": [
+        {
+          "candidate_id": "9ebd9de9-3852-43b9-8829-d43936ec4279",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "exact_vector": 1,
+            "hybrid": 1
+          },
+          "rrf_score": 0.01639344262295082,
+          "evidence_quote": "(iii) Similarly, with regard to retail credit cards, the requisite consent shall be sought from \nthe principal cardholder and not from the add-on cardholders.  \n \n9 \nProvided that, for blocking of business or retail credit cards, either the actual cardholder \nor the principal cardholder can initiate the request. \n(7) A card-issuer shall not report any credit information relating to a new credit card account \nto Credit Information Companies prior to activation of the card.",
+          "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+          "start_page": 7,
+          "end_page": 9,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Credit Cards and Debit Cards: Issuance and Conduct) Directions, 2025 (Updated as on October 1, 2026)"
+        },
+        {
+          "candidate_id": "f6a5bf40-b1d3-4f90-abfc-f955aaf33410",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "bm25": 1,
+            "hybrid": 2
+          },
+          "rrf_score": 0.01639344262295082,
+          "evidence_quote": "If no consent is received for activating the card, the card-issuer is required to \nclose the credit card account without any cost to the customer within seven working days \nfrom the date of seeking confirmation from the customer and shall also intimate the \ncustomer that the credit card account has been closed.",
+          "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+          "start_page": 7,
+          "end_page": 9,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Credit Cards and Debit Cards: Issuance and Conduct) Directions, 2025 (Updated as on October 1, 2026)"
+        },
+        {
+          "candidate_id": "1bda1a34-27c6-44aa-a564-f96acf29b25d",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "exact_vector": 2,
+            "hybrid": 3
+          },
+          "rrf_score": 0.016129032258064516,
+          "evidence_quote": "The card-issuers shall \nreverse the credit transaction to the cardholder\u2019s bank account, if no consent / response \nis received from the cardholder.",
+          "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+          "start_page": 16,
+          "end_page": 17,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Credit Cards and Debit Cards: Issuance and Conduct) Directions, 2025 (Updated as on October 1, 2026)"
+        },
+        {
+          "candidate_id": "d7e6dd76-6ab0-4398-b73a-f806b3694fa5",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "bm25": 2,
+            "hybrid": 4
+          },
+          "rrf_score": 0.016129032258064516,
+          "evidence_quote": "If no consent is received for activating the card, \ncard-issuers shall close the credit card account without any cost to the customer within \nseven working days from date of seeking confirmation from the customer.",
+          "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+          "start_page": 7,
+          "end_page": 9,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Credit Cards and Debit Cards: Issuance and Conduct) Directions, 2025 (Updated as on October 1, 2026)"
+        },
+        {
+          "candidate_id": "b64081ba-c4b3-4b20-8f5d-711788dfa574",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "bm25": 3,
+            "hybrid": 5
+          },
+          "rrf_score": 0.015873015873015872,
+          "evidence_quote": "The bank shall also ensure that \naudit trails are sufficiently detailed to facilitate the conduct of audits, serve as \nforensic evidence (the term \u2018forensics\u2019 refers to \u2018digital forensics\u2019 for the purpose \nof these Directions) when required, and assist in dispute resolution, including for \nnon-repudiation purposes.",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "start_page": 29,
+          "end_page": 29,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+        },
+        {
+          "candidate_id": "fad8193d-a25f-43b4-8dc5-4814d01f451b",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "exact_vector": 3,
+            "hybrid": 6
+          },
+          "rrf_score": 0.015873015873015872,
+          "evidence_quote": "Further, \nin case where the customers give explicit consent for sharing the information provided by \nthem with other agencies, card-issuers shall clearly state and explain to the customer the \nfull meaning / implications of the disclosure clause.",
+          "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+          "start_page": 28,
+          "end_page": 28,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Credit Cards and Debit Cards: Issuance and Conduct) Directions, 2025 (Updated as on October 1, 2026)"
+        },
+        {
+          "candidate_id": "5d54157a-fb9a-4903-ae06-bb8b78aea078",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "bm25": 4,
+            "hybrid": 7
+          },
+          "rrf_score": 0.015625,
+          "evidence_quote": "Card-issuers may issue other form factors in place of / in addition to a plastic debit / credit\ncard such as wearables, after obtaining explicit consent from the customer.",
+          "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+          "start_page": 21,
+          "end_page": 21,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Credit Cards and Debit Cards: Issuance and Conduct) Directions, 2025 (Updated as on October 1, 2026)"
+        },
+        {
+          "candidate_id": "e8f59bff-9d0a-43e6-8e16-5a324765c1a4",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "exact_vector": 4,
+            "hybrid": 8
+          },
+          "rrf_score": 0.015625,
+          "evidence_quote": "The relationship between the card-issuer and the cardholder shall be contractual.",
+          "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+          "start_page": 25,
+          "end_page": 26,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Credit Cards and Debit Cards: Issuance and Conduct) Directions, 2025 (Updated as on October 1, 2026)"
+        },
+        {
+          "candidate_id": "30aa6c1e-6fa1-4216-b393-feb08bc58e60",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "bm25": 5,
+            "hybrid": 9
+          },
+          "rrf_score": 0.015384615384615385,
+          "evidence_quote": "Alternatively, card-issuers may \nuse other digital modes with multifactor authentication to obtain explicit customer \nconsent.",
+          "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+          "start_page": 7,
+          "end_page": 9,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Credit Cards and Debit Cards: Issuance and Conduct) Directions, 2025 (Updated as on October 1, 2026)"
+        },
+        {
+          "candidate_id": "fd4ce5a3-74d0-4730-939e-cdab1045ca14",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "exact_vector": 5,
+            "hybrid": 10
+          },
+          "rrf_score": 0.015384615384615385,
+          "evidence_quote": "In case of reduction in the credit limit, the card-issuer shall \nintimate the same to the cardholder.",
+          "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+          "start_page": 18,
+          "end_page": 18,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Credit Cards and Debit Cards: Issuance and Conduct) Directions, 2025 (Updated as on October 1, 2026)"
+        },
+        {
+          "candidate_id": "6a2cda0c-6d42-4f3b-be02-ba6c69a9820d",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "exact_vector": 6
+          },
+          "rrf_score": 0.015151515151515152,
+          "evidence_quote": "In the choice of the service provider, the card-issuers shall be guided by \nthe need to ensure confidentiality of the customer\u2019s records, respect customer privacy and \nadhere to fair practices in debt collection.",
+          "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+          "start_page": 19,
+          "end_page": 19,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Credit Cards and Debit Cards: Issuance and Conduct) Directions, 2025 (Updated as on October 1, 2026)"
+        },
+        {
+          "candidate_id": "9f232989-1150-4e5a-b55f-9686a9eadf11",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "bm25": 6
+          },
+          "rrf_score": 0.015151515151515152,
+          "evidence_quote": "In other words, the written consent of the \napplicant shall be required before issuing a credit card.",
+          "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+          "start_page": 7,
+          "end_page": 9,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Credit Cards and Debit Cards: Issuance and Conduct) Directions, 2025 (Updated as on October 1, 2026)"
+        },
+        {
+          "candidate_id": "369cc112-649d-4a0a-854c-a6b6af30738e",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "exact_vector": 7
+          },
+          "rrf_score": 0.014925373134328358,
+          "evidence_quote": "(ii) In case of business credit cards, wherein the cards have been issued based on the \napplication by a corporate or business entity, card-issuers shall seek explicit consent as \nabove / send intimation as required under paragraph 20 respectively from / to the \nprincipal account holder (viz. corporate or business entity) unless specified otherwise in \nthe agreement.",
+          "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+          "start_page": 7,
+          "end_page": 9,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Credit Cards and Debit Cards: Issuance and Conduct) Directions, 2025 (Updated as on October 1, 2026)"
+        },
+        {
+          "candidate_id": "aa763d99-8c3c-4112-8369-7b2a0c8b4ef0",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "bm25": 7
+          },
+          "rrf_score": 0.014925373134328358,
+          "evidence_quote": "Unsolicited loans or other credit facilities shall not be offered to the credit cardholders\nwithout seeking explicit consent.",
+          "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+          "start_page": 17,
+          "end_page": 18,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Credit Cards and Debit Cards: Issuance and Conduct) Directions, 2025 (Updated as on October 1, 2026)"
+        },
+        {
+          "candidate_id": "1e88e7c6-ebf5-4c2f-9407-ab9b5b81f181",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "exact_vector": 8
+          },
+          "rrf_score": 0.014705882352941176,
+          "evidence_quote": "Card-issuers shall ensure that their employees / agents do not indulge in mis-selling of\ncredit cards by providing incomplete or incorrect information to the customers, prior to the \nissuance of a credit card.",
+          "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+          "start_page": 19,
+          "end_page": 20,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Credit Cards and Debit Cards: Issuance and Conduct) Directions, 2025 (Updated as on October 1, 2026)"
+        },
+        {
+          "candidate_id": "671a91a5-2f9b-4d2e-895d-4201fedc54a7",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "bm25": 8
+          },
+          "rrf_score": 0.014705882352941176,
+          "evidence_quote": "Explanation: (i) Customer-initiated process indicating intent to use a credit card such as \nPIN generation, modification of transaction control, Interactive Voice Response, recorded \ncall to the customer care centre and SMS may be considered as activation of Credit Card.",
+          "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+          "start_page": 7,
+          "end_page": 9,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Credit Cards and Debit Cards: Issuance and Conduct) Directions, 2025 (Updated as on October 1, 2026)"
+        },
+        {
+          "candidate_id": "298178a7-78cb-47bf-910f-a9b01583da43",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "bm25": 9
+          },
+          "rrf_score": 0.014492753623188406,
+          "evidence_quote": "No charges shall be levied on transactions disputed as \u2018fraud\u2019 by the cardholder until the\ndispute is resolved.",
+          "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+          "start_page": 15,
+          "end_page": 15,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Credit Cards and Debit Cards: Issuance and Conduct) Directions, 2025 (Updated as on October 1, 2026)"
+        },
+        {
+          "candidate_id": "3dfb5add-5a05-47a2-bc00-3b9ce906d73f",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "exact_vector": 9
+          },
+          "rrf_score": 0.014492753623188406,
+          "evidence_quote": "In order to obviate frequent \ncomplaints of delayed billing, the card-issuer may consider providing bills and statements \nof accounts through internet / mobile banking with the explicit consent of the cardholder.",
+          "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+          "start_page": 15,
+          "end_page": 15,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Credit Cards and Debit Cards: Issuance and Conduct) Directions, 2025 (Updated as on October 1, 2026)"
+        },
+        {
+          "candidate_id": "8d247f2a-4a0d-431e-8f64-d18eed2e537e",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "bm25": 10
+          },
+          "rrf_score": 0.014285714285714285,
+          "evidence_quote": "The consent shall be obtained \nthrough e-mail or SMS within seven days of the credit transaction.",
+          "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+          "start_page": 16,
+          "end_page": 17,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Credit Cards and Debit Cards: Issuance and Conduct) Directions, 2025 (Updated as on October 1, 2026)"
+        },
+        {
+          "candidate_id": "97a8a246-f944-4f27-84a7-f120e0ae5d4a",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "exact_vector": 10
+          },
+          "rrf_score": 0.014285714285714285,
+          "evidence_quote": "In particular, with regard to appointment of third-party agencies for debt collection, the\ncard-issuers shall ensure that their agents refrain from actions that could damage their \nintegrity and reputation and observe strict customer confidentiality.",
+          "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+          "start_page": 18,
+          "end_page": 19,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Credit Cards and Debit Cards: Issuance and Conduct) Directions, 2025 (Updated as on October 1, 2026)"
+        }
+      ]
+    },
+    {
+      "scenario_id": "probe-4",
+      "query": "digital payment authentication and access review",
+      "review_status": "pending",
+      "reviewer": null,
+      "answerability": "pending",
+      "relevant_section_ids": [],
+      "suggested_candidates": [
+        {
+          "candidate_id": "30aa6c1e-6fa1-4216-b393-feb08bc58e60",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "bm25": 1,
+            "exact_vector": 1,
+            "hybrid": 1
+          },
+          "rrf_score": 0.03278688524590164,
+          "evidence_quote": "Alternatively, card-issuers may \nuse other digital modes with multifactor authentication to obtain explicit customer \nconsent.",
+          "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+          "start_page": 7,
+          "end_page": 9,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Credit Cards and Debit Cards: Issuance and Conduct) Directions, 2025 (Updated as on October 1, 2026)"
+        },
+        {
+          "candidate_id": "6c29e7cc-6afe-4499-9895-8850aa65b816",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "bm25": 2,
+            "exact_vector": 2,
+            "hybrid": 2
+          },
+          "rrf_score": 0.03225806451612903,
+          "evidence_quote": "The bank shall act as the identity provider for identification and authentication of\ncustomers for access to partner systems using secure authentication \ntechnologies.",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "start_page": 32,
+          "end_page": 32,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+        },
+        {
+          "candidate_id": "93349b48-b15e-46c7-88a2-c66c9cb0daaf",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "exact_vector": 3,
+            "hybrid": 3
+          },
+          "rrf_score": 0.015873015873015872,
+          "evidence_quote": "The bank shall implement centralised authentication and authorisation system\nfor accessing and administering applications, operating systems, databases, \nnetwork and security devices / systems, point of connectivity (local / remote) \nincluding enforcement of strong password policy, and following the principle of \nleast privileges and separation of duties.",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "start_page": 31,
+          "end_page": 31,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+        },
+        {
+          "candidate_id": "bb5e9b45-a13a-4c9d-98d1-678e8bbc23ad",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "bm25": 3,
+            "hybrid": 4
+          },
+          "rrf_score": 0.015873015873015872,
+          "evidence_quote": "The review shall \n \n1 Substituted w.e.f.",
+          "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+          "start_page": 6,
+          "end_page": 7,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Credit Cards and Debit Cards: Issuance and Conduct) Directions, 2025 (Updated as on October 1, 2026)"
+        },
+        {
+          "candidate_id": "1d03fa98-fa51-4342-afd9-e952b5923baf",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "exact_vector": 4,
+            "hybrid": 5
+          },
+          "rrf_score": 0.015625,
+          "evidence_quote": "Any debit to the credit card account shall be done as per the authentication framework\nprescribed by the Reserve Bank from time to time, and not through any other mode / \ninstrument.",
+          "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+          "start_page": 15,
+          "end_page": 15,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Credit Cards and Debit Cards: Issuance and Conduct) Directions, 2025 (Updated as on October 1, 2026)"
+        },
+        {
+          "candidate_id": "7d6b0eb3-66b9-4b9b-b526-706fbe513b21",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "bm25": 4,
+            "hybrid": 6
+          },
+          "rrf_score": 0.015625,
+          "evidence_quote": "The review shall be undertaken at least annually1.",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "start_page": 11,
+          "end_page": 11,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+        },
+        {
+          "candidate_id": "5ac0a0fd-49fe-435b-bb33-cd4183836b60",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "exact_vector": 5,
+            "hybrid": 7
+          },
+          "rrf_score": 0.015384615384615385,
+          "evidence_quote": "The bank shall implement an authentication framework to ensure positive identity\nverification for customers accessing its services and to enable customers to \nverify the authenticity of the bank, across all delivery channels.",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "start_page": 32,
+          "end_page": 32,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+        },
+        {
+          "candidate_id": "5ea06fed-ad11-46d7-8a9e-b2853915f0e6",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "bm25": 5,
+            "hybrid": 8
+          },
+          "rrf_score": 0.015384615384615385,
+          "evidence_quote": "The ACB shall approve the policy and review it at least \nannually.",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "start_page": 54,
+          "end_page": 54,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+        },
+        {
+          "candidate_id": "3dfb5add-5a05-47a2-bc00-3b9ce906d73f",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "exact_vector": 6,
+            "hybrid": 9
+          },
+          "rrf_score": 0.015151515151515152,
+          "evidence_quote": "In order to obviate frequent \ncomplaints of delayed billing, the card-issuer may consider providing bills and statements \nof accounts through internet / mobile banking with the explicit consent of the cardholder.",
+          "content_hash": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF",
+          "start_page": 15,
+          "end_page": 15,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Credit Cards and Debit Cards: Issuance and Conduct) Directions, 2025 (Updated as on October 1, 2026)"
+        },
+        {
+          "candidate_id": "c03dc9cc-d0eb-45e4-a0a7-38c96d0b65ad",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "bm25": 6,
+            "hybrid": 10
+          },
+          "rrf_score": 0.015151515151515152,
+          "evidence_quote": "The bank shall align Security Operation Centre, Incident Response and Digital\nforensics to reduce the business downtime and restore normal operations.",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "start_page": 46,
+          "end_page": 46,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+        },
+        {
+          "candidate_id": "1c80a227-e4f3-459b-932c-a41f48b5d96f",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "exact_vector": 7
+          },
+          "rrf_score": 0.014925373134328358,
+          "evidence_quote": "The bank shall educate the customers about the risks and consequences of\nsharing their login credentials, passwords, One-Time Passwords (OTPs), \nPersonal Identification Numbers (PINs), and other authentication information.",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "start_page": 48,
+          "end_page": 48,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+        },
+        {
+          "candidate_id": "5deae6b6-62fb-4a83-8627-d42dd8158c90",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "bm25": 7
+          },
+          "rrf_score": 0.014925373134328358,
+          "evidence_quote": "The bank shall implement Domain-based Message Authentication, Reporting,\nand Conformance (DMARC) solution for the email domains.",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "start_page": 32,
+          "end_page": 33,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+        },
+        {
+          "candidate_id": "1f78736b-11de-4b1c-844f-1c046b0ab2c4",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "bm25": 8
+          },
+          "rrf_score": 0.014705882352941176,
+          "evidence_quote": "The bank shall put in place appropriate controls to secure wireless local area\nnetworks, wireless access points, and wireless client access systems.",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "start_page": 26,
+          "end_page": 26,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+        },
+        {
+          "candidate_id": "6a61c391-14c7-4ff4-b1e3-50a0918562e6",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "exact_vector": 8
+          },
+          "rrf_score": 0.014705882352941176,
+          "evidence_quote": "The bank shall necessarily enter into an agreement with the service provider that\namongst others provides for right to audit by the bank and right of RBI or persons \nauthorised by it to perform inspection.",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "start_page": 34,
+          "end_page": 34,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+        },
+        {
+          "candidate_id": "489f1c19-f3e9-4d0f-9250-afe2647b1cb9",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "bm25": 9
+          },
+          "rrf_score": 0.014492753623188406,
+          "evidence_quote": "This shall include protecting data processed in end point devices, \ndata in transmission, as well as data stored in servers and other digital stores, \nwhether online or offline.",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "start_page": 22,
+          "end_page": 22,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+        },
+        {
+          "candidate_id": "cb505d2d-d5dc-444a-9485-ffe02d12015b",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "exact_vector": 9
+          },
+          "rrf_score": 0.014492753623188406,
+          "evidence_quote": "The bank shall have mechanism to automatically identify unauthorised device\nconnections to the bank\u2019s network and block such connections.",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "start_page": 26,
+          "end_page": 26,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+        },
+        {
+          "candidate_id": "4e776de2-94e4-41b8-a24c-19728f92cc63",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "bm25": 10
+          },
+          "rrf_score": 0.014285714285714285,
+          "evidence_quote": "The bank shall ensure that only authorised access is permitted to its networks.",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "start_page": 25,
+          "end_page": 25,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+        },
+        {
+          "candidate_id": "5e772ddc-862f-4b49-a90b-17369751b0c0",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "exact_vector": 10
+          },
+          "rrf_score": 0.014285714285714285,
+          "evidence_quote": "The bank shall ensure that all staff members and service providers comply with\nthe extant information security and acceptable-use policies as applicable to \nthem.",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "start_page": 21,
+          "end_page": 21,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+        }
+      ]
+    },
+    {
+      "scenario_id": "probe-5",
+      "query": "business continuity and disaster recovery testing",
+      "review_status": "pending",
+      "reviewer": null,
+      "answerability": "pending",
+      "relevant_section_ids": [],
+      "suggested_candidates": [
+        {
+          "candidate_id": "152ddf7c-0a23-486e-a0bb-7763ce2f2c3b",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "bm25": 3,
+            "exact_vector": 1,
+            "hybrid": 1
+          },
+          "rrf_score": 0.032266458495966696,
+          "evidence_quote": "The bank shall ensure resilient capabilities in all interconnected systems and\nnetworks including those of vendors and partners and readiness demonstrated \nthrough collaborative and coordinated resilience testing that meets the bank\u2019s \nrecovery time objectives.",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "start_page": 46,
+          "end_page": 46,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+        },
+        {
+          "candidate_id": "b13c5583-9fa3-4c61-bf54-9cafe2eab4de",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "bm25": 1,
+            "exact_vector": 3,
+            "hybrid": 2
+          },
+          "rrf_score": 0.032266458495966696,
+          "evidence_quote": "The bank shall put in place appropriate physical and environmental controls for\nsecuring location of critical assets including Data Centre (DC) and Disaster \nRecovery (DR) sites from natural and man-made threats.  \n(Note: DC refers to primary data centre for a given application / system and DR \nrefers to its Disaster Recovery site / alternate site.)",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "start_page": 24,
+          "end_page": 24,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+        },
+        {
+          "candidate_id": "c86ad436-fd08-4970-b080-449f11656119",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "bm25": 10,
+            "exact_vector": 2,
+            "hybrid": 3
+          },
+          "rrf_score": 0.0304147465437788,
+          "evidence_quote": "The bank shall \nensure demonstrated readiness through collaborative and co-ordinated \nresilience testing that meets the bank\u2019s RTO.",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "start_page": 44,
+          "end_page": 44,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+        },
+        {
+          "candidate_id": "af53542b-b164-4c4d-85ca-596a2a1de61f",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "bm25": 4,
+            "exact_vector": 8,
+            "hybrid": 4
+          },
+          "rrf_score": 0.030330882352941176,
+          "evidence_quote": "The BCP and DR policy shall adopt best practices (e.g., ISO 22301) to guide its\nactions in reducing the likelihood or impact of disruptive incidents and \nmaintaining business continuity.",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "start_page": 43,
+          "end_page": 43,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+        },
+        {
+          "candidate_id": "2318a1d5-2862-47c1-9591-8f98d1ad4250",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "bm25": 2,
+            "hybrid": 5
+          },
+          "rrf_score": 0.016129032258064516,
+          "evidence_quote": "The Board of Directors shall approve the strategies and policies related to \nInformation Technology, Information Assets, Business Continuity, Information \nSecurity and Cybersecurity (including Incident Response and Recovery \nManagement / Cyber Crisis Management) frameworks.",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "start_page": 11,
+          "end_page": 11,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+        },
+        {
+          "candidate_id": "5c8d7417-9260-490e-93dd-5961b56880b1",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "exact_vector": 4,
+            "hybrid": 6
+          },
+          "rrf_score": 0.015625,
+          "evidence_quote": "The bank\u2019s BCP and DR capabilities shall be designed to effectively support\nresilience objectives and enable rapid recovery and secure resumption of critical \noperations including key cybersecurity controls post cyber-attacks / other \nincidents aligned with recovery time objectives while ensuring security of \nprocesses and data.",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "start_page": 43,
+          "end_page": 43,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+        },
+        {
+          "candidate_id": "54bbf9c2-de98-4998-8bd5-552ec015bfde",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "bm25": 5,
+            "hybrid": 7
+          },
+          "rrf_score": 0.015384615384615385,
+          "evidence_quote": "Additionally, the bank shall define suitable metrics for system performance,\nrecovery, and business resumption, including RPO and RTO, for all critical \ninformation systems.",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "start_page": 47,
+          "end_page": 47,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+        },
+        {
+          "candidate_id": "559e711b-4357-4b34-896c-3dad2bd60766",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "exact_vector": 5,
+            "hybrid": 8
+          },
+          "rrf_score": 0.015384615384615385,
+          "evidence_quote": "Under unavoidable \ncircumstances, if the PT is conducted in test environment, the bank shall ensure \nthat the version and configuration of the test environment resembles the \nproduction environment.",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "start_page": 41,
+          "end_page": 41,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+        },
+        {
+          "candidate_id": "50c7fd41-6022-4634-bba9-fa6398436afb",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "exact_vector": 6,
+            "hybrid": 9
+          },
+          "rrf_score": 0.015151515151515152,
+          "evidence_quote": "The bank may consider, wherever possible, a continuous auditing approach for\ncritical systems, performing control and risk assessments on a more frequent \nbasis.",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "start_page": 54,
+          "end_page": 55,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+        },
+        {
+          "candidate_id": "abccc379-b943-431b-91e9-2a3e3f1d2c94",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "bm25": 6,
+            "hybrid": 10
+          },
+          "rrf_score": 0.015151515151515152,
+          "evidence_quote": "The bank shall ensure that DR architecture and procedures are robust, meeting\nthe defined Recovery Time Objective (RTO) and Recovery Point Objective (RPO) \nfor any recovery operations in case of contingency.",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "start_page": 43,
+          "end_page": 44,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+        },
+        {
+          "candidate_id": "1adf4960-6422-4077-9ce1-6dedff8fb53e",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "bm25": 7
+          },
+          "rrf_score": 0.014925373134328358,
+          "evidence_quote": "For seamless continuity of business operations, the bank shall avoid using\noutdated and unsupported hardware or software and shall monitor software End-\nof-Support (EOS) dates and Annual Maintenance Contract (AMC) dates of IT \nhardware on an ongoing basis.",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "start_page": 19,
+          "end_page": 19,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+        },
+        {
+          "candidate_id": "8a812f69-b02f-4c42-92f7-588bd9412ff1",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "exact_vector": 7
+          },
+          "rrf_score": 0.014925373134328358,
+          "evidence_quote": "The response strategies shall consider readiness to meet \nvarious incident scenarios based on situational awareness, potential / post \nimpact, and consistent communication and co-ordination with stakeholders, \nspecifically with the bank, during response. \n(23) The ASP shall set up a Cyber Security Operations Centre (CSOC).",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "start_page": 36,
+          "end_page": 39,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+        },
+        {
+          "candidate_id": "0fdfec54-413f-4ed2-9e3a-ce03fdb6ca64",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "bm25": 8
+          },
+          "rrf_score": 0.014705882352941176,
+          "evidence_quote": "The Head of IT Function shall, inter alia, be responsible for the following:\n(1) \nensuring that the execution of IT projects / initiatives is aligned with the \nbank\u2019s IT Policy and IT Strategy; \n(2) \nensuring that there is an effective organisational structure to support IT \nfunctions in the bank; and \n(3) \nputting in place an effective DR setup and business continuity strategy / \nplan.",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "start_page": 16,
+          "end_page": 16,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+        },
+        {
+          "candidate_id": "6a9b4d68-7a73-4217-b7e3-41d2b7d9b42c",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "bm25": 9
+          },
+          "rrf_score": 0.014492753623188406,
+          "evidence_quote": "The DR testing shall involve switching over to the DR / alternate site and thus\nusing it as the primary site for sufficiently long period where usual business \noperations of at least a full working day (including Beginning of Day to End of \nDay operations) are covered.",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "start_page": 43,
+          "end_page": 43,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+        },
+        {
+          "candidate_id": "acc1db5f-32b3-43c7-90c2-24c2e60fa6ce",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "exact_vector": 9
+          },
+          "rrf_score": 0.014492753623188406,
+          "evidence_quote": "The bank shall proactively promote awareness of its cyber resilience objectives\namong service providers, partners, and other stakeholders, and shall require \nappropriate actions to ensure aligned implementation and testing.",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "start_page": 47,
+          "end_page": 48,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+        },
+        {
+          "candidate_id": "0d260766-dff7-495f-8845-1174ed9e957c",
+          "suggested_relevance": "potentially_relevant",
+          "verification_status": "unverified",
+          "retrieval_ranks": {
+            "exact_vector": 10
+          },
+          "rrf_score": 0.014285714285714285,
+          "evidence_quote": "The bank shall backup data and periodically restore such backed-up data to\ncheck its usability.",
+          "content_hash": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+          "source_url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF",
+          "start_page": 43,
+          "end_page": 43,
+          "source_title": "Reserve Bank of India (Commercial Banks \u2013 Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)"
+        }
+      ]
+    }
+  ],
+  "notice": "Machine suggestions reuse recorded retrieval predictions. Ranking scores are not probabilities, proof of relevance, or independent ground truth. Review the full corpus; neither method can certify absence of relevant documents."
+}

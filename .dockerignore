@@ -1,0 +1,16 @@
+.env
+.env.*
+**/.env
+**/.env.*
+.git
+.venv
+__pycache__
+*.pyc
+.pytest_cache
+.ruff_cache
+.benchmark-test-*
+data
+tests
+docs
+scripts
+*.log

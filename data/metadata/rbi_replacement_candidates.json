@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "entity_scope": "commercial_banks_provisional_discovery_scope",
+  "entity_scope_confirmed": false,
+  "checked_on": "2026-10-11",
+  "documents": [
+    {
+      "historical_discovery_id": "rbi-it-outsourcing-2023",
+      "source_url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13139",
+      "observed_title": "Reserve Bank of India (Commercial Banks – Managing Risks in Outsourcing) Directions, 2025",
+      "source_page_path": "data\\raw\\rbi\\source_pages\\13139_1beb4560f322.html",
+      "source_page_sha256": "1beb4560f322de8e4ed88e0a85d49189c9abead9aa6fa0d1b75bd6a83d3e1af0",
+      "retrieved_at": "2026-10-10T18:39:03.565134+00:00",
+      "pdf_urls": [
+        "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/171MD.PDF"
+      ],
+      "mapping_status": "candidate_pending_repeal_and_scope_review",
+      "observed_update_labels": [],
+      "repeal_reference_present": true,
+      "pdf_sha256": "f86e3712e6a14894c30c91e93c0e16028ff41008c52b4c3b98b2f843a22bc68a",
+      "pdf_path": "data\\raw\\rbi\\Reserve_Bank_of_India_Commercial_Banks_Managing_Risks_in_Outsourcing_Directions_2025_f86e3712e6a1.pdf",
+      "text_path": "data\\raw\\rbi\\Reserve_Bank_of_India_Commercial_Banks_Managing_Risks_in_Outsourcing_Directions_2025_f86e3712e6a1.json",
+      "source_status_check": {
+        "status": "requires_applicability_review",
+        "withdrawal_marker_pages": [],
+        "current_obligation_extraction_allowed": null,
+        "notice": "No marker does not prove current applicability. Verify repeal and replacement instruments."
+      }
+    },
+    {
+      "historical_discovery_id": "rbi-card-conduct-2022",
+      "source_url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13155",
+      "observed_title": "Reserve Bank of India (Commercial Banks – Credit Cards and Debit Cards: Issuance and Conduct) Directions, 2025 (Updated as on October 1, 2026)",
+      "source_page_path": "data\\raw\\rbi\\source_pages\\13155_0e2a380956c7.html",
+      "source_page_sha256": "0e2a380956c7986bc4b88c62fffd7ff41b153f4fa89ed05fafe3c2ef74682a4a",
+      "retrieved_at": "2026-10-10T18:39:04.312366+00:00",
+      "pdf_urls": [
+        "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/155MD.PDF"
+      ],
+      "mapping_status": "candidate_pending_repeal_and_scope_review",
+      "observed_update_labels": [
+        "Updated as on October 1, 2026"
+      ],
+      "repeal_reference_present": false,
+      "pdf_sha256": "40d23129ee8a143340242acfa49dbe4c4c20d0b3da21c1af53055323553fb2e0",
+      "pdf_path": "data\\raw\\rbi\\Reserve_Bank_of_India_Commercial_Banks_Credit_Cards_and_Debit_Cards_Issuance_and_Conduct_Directions__40d23129ee8a.pdf",
+      "text_path": "data\\raw\\rbi\\Reserve_Bank_of_India_Commercial_Banks_Credit_Cards_and_Debit_Cards_Issuance_and_Conduct_Directions__40d23129ee8a.json",
+      "source_status_check": {
+        "status": "requires_applicability_review",
+        "withdrawal_marker_pages": [],
+        "current_obligation_extraction_allowed": null,
+        "notice": "No marker does not prove current applicability. Verify repeal and replacement instruments."
+      }
+    },
+    {
+      "historical_discovery_id": "rbi-digital-payment-security-2021",
+      "source_url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13642",
+      "observed_title": "Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026 (Updated as on October 01, 2026)",
+      "source_page_path": "data\\raw\\rbi\\source_pages\\13642_05db70a7e11b.html",
+      "source_page_sha256": "05db70a7e11b9271e4eee51001366113fa58f995de623a4aac766c24eb2661ea",
+      "retrieved_at": "2026-10-10T18:39:04.897177+00:00",
+      "pdf_urls": [
+        "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/411MD1918998D1AD74F159D57664FB10E053F.PDF"
+      ],
+      "mapping_status": "candidate_pending_repeal_and_scope_review",
+      "observed_update_labels": [
+        "Updated as on October 01, 2026",
+        "Updated as on October 01, 2026"
+      ],
+      "repeal_reference_present": true,
+      "pdf_sha256": "84872c7f4693777cc82ed2f232b8be2e586545c1ecc44b9cbfe59ee2a0923e36",
+      "pdf_path": "data\\raw\\rbi\\Reserve_Bank_of_India_Commercial_Banks_Digital_Payment_Security_Controls_Directions_2026_Updated_as__84872c7f4693.pdf",
+      "text_path": "data\\raw\\rbi\\Reserve_Bank_of_India_Commercial_Banks_Digital_Payment_Security_Controls_Directions_2026_Updated_as__84872c7f4693.json",
+      "source_status_check": {
+        "status": "requires_applicability_review",
+        "withdrawal_marker_pages": [],
+        "current_obligation_extraction_allowed": null,
+        "notice": "No marker does not prove current applicability. Verify repeal and replacement instruments."
+      }
+    },
+    {
+      "historical_discovery_id": "rbi-it-governance-2023",
+      "source_url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13643",
+      "observed_title": "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026 (Updated as on October 01, 2026)",
+      "source_page_path": "data\\raw\\rbi\\source_pages\\13643_0df2274c6799.html",
+      "source_page_sha256": "0df2274c6799a0d9b4f5644e36819fe0f486dd4ef3abebafbdc6e55327b3aed1",
+      "retrieved_at": "2026-10-10T18:39:05.642654+00:00",
+      "pdf_urls": [
+        "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/410MD1C1DD4C43C9C49ED9033D64902636D9C.PDF"
+      ],
+      "mapping_status": "candidate_pending_repeal_and_scope_review",
+      "observed_update_labels": [
+        "Updated as on October 01, 2026",
+        "Updated as on October 01, 2026"
+      ],
+      "repeal_reference_present": true,
+      "pdf_sha256": "8028535a80e56128e9b7bec0cac1166ce218652321f166120b6b6a9550c6ce2b",
+      "pdf_path": "data\\raw\\rbi\\Reserve_Bank_of_India_Commercial_Banks_Cybersecurity_Technology_Risk_Resilience_and_Assurance_Framew_8028535a80e5.pdf",
+      "text_path": "data\\raw\\rbi\\Reserve_Bank_of_India_Commercial_Banks_Cybersecurity_Technology_Risk_Resilience_and_Assurance_Framew_8028535a80e5.json",
+      "source_status_check": {
+        "status": "requires_applicability_review",
+        "withdrawal_marker_pages": [],
+        "current_obligation_extraction_allowed": null,
+        "notice": "No marker does not prove current applicability. Verify repeal and replacement instruments."
+      }
+    }
+  ]
+}

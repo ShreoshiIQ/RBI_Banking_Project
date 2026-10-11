@@ -1,0 +1,14 @@
+POLICY CODE: SYN-CARD-DETAILED
+TITLE: Card Customer Protection - detailed testing variant
+OWNER: Card Operations
+STATUS: SYNTHETIC DEMONSTRATION DOCUMENT - UNREVIEWED DRAFT
+
+SECTION 1: PURPOSE AND SCOPE
+Fictional commercial-bank testing policy. This is not evidence of a real institution's controls or regulatory certification. Applicability remains unreviewed.
+
+SECTION 2: OPERATING PROCEDURE
+The card team records customer consent and the disclosed terms before activating a requested service or changing a customer-facing feature.
+The team registers customer complaints, preserves communications, assigns a case owner, and documents the resolution and any required remediation.
+
+SECTION 3: OVERSIGHT
+The policy owner records review findings and assigns an action owner and target date. Implementation evidence is required separately.

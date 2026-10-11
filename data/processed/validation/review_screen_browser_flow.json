@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "browser": "Edge headless",
+  "checks": [
+    "Initial six queries pending; 25 of 500 candidates displayed",
+    "Paging, search and candidate selection",
+    "Pending cases block completed-label download",
+    "Actual draft JSON download preserves selection and pending states",
+    "Actual completed JSON download for synthetic fixture decisions only",
+    "Real file-input restoration resets all fixture approvals and preserves decisions",
+    "Stale draft rejected without changing current selection",
+    "Editing a reviewed fixture case invalidates its approval"
+  ],
+  "synthetic_only": true,
+  "actual_project_approvals_created": 0,
+  "fixture_directory": ".review-flow-11816d54f5384778b581869a07b1477e",
+  "notice": "Downloaded approvals are clearly synthetic UI test fixtures, not project relevance labels. No database or real review artifacts changed."
+}

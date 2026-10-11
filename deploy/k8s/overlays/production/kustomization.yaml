@@ -1,0 +1,11 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+namespace: regintel
+resources:
+  - namespace.yaml
+  - ../../base
+  - ingress.yaml
+images:
+  - name: regintel-api
+    newName: registry.example.com/regintel/regintel-api
+    newTag: "0.1.0"  # pin to the CI-built, scanned image digest in real use

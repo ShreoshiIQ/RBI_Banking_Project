@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "record_type": "post_run_reproducibility_metadata",
+  "model_cache_files": {
+    "model.safetensors": {
+      "sha256": "53aa51172d142c89d9012cce15ae4d6cc0ca6895895114379cacb4fab128d9db",
+      "bytes": 90868376,
+      "cached_snapshot": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41"
+    },
+    "config.json": {
+      "sha256": "953f9c0d463486b10a6871cc2fd59f223b2c70184f49815e7efbcab5d8908b41",
+      "bytes": 612,
+      "cached_snapshot": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41"
+    },
+    "tokenizer.json": {
+      "sha256": "be50c3628f2bf5bb5e3a7f17b1f74611b2561a3a27eeab05e5aa30f411572037",
+      "bytes": 466247,
+      "cached_snapshot": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41"
+    },
+    "modules.json": {
+      "sha256": "84e40c8e006c9b1d6c122e02cba9b02458120b5fb0c87b746c41e0207cf642cf",
+      "bytes": 349,
+      "cached_snapshot": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41"
+    }
+  },
+  "application_inventory_counts_and_reviews_unchanged": true,
+  "artifact_hashes": {
+    "data/processed/validation/phase4_candidate_snapshot.json": "83afc83c17c68df89565d5bd672d0500de862c265b8ae3c8832b54c7004a0e84",
+    "data/processed/validation/phase4_synthetic_stress_snapshot.json": "4f7e53fe91c86b20769ac0bdb06b0e111c40e54aa334a31482e818071cac2454",
+    "data/processed/validation/phase4_scalability_warm_results.json": "c61d70c5851e1acdb7041dd7680a6424ac43e73037ffefea52417a8e029add1b",
+    "data/processed/validation/phase4_evidence_evaluation_final.json": "cb2c5d5b8dbc6ae0e4c42a757ca549cc70c21b3008aea69945552e1d2c94eb47"
+  }
+}

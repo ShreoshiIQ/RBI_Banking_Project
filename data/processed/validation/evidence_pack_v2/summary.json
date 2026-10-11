@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "synthetic": true,
+  "ocr_model": "gemini-3.1-flash-lite",
+  "seeds": [
+    42,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "inputs": [
+    {
+      "path": "data/processed/validation/evidence_pack_v2/seed_1.json",
+      "sha256": "9be75e72d5fd0153eeb701e56d04c432df50369daa73d7ba28c4130bca3b159a"
+    },
+    {
+      "path": "data/processed/validation/evidence_pack_v2/seed_2.json",
+      "sha256": "b7783e203d9c4d4784d776c4e71af888bb6824c1714b71e84c8b916c1e550d65"
+    },
+    {
+      "path": "data/processed/validation/evidence_pack_v2/seed_3.json",
+      "sha256": "687323590fddb2d78e77310bc910654869e42102021b490fd8b2d725d1cf869a"
+    },
+    {
+      "path": "data/processed/validation/evidence_pack_v2/seed_4.json",
+      "sha256": "e9a750281eb8f02237eb3fde9a72353211a9b652de3d2b2cb70a0abc7481227c"
+    },
+    {
+      "path": "data/processed/validation/evidence_pack_v2/seed_42.json",
+      "sha256": "5c1416cac21769db6bc5084b66c0115321822749806296acc05f1c6006dd2dc8"
+    },
+    {
+      "path": "data/processed/validation/evidence_pack_v2/seed_5.json",
+      "sha256": "1bb9baac67935a1f5449d1c266d06c809fa66497a1e2900aa98e40a0ca72ab18"
+    }
+  ],
+  "records": {
+    "total": 240,
+    "native": 168,
+    "ocr": 72
+  },
+  "extraction": {
+    "native": {
+      "record_recall": 1.0,
+      "field_accuracy": 1.0
+    },
+    "ocr_overall": {
+      "record_recall": 1.0,
+      "field_accuracy": 0.9444,
+      "field_errors": 8
+    },
+    "ocr_by_file": {
+      "access-reviews-scanned.pdf": 1.0,
+      "access-reviews-photo.png": 1.0,
+      "access-reviews-lowres.jpg": 0.7778
+    }
+  },
+  "decisions": {
+    "accepted_native": 168,
+    "accepted_corroborated": 61,
+    "human_verification": 11,
+    "not_extracted": 0
+  },
+  "silent_errors": 0,
+  "defect_detection_accepted_only": {
+    "precision": 1.0,
+    "recall": 0.9213,
+    "tp": 82,
+    "fp": 0,
+    "fn": 7,
+    "note": "The 7 misses are on records routed to human verification."
+  },
+  "defect_detection_if_ocr_trusted_blindly": {
+    "precision": 0.967,
+    "recall": 0.9888,
+    "tp": 88,
+    "fp": 3,
+    "fn": 1
+  },
+  "register_mismatch_detection": {
+    "precision": 0.6,
+    "recall": 1.0,
+    "tp": 12,
+    "fp": 8,
+    "fn": 0,
+    "note": "All 8 false positives are OCR misreads, which also go to human verification."
+  },
+  "notice": "Six seeds of a fictional synthetic pack with construction-time labels. Not real-bank OCR accuracy, control effectiveness, or certification."
+}

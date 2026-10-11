@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "name": "Fictional Demonstration Commercial Bank",
+  "synthetic": true,
+  "institution_type": "domestic_scheduled_commercial_bank",
+  "excluded_entity_types": ["small_finance_bank", "payments_bank", "local_area_bank", "regional_rural_bank", "NBFC"],
+  "features": {
+    "customer_accounts_and_kyc": true,
+    "digital_payments": true,
+    "credit_and_debit_cards": true,
+    "outsourced_it_services": true,
+    "ppi_issuance": false,
+    "foreign_bank_branch": false
+  },
+  "status": "working_demo_assumption",
+  "notice": "Engineering demo scope, not a real institution or verified legal applicability determination. PPI material is retained for optional future scenarios."
+}

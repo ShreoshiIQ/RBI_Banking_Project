@@ -1,0 +1,6 @@
+{
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "inserted": 1,
+  "evidence_embeddings": 12,
+  "notice": "OCR indexing is candidate retrieval only. Unverified transcription remains blocked from assessment."
+}

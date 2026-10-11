@@ -25,9 +25,9 @@ It is not a compliance certification.
 | Synthetic policies | 20 draft policies and 100 draft scenarios | Human review and independent test splits |
 | Change intelligence | Comparison, hypothetical simulation, lexical impact shortlist, authenticated simulation API | Reviewed real-version amendment examples and confirmed affected controls |
 | Operations | Request IDs, safe request logging, readiness, retry policy, read-only audit checker | Full operational/security review |
-| Evaluation | Six offline scoring components and unified runner with input hashes | Actual prediction exports, reviewed labels, measured runtime, empirical results |
-| Dashboard | Reports, evidence, review form, history, simulation, evaluation import, catalog, PDF preview, BM25 mapping preview; synthetic authenticated browser smoke check and five-width layout checks passed | Persisted ingestion jobs, keyboard-only authenticated workflows, screen-reader and remaining interaction checks |
-| Packaging | API image builds, non-root health smoke test, local database readiness and audit checks | Locked Linux image dependencies, fresh-database migrations, full assessment deployment |
+| Evaluation | Hybrid retrieval P@5 0.733 and MRR@10 1.000 on AI-labelled, team-accepted relevance (6 queries × 500 candidates); evidence pack 0 wrong values accepted without review in 240 records, OCR field accuracy 94.4%; 20/20 release gates | Human review of relevance labels; larger query set |
+| Web app | React app at `/app` (overview, gap reports with officer review, monitor, cross-regulation, evidence), checked in headless Edge in light, dark and phone width; older `/dashboard` retained | Persisted ingestion jobs, automated browser tests, screen-reader checks |
+| Packaging | Non-root API image with a Node build stage, Kubernetes manifests, CI (tests, migration round trip, gates, frontend build, manifest validation, image scan); application database migrated to head `d190f0030001` | Local build of the image with the React stage; non-owner app role for enforced tenant isolation |
 | Documentation | Setup, environment template, architecture, demo walkthrough, evaluation status | Final walkthrough rehearsal and submission artifact review |
 
 Do not represent draft scenarios as ground truth, toy test scores as project
@@ -49,7 +49,9 @@ opt-in PostgreSQL concurrency check. Run concurrency tests only against a
 dedicated test database. It does not include root-level or package-local tests
 outside `tests/`, and it does not establish live Gemini or model-download behavior.
 
-Latest isolated regression result: **361 passed, 1 skipped**, plus **4 passed**
+Latest full result (October 11, 2026): **496 passed, 10 skipped** with `uv run pytest -q`, **7 passed** Node client checks, and 20/20 gates.
+
+Earlier isolated regression result: **361 passed, 1 skipped**, plus **4 passed**
 Node client checks (subsequently expanded to **6 passed**). The skipped check
 requires a dedicated PostgreSQL concurrency-test database; the application-data
 integration test was excluded explicitly. Two outdated multi-section workflow

@@ -78,7 +78,16 @@ The [benchmark runner](docs/benchmark_runner.md) scores supplied reviewed labels
 and prediction exports across extraction, retrieval, citations, mapping, gap
 classification, and runtime. It records input hashes and omitted components.
 The [evaluation report](docs/evaluation_report.md) lists missing inputs.
-No empirical project benchmark scores are available; draft scenarios are unreviewed.
+
+Measured results (`uv run python scripts/eval_gate.py` checks 20 release gates; all pass):
+
+| Area | Result | Basis |
+| --- | --- | --- |
+| Retrieval, hybrid | Precision@5 0.733, MRR@10 1.000, Recall@10 0.298 | 6 queries × 500 candidates, [AI-labelled](docs/relevance_review.md) (Claude), team-accepted, not human-reviewed |
+| Evidence pack | 0 wrong values accepted without review across 240 records; OCR 94.4% | Seeded synthetic evidence with planted defects |
+
+Policies and evidence are synthetic. Applicability statuses are presumed until a
+compliance officer decides; no officer decisions have been recorded.
 
 ## Operations and packaging
 
@@ -103,28 +112,30 @@ uv run python -m regintel.reporting.audit_consistency
 It uses a consistent PostgreSQL snapshot, emits IDs and issue types without
 review comments, and exits with code 1 on inconsistency. It does not repair data.
 
-[Docker instructions](docs/docker_api.md) describe the non-root API image.
-Compose currently supplies PostgreSQL only. The local image was refreshed with
-the latest wheel and its dashboard was smoke-tested. Locked Linux dependencies and
-fresh-database end-to-end deployment remain unfinished.
+[Docker instructions](docs/docker_api.md) describe the non-root API image,
+which builds the React app in a Node stage. Compose supplies PostgreSQL only;
+[Kubernetes manifests](docs/production.md) cover deployment. CI builds and scans
+the image. The image with the React stage has not yet been built locally.
 
 ## Verification and submission
 
-Run isolated regressions without application-data integration:
+Run the suite and the release gates:
 
 ```powershell
-$env:TEST_DATABASE_URL = ''
-uv run pytest tests -q -p no:cacheprovider --ignore=tests/test_obligation_db_integration.py
+uv run pytest -q
+uv run python scripts/eval_gate.py
 node --test tests/dashboard_client.test.cjs
+cd frontend; npm ci; npm run build
 ```
 
-Latest results: 361 Python tests passed, one skipped, and four Node tests passed.
-The opt-in concurrency check requires a dedicated PostgreSQL test database and
-creates/removes only a uniquely named schema. Root-level and package-local tests
-outside `tests/` are not included. Browser interaction testing remains pending.
+Latest results (October 11, 2026): 496 Python tests passed, 10 skipped; 20/20
+gates pass; the React app type-checks and builds. Tests that need a dedicated
+PostgreSQL database skip unless `TEST_DATABASE_URL` is set; they create and
+remove only uniquely named schemas. The React views were checked in headless
+Edge (light, dark, phone width); there are no automated browser tests.
 
 See the [architecture](docs/architecture.md), [demo walkthrough](docs/demo_walkthrough.md),
 the [focused security review](docs/security_review.md),
-and [submission checklist](docs/submission_checklist.md). Dataset review,
-empirical benchmarks, ingestion job UI, full browser verification, and final
-security/deployment review remain unfinished.
+and [submission checklist](docs/submission_checklist.md). Human review of the
+relevance labels, real officer applicability decisions, an ingestion job UI,
+and an external security review remain open.
